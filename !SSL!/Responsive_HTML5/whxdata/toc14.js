@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc10.js\"  name=\"Authorization\" url=\"Authorization.htm\"><item name=\"Creating a New Authority Type\" url=\"Creating_a_New_Authority_Type.htm\" /></data>";

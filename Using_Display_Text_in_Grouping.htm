@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Using Display Text in Grouping </title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>Using Display Text in Grouping </h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Grouping is available 
+ in the following two modes:</span></p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li class="MsoNormal" style="mso-list: l7 level1 lfo1; tab-stops: .5in; 
+		 font-size: 10pt;"><b><span lang="EN-US" xml:lang="EN-US">Single</span></b></li>
+	<li class="MsoNormal" style="mso-list: l7 level1 lfo1; tab-stops: .5in; 
+		 font-size: 10pt;"><b><span lang="EN-US" xml:lang="EN-US">Multi</span></b></li>
+</ul>
+<p>&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">Configuring 
+ the Grouping Mode</span></b> </p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">To configure 
+ the type of grouping mode &#160;</span></b></p>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">1. 
+ In the Report Configurator area, click <b>Widget Settings</b> tab.</span></p>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">2. 
+ In the <b>Widget Settings</b> tab, under the <b>Tabular</b> section, in 
+ the <b>Grouping Mode</b> box, type/select the following options:</span></p>
+<ul style="list-style: disc;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 line-height: normal; mso-list: l0 level1 lfo2; tab-stops: .5in; 
+		 font-size: 10pt;"><b><span lang="EN-US" xml:lang="EN-US">Multi</span></b></li>
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 line-height: normal; mso-list: l0 level1 lfo2; tab-stops: .5in; 
+		 font-size: 10pt;"><b><span lang="EN-US" xml:lang="EN-US">Single</span></b></li>
+</ul>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">3. 
+ To apply the changes, click <b>Apply</b>, and then click <b>Save.</b></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">Display Text 
+ Option in Multi Grouping Mode</span></b> </p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Once grouping 
+ mode is set to &quot;Multi&quot;, now set the display text for the required 
+ column. For example, consider the following example where the sum of sales 
+ are displayed region wise.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">So, the first 
+ level of grouping is done on &quot;Region&quot; column, then on &quot;state&quot; 
+ column.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">1. 
+ In the <b>Configurator</b> tab, under <b>COLUMNS</b>, click <img src="image2166.gif" 
+	 alt="" style="border: none;" border="0" /> <b>Settings</b> on the 
+ required column, and then click <b>Properties.</b> &#160;</span></p>
+<p class="example" style="margin-left: 0px;">Required Column: Sales.</p>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">2. 
+ <b>Properties</b> dialog appears.</span></p>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">3. 
+ In the <b>Properties</b> dialog, on the right-hand side, under <b>Grouping 
+ &amp; Summary</b> section, in the <b>Display Text</b> box, enter the required 
+ display text.</span></p>
+<p class="example" style="margin-left: 0px;">Required Display Text: {aggr} 
+ of {value} {label} </p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">Note:</span></b></p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li><p>Here, value, label, and aggregation are dynamic values which 
+	 must be present between the flower braces {}. Eg. {value}, {label}, 
+	 {aggr}</p></li>
+	<li><p>label represents the column name, value represents the column 
+	 value, and aggregation represents the aggregation. </p></li>
+</ul>
+<p style="margin-left: 40px;">For example, as shown in the figure below 
+ &quot;SUM&quot; is the aggregation, &quot;Central&quot;/&quot;Texas&quot; 
+ is the value and &quot;Sales&quot; is the label. </p>
+<p>&#160;</p>
+<p class="MsoNormal" style="margin-left: 40px;"><span lang="EN-US" xml:lang="EN-US"><b><img 
+	 src="image2167.gif" alt="" style="border: none;" border="0" /></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="text-indent: 36px;"><span lang="EN-US" xml:lang="EN-US">4. 
+ To save the changes, click <b>Ok</b>.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">Display Text 
+ Option in Single Grouping Mode</span></b> </p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Once grouping 
+ mode is set to &quot;Single&quot;, now set the display text for the required 
+ column.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Since, the grouping 
+ is set to &quot;Single&quot; mode, you can perform the grouping on only 
+ one column, i.e &quot;Region&quot;.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">For example, consider 
+ the following example where the sum of sales are displayed region wise.</span></p>
+<p class="MsoNormal" style="margin-top: 6px; margin-bottom: 6px;"><span 
+	 lang="EN-US" xml:lang="EN-US">1. In the <b>Configurator</b> tab, under 
+ <b>COLUMNS</b>, click <img src="image2166.gif" alt="" style="border: none;" 
+							 border="0" /> <b>Settings</b> on the required 
+ column, and then click <b>Properties.</b> &#160;</span></p>
+<p class="example" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Required 
+ Column: Region</span></p>
+<p class="MsoNormal" style="margin-top: 6px; margin-bottom: 6px;"><span 
+	 lang="EN-US" xml:lang="EN-US">2. <b>Properties</b> dialog (highlighted 
+ as &quot;1&quot;) appears.</span></p>
+<p class="MsoNormal" style="margin-top: 6px; margin-bottom: 6px;"><span 
+	 lang="EN-US" xml:lang="EN-US">3. In the <b>Properties</b> dialog, 
+ on the right-hand side, under <b>Grouping &amp; Summary</b> section, in 
+ the <b>Display Text</b> box, enter the required display text.</span></p>
+<p class="example" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Required 
+ Display Text: {aggr} of {value} {label} </span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></b><b><span 
+	 lang="EN-US" xml:lang="EN-US">&#160;&#160;&#160;&#160;</span></b><img 
+	 src="image2168.gif" alt="" style="border: none;" border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li><p>Here, value,label, aggr are dynamic values which must be present 
+	 between the flower braces {}. </p></li>
+</ul>
+<p class="example">{value}, {label}, and {aggr}</p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li><p>label represents the column name, value represents the column 
+	 value, and aggr represents the aggregation. For example, as shown 
+	 in the above figure, &quot;sum&quot; is the aggr, &quot;Central&quot; 
+	 is the value on which the grouping is done , &quot;Sales&quot; is 
+	 the label. </p></li>
+</ul>
+<p class="note" style="margin-left: 0px;">Orbit UI comes with default display 
+ text value {label}{value}{aggr}; display text can be customized as shown 
+ in the figure below and it appears in Orbit UI as well as in the Excel 
+ sheet, when the report is exported to excel. <br style="page-break-before: always;" />
+</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></b><img 
+	 src="image2169.gif" alt="" style="border: none;" border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li><p>If display text is not required, enter <span style="font-weight: bold;">Display 
+	 Text</span> value as <span style="color: rgb(32, 33, 36); font-size: 14px; 
+								 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+								 background-color: #ffffff; text-decoration-thickness: initial; 
+								 text-decoration-style: initial; text-decoration-color: initial; 
+								 display: inline	 ! important ; float: none; 
+								 font-weight: bold; font-family: Arial, sans-serif;">{NOTEXT}</span>. 
+	 </p></li>
+</ul>
+<p class="example" style="font-weight: bold;">Display Text: {NOTEXT}</p>
+<p class="note">When an user entering <span style="font-weight: bold;">NOTEXT</span> 
+ in <span style="font-weight: bold;">Display Text </span>field <br style="page-break-before: always;" />
+a. No space should be given in the display text value. <br />
+b. Text should be entered in flower braces {}. <br style="page-break-before: always;" />
+c. Text value should entered in capital and also the value is case sensitive.</p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li>No text displays as shown below:</li>
+</ul>
+<p class="MsoNormal" style="margin-left: 80px;"><img src="image394.gif" 
+													 alt="" style="border: none;" 
+													 border="0" /></p>
+</body>
+</html>

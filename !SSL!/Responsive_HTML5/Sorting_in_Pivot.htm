@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Sorting in Pivot</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "10.7.1";
+</script>
+ <meta name="brsprev" value="Aggregation_in_Pivot.htm">
+ <meta name="brsnext" value="Sorting_in_Ascending_Order.htm">
+ <meta name="topic-breadcrumbs" content="Data Reports > Working with Pivot " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Sorting in Pivot</h1>
+<p class="BodyText2" style="font-family: Arial, sans-serif; line-height: 200%; 
+	 font-size: 10pt;"><span style="mso-fareast-language: JA;">Sorting 
+ is available to <b style="mso-bidi-font-weight: normal;">Row labels</b> 
+ and <b style="mso-bidi-font-weight: normal;">Column labels</b> only; it 
+ is unavailable to <b style="mso-bidi-font-weight: normal;">Values</b> 
+ section.</span></p>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;">Pivot section includes the following 
+ (highlighted as “1”): </p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA; font-weight: bold;">Sorting 
+ in Ascending Order</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-weight: bold; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-font-family: Symbol; 
+							 mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+							 mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Sorting in Descending 
+ Order</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-weight: bold; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-font-family: Symbol; 
+							 mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+							 mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Disabling Sorting</span></p>
+<p style="line-height: 200%;">&#160;&#160;&#160;&#160;</p>
+<p style="line-height: 200%;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="308.png" alt="" style=" border:none; width:100%; max-width:291px;" border="0" /></p>
+<p style="line-height: 200%;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p style="line-height: 200%;">&#160;</p>
+<p style="line-height: 200%;">&#160;</p>
+<p style="line-height: 200%; font-weight: bold; font-size: 10pt;">Related 
+ Topics: </p>
+<p style="line-height: 200%;">&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li style="font-size: 10pt;"><p style="line-height: 200%; font-size: 10pt;"><a 
+	 href="Sorting_in_Ascending_Order.htm" style="font-size: 10pt;">Sorting 
+	 in Ascending Order</a> </p></li>
+	<li style="font-size: 10pt;"><p style="line-height: 200%; font-size: 10pt;"><a 
+	 href="Sorting_in_Descending_Order.htm" style="font-size: 10pt;">Sorting 
+	 in Descending Order</a> </p></li>
+	<li style="font-size: 10pt;"><p style="line-height: 200%;"><a href="Disabling_Sorting.htm" 
+	 style="font-size: 10pt;">Disabling Sorting</a> </p></li>
+</ul>
+<p style="line-height: 200%;">&#160;</p>
+</body>
+</html>

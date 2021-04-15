@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Search Filter Groups</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.1.2.0_2";
+</script>
+ <meta name="brsprev" value="Search_Base_Groups.htm">
+ <meta name="brsnext" value="Authorization.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > LDAP > Group Search Information" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: Arial, sans-serif; font-size: 22pt;">Search Filter 
+ </h1>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none; 
+	 tab-stops: .75in; mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b>To apply a search filter on groups</b></p>
+<p class="examples" style="mso-list: none; tab-stops: .75in; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">1. Under <b style="mso-bidi-font-weight: normal;">Group 
+ Search Information</b> section, perform the following:</p>
+<p class="examples" style="mso-list: none; tab-stops: .75in; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;a. 
+ In the <b style="mso-bidi-font-weight: normal;">Search Base</b> box, type 
+ the required search base.</p>
+<p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="mso-bidi-font-family: 'Courier New';">Example: Search Base: 
+ ou=Roles</span><span style="mso-list: none; mso-bidi-font-family: 'Courier New'; 
+						 mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;b</span>. 
+ In the <b style="mso-bidi-font-weight: normal;">Search Filter</b> box, 
+ type the required filter condition.</p>
+<p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-family: 'Courier New';">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">&#160;</span>&#160;Example: 
+ Search Filter: <span style="mso-list: none;">(&amp;(objectClass=groupOfNames)(objectClass=userSecurityInformation))</span></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The above condition retrieves the records where 
+ objectClass equals “groupOfNames” and where the objectClass equals “userSecurityInformation”. 
+ <span style="mso-spacerun: yes;">&#160;</span></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image790.gif" alt="" style=" border:none; width:100%; max-width:566px;" border="0" /></p>
+<p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Import 
+ the required users once they are retrieved.</p>
+<p class="MsoListParagraphCxSpLast" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-list: Ignore;">·</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Verify 
+ the existence of users and their associated roles under Users, in the 
+ User Management section as shown below.</p>
+<p class="MsoListParagraphCxSpLast" style="font-weight: bold; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Result </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image791.gif" alt="" style=" border:none; width:100%; max-width:580px;" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The above group search has been explained using 
+ AND Filter. Similarly, OR Filter and Not Filter can be applied on the 
+ group search as in user search.</p>
+<p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·&#160;&#160;</span>Refer 
+ to <a href="OR_Filter.htm" style="font-family: Arial, sans-serif; font-size: 10pt;">OR 
+ Filter in User Search</a></p>
+<p class="MsoListParagraphCxSpLast"><span style="mso-fareast-font-family: Symbol; 
+											 mso-bidi-font-family: Symbol; 
+											 mso-list: Ignore; font-family: Arial, sans-serif; 
+											 font-size: 10pt;">·&#160;&#160;</span><span 
+	 style="font-family: Arial, sans-serif; font-size: 10pt;">Refer to 
+ <a href="NOT_Filter.htm" style="font-family: Arial, sans-serif; font-size: 10pt;">NOT 
+ Filter in User Search</a></span> <span style="mso-spacerun: yes;">&#160;</span></p>
+</body>
+</html>

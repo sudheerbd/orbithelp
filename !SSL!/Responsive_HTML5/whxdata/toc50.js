@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc40.js\"  name=\"Macro-enabled Templates in Excel for Data Reports \" url=\"Macro-enabled_Templates_in_Excel_for_Data_Reports.htm\"><item name=\"Macro-enabled Templates\" url=\"Macro-enabled_Templates.htm\" /></data>";

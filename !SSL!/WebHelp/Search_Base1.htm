@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Search Base Active Directory</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("User Management\nWorking with Authorities\nActive Directory\nUser Search Information\nSearch Base");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Security.htm\">User Management<\/a> > <a href=\"Working_with_Authorities.htm\">Working with Authorities<\/a> > <a href=\"Active_Directory.htm\">Active Directory<\/a> > <a href=\"User_Search_Information1.htm\">User Search Information<\/a> > Search Base<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1 style="font-family: Arial, sans-serif;">Search Base</h1>
+<h5>User Search Information</h5>
+<ol style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="font-family: Arial, sans-serif; font-size: 10pt;">Under 
+	 <b style="mso-bidi-font-weight: normal;">User Search Information</b> 
+	 box, perform the following:</p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">In 
+	 this scenario, the values in the <b style="mso-bidi-font-weight: normal;">Search 
+	 Base</b> box yields all the users under <b style="mso-bidi-font-weight: normal;">Users 
+	 </b>in Active Directory.</font></span></p></li>
+</ol>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt; 
+	 margin-left: 40px;">a. In the <b style="mso-bidi-font-weight: normal;">Search 
+ Base</b> box, type the required search attribute and value.</p>
+<p class="examples" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 80px;"><span style="font-weight: bold;">Example</span>: 
+ cn=Users</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt; 
+	 margin-left: 40px;">b. This retrieves all the users. Here, “cn” is 
+ the attribute and “Users” is its Value.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt; 
+	 margin-left: 80px;"><img src="User_search.jpg" alt="" style="border-left-style: Solid; 
+								 border-top-style: Solid; border-right-style: Solid; 
+								 border-bottom-style: Solid; border-left-width: 1px; 
+								 border-right-width: 1px; border-top-width: 1px; 
+								 border-bottom-width: 1px;" width="743" height="528" border="1" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;">c. Search Base defines the starting 
+ point of the search. When “cn=Users” is given in the Search Base, then 
+ the starting point of the search is Users (not the entire domain as with 
+ Base Domain).<span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="line-height: 150%; margin-left: 80px; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Search Base= “cn=Users”. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 80px; text-indent: -44px;"><span style="mso-spacerun: yes;">&#160;</span><span 
+	 style="mso-spacerun: yes;">d</span><span>. In the <b style="mso-bidi-font-weight: normal;">Search 
+ Base</b> box, type the required search attribute and value.</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;"><b>Result:</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 80px;"><img src="image1148.gif" alt="" 
+												 style="border-left-width: 1px; 
+												 border-left-style: Solid; 
+												 border-top-width: 1px; 
+												 border-top-style: Solid; 
+												 border-right-width: 1px; 
+												 border-right-style: Solid; 
+												 border-bottom-width: 1px; 
+												 border-bottom-style: Solid;" 
+												 width="742" height="516" 
+												 border="1" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

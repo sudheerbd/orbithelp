@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>AND Filter</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.1.1.1.0_1";
+</script>
+ <meta name="brsprev" value="Search_Filter.htm">
+ <meta name="brsnext" value="OR_Filter.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > LDAP > User Search Information  > Search Filter" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>AND Filter</h1>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The AND Filter is used when there are more than 
+ one condition and where all the conditions in the series must be true. 
+ It is represented by an ampersand ‘<b style="mso-bidi-font-weight: normal;">&amp;</b>’.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Consider the following example, where the there 
+ is a need to retrieve all the users with different last names and whose 
+ first name is “Test”.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">1. Under the <b style="mso-bidi-font-weight: normal;">User 
+ Search Information</b> section, in the <b style="mso-bidi-font-weight: normal;">Search 
+ Filter</b> box, type the required search filter.</p>
+<p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; mso-spacerun: yes;">?</span></b><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Example: 
+ Search Filter: (&amp;(objectClass=person) (givenName=A*) (sn=A*))</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b style="mso-bidi-font-weight: normal; font-weight: normal;">T</b>he 
+ following figure illustrates the <b style="mso-bidi-font-weight: normal;">AND</b> 
+ Filter.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;<img src="image778.gif" alt="" style=" border:none; width:100%; max-width:597px;" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The above search filter retrieves the users with 
+ givenName(first name) starting with A and sn(last name) starting with 
+ A; for example, “<span style="mso-bidi-font-size: 12.0pt;">Anthea Azzuolo”.</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+</body>
+</html>

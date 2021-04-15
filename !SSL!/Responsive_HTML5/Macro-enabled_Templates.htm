@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Macro-enabled Templates</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "10.8.0_1";
+</script>
+ <meta name="topic-breadcrumbs" content="Data Reports > Macro-enabled Templates in Excel for Data Reports " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: Arial, sans-serif; color: #808080;">Macro-enabled 
+ Templates</h1>
+<p class="MsoNormal" style="line-height: 150%;"><span style="line-height: 150%;">The 
+ .xlsm (macro-enabled) template here is designed in a such a way that when 
+ it is opened it generates a message written using Macros (Microsoft VBA) 
+ as shown below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image911.gif" style=" border:none; width:100%; max-width:380px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%;">The above template is designed 
+ in such as way that it resembles the excel template for a publisher report 
+ where the data for the columns is denoted as ${COL0}, ${COL1}, and so 
+ on. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="line-height: 150%;">Its associated names are 
+ entered in the <b style="mso-bidi-font-weight: normal;">Name Manager</b> 
+ under <b style="mso-bidi-font-weight: normal;">Formula</b> tab.</p>
+<p class="MsoNormal" style="line-height: 150%;"><span style="mso-spacerun: yes;">&#160;</span>The 
+ figure below illustrates the rows and its associated names in the Name 
+ Manager. The mapping between the rows and its associated names is shown 
+ below:</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;&#160;<img src="image912.gif" style=" border:none; width:100%; max-width:537px;" alt="" border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">Here, <span style="font-family: 'Courier New';">TableHeader</span> 
+ is mapped to the first row (highlighted as “1”) and <span style="font-family: 'Courier New';">ReportData</span> 
+ is mapped to the second row (highlighted as “2”).</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">The output for the above template is shown below.</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">Output</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image913.gif" style=" border:none; width:100%; max-width:438px;" alt="" border="0" /></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span style="font-size: 14.0pt; 
+	 mso-bidi-font-size: 12.0pt;">Scenario 2</span></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">When no columns 
+ exist in Excel Sheet</b></p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal;">I</b>n 
+ this scenario, the template is designed in such a way there are no column 
+ values such as ${COL0}, ${COL1}, and so on. There are only names – “<span 
+	 style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; line-height: 150%; 
+	 font-family: 'Courier New';">ReportData</span>” and “<span style="font-size: 11.0pt; 
+	 mso-bidi-font-size: 12.0pt; line-height: 150%; font-family: 'Courier New';">TableHeader</span>” 
+ in the <b style="mso-bidi-font-weight: normal;">Name Manager.</b></p>
+<p class="MsoNormal"><img src="image915.gif" style=" border:none; width:100%; max-width:464px;" alt="" border="0" /><b style="mso-bidi-font-weight: normal;"><span 
+	 style="tab-stops: 199.5pt; mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">Output</b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">Sheet 1</b></p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal;">N</b>o 
+ Output is generated in <b style="mso-bidi-font-weight: normal;">Sheet 
+ 1</b>; however, output appears in “<b style="mso-bidi-font-weight: normal;">ReportOutput</b>” 
+ and parameter details appear in “<b style="mso-bidi-font-weight: normal;">ReportDetails</b>”. 
+ <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal"><img src="image916.gif" style=" border:none; width:100%; max-width:426px;" alt="" border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image917.gif" style=" border:none; width:100%; max-width:458px;" alt="" border="0" /></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportDetails: 
+ <span style="mso-spacerun: yes;">&#160;</span>Parameter Details</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image918.gif" style=" border:none; width:100%; max-width:486px;" alt="" border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-bidi-font-size: 12.0pt;">Scenario 
+ 3: </span></b><b style="mso-bidi-font-weight: normal;">When no names exist 
+ in Name Manager</b></p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal; 
+													 font-weight: normal;">I</b>n 
+ this scenario, the template has no names: “<span style="font-size: 11.0pt; 
+													 mso-bidi-font-size: 12.0pt; 
+													 font-family: 'Courier New';">ReportData</span>” 
+ and “<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; font-family: 'Courier New';">TableHeader</span>” 
+ in the <b style="mso-bidi-font-weight: normal;">Name Manager</b>. There 
+ are only column values such as ${COL0}, ${COL1}, and so on in <b style="mso-bidi-font-weight: normal;">Sheet 
+ 1</b>.</p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal; 
+													 font-weight: normal;">T</b>he 
+ output is generated separately in <b style="mso-bidi-font-weight: normal;">ReportOutput</b> 
+ sheet instead of <b style="mso-bidi-font-weight: normal;">Sheet 1</b> 
+ and the parameter details appear in <b style="mso-bidi-font-weight: normal;">ReportDetails</b> 
+ sheet. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image919.gif" style=" border:none; width:100%; max-width:479px;" alt="" border="0" /></b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b>Output</b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><b>S</b>heet 
+ 1</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image920.gif" style=" border:none; width:100%; max-width:447px;" alt="" border="0" /></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span></b> 
+ </p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image921.gif" style=" border:none; width:100%; max-width:411px;" alt="" border="0" /></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b>ReportDetails</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image922.gif" style=" border:none; width:100%; max-width:373px;" alt="" border="0" /></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span style="font-size: 14.0pt; 
+	 mso-bidi-font-size: 12.0pt;">Scenario 4</span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">When there 
+ are no Names in the Name Manager and no Columns in the Excel template.</b></p>
+<p class="MsoNormal" style="line-height: 150%;">In this scenario, the template 
+ has no names: “<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+						 line-height: 150%; font-family: 'Courier New';">ReportData</span>” 
+ and “<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; line-height: 150%; 
+			 font-family: 'Courier New';">TableHeader</span>” in the <b 
+	 style="mso-bidi-font-weight: normal;">Name Manager</b> and there are 
+ no column values such as ${COL0}, ${COL1}, and so on in <b style="mso-bidi-font-weight: normal;">Sheet 
+ 1</b>.</p>
+<p class="MsoNormal">The output appears as described below.</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">Output</b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">Sheet1</b></p>
+<p class="MsoNormal" style="line-height: 150%; mso-bidi-font-weight: normal;"><b><img src="image923.gif" style=" border:none; width:100%; max-width:397px;" alt="" border="0" /></b></p>
+<p class="MsoNormal" style="line-height: 150%;">Here, the sheet name is 
+ retained as <b style="mso-bidi-font-weight: normal;">Sheet1</b> and the 
+ output is generated in <b style="mso-bidi-font-weight: normal;">ReportOutput</b> 
+ and the parameter details appear in <b style="mso-bidi-font-weight: normal;">ReportDetails</b>.</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image924.gif" style=" border:none; width:100%; max-width:499px;" alt="" border="0" /></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportDetails</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image925.gif" style=" border:none; width:100%; max-width:510px;" alt="" border="0" /></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">See <a href="#_Uploading_a_Template"><i style="mso-bidi-font-style: normal;">Uploading 
+ a Template</i></a> to upload the required template.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">See <a href="#_Exporting_with_Template"><i style="mso-bidi-font-style: normal;">Exporting 
+ with Template</i></a> to view the output in the desired template.<span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span style="font-size: 14.0pt; 
+	 mso-bidi-font-size: 12.0pt;">Scenario 5</span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">When Sheet 
+ 1 is manually renamed as ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image926.gif" style=" border:none; width:100%; max-width:425px;" alt="" border="0" /></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">Output</b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportOutput</b></p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal; 
+													 font-weight: normal;">W</b>hen 
+ the <b style="mso-bidi-font-weight: normal;">Sheet1</b> is manually renamed 
+ as <b style="mso-bidi-font-weight: normal;">ReportOutput</b>, the output 
+ appears in <b style="mso-bidi-font-weight: normal;">ReportOutput</b> tab 
+ and the parameter details appear in ReportDetails.</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image928.gif" style=" border:none; width:100%; max-width:342px;" alt="" border="0" /></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">ReportDetails</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><img src="image929.gif" style=" border:none; width:100%; max-width:367px;" alt="" border="0" /></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">See <a href="#_Uploading_a_Template"><i style="mso-bidi-font-style: normal;">Uploading 
+ a Template</i></a> to upload the required template.</p>
+<p class="MsoNormal">See <a href="#_Exporting_with_Template"><i style="mso-bidi-font-style: normal;">Exporting 
+ with Template</i></a> to view the output in the desired template.<span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal">&#160;</p>
+</body>
+</html>

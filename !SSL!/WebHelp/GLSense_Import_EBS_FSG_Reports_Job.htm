@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>GLSense Import EBS FSG Reports Job</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Jobs\nPlugin Jobs\nGLSense Import EBS FSG Reports Job");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Jobs1.htm\">Jobs<\/a> > <a href=\"Plugin_Jobs.htm\">Plugin Jobs<\/a> > GLSense Import EBS FSG Reports Job<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>GLSense Import EBS FSG Reports Job</h1>
+<p class="MsoNormal" style="line-height: 150%; margin-left: 0px; margin-top: 6px; 
+	 margin-bottom: 6px;"><span style="line-height: 150%;"><b><span style="font-family: Arial, sans-serif;">To 
+ import FSG reports from EBS</span></b></span></p>
+<p class="MsoNormal" style="line-height: 150%; margin-left: 0px; margin-top: 6px; 
+	 margin-bottom: 6px;"><b><span style="font-family: Arial, sans-serif;">Prerequisite:</span></b> 
+ <span style="font-family: Arial, sans-serif;">You must have the EBS Finance 
+ Cube.</span></p>
+<ul style="list-style: disc;">
+	<li style="margin-left: -20px;"><p class="MsoListParagraphCxSpFirst" 
+										 style="margin-right: -3.2pt; mso-add-space: auto; 
+										 line-height: 150%; mso-list: l2 level1 lfo3; 
+										 margin-left: 0px; margin-top: 6px; 
+										 margin-bottom: 6px;"><span style="font-family: Arial, sans-serif;">By 
+	 using this job, the imported FSG reports are created as financial 
+	 reports in Orbit application. To work with the imported reports, refer</span> 
+	 <span style="font-family: Arial, sans-serif;"><a href="Finance_Reports_imported_from_EBS_FSG.htm">Finance 
+	 Reports imported from EBS FSG</a>.</span></p></li>
+</ul>
+<ol style="list-style: decimal;">
+	<li><p class="MsoListParagraphCxSpMiddle" style="margin-top: 6.0pt; 
+			 margin-right: 0in; margin-bottom: 6.0pt; mso-add-space: auto; 
+			 line-height: 150%; mso-list: l0 level1 lfo2; margin-left: 0px;"><span 
+	 style="font-family: Arial, sans-serif;">On the left-hand side menu, 
+	 point to </span><span style="line-height: Normal;"><img src="image3628.gif" 
+															 alt="" style="border: none;" 
+															 border="0" /></span><span 
+	 style="font-family: Arial, sans-serif;"><span style="mso-no-proof: yes;">, 
+	 and then click <b>Jobs</b>.</span> </span></p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="margin-top: 6.0pt; 
+			 margin-right: 0in; margin-bottom: 6.0pt; mso-add-space: auto; 
+			 line-height: 150%; mso-list: l0 level1 lfo2; margin-left: 0px;"><span 
+	 style="font-family: Arial, sans-serif;">The <b>Jobs</b> page appears 
+	 with a list of <b>Seeded, Custom</b> and <b>Plugin</b> jobs. </span></p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 150%; 
+			 mso-list: l0 level1 lfo2; margin-left: 0px;"><span style="font-family: Arial, sans-serif;">Under 
+	 the <b>Jobs</b> sections, on <b>GLSense Import EBS FSG Reports Job</b>, 
+	 click </span><span style="mso-no-proof: yes;"><img src="image3629.gif" 
+														 alt="" style="border: none;" 
+														 width="8" height="21" 
+														 border="0" /></span><span 
+	 style="font-family: Arial, sans-serif;">, and then click </span><img 
+	 src="image3631.gif" alt="" style="border: none;" width="19" height="19" 
+	 border="0" /><span style="font-family: Arial, sans-serif;"> <b>Schedule</b>.</span></p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="margin-top: 6.0pt; 
+			 margin-right: 0in; margin-bottom: 6.0pt; mso-add-space: auto; 
+			 line-height: 150%; mso-list: l0 level1 lfo2; margin-left: 0px;"><b><span 
+	 style="font-family: Arial, sans-serif;">Schedule Job</span></b> <span 
+	 style="font-family: Arial, sans-serif;">dialog box appears.</span></p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="margin-top: 6.0pt; 
+			 margin-right: 0in; margin-bottom: 6.0pt; mso-add-space: auto; 
+			 line-height: 150%; mso-list: l0 level1 lfo2; margin-left: 0px;"><span 
+	 style="font-family: Arial, sans-serif;">In the <b>Schedule Job</b> 
+	 dialog box, on the <b style="mso-bidi-font-weight: normal;">Parameters</b> 
+	 tab, perform the following:</span></p></li>
+</ol>
+<p class="MsoListParagraphCxSpMiddle" style="margin-top: 6.0pt; margin-right: 0in; 
+	 margin-bottom: 6.0pt; mso-add-space: auto; line-height: 150%; mso-list: l1 level2 lfo1; 
+	 margin-left: 80px;"><span style="font-family: Arial, sans-serif; mso-fareast-font-family: Arial;"><span 
+	 style="mso-list: Ignore;">a.<span style="font: 7.0pt 'Times New Roman';"><font size="1" style="font-size:7pt;">&#160;&#160;&#160;&#160;</font></span></span></span>&#160;<span 
+	 style="font-family: Arial, sans-serif;">In the <b>Finance Cubes</b> 
+ box, select the required finance cube from the list.</span></p>
+<p class="note"><span style="font-family: Arial, sans-serif;">Only EBS 
+ Finance Cubes are shown in the list.</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-add-space: auto; line-height: 150%; 
+	 mso-list: l1 level2 lfo1; margin-left: 80px;"><span style="font-family: Arial, sans-serif; 
+														 mso-fareast-font-family: Arial;"><span 
+	 style="mso-list: Ignore;">b.<span style="font: 7.0pt 'Times New Roman';"><font size="1" style="font-size:7pt;">&#160;&#160;&#160;&#160;</font></span></span></span>&#160;<span 
+	 style="font-family: Arial, sans-serif;">In the <b>Ledgers</b> box, 
+ select the required ledgers.</span></p>
+<p class="note"><span style="font-family: Arial, sans-serif;">You can select 
+ multiple ledgers.</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-add-space: auto; line-height: 150%; 
+	 mso-list: l1 level2 lfo1; margin-left: 80px;"><span style="font-family: Arial, sans-serif; 
+														 mso-fareast-font-family: Arial;"><span 
+	 style="mso-list: Ignore;">c.<span style="font: 7.0pt 'Times New Roman';"><font size="1" style="font-size:7pt;">&#160;&#160;&#160;&#160;&#160;</font></span></span></span>&#160;<span 
+	 style="font-family: Arial, sans-serif;">In the <b>FSG</b> <b>Report</b> 
+ box, select the required report to import from EBS FSG.</span></p>
+<p class="example"><span style="font-family: Arial, sans-serif;">Actual/Budget 
+ Income Statement</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-add-space: auto; mso-list: l1 level2 lfo1; 
+	 margin-left: 80px; line-height: 150%;"><span style="font-family: Arial, sans-serif; 
+													 mso-fareast-font-family: Arial;"><span 
+	 style="mso-list: Ignore;">d.<span style="font: 7.0pt 'Times New Roman';"><font size="1" style="font-size:7pt;">&#160;&#160;&#160;&#160;</font></span></span></span>&#160;<span 
+	 style="font-family: Arial, sans-serif;">In the <b>Periods</b> box, 
+ select the required period.</span></p>
+<p class="MsoListParagraphCxSpLast" style="mso-add-space: auto; mso-list: l1 level2 lfo1; 
+	 margin-left: 80px; line-height: 150%;"><span style="font-family: Arial, sans-serif; 
+													 mso-fareast-font-family: Arial; 
+													 mso-list: Ignore;">e.</span><span 
+	 style="font-family: Arial, sans-serif; mso-fareast-font-family: Arial; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';"><font size="1" style="font-size:7pt;">&#160;&#160;&#160;</font></span>&#160;<span 
+	 style="font-family: Arial, sans-serif;">In the <b>Currencies</b> box, 
+ select the required currency.</span></p>
+<p class="MsoListParagraphCxSpLast" style="mso-add-space: auto; mso-list: l1 level2 lfo1; 
+	 margin-left: 80px; line-height: 150%;">&#160;</p>
+<p class="MsoListParagraphCxSpLast" style="mso-add-space: auto; mso-list: l1 level2 lfo1; 
+	 margin-left: 80px; line-height: 150%; font-family: Arial, sans-serif;"><img 
+	 src="image1.gif" alt="" style="border: none;" width="676" height="594" 
+	 border="0" /></p>
+<ol start="6" style="list-style: decimal;">
+	<li><p class="MsoListParagraphCxSpFirst" style="mso-list: l0 level1 lfo2; 
+			 margin-left: 0px; line-height: 150%; margin-top: 6px; margin-bottom: 6px;"><span 
+	 style="font-family: Arial, sans-serif;">To schedule the job, click 
+	 <b>Submit</b>.</span></p></li>
+	<li><p class="MsoListParagraphCxSpLast" style="margin-right: 0in; mso-add-space: auto; 
+			 mso-list: l0 level1 lfo2; margin-left: 0px; line-height: 150%; 
+			 margin-top: 6px; margin-bottom: 6px;"><span style="font-family: Arial, sans-serif;">To 
+	 cancel the job, click <b>Cancel</b>.</span></p></li>
+</ol>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

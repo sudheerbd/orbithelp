@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating Object from SQL</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "6.2.2.0_1";
+</script>
+ <meta name="brsprev" value="Creating_a_Physical_Model.htm">
+ <meta name="brsnext" value="Importing_From_File.htm">
+ <meta name="topic-breadcrumbs" content="Business Models > Domains > Creating a Physical Model" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating Object from SQL</h1>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; mso-bidi-font-weight: normal; font-size: 10pt;"><b>To 
+ create an object from SQL</b></p>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; mso-bidi-font-weight: normal; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">1.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Domain 
+ Hierarchy</b>, <b style="mso-bidi-font-weight: normal;">Physical Models</b> 
+ folder appears. </span><span style="line-height: 150%; mso-fareast-language: JA; 
+								 mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">2.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under the folder, 
+ right-click the required folder, and then click</span> <span style="mso-fareast-language: JA; 
+	 mso-spacerun: yes;">&#160;</span><b style="mso-bidi-font-weight: normal;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Create Object 
+ From SQL</span></b></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image55.gif" alt="" style=" border:none; width:100%; max-width:345px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">3.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Create 
+ Object From SQL &lt;physical model name&gt;</span></b> <span style="line-height: 150%; 
+	 mso-fareast-language: JA;">dialog box appears.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="81.png" alt="" style=" border:none; width:100%; max-width:459px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="font-size: 9pt;">&#160;&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">4.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Create 
+ Object From SQL &lt;physical model name&gt;</b> dialog box, perform the 
+ following:</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">a.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Schema 
+ Name</b> list, click the required schema.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; margin-left: 136px; background-color: #ffffff;"><span 
+	 style="mso-list: Ignore; font-family: Wingdings; font-size: 18pt;">&#160;&#160;?</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span style="mso-list: l0 level1 lfo1;">&#160;Example: 
+ Schema Name: XXFO</span></p>
+<p class="BodyText2" style="text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; margin-left: 136px; background-color: #ffffff;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="BodyText2" style="text-indent: -.25in; font-family: Arial, sans-serif; 
+			 margin-left: 136px; background-color: #ffffff; mso-list: l0 level1 lfo1;"><span 
+	 style="font-weight: bold;">Schema Name</span> is mandatory. &#160;</p></li>
+</ul>
+<p class="BodyText2" style="text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; margin-left: 136px; background-color: #ffffff;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">b.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Object 
+ Name</b> box, type the object name.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="text-indent: -.25in; font-family: Arial, sans-serif; 
+	 margin-left: 136px; mso-list: l0 level1 lfo1; background-color: #ffffff;">&#160;<span 
+	 style="font-family: Wingdings; font-size: 18pt;">&#160;&#160;?</span> 
+ &#160;Example: Object Name: INVOICES_ALL</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<ul style="list-style: disc;">
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; 
+				 mso-list: l0 level2 lfo1; line-height: 200%; font-family: Arial, sans-serif; 
+				 font-size: 10pt;">&#160;<span style="font-weight: bold;">Object 
+		 Name</span> is mandatory. </p></li>
+	</ul>
+</ul>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">c.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Description</b> 
+ box, type the description.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; line-height: 200%; 
+	 font-family: Arial, sans-serif; font-size: 10pt; mso-list: l0 level1 lfo1; 
+	 background-color: #ffffff;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="font-family: Wingdings; font-size: 18pt;">?</span> Example: 
+ Description: This is test description</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; line-height: 200%; 
+	 font-family: Arial, sans-serif; font-size: 10pt; mso-list: l0 level1 lfo1; 
+	 background-color: #ffffff;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">d.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Sql 
+ query</b> box, type the SQL Query.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; background-color: #ffffff; 
+	 font-size: 22.0pt; line-height: 150%; font-family: Wingdings; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt; 
+	 background-color: #ffffff;"><span style="mso-list: l0 level1 lfo1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="font-size: 22.0pt; line-height: 150%; font-family: Wingdings; 
+	 mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore;">?&#160;&#160;</span><span style="mso-list: l0 level1 lfo1;">&#160;Example: 
+ Sql query : Select * from INVOICES_ALL</span><br />
+</p>
+<ul style="list-style: disc;">
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; 
+				 mso-list: l0 level2 lfo1; line-height: 200%; font-family: Arial, sans-serif; 
+				 font-size: 10pt; background-color: #ffffff;">&#160;&#160;A 
+		 semicolon (;) should not be placed at the end of the SQL Query 
+		 </p></li>
+	</ul>
+</ul>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt; 
+	 background-color: #ffffff;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">e.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To create an 
+ object, click</span> <span style="line-height: 150%; mso-fareast-language: JA;"><b 
+	 style="mso-bidi-font-weight: normal;">Create</b>.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">f.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To close the 
+ dialog box, click <b style="mso-bidi-font-weight: normal;">Cancel.</b></span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 line-height: 200%; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+</body>
+</html>

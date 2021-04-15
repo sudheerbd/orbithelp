@@ -1,0 +1,24 @@
+﻿[Target:Responsive HTML5]
+SSLayoutType=2
+[Target:FlashHelp]
+SSLayoutType=2
+[Target:Adobe AIR]
+SSLayoutType=512
+[Target:WebHelp]
+SSLayoutType=2
+[Target:XML Output]
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+SSLayoutType=2
+[Target:Printed Documentation]
+SSLayoutType=7
+[Target:Mobile App]
+SSLayoutType=3
+[Target:Multiscreen HTML5]
+SSLayoutType=2
+[Target:eBook]
+SSLayoutType=2
+[Target:Microsoft HTML Help]
+SSLayoutType=1
+[Target:WebHelp Pro]
+SSLayoutType=32

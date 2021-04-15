@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc40.js\"  name=\"Creating a Data Report \" url=\"Creating_an_Operational_Report.htm\"><item name=\"Creating a Reports Folder\" url=\"Creating_a_Reports_Folder.htm\" /><item name=\"Creating New Data Report Under Existing Folder \" url=\"Creating_New_Data_Report_Under_Existing_Folder.htm\" /></data>";

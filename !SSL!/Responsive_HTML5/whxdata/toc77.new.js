@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"book","name":"Creating Reports ","key":"toc78","url":"Creating_Reports.htm"},{"type":"book","name":"Creating Reports Using Dataset","key":"toc80","url":"Creating_Reports_Using_Dataset.htm"},{"type":"book","name":"Exporting and Importing ORBIT Meta Content","key":"toc81","url":"Exporting_and_Importing_ORBIT_Meta_Content1.htm"},{"type":"item","name":"Performing Grouping on Publisher Report","url":"Performing_Grouping_on_Publisher_Report.htm"},{"type":"item","name":"Generating Excel Output in Schedule Report ","url":"Generating_Excel_Output_in_Schedule_Report.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

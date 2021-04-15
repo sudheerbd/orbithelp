@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc9.js\"  name=\"PeopleSoft\" url=\"PeopleSoft.htm\"><item name=\"Creating a PeopleSoft Authority\" url=\"Creating_a_PeopleSoft_Authority.htm\" /></data>";

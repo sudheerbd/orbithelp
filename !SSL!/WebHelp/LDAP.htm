@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>LDAP</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("User Management\nWorking with Authorities\nLDAP");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Security.htm\">User Management<\/a> > <a href=\"Working_with_Authorities.htm\">Working with Authorities<\/a> > LDAP<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>LDAP</h1>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Light-weight Directory Access Protocol (LDAP) is 
+ an open application protocol for accessing and maintaining distributed 
+ directory information services over an Internet Protocol (IP) network.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The figure below illustrates the structure of how 
+ the users and groups must be created in LDAP.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image765.gif" alt="" style="border: none;" 
+							 width="510" height="311" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">The 
+ initial search starts from the Base DN. The syntax of the Base DN is as 
+ follows:</p>
+<ul style="list-style: disc;">
+	<li><p class="examples" style="mso-list: l1 level1 lfo1; font-family: Arial, sans-serif; 
+			 font-size: 10pt;">Syntax: dc=orbit, dc=com</p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">When the user enters only Base DN, the server starts 
+ its search from the root, and</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">retrieves all the users. Under the Base DN, Organizational 
+ Units(OU) are created in LDAP.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Here, the following two organizational units are 
+ created in LDAP:</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+			 font-size: 10pt;">ou=People (where ou is the attribute and 
+	 People is its value)</p></li>
+	<li><p class="MsoListParagraphCxSpLast" style="font-family: Arial, sans-serif; 
+			 font-size: 10pt;">ou=Roles (where ou is the attribute and 
+	 Roles is its value)</p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Under the organizational units, users and roles 
+ are created. Here, under the ou – “People”, multiple users are created. 
+ And, under the ou- “Roles”, multiple roles such as Testing Role, Development 
+ Role, and so on are created. Once the structure is organized, the users/roles 
+ can be imported into Orbit.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-spacerun: yes;">I</span>n Orbit 
+ application, creating an LDAP Authority in the Authorities section under 
+ User Management, enables authorization and authentication to import users 
+ and roles into Orbit from LDAP.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Orbit enables authentication to import users from 
+ LDAP and authorization to import roles from authorities including Oracle 
+ EBS, PeopleSoft, Active Directory, and LDAP.<span style="mso-spacerun: yes;">&#160;</span></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; mso-spacerun: yes; margin-top: 0pt; margin-bottom: 0pt;"><a 
+	 href="Creating_an_LDAP_Authority.htm">Creating an LDAP Authority</a></p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 0pt; margin-bottom: 0pt; mso-spacerun: yes;"><a 
+	 href="Attributes.htm">Attributes</a></p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 0pt; margin-bottom: 0pt; mso-spacerun: yes;"><a 
+	 href="User_Search_Information.htm">User Search Information</a></p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 0pt; margin-bottom: 0pt; mso-spacerun: yes;"><a 
+	 href="Group_Search_Information.htm">Group Search Information</a></p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 0pt; margin-bottom: 0pt; mso-spacerun: yes;"><a 
+	 href="Authorization.htm">Authorization</a></p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; mso-spacerun: yes; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

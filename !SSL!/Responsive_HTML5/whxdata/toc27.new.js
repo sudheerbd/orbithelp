@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Joins","url":"Joins.htm"},{"type":"book","name":"Establishing Joins between Tables","key":"toc28","url":"Establising_Joins_between_Tables.htm"},{"type":"item","name":"Tools on Logical Model Work Area","url":"Tools_on_Logical_Model_Work_Area.htm"},{"type":"item","name":"Opening Existing Logical Model ","url":"Opening_Existing_Logical_Model.htm"},{"type":"item","name":"Data Security in Logical Model","url":"Data_Security_in_Logical_Model.htm"},{"type":"item","name":"Renaming a Logical Model","url":"Renaming_a_Logical_Model.htm"},{"type":"item","name":"Setting Logical Model Properties","url":"Setting_Logical_Model_Properties.htm"},{"type":"item","name":"Applying Filters in Logical Model","url":"Columns_and_Filters_in_Logical_Model.htm"},{"type":"item","name":"Deleting a Logical Model","url":"Deleting_a_Logical_Model.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

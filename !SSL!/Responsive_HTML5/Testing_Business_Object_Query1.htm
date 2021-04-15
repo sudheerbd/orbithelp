@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Testing Business Object Query</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "6.2.1";
+</script>
+ <meta name="brsprev" value="Exporting_a_Domain2.htm">
+ <meta name="brsnext" value="Order_By.htm">
+ <meta name="topic-breadcrumbs" content="Business Models > Domains" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Testing Business Object Query</h1>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 mso-bidi-font-weight: normal; line-height: 200%; font-size: 10pt;"><b>To 
+ test Business Object query</b></p>
+<p class="BodyText2" style="mso-bidi-font-weight: normal; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">1.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Beside the <b 
+	 style="mso-bidi-font-weight: normal;">Domain Hierarchy</b> area, <b 
+	 style="mso-bidi-font-weight: normal;">Semantic Layers</b> area appears. 
+ </span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">2.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Semantic 
+ Layers</b> area, the domain menu appears.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Arial; mso-bidi-font-family: Arial; 
+	 mso-fareast-language: JA; mso-list: Ignore;">3.</span><span style="mso-fareast-font-family: Arial; 
+	 mso-bidi-font-family: Arial; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the domain 
+ menu, click</span> <span style="mso-fareast-language: JA;"><img src="TestQuery.png" alt="" style=" border:none; width:100%; max-width:29px;" border="0" /></span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Test 
+ Query</span></b> <span style="line-height: 150%; mso-fareast-language: JA;">(highlighted 
+ as “1”)<b style="mso-bidi-font-weight: normal;">.</b></span> <span style="mso-fareast-language: JA; 
+	 mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">4.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Test 
+ Query</span></b> <span style="line-height: 150%; mso-fareast-language: JA;">area 
+ (highlighted as “2”) appears in the <b style="mso-bidi-font-weight: normal;">Semantic 
+ Layers</b> area.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;">&#160;<img src="image264.gif" alt="" style=" border:none; width:100%; max-width:777px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 font-weight: normal;">5</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">. Test Query</span></b> 
+ <span style="line-height: 150%; mso-fareast-language: JA;">is divided 
+ into the following three sections:</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 mso-list: Ignore;">a.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></b>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Business 
+ Objects area</span></b> <span style="line-height: 150%; mso-fareast-language: JA;">(highlighted 
+ as “3”)</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 mso-list: Ignore;">b.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></b>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Selected 
+ Columns area</span></b> <span style="line-height: 150%; mso-fareast-language: JA;">(highlighted 
+ as “4”)</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 mso-list: Ignore;">c.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></b>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Query 
+ area</span></b> <span style="line-height: 150%; mso-fareast-language: JA;">(highlighted 
+ as “5”)</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l0 level2 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;">&#160;&#160;<img src="image265.gif" alt="" style=" border:none; width:100%; max-width:790px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">6.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under the <b 
+	 style="mso-bidi-font-weight: normal;">Business Objects</b> area, in 
+ the <b style="mso-bidi-font-weight: normal;">Select Business Object</b> 
+ box, type the required business object or click downward arrow </span><img src="downarrow.png" alt="" style=" border:none; width:100%; max-width:32px;" border="0" /><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">to search the 
+ required BO (highlighted as “6”) from the available list.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image266.gif" alt="" style=" border:none; width:100%; max-width:800px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">7.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The required 
+ business object appears.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">8.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under the business 
+ object, table/view/synonym appears with columns under it.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">9.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">Drag and drop the required column on to 
+ the <b style="mso-bidi-font-weight: normal;">Selected Column</b> area.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="examples" style="margin-left: 40px; font-family: Arial, sans-serif;">Example: 
+ Selected Columns: CUSTOMERNAME</p>
+<p class="examples" style="margin-left: 40px; font-family: Arial, sans-serif;"><span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>PRODUCTCODE</p>
+<p class="examples" style="margin-left: 40px; font-family: Arial, sans-serif;"><span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>PRODUCTNAME</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; font-size: 10pt; line-height: 150%; 
+	 mso-fareast-language: JA;"><img src="image267.gif" alt="" style=" border:none; width:100%; max-width:891px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; font-size: 10pt; line-height: 150%; 
+	 mso-fareast-language: JA; mso-spacerun: yes;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; text-indent: -.25in; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-language: JA; 
+							 mso-list: Ignore;">10.</span><span style="line-height: 150%; 
+	 mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Selected 
+ Columns</b> area, <b style="mso-bidi-font-weight: normal;">Aggregation</b> 
+ and <b style="mso-bidi-font-weight: normal;">Column Name</b> of the selected 
+ column appear.</span></p>
+<p class="BodyText2" style="margin-left: .5in; mso-list: l0 level1 lfo1; 
+	 line-height: 200%; text-indent: -.25in; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-language: JA;">11</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">When the columns 
+ are dragged onto to the </span><span style="line-height: 150%; mso-fareast-language: JA; 
+										 font-weight: bold;">Selected Columns</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;"> area, a query 
+ is automatically generated under <b style="mso-bidi-font-weight: normal;">Query</b> 
+ section as in the above figure.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">12. </span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To remove the 
+ columns from the <b style="mso-bidi-font-weight: normal;">Selected Column</b> 
+ area, click </span><img src="Removecolumns.png" alt="" style=" border:none; width:100%; max-width:32px;" border="0" /> <span style="font-weight: bold;">Remove 
+ selected rows.</span> </p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">13.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">Under the <b style="mso-bidi-font-weight: normal;">Selected 
+ Columns</b> area, <b style="mso-bidi-font-weight: normal;">Conditions</b> 
+ and <b style="mso-bidi-font-weight: normal;">Order By</b> areas appear.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">14.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">To show the results of the SQL query, click</span> 
+ <span style="mso-fareast-language: JA;"><img src="image268.gif" alt="" style=" border:none; width:100%; max-width:21px;" border="0" /></span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Show 
+ results.</span></b> </p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">15.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">To refresh the query, click</span> <span 
+	 style="mso-fareast-language: JA;"><img src="RefreshQuery.png" alt="" style=" border:none; width:100%; max-width:24px;" border="0" /></span><span 
+	 style="mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Refresh 
+ Query.</span></b></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; font-size: 10pt; mso-bidi-font-weight: normal; 
+	 line-height: 150%; mso-fareast-language: JA;"><span style="font-weight: bold;">Related 
+ Topics</span> </p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; font-size: 10pt; mso-bidi-font-weight: normal; 
+	 line-height: 150%; mso-fareast-language: JA;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+			 font-size: 10pt; mso-bidi-font-weight: normal; line-height: 150%; 
+			 mso-fareast-language: JA;"><a href="Order_By.htm">Order By</a> 
+	 </p></li>
+</ul>
+</body>
+</html>

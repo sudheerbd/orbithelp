@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--Printed Documentation Layout-->
+<printdoclayout version="3">
+  <temphistory/>
+ <stylemapping>
+   <templatefile type="msword" filename=""/>
+  <maps>
+    <item org="a.dropspot" new="\0"/>
+    <item org="a.expandspot" new="\0"/>
+    <item org="a.glossterm" new="\0"/>
+    <item org="a.popupspot" new="\0"/>
+    <item org="a:link" new="\0"/>
+    <item org="div" new="\0"/>
+    <item org="div.droptext" new="\0"/>
+    <item org="p" new="\0"/>
+    <item org="p.breadcrumbs" new="\0"/>
+    <item org="p.codeblock" new="\0"/>
+    <item org="p.example" new="\0"/>
+    <item org="p.example2" new="\0"/>
+    <item org="p.example:before" new="\0"/>
+    <item org="p.mono" new="\0"/>
+    <item org="p.note" new="\0"/>
+    <item org="p.note2" new="\0"/>
+    <item org="p.note:before" new="\0"/>
+    <item org="p.tip" new="\0"/>
+    <item org="p.tip:before" new="\0"/>
+    <item org="p.warning" new="\0"/>
+    <item org="p.warning2" new="\0"/>
+    <item org="p.warning:before" new="\0"/>
+    <item org="span.expandtext" new="\0"/>
+    <item org="span.glosstext" new="\0"/>
+    <item org="table.fixed_headers" new="\0"/>
+    <item org="table.lm1" new="\0"/>
+    <item org="table.lmworkarea" new="\0"/>
+    <item org="table.menuoptions" new="\0"/>
+    <item org="table.simplegridblue" new="\0"/>
+    <item org="table.style1" new="\0"/>
+    <item org="table.style2" new="\0"/>
+    <item org="table.tableforhp" new="\0"/>
+  </maps>
+ </stylemapping>
+ <tocstructure>
+   <page name="Delimiter Text" topic="Delimiter_Text.htm" flags="0" topicid="-1"/>
+  <chapter name="Publisher Report">
+    <page name="Publisher Report" topic="Publisher_Report.htm" flags="0" topicid="-1"/>
+    <page name="Introduction Publisher Report" topic="Introduction1.htm" flags="0" topicid="-1"/>
+    <page name="Components of a Publisher Report" topic="Components_of_a_Publisher_Report.htm" flags="0" topicid="-1"/>
+    <page name="Creating a Publisher Report" topic="Creating_a_Publisher_Report.htm" flags="0" topicid="-1"/>
+   <chapter name="Creating Templates">
+     <page name="Creating Templates" topic="Creating_Templates.htm" flags="0" topicid="-1"/>
+     <page name="Output Compliance Matrix" topic="Output_Compliance_Matrix.htm" flags="0" topicid="-1"/>
+     <page name="Creating an Excel Template" topic="Creating_an_Excel_Template.htm" flags="0" topicid="-1"/>
+     <page name="Creating a Word Template" topic="Creating_a_Word_Template.htm" flags="0" topicid="-1"/>
+     <page name="Creating a HTML Template" topic="Creating_a_HTML_Template.htm" flags="0" topicid="-1"/>
+     <page name="Creating a FTL Template PR" topic="Creating_a_FTL_Template1.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Applying Various Templates to Publisher Report">
+     <page name="Viewing a Publisher Report in Excel" topic="Viewing_a_Publisher_Report_in_Excel.htm" flags="0" topicid="-1"/>
+     <page name="Applying Excel Template to Publisher Report" topic="Applying_Excel_Template_to_Publisher_Report.htm" flags="0" topicid="-1"/>
+     <page name="Applying Word Template to Publisher Report" topic="Applying_Word_Template_to_Publisher_Report.htm" flags="0" topicid="-1"/>
+     <page name="Viewing the Publisher Report in HTML" topic="Viewing_the_Publisher_Report_in_HTML.htm" flags="0" topicid="-1"/>
+     <page name="Applying FTL Template to Publisher Report" topic="Applying_FTL_Template_to_Publisher_Report.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Viewing Publisher Reports in Various Output Types">
+     <page name="Viewing the Excel Template Output" topic="Viewing_the_Excel_Template_Output.htm" flags="0" topicid="-1"/>
+     <page name="Viewing Publisher Report in Word1" topic="Viewing_Publisher_Report_in_Word1.htm" flags="0" topicid="-1"/>
+     <page name="Viewing Publisher Report in HTML" topic="Viewing_Publisher_Report_in_HTML.htm" flags="0" topicid="-1"/>
+     <page name="Viewing Output in Required Format FTL" topic="Viewing_Output_in_Required_Output_FTL.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Grouping in Publisher Report">
+     <page name="Creating an Excel Template for Grouping" topic="Creating_an_Excel_Template_for_Grouping.htm" flags="0" topicid="-1"/>
+     <page name="Performing Grouping on Publisher Report" topic="Performing_Grouping_on_Publisher_Report.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Template with Bind Variables">
+     <page name="Template with Bind Variables" topic="Template_with_Bind_Variables.htm" flags="0" topicid="-1"/>
+     <page name="Excel Template with Bind Variables" topic="Excel_Template_with_Bind_Variables.htm" flags="0" topicid="-1"/>
+     <page name="Word Template with Bind Variables" topic="Word_Template_with_Bind_Variables.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Creating a Word Template with Grouping and Page Break">
+     <page name="Creating a Word Template with Grouping and Page Break" topic="Creating_a_Word_Template_with_Grouping_and_Page_Break.htm" flags="0" topicid="-1"/>
+     <page name="Applying Repeat Header Rows Option" topic="Applying_Repeat_Header_Rows_Option.htm" flags="0" topicid="-1"/>
+     <page name="Without Repeat Header Rows Option" topic="Without_Repeat_Header_Rows_Option.htm" flags="0" topicid="-1"/>
+     <page name="Applying Word Template to Publisher Report" topic="Applying_Word_Template_to_Publisher_Report_1.htm" flags="0" topicid="-1"/>
+   </chapter>
+    <page name="Viewing the Output PR" topic="Viewing_the_Output.htm" flags="0" topicid="-1"/>
+   <chapter name="Options">
+     <page name="Options PR" topic="OptionsPR1.htm" flags="0" topicid="-1"/>
+     <page name="Properties PR" topic="Properties2.htm" flags="0" topicid="-1"/>
+     <page name="Templates PR" topic="Templates2.htm" flags="0" topicid="-1"/>
+     <page name="Generate Link PR" topic="Generate_Link_PR.htm" flags="0" topicid="-1"/>
+     <page name="Delivery Plans PR" topic="Delivery_Plans_PR.htm" flags="0" topicid="-1"/>
+   </chapter>
+  </chapter>
+ </tocstructure>
+  <sectionhistory/>
+ <sectionlist>
+   <section type="defaulttitlepage" name="&lt;Default Title Page&gt;" url="" flags="0" topicid="-1"/>
+   <section type="toc" name="TOC" url="" flags="0" topicid="-1"/>
+   <section type="topics" name="Chapter Layout" url="" flags="0" topicid="-1"/>
+   <section type="glossary" name="Glossary" url="" flags="0" topicid="-1"/>
+   <section type="index" name="Index" url="" flags="0" topicid="-1"/>
+ </sectionlist>
+  <robopdfgeneratorsettings data="resIndex=3&amp;jpegImageQuality=75&amp;imageDPI=96&amp;quiet=0&amp;Quality=3&amp;resolution=96&amp;customResolution=300&amp;customImageDPI=96&amp;customJpegImageQuality=75&amp;pdfTemplateEnable=0&amp;pdfTemplateOnTop=0&amp;pdfTemplate=&amp;watermark=&amp;watermarkText=&amp;watermarkFontName=Arial&amp;watermarkFontSize=48&amp;watermarkStyle=0&amp;watermarkColor=90&amp;sd_permissionFlags=-64&amp;sd_enabled=0&amp;sd_keyLen=16&amp;sd_up=&amp;sd_op=&amp;"/>
+ <headerfootermapping>
+   <section type="custominternaltopic" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="customexternaltopic" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="defaulttitlepage" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="toc" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="topics" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="glossary" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="index" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+ </headerfootermapping>
+</printdoclayout>

@@ -1,0 +1,1592 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Python Scripts for Multiple Outputs</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Script Reports\nPython Scripts for Multiple Outputs ");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Script_Reports.htm\">Script Reports<\/a> > Python Scripts for Multiple Outputs <\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Python Scripts for Multiple Outputs </h1>
+<p>&#160;</p>
+<table style="border-collapse: separate; border-collapse: separate;" cellspacing="0" 
+		 width="97.215%" border="1">
+	<col style="width: 100%;" />
+	<tr style="height: 2450px;">
+		<td><p class="examples" style="text-indent: 0in; mso-list: none;"><span><span 
+		 style="mso-list: none;"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">HTML</span></b></span></span></p>
+		<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt;"><span 
+		 style="mso-bidi-font-family: 'Times New Roman';">Python script 
+		 for generating HTML Output.</span></p>
+		<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+		<table class="MsoTableGrid" style="mso-background-themecolor: background1; 
+				 mso-background-themeshade: 242; border-collapse: collapse; 
+				 border: none; mso-yfti-tbllook: 1184; mso-table-lspace: 9.0pt; 
+				 margin-left: 6.75pt; mso-table-rspace: 9.0pt; margin-right: 6.75pt; 
+				 mso-table-anchor-vertical: paragraph; mso-table-anchor-horizontal: margin; 
+				 mso-table-left: 27.85pt; mso-table-top: 42.05pt; mso-padding-alt: 0in 5.4pt 0in 5.4pt; 
+				 mso-border-insideh: none; mso-border-insidev: none;" cellspacing="0" 
+				 align="left" bgcolor="#F2F2F2">
+			<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;">
+				<td style="vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; 
+					 padding-left: 0px; padding-top: 0px; padding-right: 0px; 
+					 padding-bottom: 0px;" width="601"><p class="examples" 
+															 style="margin-left: .25in; 
+															 text-indent: 0in; 
+															 mso-list: none; 
+															 mso-element: frame; 
+															 mso-element-frame-hspace: 9.0pt; 
+															 mso-element-wrap: around; 
+															 mso-element-anchor-vertical: paragraph; 
+															 mso-element-anchor-horizontal: margin; 
+															 mso-element-left: 27.9pt; 
+															 mso-element-top: 42.05pt; 
+															 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">import sys</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">import csv</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">csv_in = &quot;${Query-0}&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">html_out = &quot;${HTML}&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">htmlheader=&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;!doctype html&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;html&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;head&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;meta charset=&quot;UTF-8&quot;&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;title&gt;&lt;/title&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;style type=&quot;text/css&quot;&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table-details{ 
+				 margin-bottom: 0px; border: solid #dfdcdc 1px; min-width: 
+				 550px; }</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table-details 
+				 th{background: #1777cb; padding-top: 8px; padding-bottom: 
+				 8px;<span style="mso-spacerun: yes;">&#160;&#160;</span>&#160;color: 
+				 #fff; text-align:left; padding-left: 20px; font-size: 
+				 14px;font-family: lato;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table-details 
+				 td{ padding-top:10px; padding-bottom: 10px; padding-left: 
+				 20px; padding-right: 20px;color: #fff; font-family: lato;<span 
+				 style="mso-spacerun: yes;">&#160;</span>&#160;font-size: 
+				 14px;border-right: 1px solid #dfdcdc; border-bottom: 1px 
+				 solid #dfdcdc; }</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table-details 
+				 td:first-child{font-weight: bold; color:#5a5a5a}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table-details 
+				 td:last-child{ padding-left:20px; color: #1777cb; border-right: 
+				 none}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table-details 
+				 tr:last-child td{border-bottom: none}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table{border: 
+				 solid #dfdcdc 1px; font-family: lato; }</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 th{ background-color: #1777cb; color: #fff; font-size:14px; 
+				 padding-top: 10px; padding-bottom: 10px;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;border-right: 
+				 1px solid #dfdcdc; text-align: left; padding-left: 30px;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 th:last-child{border-right: none;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 td{<span style="mso-spacerun: yes;">&#160;</span>&#160;color: 
+				 #5a5a5a;font-size: 13px; padding-left: 30px;border-right: 
+				 1px solid #dfdcdc; border-bottom: 1px solid #dfdcdc; padding-top: 
+				 8px; padding-bottom: 8px; }<span style="mso-spacerun: yes;">&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 td:last-child{border-right: none;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 tr:nth-child(even) {background: #fff}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 tr:nth-child(odd) {background: #f8f8f8}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.reportgrid-title{ 
+				 font-size: 40px; color:#5a5a5a; font-family: lato; float: 
+				 left;font-weight: bold; margin-bottom: 20px; margin-top: 
+				 20px;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.report-table 
+				 tr:last-child td{border-bottom: none}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.details-div{clear: 
+				 left;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.cust-logo{ 
+				 float: right; margin-top: 30px;margin-right:30px; }</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;.cust-logo 
+				 img {width: 130px;}</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;&lt;/style&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;/head&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;body&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;div style=&quot;margin: 
+				 0px auto;&quot;&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;&lt;div 
+				 class=&quot;details-div&quot;&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&lt;table 
+				 width=&quot;100%&quot; class=&quot;report-table&quot; 
+				 border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; 
+				 &gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;tbody&gt;<span style="mso-spacerun: yes;">&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;tr&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;</span># 
+				 Create the HTML file for output</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">htmlfile = open(html_out, &quot;w&quot;)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">html_headers=''</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">html_data=''</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">column1=''</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">column2=''</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">split = &quot;,&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">colnum=0</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">with open(csv_in, &quot;r&quot;) 
+				 as f:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;reader 
+				 = csv.reader(f)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;headers 
+				 = next(reader)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;for 
+				 mhead in headers:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;mhead 
+				 = mhead.replace('&quot;', '').strip()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;html_headers=html_headers+&quot;&lt;th&gt;&quot;+mhead.upper()+&quot;&lt;/th&gt;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;print(mhead.upper())</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">htmlheader=htmlheader+&quot;&lt;/tr&gt;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">with open(csv_in , 'r') as 
+				 f:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;first_line 
+				 = f.readline()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;for 
+				 line in f:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;line 
+				 = line.replace('&quot;', '').strip()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;print(line)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;html_data=html_data+&quot;&lt;tr&gt;&lt;td&gt;&quot;+line.split(split)[0]+&quot;&lt;/td&gt;&quot;+&quot;&lt;td&gt;&quot;+line.split(split)[1]+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span></font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">html_End=&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;</span>&#160;&lt;/tbody&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;/table&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;&lt;/div&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;&lt;/div&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;/body&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&lt;/html&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;"><span 
+				 style="font-size: 10.0pt; font-family: 'Courier New'; 
+				 mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">htmlfile.write(htmlheader+html_headers+html_data+html_End)</font></span></p>
+				<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+					 mso-element-anchor-horizontal: margin; mso-element-left: 27.9pt; 
+					 mso-element-top: 42.05pt; mso-height-rule: exactly;">&#160;</p></td>
+			</tr>
+		</table>
+		<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt; 
+			 mso-bidi-font-family: 'Times New Roman';">&#160;</p>
+		<p class="examples">&#160;</p></td>
+	</tr>
+	<tr style="height: 1682px;">
+		<td><p class="examples" style="margin-left: 0in; text-indent: 0in; 
+				 mso-list: none;"><span><span style="mso-list: none;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="mso-bidi-font-size: 12.0pt; 
+													 mso-bidi-font-family: 'Times New Roman';">PDF 
+		 <span style="mso-spacerun: yes;">&#160;</span></span></b></span></span></p>
+		<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+		<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+			 mso-list: none;"><span style="mso-bidi-font-size: 12.0pt; 
+									 mso-bidi-font-family: 'Times New Roman';">Python 
+		 script for generating PDF Output.</span></p>
+		<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+		<table class="MsoTableGrid" style="border: none; mso-border-alt: solid windowtext .5pt; 
+				 mso-yfti-tbllook: 1184; mso-table-lspace: 9.0pt; margin-left: 6.75pt; 
+				 mso-table-rspace: 9.0pt; margin-right: 6.75pt; mso-table-anchor-vertical: page; 
+				 mso-table-anchor-horizontal: margin; mso-table-left: left; 
+				 mso-table-top: 144.8pt; mso-padding-alt: 0in 5.4pt 0in 5.4pt; 
+				 border-collapse: separate; left: 0px; top: 104px;" cellspacing="0" 
+				 width="839" align="left">
+			<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; 
+				 height: 1436px;">
+				<td style="vertical-align: top; border: none; mso-background-themecolor: background1; 
+					 mso-background-themeshade: 242; padding: 0in 5.4pt 0in 5.4pt; 
+					 padding-left: 0px; padding-top: 0px; padding-right: 0px; 
+					 padding-bottom: 0px;" width="471" bgcolor="#F2F2F2"><p 
+					 class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">from 
+				 fpdf import FPDF,HTMLMixin</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">import 
+				 string</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">import 
+				 _csv</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">csv_in 
+				 =&quot;${Query-0}&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf_out=&quot;${PDF}&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">title=&quot;Orbit 
+				 Data Analysis&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">subject=&quot;Report&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">author=&quot;By 
+				 Srinivas Varma&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">header=&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&lt;table 
+				 border=&quot;0&quot; align=&quot;center&quot; width=&quot;100%&quot;&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&lt;thead&gt;&lt;tr&gt;&lt;th 
+				 width=&quot;30%&quot;<span style="mso-spacerun: yes;">&#160;&#160;</span>&#160;align=&quot;left&quot;&gt;State&lt;/th&gt;&lt;th 
+				 width=&quot;70%&quot;<span style="mso-spacerun: yes;">&#160;&#160;</span>&#160;align=&quot;left&quot;&gt;Sales&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&lt;tbody&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">footer 
+				 =&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&lt;/tbody&gt;&lt;/table&gt;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&quot;&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">html_out=&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">data=&quot;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">split 
+				 = &quot;,&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">with 
+				 open(csv_in , 'r') as f:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;first_line 
+				 = f.readline()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;for 
+				 line in f:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;line 
+				 = line.replace('&quot;', '').strip()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;print(line)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;html_out=html_out+&quot;&lt;tr&gt;&lt;td&gt;&quot;+line.split(split)[0]+&quot;&lt;/td&gt;&quot;+&quot;&lt;td&gt;&quot;+line.split(split)[1]+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"># 
+				 for line in reversed(list(open(csv_in))):</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">#<span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;l 
+				 = re.split(&quot;\s+&quot;,string.strip(line)).replace('\&quot;','')</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">#<span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;print((line.split(split)[1]).replace('\&quot;','')</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">#<span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;html_out=html_out+&quot;&lt;tr&gt;&lt;td&gt;&quot;+line.split(split)[0]+&quot;&lt;/td&gt;&quot;+&quot;&lt;td&gt;&quot;+line.split(split)[1]+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">#</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">class 
+				 MyFPDF(FPDF, HTMLMixin):</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;</span>&#160;def 
+				 footer(self):</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;</span>&#160;self.set_y(-25)<span 
+				 style="mso-spacerun: yes;">&#160;</span>&#160;#-25</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;</span>&#160;self.set_font('Arial','I',10)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;</span>&#160;self.set_text_color(0,0,0)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;</span>&#160;self.cell(0,10,'PAGE 
+				 %s OF {nb}' %self.page_no(),0,0,'C')</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">html 
+				 = header+html_out+ footer</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">print(html)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf=MyFPDF('P','mm','A4')</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.set_top_margin(margin=18)<span 
+				 style="mso-spacerun: yes;">&#160;</span>&#160;#18</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.set_auto_page_break(True, 
+				 27) #27</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.add_page()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.alias_nb_pages()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.set_title(title)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.set_subject(subject)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.set_author(author)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">pdf.write_html(html)</font></span></p>
+				<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+					 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+					 mso-element-wrap: around; mso-element-anchor-vertical: page; 
+					 mso-element-anchor-horizontal: margin; mso-element-top: 144.8pt; 
+					 mso-height-rule: exactly;"><span style="font-size: 11.0pt; 
+														 mso-bidi-font-size: 12.0pt; 
+														 font-family: 'Courier New'; 
+														 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;</span>&#160;pdf.output(pdf_out,'F')</font></span></p></td>
+			</tr>
+		</table>
+		&#160;</td>
+	</tr>
+	<tr style="height: 674px;">
+		<td>&#160; 
+		<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+			 mso-list: none;"><span style="mso-list: none;"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">XLSX</span></b></span></p>
+		<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+			 mso-list: none;">&#160;</p>
+		<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+			 mso-list: none;"><span style="mso-bidi-font-size: 12.0pt; 
+									 mso-bidi-font-family: 'Times New Roman';">Python 
+		 script for generating XLSX Output.</span></p>
+		<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+			 mso-list: none;">&#160;</p>
+		<table class="MsoTableGrid" style="mso-background-themecolor: background1; 
+				 mso-background-themeshade: 242; border-collapse: collapse; 
+				 border: none; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; 
+				 mso-border-insideh: none; mso-border-insidev: none;" cellspacing="0" 
+				 bgcolor="#F2F2F2">
+			<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;">
+				<td style="vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; 
+					 padding-left: 0px; padding-top: 0px; padding-right: 0px; 
+					 padding-bottom: 0px;" width="638"><p class="examples" 
+															 style="margin-left: .25in; 
+															 text-indent: 0in; 
+															 mso-list: none;"><span 
+				 style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+				 font-family: 'Courier New'; mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">import 
+				 os</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">import 
+				 csv</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">import 
+				 sys</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">from 
+				 openpyxl import Workbook</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">reload(sys)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">sys.setdefaultencoding('utf8')</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;">&#160;</p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">if 
+				 __name__ == '__main__':</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;workbook 
+				 = Workbook()</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;worksheet 
+				 = workbook.active</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;with 
+				 open('${Query-0}', 'r') as f:</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;reader 
+				 = csv.reader(f)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;for 
+				 r, row in enumerate(reader):</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;for 
+				 c, col in enumerate(row):</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;for 
+				 idx, val in enumerate(col.split(',')):</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;cell 
+				 = worksheet.cell(row=r+1, column=c+1)</font></span></p>
+				<p class="examples" style="margin-left: .25in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA;"><font size="3" style="font-size:11pt;"><span 
+				 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;cell.value 
+				 = val</font></span></p>
+				<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+					 mso-list: none;"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+											 font-family: 'Courier New'; 
+											 mso-fareast-language: JA; 
+											 mso-spacerun: yes;"><font size="3" style="font-size:11pt;">&#160;&#160;&#160;</font></span><span 
+				 style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+				 font-family: 'Courier New'; mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">&#160;</font></span><span 
+				 style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+				 font-family: 'Courier New'; mso-fareast-language: JA; 
+				 mso-spacerun: yes;"><font size="3" style="font-size:11pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span 
+				 style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; 
+				 font-family: 'Courier New'; mso-fareast-language: JA;"><font size="3" style="font-size:11pt;">workbook.save('${XLSX}')</font></span></p>
+				<p class="examples" style="margin-left: 0in; text-indent: 0in; 
+					 mso-list: none;">&#160;</p></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+<p>&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; line-height: 150%; 
+	 mso-list: none;"><span style="mso-list: none;"><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-bidi-font-family: 'Times New Roman';">XLS</span></b></span></p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; line-height: 150%; 
+	 mso-list: none;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-bidi-font-family: 'Times New Roman';">To 
+ generate the output in xls format, replace XLSX with XLS in</span> <span 
+	 style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; line-height: 150%; 
+	 font-family: 'Courier New';"><font size="3" style="font-size:11pt;">workbook.save('${XLSX}').</font></span></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="7" minorversion="13">
+	<skins>
+		<skin>
+			<filename>!SkinSubFolder!\BlueGrey-RTL\BlueGrey-RTL.skn</filename>
+		</skin>
+		<skin>
+			<filename>!SkinSubFolder!\ORBIT_Skin\ORBIT_Skin.skn</filename>
+		</skin>
+		<skin>
+			<filename>!SkinSubFolder!\Beautiful_Vista_Flash\Beautiful_Vista_Flash.fhs</filename>
+		</skin>
+		<skin>
+			<filename>!SkinSubFolder!\BlueGrey\BlueGrey.skn</filename>
+		</skin>
+		<skin>
+			<filename>!SkinSubFolder!\Default\Default.skn</filename>
+		</skin>
+		<skin>
+			<filename>!SkinSubFolder!\Aquamarine\Aquamarine.skn</filename>
+		</skin>
+		<skin>
+			<filename>!SkinSubFolder!\PnP-WH-Generic\PnP-WH-Generic.skn</filename>
+		</skin>
+	</skins>
+</rhpml>

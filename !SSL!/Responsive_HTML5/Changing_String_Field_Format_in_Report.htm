@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Changing String Field Format in Report</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "6.4.0_4";
+</script>
+ <meta name="brsprev" value="Changing_Date_Field_Format_in_Report.htm">
+ <meta name="brsnext" value="Monitoring.htm">
+ <meta name="topic-breadcrumbs" content="Business Models > Meta Objects" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Changing String Field Format in Report </h1>
+<p>&#160;</p>
+<p class="BodyText2" style="line-height: 150%; mso-no-proof: yes; font-family: Arial, sans-serif; 
+	 mso-bidi-font-weight: normal; font-size: 10pt;"><b>To change String 
+ field format in report</b></p>
+<p class="BodyText2" style="margin-left: 49.5pt; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l3 level1 lfo2; 
+	 tab-stops: list .75in; line-height: 200%; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-list: Ignore;">1.</span><span style="line-height: 150%; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">On the left-hand side menu, point to <b 
+	 style="mso-bidi-font-weight: normal;">Business Models</b>, and then 
+ click <b style="mso-bidi-font-weight: normal;">Meta Objects</span><span 
+	 style="line-height: 150%;">.</span></b><span style="line-height: 150%; 
+													 mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l3 level1 lfo2; 
+	 tab-stops: list .75in; line-height: 200%; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-list: Ignore;">2.</span><span style="line-height: 150%; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%;">Meta 
+ Objects</span></b><span style="line-height: 150%; mso-spacerun: yes;">&#160;</span><span 
+	 style="line-height: 150%;">page appears with a list of Meta Objects 
+ (highlighted as “1”) on the left-hand side. </span><span style="line-height: 150%; 
+															 mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .75in; line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-no-proof: yes; line-height: 200%; 
+	 font-family: Arial, sans-serif;"><img src="MO11.png" alt="" style=" border:none; width:100%; max-width:641px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l3 level1 lfo2; 
+	 tab-stops: list .75in; line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l3 level1 lfo2; 
+	 tab-stops: list .75in; line-height: 200%; font-family: Arial, sans-serif;"><span 
+	 style="mso-list: Ignore;">3.</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">To change the formatting of <b style="mso-bidi-font-weight: normal;">String 
+ Field</b> in the reports, perform the following:</span></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l3 level2 lfo2; 
+	 line-height: 200%; font-family: Arial, sans-serif;"><span style="line-height: 150%; 
+	 mso-list: Ignore;">a.</span><span style="line-height: 150%; mso-list: Ignore; 
+										 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">Under the <b style="mso-bidi-font-weight: normal;">Base 
+ Objects (</b>highlighted as “2”), select <b style="mso-bidi-font-weight: normal;">String</b> 
+ (highlighted as “3”).</span></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l3 level2 lfo2; 
+	 line-height: 200%; font-family: Arial, sans-serif;"><span style="line-height: 150%; 
+	 mso-list: Ignore;">b.&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%;">Name 
+ </span><span style="line-height: 150%; font-weight: bold;">an</b>d</span><span 
+	 style="line-height: 150%;"> <b style="mso-bidi-font-weight: normal;">Value</b> 
+ columns (highlighted as “4”) for the <b style="mso-bidi-font-weight: normal;">String</b> 
+ field appear.</span></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l3 level2 lfo2; 
+	 line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; line-height: 200%; font-family: Arial, sans-serif;">&#160;&#160;&#160;&#160;&#160;&#160;<img src="MO12.png" alt="" style=" border:none; width:100%; max-width:582px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l3 level2 lfo2; 
+	 line-height: 200%; font-family: Arial, sans-serif;"><span style="line-height: 150%; 
+	 mso-list: Ignore;">c.</span><span style="line-height: 150%; mso-list: Ignore; 
+										 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">Under the <b style="mso-bidi-font-weight: normal;">Style</b> 
+ tab, perform the following:</span></p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l1 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-list: Ignore; 
+											 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-list: Ignore;">&#160;i.</span><span 
+	 style="line-height: 150%; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">In the <b style="mso-bidi-font-weight: normal;">Alignment</b> 
+ box, type/select the required option.</span></p>
+<p class="BodyText2" style="text-indent: -1.75in; mso-text-indent-alt: -.25in; 
+	 mso-list: l1 level1 lfo3; margin-left: 48px; line-height: 200%; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-no-proof: yes; mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ii.&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>I<span 
+	 style="line-height: 150%; mso-no-proof: yes;">n the <b style="mso-bidi-font-weight: normal;">Column 
+ Width</b> box, type/select the required value.</span></p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l1 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-no-proof: yes; 
+											 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-no-proof: yes; mso-list: Ignore;">&#160;iii.</span><span 
+	 style="line-height: 150%; mso-no-proof: yes; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-no-proof: yes;">In the <b style="mso-bidi-font-weight: normal;">Font 
+ Family</b> box, type/select the required values by clicking </span><span 
+	 style="mso-no-proof: yes;"><img src="image63.gif" style=" border:none; width:100%; max-width:23px;" alt="" border="0" />.</span></p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l2 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif; mso-no-proof: yes;"><span style="mso-text-indent-alt: -.25in; 
+	 mso-list: l2 level1 lfo3; line-height: 200%; font-family: Arial, sans-serif; 
+	 mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iv. 
+ &#160;&#160;&#160;&#160;&#160;A dialog window appears with multiple fields. 
+ </span></p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l2 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;v. 
+ &#160;&#160;&#160;&#160;Edit the required fields, and then click <span 
+	 style="font-weight: bold;">Ok</span>.</p>
+<p class="BodyText2" style="margin-left: 1.75in; line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: 94.5pt; mso-no-proof: yes; line-height: 200%; 
+	 font-family: Arial, sans-serif;">&#160;&#160;&#160;&#160;<img src="MO13.png" alt="" style=" border:none; width:100%; max-width:328px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l1 level1 lfo3; line-height: 200%; 
+	 font: 7.0pt 'Times New Roman'; font-family: Arial, sans-serif;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l1 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l1 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif;"><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-no-proof: yes; mso-list: Ignore;">&#160;vi.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-no-proof: yes;">To save the changes,</span><span 
+	 style="mso-spacerun: yes;">&#160;</span><span style="line-height: 150%; 
+													 mso-no-proof: yes;">&#160;click 
+ <b style="mso-bidi-font-weight: normal;">Ok.</b></span><span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: 1.75in; text-indent: -1.75in; 
+	 mso-text-indent-alt: -.25in; mso-list: l1 level1 lfo3; line-height: 200%; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-list: Ignore; 
+											 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-list: Ignore;">&#160;v.</span><span 
+	 style="line-height: 150%; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">In the <b style="mso-bidi-font-weight: normal;">Hide</b> 
+ box, type/select the required value.</span></p>
+<p class="BodyText2" style="margin-left: 1.75in; line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l3 level1 lfo2; 
+	 tab-stops: list .75in; line-height: 200%; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-list: Ignore;">4.</span><span style="line-height: 150%; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%;">To save the changes, click <b style="mso-bidi-font-weight: normal;">Save.</b></span></p>
+<p class="BodyText2" style="line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: 49.5pt; width: 48.931%; 
+	 line-height: 200%;">
+	<p class="BodyText2" style="margin-left: .25in; text-indent: -.25in; 
+		 mso-list: l2 level1 lfo1; border: none; mso-border-top-alt: solid windowtext .5pt; 
+		 mso-border-bottom-alt: solid windowtext .5pt; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in; 
+		 line-height: 150%; font-family: Arial, sans-serif;"><span style="mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings; mso-list: Ignore;">¥ </span>Formatting 
+	 the <b style="mso-bidi-font-weight: normal;">String</b> field provides 
+	 the below output in the report.</p>
+</div>
+<p class="BodyText2" style="line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: 49.5pt; line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: 49.5pt; mso-no-proof: yes; line-height: 200%; 
+	 font-family: Arial, sans-serif;"><img src="MO14.png" alt="" style=" border:none; width:100%; max-width:472px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 49.5pt; line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+<p style="line-height: 200%; font-family: Arial, sans-serif;">&#160;</p>
+</body>
+</html>

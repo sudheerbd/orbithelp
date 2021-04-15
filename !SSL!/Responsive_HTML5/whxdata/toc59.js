@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc56.js\"  name=\"Viewing Publisher Report in Word\" url=\"Viewing_Publisher_Report_in_Word.htm\"><item name=\"Creating a Publisher Report\" url=\"Creating_a_Publisher_Report1.htm\" /><item name=\"Applying Word Template to Publisher Report\" url=\"Applying_Word_Template_to_Publisher_Report.htm\" /></data>";

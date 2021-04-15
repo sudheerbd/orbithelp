@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Diagnostics</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("System\nSettings\nDiagnostics");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"System.htm\">System<\/a> > <a href=\"Settings.htm\">Settings<\/a> > Diagnostics<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Diagnostics</h1>
+<p>Diagnostics section enables the user to view the logging levels of the 
+ following: </p>
+<p>&#160;</p>
+<ul style="list-style: disc;">
+	<li style="font-size: 10pt;"><p><span style="font-weight: bold;">Web 
+	 Application</span> </p></li>
+	<li style="font-size: 10pt;"><p><span style="font-weight: bold;">Metadata 
+	 Queries</span> </p></li>
+	<li style="font-size: 10pt;"><p><span style="font-weight: bold;">ORBIT</span> 
+	 </p></li>
+</ul>
+<p>&#160;</p>
+<p><span style="font-weight: bold;">Web Application</span> : For web application 
+ server( for ex. Apache Tomcat), the &#160;logging levels are available 
+ in log4j.properties file &#160;</p>
+<p style="font-variant-ligatures: normal; font-variant-caps: normal; text-align: justify; 
+	 background-color: #ffffff; display: inline	 ! important ; font-family: Arial, sans-serif; 
+	 orphans: 2; widows: 2; font-size: 10pt;">&#160;</p>
+<p style="font-weight: bold;">Metadata Queries: &#160;</p>
+<p style="
+box-sizing:border-box;
+margin:0px 0px 10px;
+color:rgb(51, 51, 51);
+font-family:'Open Sans' , 'Helvetica Neue' , Helvetica, Arial, sans-serif;
+font-style:normal;
+font-variant-ligatures:normal;
+font-variant-caps:normal;
+font-weight:normal;
+letter-spacing:normal;
+orphans:2;
+text-align:start;
+text-indent:0px;
+text-transform:none;
+white-space:normal;
+widows:2;
+word-spacing:0px;
+-webkit-text-stroke-width:0px;
+background-color:#ffffff;
+text-decoration-style:initial;
+text-decoration-color:initial;
+font-size:10pt;
+border-width:4px;"><span style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: 'Open Sans' , 'Helvetica Neue' , Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; font-size: 10pt; "><font size="2" style="font-size:10pt;">Turning 
+ on logging in Metadata Queries enables to : </font></span></p>
+<ul style="box-sizing: border-box; margin: 0.3em 0px 0px 1.6em; padding: 0px; 
+		 color: rgb(51, 51, 51); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+		 font-size: 14px; font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;">
+	<li style="box-sizing: border-box; padding-bottom: 7px; font-size: 10pt;">monitor 
+	 configuration details</li>
+	<li style="box-sizing: border-box; padding-bottom: 7px; font-size: 10pt;">facilitate 
+	 debugging</li>
+	<li style="box-sizing: border-box; padding-bottom: 7px; font-size: 10pt;">view 
+	 the SQL that is being sent to the database</li>
+</ul>
+<p>&#160;</p>
+<p><span style="font-weight: bold;">ORBIT</span> : In the ORBIT Analytics 
+ application, the log file with the log levels are defined under the Scheduled 
+ Processes in the Monitoring section. </p>
+<p>&#160;</p>
+<h3>Logging Levels </h3>
+<p>Web Application, Metadata Queries and ORBIT Analytics application provide 
+ log with the following logging levels. </p>
+<p>&#160;</p>
+<table style="left: 0px; top: 447px;" width="1091" cellspacing="0" border="1">
+	<col style="width: 14.19%;" />
+	<col style="width: 85.81%;" />
+	<tr style="height: 26px;">
+		<td><span style="font-size: 10pt; font-weight: bold;"><font size="2" style="font-size:10pt;">Log Level 
+		 </font></span></td>
+		<td><span style="font-size: 10pt; font-weight: bold;"><font size="2" style="font-size:10pt;">Description 
+		 </font></span></td>
+	</tr>
+	<tr style="height: 36px;">
+		<td><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">Off </font></span></td>
+		<td><span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">The</font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"><code 
+		 style="font-variant-ligatures: normal; font-variant-caps: normal; 
+		 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">OFF</code></font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-variant-ligatures: normal; 
+												 font-variant-caps: normal; 
+												 orphans: 2; widows: 2; 
+												 -webkit-text-stroke-width: 0px; 
+												 background-color: #ffffff; 
+												 text-decoration-style: initial; 
+												 text-decoration-color: initial; 
+												 display: inline	 ! important ; 
+												 float: none; font-family: Arial, sans-serif; 
+												 font-size: 10pt;"><font size="2" style="font-size:10pt;">has 
+		 the highest possible rank and is intended to turn off logging.</font></span><span 
+		 style="font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"> </font></span><span 
+		 style="color: rgb(51, 51, 51); font-variant-ligatures: normal; 
+		 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 display: inline	 ! important ; float: none; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">This setting disables the generation of the 
+		 log output. You may want to set logging to OFF during production 
+		 to avoid the overhead of logging.</font></span></td>
+	</tr>
+	<tr style="height: 31px;">
+		<td><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">Error</font></span></td>
+		<td><span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">The</font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"><code 
+		 style="font-variant-ligatures: normal; font-variant-caps: normal; 
+		 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">ERROR</code></font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-variant-ligatures: normal; 
+												 font-variant-caps: normal; 
+												 orphans: 2; widows: 2; 
+												 -webkit-text-stroke-width: 0px; 
+												 background-color: #ffffff; 
+												 text-decoration-style: initial; 
+												 text-decoration-color: initial; 
+												 display: inline	 ! important ; 
+												 float: none; font-family: Arial, sans-serif; 
+												 font-size: 10pt;"><font size="2" style="font-size:10pt;">level 
+		 designates error events that might still allow the application 
+		 to continue running.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> </font></span></td>
+	</tr>
+	<tr style="height: 36px;">
+		<td><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">Warning</font></span></td>
+		<td><span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">This 
+		 level designates potentially harmful situations.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> 
+		 </font></span><span style="color: rgb(51, 51, 51); font-variant-ligatures: normal; 
+						 font-variant-caps: normal; orphans: 2; widows: 2; 
+						 -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+						 text-decoration-style: initial; text-decoration-color: initial; 
+						 display: inline	 ! important ; float: none; 
+						 font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">This 
+		 level enables logging of issues that have a potential to cause 
+		 problems. For example, a setting that is picked by the application 
+		 and not by the user.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> </font></span></td>
+	</tr>
+	<tr style="height: 29px;">
+		<td ><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">Debug</font></span></td>
+		<td ><span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">The</font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"><code 
+		 style="font-variant-ligatures: normal; font-variant-caps: normal; 
+		 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">DEBUG</code></font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-variant-ligatures: normal; 
+												 font-variant-caps: normal; 
+												 orphans: 2; widows: 2; 
+												 -webkit-text-stroke-width: 0px; 
+												 background-color: #ffffff; 
+												 text-decoration-style: initial; 
+												 text-decoration-color: initial; 
+												 display: inline	 ! important ; 
+												 float: none; font-family: Arial, sans-serif; 
+												 font-size: 10pt;"><font size="2" style="font-size:10pt;">Level 
+		 designates fine-grained informational events that are most useful 
+		 to debug an application.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> 
+		 &#160;</font></span></td>
+	</tr>
+	<tr style="height: 36px;">
+		<td ><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">Info</font></span></td>
+		<td ><span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">The</font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"><code 
+		 style="font-variant-ligatures: normal; font-variant-caps: normal; 
+		 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">INFO</code></font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-variant-ligatures: normal; 
+												 font-variant-caps: normal; 
+												 orphans: 2; widows: 2; 
+												 -webkit-text-stroke-width: 0px; 
+												 background-color: #ffffff; 
+												 text-decoration-style: initial; 
+												 text-decoration-color: initial; 
+												 display: inline	 ! important ; 
+												 float: none; font-family: Arial, sans-serif; 
+												 font-size: 10pt;"><font size="2" style="font-size:10pt;">level 
+		 designates informational messages that highlight the progress 
+		 of the application at coarse-grained level.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> 
+		 &#160;</font></span><span style="color: rgb(51, 51, 51); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+							 font-variant-ligatures: normal; font-variant-caps: normal; 
+							 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+							 background-color: #ffffff; text-decoration-style: initial; 
+							 text-decoration-color: initial; display: inline	 ! important ; 
+							 float: none; font-size: 10pt;"><font size="2" style="font-size:10pt;">This level 
+		 enables the standard output. The contents of this output is very 
+		 limited. It is the default logging level if a logging level is 
+		 not set.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> </font></span></td>
+	</tr>
+	<tr style="height: 36px;">
+		<td ><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">Fine</font></span></td>
+		<td ><span style="color: rgb(51, 51, 51); font-variant-ligatures: normal; 
+					 font-variant-caps: normal; orphans: 2; widows: 2; 
+					 -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+					 text-decoration-style: initial; text-decoration-color: initial; 
+					 display: inline	 ! important ; float: none; font-family: Arial, sans-serif; 
+					 font-size: 10pt;"><font size="2" style="font-size:10pt;">This level enables logging of the 
+		 first level of the debugging information and SQL. You may want 
+		 to use this log level during debugging and testing, but not at 
+		 production.</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> </font></span></td>
+	</tr>
+	<tr style="height: 20px;">
+		<td ><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">All</font></span></td>
+		<td ><span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">The</font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;"><code 
+		 style="font-variant-ligatures: normal; font-variant-caps: normal; 
+		 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">ALL</code></font></span><span 
+		 class="Apple-converted-space" style="font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;</font></span><span style="font-variant-ligatures: normal; 
+												 font-variant-caps: normal; 
+												 orphans: 2; widows: 2; 
+												 -webkit-text-stroke-width: 0px; 
+												 background-color: #ffffff; 
+												 text-decoration-style: initial; 
+												 text-decoration-color: initial; 
+												 display: inline	 ! important ; 
+												 float: none; font-family: Arial, sans-serif; 
+												 font-size: 10pt;"><font size="2" style="font-size:10pt;">has 
+		 the lowest possible rank and is intended to turn on all logging.</font></span><span 
+		 style="font-size: 10pt;"><font size="2" style="font-size:10pt;"> &#160;</font></span></td>
+	</tr>
+</table>
+<p>&#160;</p>
+<p>&#160;</p>
+<p><span style="color: rgb(51, 51, 51); font-variant-ligatures: normal; 
+		 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 display: inline	 ! important ; float: none; font-family: Arial, sans-serif;">## 
+ The logging information accumulates at every sequential log level: each 
+ log output includes the information from the output of the previous log 
+ level. For example, if you set the log level to INFO, your output will 
+ include log messages from INFO, DEBUG, WARNING and ERROR levels.</span> 
+ </p>
+<p>&#160;</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

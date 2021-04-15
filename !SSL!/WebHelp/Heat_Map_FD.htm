@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Heat Map</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="./ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Analysis\nVisualization Options in Analysis Reports\nHeat Map");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Analysis_Feature_Dashboard.htm\">Analysis<\/a> > <a href=\"Visual_Settings_of_Different_Charts_FD1.htm\">Visualization Options in Analysis Reports<\/a> > Heat Map<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+
+
+<h1><a name="MiniTOCBookMark1"></a>Heat Map</h1>
+<p align="left" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" >This&#160;topic&#160;introduces&#160;to&#160;you&#160;the&#160;Visual&#160;Settings&#160;of&#160;Heat&#160;Maps&#160;<a class="dropspot" href="javascript:TextPopup(this)" id="MTHotSpot20290" ><span class="MTText" style="display: none;" >Show</span><span class="MTText" >Hide</span></a></p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('MTHotSpot20290', 'MTPOPUP20290');
+//]]></script>
+<div align="left" class="droptext" id="MTPOPUP20290" >
+ <p align="left"  ><a href="#MiniTOCBookMark2" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Visualization (Chart type) Options</a></p>
+ <p align="left"  ><a href="#MiniTOCBookMark3" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Visual Settings for Heat Maps</a></p>
+ <p align="left" style="margin-left:20px;"  ><a href="#MiniTOCBookMark4" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Series</a></p>
+ <p align="left" style="margin-left:40px;"  ><a href="#MiniTOCBookMark5" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;"></a></p>
+ <p align="left" style="margin-left:60px;"  ><a href="#MiniTOCBookMark5" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Axis Color</a></p>
+ <p align="left" style="margin-left:60px;"  ><a href="#MiniTOCBookMark6" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Grid Lines Color</a></p>
+</div>
+<p>&#160;</p>
+<p>Heat map displays different values of data using variation in color.</p>
+<h2><a name="MiniTOCBookMark2"></a>Visualization (Chart type) Options</h2>
+<p>1. Heat Maps has the following visualization options</p>
+<ul style="list-style: disc;">
+	<li><p>Values</p></li>
+	<li><p>X Axis</p></li>
+	<li><p>Y Axis</p></li>
+</ul>
+<p>2. Drag and drop the required fields from the selected Business Object 
+ into the Values, X Axis, and Y Axis sections.</p>
+<p>3. Orbit application generates the packed bubbles analysis report dynamically 
+ in the run results area.</p>
+<p><img src="Analysis_FD_143.jpg" alt="" style="border: none;" width="900" 
+		 height="529" border="0" /></p>
+<p>&#160;</p>
+<h2><a name="MiniTOCBookMark3"></a>Visual Settings for Heat Maps</h2>
+<p>To set visual settings</p>
+<p>1.&#160;On the report edit page, click <span style="font-weight: bold;">Visual 
+ Settings</span> next to the Data tab.</p>
+<p>2.&#160;Visual Settings for Heat Maps has the following tabs:</p>
+<ol style="list-style: upper-alpha;">
+	<li><span style="font-weight: bold;">Chart</span>: See <a href="Customize_Chart_Visual_Settings_FD.htm">Customize 
+	 Chart Visual Settings</a> for more details.</li>
+	<li><span style="font-weight: bold;">Axes</span>: See <a href="Customize_Axes_Visual_Settings_FD.htm">Customize 
+	 Axes Visual Settings</a> for more details.</li>
+	<li><span style="font-weight: bold;">Series</span>: See <a href="Customize_Series_Visual_Settings_FD.htm">Customize 
+	 Series Visual Settings</a> for more details.</li>
+	<li><span style="font-weight: bold;">Legend</span>: See <a href="Customize_Legend_Visual_Settings_FD.htm">Customize 
+	 Legend Visual Settings</a> for more details.</li>
+	<li><span style="font-weight: bold;">Tooltip</span>: See <a href="Customize_Tooltip_Visual_Settings_FD.htm">Customize 
+	 Tooltip Visual Settings</a> for more details.</li>
+</ol>
+<p>&#160;</p>
+<p>This section explains unique visual settings for Heat Maps</p>
+<h3><a name="MiniTOCBookMark4"></a>Series</h3>
+<p>Series tab has the following unique visual settings for Heat Maps:</p>
+<ol style="list-style: upper-roman;">
+	<li><span style="font-weight: bold;">Axis Color</span><span>: Change 
+	 axis color of heat map.</span></li>
+	<li><span style="font-weight: bold;">Grid Lines Color</span><span>: 
+	 Change grid line color of heat map.</span></li>
+</ol>
+<p>For remaining Series visual settings see <a href="Customize_Series_Visual_Settings_FD.htm">Customize 
+ Series Visual Settings</a> for more details.</p>
+<h5><a name="MiniTOCBookMark5"></a>Axis Color</h5>
+<p>Select <span style="font-weight: bold;">Axis Color</span> box to change 
+ color of chart axis. See C<font id="font11">hange default color in</font> 
+ <a href="Customize_Chart_Visual_Settings_FD.htm#Negative_color"><span 
+	 style="font-weight: bold;"><font id="font11">Negat</font></span><font 
+	 id="T1"><span style="font-weight: bold;">ive Color</span></font></a> 
+ for detailed information.</p>
+<h5><a name="MiniTOCBookMark6"></a>Grid Lines Color</h5>
+<p>Select <span style="font-weight: bold;">Grid Lines Color</span> box 
+ to change color of grid lines. See C<font id="font111">hange default color 
+ in</font> <a href="Customize_Chart_Visual_Settings_FD.htm#Negative_color"><span 
+	 style="font-weight: bold;"><font id="font111">Negat</font></span><font 
+	 id="T11"><span style="font-weight: bold;">ive Color</span></font></a> 
+ for detailed information.</p>
+<p><img src="Analysis_FD_144.jpg" alt="" style="border: none;" width="900" 
+		 height="446" border="0" /></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Macro-enabled Templates</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Data Reports\nMacro-enabled Templates in Excel for Data Reports \nMacro-enabled Templates");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Operational_Reports.htm\">Data Reports<\/a> > <a href=\"Macro-enabled_Templates_in_Excel_for_Data_Reports.htm\">Macro-enabled Templates in Excel for Data Reports <\/a> > Macro-enabled Templates<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1 style="font-family: Arial, sans-serif; color: #808080;">Macro-enabled 
+ Templates</h1>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">The 
+ .xlsm (macro-enabled) template here is designed in a such a way that when 
+ it is opened it generates a message written using Macros (Microsoft VBA) 
+ as shown below:</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;"><img 
+	 src="image911.gif" alt="" style="border: none;" width="380" height="331" 
+	 border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">The 
+ above template is designed in such as way that it resembles the excel 
+ template for a publisher report where the data for the columns is denoted 
+ as ${COL0}, ${COL1}, and so on. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">Its 
+ associated names are entered in the <b style="mso-bidi-font-weight: normal;">Name 
+ Manager</b> under <b style="mso-bidi-font-weight: normal;">Formula</b> 
+ tab.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;"><span 
+	 style="mso-spacerun: yes;">&#160;</span>The figure below illustrates 
+ the rows and its associated names in the Name Manager. The mapping between 
+ the rows and its associated names is shown below:</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">&#160;&#160;<img 
+	 src="image912.gif" alt="" style="border: none;" width="537" height="361" 
+	 border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">Here, 
+ TableHeader is mapped to the first row (highlighted as “1”) and ReportData 
+ is mapped to the second row (highlighted as “2”).</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">The output 
+ for the above template is shown below.</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Output</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image913.gif" alt="" style="border: none;" width="438" height="377" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-size: 14.0pt; mso-bidi-font-size: 12.0pt; 
+	 font-family: Arial, sans-serif;"><b style="mso-bidi-font-weight: normal;">Scenario 
+ 2</b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>When 
+ no columns exist in Excel Sheet</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;"><b 
+	 style="mso-bidi-font-weight: normal;">I</b>n this scenario, the template 
+ is designed in such a way there are no column values such as ${COL0}, 
+ ${COL1}, and so on. There are only names – “<span style="font-size: 11.0pt; 
+													 mso-bidi-font-size: 12.0pt;"><font size="3" style="font-size:11pt;">ReportData</font></span>” 
+ and “<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt;"><font size="3" style="font-size:11pt;">TableHeader</font></span>” 
+ in the <b style="mso-bidi-font-weight: normal;">Name Manager.</b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;"><img src="image915.gif" 
+	 alt="" style="border: none;" width="464" height="462" border="0" /><b 
+	 style="mso-bidi-font-weight: normal;"><span style="tab-stops: 199.5pt; 
+												 mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Output</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Sheet 
+ 1</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;"><b 
+	 style="mso-bidi-font-weight: normal;">N</b>o Output is generated in 
+ <b style="mso-bidi-font-weight: normal;">Sheet 1</b>; however, output 
+ appears in “<b style="mso-bidi-font-weight: normal;">ReportOutput</b>” 
+ and parameter details appear in “<b style="mso-bidi-font-weight: normal;">ReportDetails</b>”. 
+ <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;"><img src="image916.gif" 
+	 alt="" style="border: none;" width="426" height="309" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image917.gif" alt="" style="border: none;" width="458" height="344" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;"><b style="mso-bidi-font-weight: normal;">ReportDetails: 
+ <span style="mso-spacerun: yes;">&#160;</span>Parameter Details</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image918.gif" alt="" style="border: none;" width="486" height="242" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-bidi-font-size: 12.0pt; 
+												 font-size: 14pt;"><font size="4" style="font-size:14pt;">Scenario 
+ 3:</font></span><span style="mso-bidi-font-size: 12.0pt;"> </span></b><b style="mso-bidi-font-weight: normal; 
+	 font-size: 12pt;">When no names exist in Name Manager</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;"><b 
+	 style="mso-bidi-font-weight: normal; font-weight: normal;">I</b>n 
+ this scenario, the template has no names: “<span style="font-size: 11.0pt; 
+													 mso-bidi-font-size: 12.0pt;"><font size="3" style="font-size:11pt;">ReportData</font></span>” 
+ and “<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt;"><font size="3" style="font-size:11pt;">TableHeader</font></span>” 
+ in the <b style="mso-bidi-font-weight: normal;">Name Manager</b>. There 
+ are only column values such as ${COL0}, ${COL1}, and so on in <b style="mso-bidi-font-weight: normal;">Sheet 
+ 1</b>.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;"><b 
+	 style="mso-bidi-font-weight: normal; font-weight: normal;">T</b>he 
+ output is generated separately in <b style="mso-bidi-font-weight: normal;">ReportOutput</b> 
+ sheet instead of <b style="mso-bidi-font-weight: normal;">Sheet 1</b> 
+ and the parameter details appear in <b style="mso-bidi-font-weight: normal;">ReportDetails</b> 
+ sheet. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image919.gif" alt="" style="border: none;" width="479" height="453" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Output</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Sheet 
+ 1</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image920.gif" alt="" style="border: none;" width="447" height="286" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;"><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span></b> 
+ </p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image921.gif" alt="" style="border: none;" width="411" height="341" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportDetails</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image922.gif" alt="" style="border: none;" width="373" height="198" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-size: 14.0pt; mso-bidi-font-size: 12.0pt; 
+	 font-family: Arial, sans-serif;"><b style="mso-bidi-font-weight: normal;">Scenario 
+ 4</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>When 
+ there are no Names in the Name Manager and no Columns in the Excel template.</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">In 
+ this scenario, the template has no names: “<span style="font-size: 11.0pt; 
+													 mso-bidi-font-size: 12.0pt;"><font size="3" style="font-size:11pt;">ReportData</font></span>” 
+ and “<span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt;"><font size="3" style="font-size:11pt;">TableHeader</font></span>” 
+ in the <b style="mso-bidi-font-weight: normal;">Name Manager</b> and there 
+ are no column values such as ${COL0}, ${COL1}, and so on in <b style="mso-bidi-font-weight: normal;">Sheet 
+ 1</b>.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">The output 
+ appears as described below.</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Output</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Sheet1</b></p>
+<p class="MsoNormal" style="line-height: 150%; mso-bidi-font-weight: normal; 
+	 font-family: Arial, sans-serif;"><b><img src="image923.gif" alt="" 
+												 style="border: none;" 
+												 width="397" height="284" 
+												 border="0" /></b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif;">Here, 
+ the sheet name is retained as <b style="mso-bidi-font-weight: normal;">Sheet1</b> 
+ and the output is generated in <b style="mso-bidi-font-weight: normal;">ReportOutput</b> 
+ and the parameter details appear in <b style="mso-bidi-font-weight: normal;">ReportDetails</b>.</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image924.gif" alt="" style="border: none;" width="499" height="366" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportDetails</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image925.gif" alt="" style="border: none;" width="510" height="191" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">See <i style="mso-bidi-font-style: normal;"><a 
+	 href="Template_Based.htm" style="font-family: Arial, sans-serif; font-size: 10pt;">Uploading 
+ a Template</a></i> to upload the required template.</font></span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;"><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">See 
+ <i style="mso-bidi-font-style: normal; font-size: 10pt;"><a href="Exporting_Reports.htm">Exporting 
+ with Template</a></i> to view the output in the desired template.</font></span><span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="font-size: 14.0pt; mso-bidi-font-size: 12.0pt; 
+	 font-family: Arial, sans-serif;"><b style="mso-bidi-font-weight: normal;">Scenario 
+ 5</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>When 
+ Sheet 1 is manually renamed as ReportOutput</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image926.gif" alt="" style="border: none;" width="425" height="313" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>Output</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportOutput</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b style="mso-bidi-font-weight: normal; font-weight: normal;">W</b>hen 
+ the <b style="mso-bidi-font-weight: normal;">Sheet1</b> is manually renamed 
+ as <b style="mso-bidi-font-weight: normal;">ReportOutput</b>, the output 
+ appears in <b style="mso-bidi-font-weight: normal;">ReportOutput</b> tab 
+ and the parameter details appear in ReportDetails.</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image928.gif" alt="" style="border: none;" width="342" height="362" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>ReportDetails</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b><img 
+	 src="image929.gif" alt="" style="border: none;" width="367" height="233" 
+	 border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">See 
+ <i style="mso-bidi-font-style: normal;"><a href="Template_Based.htm" style="font-family: Arial, sans-serif; 
+											 font-size: 10pt;">Uploading 
+ a Template</a></i> to upload the required template.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;"><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">See 
+ <i style="mso-bidi-font-style: normal; font-size: 10pt;"><a href="Exporting_Reports.htm">Exporting 
+ with Template</a></i> to view the output in the desired template.</font></span><span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2019" />
+<title>NOT Filter AD</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1 style="font-family: Arial, sans-serif;">NOT Filter</h1>
+<p class="MsoNormal" style="letter-spacing: -.05pt; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; font-size: 10pt; margin-left: 0px;"><span 
+	 style="background: #ffffff;">NOT Filter excludes the entities which 
+ match an expression. It is denoted by an exclamation mark “<b style="mso-bidi-font-weight: normal;">!</b>”.</span></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt; 
+			 margin-top: 0pt; margin-bottom: 0pt; line-height: 200%;"><span 
+	 style="mso-spacerun: yes;"><b style="mso-bidi-font-weight: normal;">&#160;</b>&#160;&#160;&#160;</span>&#160;Consider 
+	 the following example, where there is a need to retrieve all the users 
+	 except the users with name <span style="mso-bidi-font-size: 12.0pt;">Test</span>.<span 
+	 style="mso-spacerun: yes;">&#160;</span></p></li>
+</ul>
+<p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt; margin-left: 80px; 
+	 margin-top: 0pt; margin-bottom: 0pt; line-height: 200%;"><span style="font-weight: bold;">Example</span>: 
+ Search Filter: (&amp;(objectClass=user)(&amp;(cn=*)(!(cn=Test*))))</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 0px;"><b>Result:</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;">&#160;&#160;<img src="image1159.gif" 
+															 alt="" style="border-left-width: 1px; 
+															 border-left-style: Solid; 
+															 border-top-width: 1px; 
+															 border-top-style: Solid; 
+															 border-right-width: 1px; 
+															 border-right-style: Solid; 
+															 border-bottom-width: 1px; 
+															 border-bottom-style: Solid;" 
+															 width="727" 
+															 height="506" 
+															 border="1" /></p>
+</body>
+</html>

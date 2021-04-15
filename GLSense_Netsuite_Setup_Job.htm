@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2019" />
+<title>GLSense Netsuite Setup Job</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>GLSense NetSuite Setup Job</h1>
+<p>This job primarily extracts all the GL Setup data from NetSuite instance.</p>
+<p style="font-weight: bold;">To extract GL setup data from NetSuite</p>
+<ol>
+	<li><p>On the left-hand side menu, point to <img src="image2322.gif" 
+													 alt="" width="21" 
+													 height="26" border="0" />, 
+	 and then click <span style="font-weight: bold;">Jobs</span>.</p></li>
+	<li><p>Jobs page appears with a list of Seeded, Custom and Plugin jobs.</p></li>
+	<li><p>Under <span style="font-weight: bold;">Jobs</span> sections, 
+	 on <span style="font-weight: bold;">GLSense Netsuite Setup Job</span> 
+	 click <img src="image2527.gif" alt="" border="0" /> , and then click 
+	 <img src="image3684.gif" alt="" width="21" height="20" border="0" /> 
+	 <span style="font-weight: bold;">Schedule</span>.</p></li>
+	<li><p><span style="font-weight: bold;">Schedule Job</span> dialog 
+	 box appears.</p></li>
+	<li><p>In the <span style="font-weight: bold;">Schedule Job</span> 
+	 dialog box, on the <span style="font-weight: bold;">Parameters</span> 
+	 tab, perform the following:</p></li>
+	<ul style="list-style: disc;">
+		<li><p>In the <span style="font-weight: bold;">Finance Cubes</span> 
+		 box, select the required finance cube from the list.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Ledgers</span> box, 
+		 select the required ledger.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Start Date</span> 
+		 box, Select the required year from the list.</p>
+		<p><img src="image3698.gif" alt="" style="border-width: 1px; border-style: solid;" 
+				 width="650" height="572" border="1" /></p>
+		<p class="note">A finance cube could have multiple years of data. 
+		 For, better performance it is recommended to extract the data 
+		 for one or two years.</p></li>
+		<li><p>Under the <span style="font-weight: bold;">Custom Segments</span> 
+		 section, click <img alt="" src="Plus_New 2.jpg" style="border: none;" 
+							 width="26" height="25" border="0" /> to add 
+		 custom segments.</p>
+		<p class="note"><br />
+		If the user does not add custom segment table names, this job only 
+		 extracts seeded segments.<br />
+		To extract custom segments from NetSuite ERP, the user should enter 
+		 all the required custom segment table names manually under the 
+		 <span style="font-weight: bold;">Custom Segments</span> section 
+		 to extract the data.<br />
+		Users can add all the custom segments existing in their ERP.</p></li>
+		<li><p>If the user enters an incorrect custom segments table name, 
+		 the job ignores this table as such a table does not exist in the 
+		 system.</p>
+		<p><img src="image3699.gif" alt="" style="border-width: 1px; border-style: solid;" 
+				 width="650" height="572" border="1" /></p></li>
+		<li><p><span style="font-weight: bold;">Incremental Load</span>: 
+		 this loads only the latest changed data, instead of loading the 
+		 entire load from the beginning.</p></li>
+		<li><p><span style="font-weight: bold;">Truncate Cube</span> Dimensions 
+		 removes the existing tables in the cube.</p></li>
+	</ul>
+	<li><p>To schedule the job, click <span style="font-weight: bold;">Submit</span>.</p></li>
+	<li><p>If the user adds custom segments, they will appear in the GLsense 
+	 as shown blow:</p>
+	<p><img src="image3683.gif" alt="" style="border-width: 1px; border-style: solid;" 
+			 width="650" height="567" border="1" /></p></li>
+	<li><p>To cancel the job, click <span style="font-weight: bold;">Cancel</span>.</p></li>
+</ol>
+</body>
+</html>

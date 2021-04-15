@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><csh-info><item mapid=\"CreatingCJ\" mapnum=\"202\" topicurl=\"Creating_a_Complex_Join.htm\" /><item mapid=\"CreatingSimpleJoin\" mapnum=\"201\" topicurl=\"Creating_a_Simple_Join.htm\" /></csh-info>";

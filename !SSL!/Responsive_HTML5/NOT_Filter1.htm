@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>NOT Filter1</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.2.1.1.1.0_3";
+</script>
+ <meta name="brsprev" value="OR_Filter1.htm">
+ <meta name="brsnext" value="Group_Search_Information1.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > Active Directory > Creating an Active Directory Authority > User Search Information > Search Filter" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: Arial, sans-serif;">NOT Filter</h1>
+<p class="MsoNormal" style="margin-left: 13.5pt; letter-spacing: -.05pt; 
+	 font-family: Arial, sans-serif; background-color: #ffffff; font-size: 10pt;"><span 
+	 style="background: #ffffff;">NOT Filter excludes the entities which 
+ match an expression. It is denoted by an exclamation mark “<b style="mso-bidi-font-weight: normal;">!</b>”.</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-spacerun: yes;"><b style="mso-bidi-font-weight: normal;">&#160;</b>&#160;&#160;&#160;</span>&#160;Consider 
+ the following example, where there is a need to retrieve all the users 
+ except the users with name <span style="mso-bidi-font-size: 12.0pt;">Test</span>.<span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Example: 
+ Search Filter: (&amp;(objectClass=user)(&amp;(cn=*)(!(cn=Test*))))</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b>Result:</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;<img src="image814.gif" alt="" style=" border:none; width:100%; max-width:564px;" border="0" /></p>
+</body>
+</html>

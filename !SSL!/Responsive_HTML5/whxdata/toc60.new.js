@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating an Excel Template","url":"Creating_an_Excel_Template.htm"},{"type":"item","name":"Creating a Word Template","url":"Creating_a_Word_Template.htm"},{"type":"item","name":"Creating a HTML Template ","url":"Creating_a_HTML_Template.htm"},{"type":"item","name":"Creating an Excel Template for Grouping ","url":"Creating_an_Excel_Template_for_Grouping.htm"},{"type":"book","name":"Creating a Word Template with Grouping and Page Break","key":"toc61","url":"Creating_a_Word_Template_with_Grouping_and_Page_Break.htm"},{"type":"item","name":"Applying Word Template to Publisher Report ","url":"Applying_Word_Template_to_Publisher_Report_1.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

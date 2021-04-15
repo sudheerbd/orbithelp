@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc47.js\"  name=\"Filters in Pivot \" url=\"Filters_in_Pivot.htm\"><item name=\"Label filters \" url=\"Label_filters.htm\" /><item name=\"Value Filters \" url=\"Value_Filters.htm\" /></data>";

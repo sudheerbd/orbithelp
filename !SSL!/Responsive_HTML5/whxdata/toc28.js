@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc27.js\"  name=\"Establishing Joins between Tables\" url=\"Establising_Joins_between_Tables.htm\"><item name=\"Creating a Simple Join \" url=\"Creating_a_Simple_Join.htm\" /><item name=\"Creating a Complex Join \" url=\"Creating_a_Complex_Join.htm\" /></data>";

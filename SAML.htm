@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2017" />
+<title>SAML</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>SAML</h1>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: normal; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial;"><span style="font-family: Arial, sans-serif; 
+											 line-height: normal; font-size: 10pt; 
+											 color: #000000; font-style: normal; 
+											 font-variant-ligatures: normal; 
+											 font-variant-caps: normal; 
+											 font-weight: normal; letter-spacing: normal; 
+											 orphans: 2; text-transform: none; 
+											 white-space: normal; widows: 2; 
+											 word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+											 text-decoration-style: initial; 
+											 text-decoration-color: initial; 
+											 background-color: #ffffff;"><b>Security 
+ Assertion Markup Language</b><span lang="EN-IN" xml:lang="EN-IN"><font 
+	 color="#222222">&#160;is an&#160;</font></span>open standard&#160;<span><font 
+	 color="#222222">for exchanging&#160;</font></span>authentication<span><font 
+	 color="#222222">&#160;and&#160;</font></span>authorization&#160;data 
+ between parties, in particular, between an&#160;identity provider&#160;and 
+ a&#160;service provider.</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: normal; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt;"><span style="color: #000000;">To 
+ implement SAML, there are two prerequisites:</span></p>
+<ol start="1" style="list-style: decimal; margin-top: 0in;">
+	<li class="MsoNormal" style="color: #000000; line-height: 20.0pt; mso-list: l0 level1 lfo1;"><span 
+	 style="color: windowtext;">The application should run on https with 
+	 valid SSL.</span></li>
+	<li class="MsoNormal" style="color: #000000; line-height: 20.0pt; mso-list: l0 level1 lfo1;">Java 
+	 KeyStore file generated from SSL certificate like JKS with alias and 
+	 secret of JKS file.</li>
+</ol>
+<p>&#160;</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: normal; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial;">&#160;</p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><b><span 
+	 lang="EN-IN" xml:lang="EN-IN">Integrating SAML with ORBIT application</span></b></p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span 
+	 lang="EN-IN" xml:lang="EN-IN">To integrate SAML with ORBIT application 
+ create a SAML authority in ORBIT</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; color: #000000; font-family: Arial; 
+		 font-size: medium; font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: 400; letter-spacing: normal; 
+		 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 list-style: disc;">
+	<li style="font-weight: bold; text-decoration: none; "><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+		 line-height: 26.6667px; font-size: 10pt; font-weight: bold; text-decoration: none; "><a 
+	 href="Creating_a_SAML_Authority.htm" style="font-weight: bold; text-decoration: none; ">Creating 
+	 a SAML Authority</a></p></li>
+	<li style="font-weight: bold; text-decoration: none; "><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+		 line-height: 26.6667px; font-size: 10pt; font-weight: bold; text-decoration: none; "><a 
+	 href="Working_with_Single_Sign-on.htm" style="font-weight: bold; text-decoration: none; ">Working 
+	 with Single Sign-on</a></p></li>
+	<li style="font-weight: bold; text-decoration: none; "><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+		 line-height: 26.6667px; font-size: 10pt; font-weight: bold; text-decoration: none; "><a 
+	 href="Configuring_Service_Provider_Details_at_IDP_Website.htm" style="text-decoration: none; ">Configuring 
+	 Service Provider Details at IDP Website</a></p></li>
+</ul>
+</body>
+</html>

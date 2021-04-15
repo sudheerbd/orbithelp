@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Search Base Groups LDAP</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("User Management\nWorking with Authorities\nLDAP\nGroup Search Information\nSearch Base Groups");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Security.htm\">User Management<\/a> > <a href=\"Working_with_Authorities.htm\">Working with Authorities<\/a> > <a href=\"LDAP.htm\">LDAP<\/a> > <a href=\"Group_Search_Information.htm\">Group Search Information<\/a> > Search Base Groups<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1 style="font-family: Arial, sans-serif;">Search Base Group</h1>
+<p class="MsoNormal" style="line-height: 150%; mso-bidi-font-weight: normal; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><b>To Retrieve the 
+ Users under a Group</b></p>
+<ol style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; line-height: 200%;">Under 
+	 the <b style="mso-bidi-font-weight: normal;">Group Search Information</b> 
+	 section, in the <b style="mso-bidi-font-weight: normal;">Search Base</b> 
+	 box, type the starting point of the group.</p></li>
+</ol>
+<p class="examples" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px; margin-top: 0.5pt; margin-bottom: 0.5pt; 
+	 line-height: 200%;"><span style="font-weight: bold;">Example</span>: 
+ Search Base: ou=Roles<span style="mso-list: none; font-family: Arial, sans-serif; 
+							 font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;&#160;</font></span></p>
+<p class="examples" style="mso-list: none; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;"><img src="image1160.gif" alt="" 
+												 style="border-left-width: 1px; 
+												 border-left-style: Solid; 
+												 border-top-width: 1px; 
+												 border-top-style: Solid; 
+												 border-right-width: 1px; 
+												 border-right-style: Solid; 
+												 border-bottom-width: 1px; 
+												 border-bottom-style: Solid;" 
+												 width="810" height="524" 
+												 border="1" /></p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt; 
+	 margin-left: 40px;">Prior to this set the required attributes. See 
+ <i style="mso-bidi-font-style: normal;"><a href="Attributes.htm" style="font-family: Arial, sans-serif; 
+											 font-size: 10pt;">Attributes</a></i> 
+ for more information.</p>
+<ol start="2" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; line-height: 200%;">This 
+	 retrieves all the users under “<span style="mso-bidi-font-size: 12.0pt;">Roles</span>”. 
+	 However, to search a specific user, in the <b style="mso-bidi-font-weight: normal;">User 
+	 Name</b> box, type the required username, and then click <b style="mso-bidi-font-weight: normal;">Search</b>.</p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; line-height: 200%;">The 
+	 selected user appears under <b style="mso-bidi-font-weight: normal;">Available 
+	 Users</b>.</p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; line-height: 200%;">Select 
+	 the required user and then click <img src="image1163.gif" alt="" style="border: none;" 
+											 width="42" height="35" border="0" /> 
+	 . The selected user appears under <b style="mso-bidi-font-weight: normal;">Selected 
+	 Users</b> as shown below.</p></li>
+</ol>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;"><img src="image1162.gif" alt="" 
+												 style="border-left-width: 1px; 
+												 border-left-style: Solid; 
+												 border-top-width: 1px; 
+												 border-top-style: Solid; 
+												 border-right-width: 1px; 
+												 border-right-style: Solid; 
+												 border-bottom-width: 1px; 
+												 border-bottom-style: Solid;" 
+												 width="763" height="531" 
+												 border="1" /></p>
+<ol start="5" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; line-height: 200%;">To 
+	 import the user, click <b style="mso-bidi-font-weight: normal;">Import.</b></p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; line-height: 200%;">On 
+	 the left-hand side menu, point to <b style="mso-bidi-font-weight: normal;">User 
+	 Management</b>, and then click <b style="mso-bidi-font-weight: normal;">Users</b>.</p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; line-height: 200%;">The 
+	 imported user appears under the list of users under <b style="mso-bidi-font-weight: normal;">Users</b> 
+	 section. <span style="mso-spacerun: yes;"><b style="mso-bidi-font-weight: normal;">&#160;</b>&#160;</span></p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoNormal" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; line-height: 200%;">When 
+	 the required user is selected its associated roles also appears under 
+	 <b style="mso-bidi-font-weight: normal;">Assigned Roles</b> as shown 
+	 below.</p></li>
+</ol>
+<p class="MsoNormal" style="line-height: 150%; font-weight: bold; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Result</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;"><img src="image1161.gif" alt="" 
+												 style="border-left-width: 1px; 
+												 border-left-style: Solid; 
+												 border-top-width: 1px; 
+												 border-top-style: Solid; 
+												 border-right-width: 1px; 
+												 border-right-style: Solid; 
+												 border-bottom-width: 1px; 
+												 border-bottom-style: Solid;" 
+												 width="1079" height="150" 
+												 border="1" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

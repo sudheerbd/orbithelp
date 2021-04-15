@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc66.js\"  name=\"Polar Charts \" url=\"Polar_Charts.htm\"><item name=\"Pie Basic and Pie Donut\" url=\"Pie_Basic_and_Pie_Donut.htm\" /><item name=\"Radar \" url=\"Radar.htm\" /></data>";

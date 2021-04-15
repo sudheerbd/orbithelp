@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating an Excel Template</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "13.4.0_1";
+</script>
+ <meta name="brsprev" value="Creating_Templates.htm">
+ <meta name="brsnext" value="Creating_a_Word_Template.htm">
+ <meta name="topic-breadcrumbs" content="Publisher Report > Creating Templates" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating an Excel Template</h1>
+<p>&#160;</p>
+<p><strong>To Create an Excel Template</strong></p>
+<p>&#160;</p>
+<ol start="1" style="list-style: decimal;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l0 level1 lfo1; tab-stops: list .5in; font-size: 10pt; 
+		 margin-left: -20px;"><span style="mso-fareast-font-family: 'Times New Roman';">Open 
+	 the Excel Sheet. </span></li>
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l0 level1 lfo1; tab-stops: list .5in; font-size: 10pt; 
+		 margin-left: -20px;">In the Excel sheet, enter the required columns 
+	 (highlighted as “1”).</li>
+</ol>
+<p>&#160;</p>
+<p>&#160;&#160;&#160;&#160;<img src="image154.gif" alt="" style=" border:none; width:100%; max-width:335px;" border="0" /></p>
+<p>&#160;</p>
+<p>3. To extract the column values under the required columns, enter the 
+ column numbers as ${COL0}, ${COL1}, and so on (highlighted as “2”).</p>
+<p>&#160;</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;<img src="image155.gif" alt="" style=" border:none; width:100%; max-width:354px;" border="0" /></p>
+<p>&#160;The column values <strong>${COL0}</strong>, <strong>${COL1}</strong> 
+ and so on are the same as the columns under the Query section in publisher 
+ report.</p>
+<p>&#160;</p>
+<p>For example, as shown in the figure below, ${COL0} under “<strong>Customer 
+ Name</strong>” in the excel sheet is same as the “<strong>COL0”</strong> 
+ under <strong>Query</strong> section which maps to “<strong>Customer Name</strong>” 
+ under <strong>Query Details</strong> in publisher report.&#160;</p>
+<p>&#160;</p>
+<p><img src="image547.gif" alt="" style=" border:none; width:100%; max-width:426px;" border="0" /></p>
+<p>&#160;</p>
+<span style="mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">Now, create 
+ different names (for example header, data etc.) that will be used as bands 
+ with the same name (as in excel sheet) in the ORBIT Publisher Report.</span> 
+ 
+<br />&#160; 
+<br />&#160; 
+<br />&#160;<span style="font-weight: bold;">Creating a Name</span> 
+ 
+<br />&#160; 
+<br />&#160; 
+<p><strong>&#160;&#160;To Create a Name</strong></p>
+<p>&#160;</p>
+<p style="mso-fareast-font-family: 'Times New Roman';">1. On the <strong>Formulas</strong> 
+ menu, in the <strong>Defined Names</strong> group, click <img src="image157.gif" alt="" style=" border:none; width:100%; max-width:33px;" border="0" /><strong>Name Manager.</strong></p>
+<p><strong><span style="mso-fareast-font-family: 'Times New Roman'; font-weight: normal;">2.</span><span 
+	 style="mso-fareast-font-family: 'Times New Roman';"> Name Manager</span></strong> 
+ <span style="mso-fareast-font-family: 'Times New Roman';">dialog appears.</span></p>
+<p style="mso-fareast-font-family: 'Times New Roman';">&#160;</p>
+<p style="mso-fareast-font-family: 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;<img src="image159.gif" alt="" style=" border:none; width:100%; max-width:384px;" border="0" /></p>
+<p style="mso-fareast-font-family: 'Times New Roman';">&#160;</p>
+<p>3. To create a new band, click <strong>New</strong> (highlighted as 
+ “1”).</p>
+<p><strong><span style="font-weight: normal;">4.</span> New Name</strong> 
+ dialog appears. </p>
+<p>5. In the <strong>New Name</strong> dialog, perform the following:</p>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l5 level1 lfo2; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">In the <strong>Name</strong> 
+	 box, type the name of the band.</span></li>
+</ul>
+<p>&#160;</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="mso-no-proof: yes;"><img src="clip_image005.png" alt="(tick)" border="0" style="width:100%; max-width:15px" /></span>&#160;Example: 
+ Name: Header</p>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l4 level1 lfo3; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">To enter the values 
+	 in the <strong>Refers to</strong> box, click <img src="image161.gif" alt="" style=" border:none; width:100%; max-width:24px;" border="0" /> 
+	 beside the <strong>Refers to. </strong></span></li>
+</ul>
+<p>&#160;</p>
+<p><strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</strong><b 
+	 style="mso-bidi-font-weight: normal;"><strong>&#160;&#160;</strong></b><img src="image160.gif" alt="" style=" border:none; width:100%; max-width:264px;" border="0" /></p>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l8 level1 lfo4; tab-stops: list .5in; font-size: 10pt;"><strong><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">New Name – Refers 
+	 to</span></strong><span> </span><span style="mso-fareast-font-family: 'Times New Roman';">dialog 
+	 appears with the cursor inside the textbox.</span></li>
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l8 level1 lfo4; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">Select the required 
+	 cells from the excel sheet (highlighted as “2”).</span></li>
+</ul>
+<p>&#160;</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image162.gif" alt="" style=" border:none; width:100%; max-width:457px;" border="0" /></p>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l3 level1 lfo5; tab-stops: list .5in; font-size: 10pt;"><strong><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">In the New Name 
+	 -Refers to</span></strong><span> </span><span style="mso-fareast-font-family: 'Times New Roman';">dialog, 
+	 the selected values appear in the textbox as shown below:</span></li>
+</ul>
+<p>&#160;</p>
+<p class="MsoNormal" style="mso-fareast-font-family: 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image163.gif" alt="" style=" border:none; width:100%; max-width:257px;" border="0" /></p>
+<p><strong>&#160;&#160;&#160;</strong></p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l2 level1 lfo6; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">Click </span><span 
+	 style="mso-no-proof: yes;"><img src="image164.gif" alt="" style=" border:none; width:100%; max-width:25px;" border="0" /></span><span style="mso-fareast-font-family: 'Times New Roman';">to 
+	 navigate to the <strong>New Name.&#160;</strong></span></li>
+</ul>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l6 level1 lfo7; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">The selected cell 
+	 values appear in the <strong>Refers to</strong> textbox (highlighted 
+	 as “3”).</span></li>
+</ul>
+<p>&#160;</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image165.gif" alt="" style=" border:none; width:100%; max-width:270px;" border="0" /></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l9 level1 lfo8; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">To save the changes, 
+	 click <strong>OK</strong>.</span></li>
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l9 level1 lfo8; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">The band name 
+	 appears in the <strong>Name Manager</strong> dialog (highlighted as 
+	 “4”).</span></li>
+</ul>
+<p>&#160;</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="mso-no-proof: yes;"><img src="image166.gif" alt="" style=" border:none; width:100%; max-width:457px;" border="0" /></span></p>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l7 level1 lfo9; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">To close the dialog, 
+	 click <strong>Close</strong>.</span></li>
+</ul>
+<p>&#160;</p>
+<ul style="list-style: disc; font-size: 10pt;">
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l1 level1 lfo10; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">Now create a new 
+	 band “<strong>Data</strong>”, and place the column values <strong>${COL0}, 
+	 ${COL1}</strong> and so on in the <strong>Data</strong> band using 
+	 the above process.</span></li>
+	<li class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; 
+		 mso-list: l1 level1 lfo10; tab-stops: list .5in; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman';">Save the Workbook 
+	 with an appropriate name and close it.</span></li>
+</ul>
+<p style="mso-fareast-font-family: 'Times New Roman';">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p style="mso-fareast-font-family: 'Times New Roman';">Table and 
+	 Pivot cannot be used for creating templates in Excel. </p></li>
+</ul>
+</body>
+</html>

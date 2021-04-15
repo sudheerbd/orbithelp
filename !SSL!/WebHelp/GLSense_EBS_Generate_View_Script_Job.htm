@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>GLSense EBS Generate View Script Job</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Jobs\nPlugin Jobs\nGLSense EBS Generate View Script Job");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Jobs1.htm\">Jobs<\/a> > <a href=\"Plugin_Jobs.htm\">Plugin Jobs<\/a> > GLSense EBS Generate View Script Job<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>GLSense EBS Generate View Script Job</h1>
+<p style="margin-top: 0px; margin-bottom: 0px;">This job generates materialized 
+ view or standard view script for the EBS Finance Cubes which has same 
+ datasource in both source and target connection.</p>
+<p style="font-weight: bold; margin-top: 0px; margin-bottom: 0px;">To Generate 
+ EBS Materialized view script</p>
+<p style="margin-bottom: 6px; margin-top: 0px;"><span style="font-weight: bold;">Prerequisite</span>: 
+ You must have the EBS Finance Cube.</p>
+<ol style="list-style: decimal;">
+	<li><p style="margin-top: 0px; line-height: Normal; margin-bottom: 0px;">On 
+	 the left-hand side menu, point to <img src="image3628.gif" alt="" 
+											 style="border: none;" border="0" /> 
+	 , and then click <span style="font-weight: bold;">Jobs</span>. </p></li>
+	<li><p style="line-height: Normal; margin-top: 0px; margin-bottom: 0px;"><span 
+	 style="font-weight: bold;">Jobs</span> page appears with a list of 
+	 <span style="font-weight: bold;">Seeded, Custom</span> and<span style="font-weight: bold;"> 
+	 Plugin </span>jobs. </p></li>
+	<li><p style="line-height: 150%; margin-top: 0px; margin-bottom: 0px;">Under 
+	 <span style="font-weight: bold;">Jobs</span> sections, on <span style="font-weight: bold;">GLSense 
+	 EBS Generate View Script Job</span>, click <img src="image3629.gif" 
+													 alt="" style="border: none;" 
+													 border="0" /> , and 
+	 then click <img src="image3631.gif" alt="" style="border: none;" border="0" /> 
+	 <span style="font-weight: bold;">Schedule</span>.</p></li>
+	<li><p style="margin-top: 0px; margin-bottom: 0px;"><span style="font-weight: bold;">Schedule 
+	 Job</span> dialog appears.</p></li>
+	<li><p style="margin-top: 0px; margin-bottom: 0px;">In the <span style="font-weight: bold;">Schedule 
+	 Job</span> dialog, on <span style="font-weight: bold;">Parameters</span> 
+	 tab, perform the following:</p></li>
+	<ol style="list-style: lower-alpha;">
+		<li><p style="margin-top: 0px; margin-bottom: 0px;">In the <span 
+		 style="font-weight: bold;">Finance Cubes</span> box, select the 
+		 required finance cube from the list.</p></li>
+	</ol>
+</ol>
+<p class="note" style="margin-left: 0px; margin-top: 0px; margin-bottom: 0px; 
+	 line-height: 200%;">Only EBS Finance Cubes are shown in the list.</p>
+<ol style="list-style: decimal;">
+	<ol start="2" style="list-style: lower-alpha;">
+		<li><p style="margin-top: 0px; margin-bottom: 0px;">In the <span 
+		 style="font-weight: bold;">Ledgers</span> box, select the required 
+		 ledgers.</p></li>
+	</ol>
+</ol>
+<p class="note" style="margin-left: 0px; margin-top: 0px; margin-bottom: 0px; 
+	 line-height: 200%;">You can select multiple ledgers.</p>
+<ol style="list-style: decimal;">
+	<ol start="3" style="list-style: lower-alpha;">
+		<li><p style="margin-top: 0px; margin-bottom: 0px;">In the <span 
+		 style="font-weight: bold;">Start</span> <span style="font-weight: bold;">Date</span> 
+		 box, select the required year from the list for each ledger.</p></li>
+	</ol>
+</ol>
+<p class="note" style="margin-left: 0px; margin-top: 0px; margin-bottom: 0px; 
+	 line-height: 200%;"><span style="line-height: 107%; font-family: Arial, sans-serif; 
+								 mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; 
+								 mso-ansi-language: EN-IN; mso-fareast-language: EN-US; 
+								 mso-bidi-language: AR-SA;">A finance cube 
+ could have multiple years of data. For, better performance it is recommended 
+ to extract the data for one or two years.</span> </p>
+<ol style="list-style: decimal;">
+	<ol start="4" style="list-style: lower-alpha;">
+		<li><p style="margin-top: 0px; margin-bottom: 0px;">Select <span 
+		 style="font-weight: bold;">Materialized</span> <span style="font-weight: bold;">View</span> 
+		 or <span style="font-weight: bold;">Standard</span> <span style="font-weight: bold;">View</span> 
+		 from the <span style="font-weight: bold;">Generate</span> option.</p></li>
+		<li><p style="margin-top: 6px; margin-bottom: 6px;">To execute 
+		 the script after generating it, select “Execute the generated 
+		 script in the target connection”.</p></li>
+	</ol>
+</ol>
+<p style="margin-left: 40px; margin-top: 6px; margin-bottom: 6px;">&#160;<img 
+	 src="image3697.gif" style="border: none;" alt="" border="0" /></p>
+<ol start="6" style="list-style: decimal;">
+	<li><p style="margin-top: 0px; margin-bottom: 0px;">To schedule the 
+	 job, click <span style="font-weight: bold;">Submit</span>.</p></li>
+	<li><p style="margin-top: 0px; margin-bottom: 0px;">To cancel the job, 
+	 click <span style="font-weight: bold;">Cancel</span>.</p></li>
+</ol>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

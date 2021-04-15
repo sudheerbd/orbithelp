@@ -1,0 +1,84 @@
+﻿[Target:Responsive HTML5]
+SSLayoutType=2
+MindReader Server=
+ActionID For Generation=1002
+ResultFileName=!SSL!\Responsive_HTML5\ORBIT_Analytics_Help_index.htm
+Remove Folder with prompt=1
+CreateProjectTime=00:31, August 20, 2020
+CreateProjectUser=Divya
+SupportMas_MPJ=1
+ViewFileName=!SSL!\Responsive_HTML5\ORBIT_Analytics_Help_index.htm
+ResultStatus=3
+ResultStatusSharePoint=3
+[Target:FlashHelp]
+SSLayoutType=2
+[Target:Adobe AIR]
+SSLayoutType=512
+[Target:WebHelp]
+SSLayoutType=2
+ActionID For Generation=1001
+ResultFileName=C:\Users\Divya\Desktop\9.2 Inline Help\ORBIT_Analytics_Help_index.htm
+Remove Folder with prompt=1
+CreateProjectTime=02:07, August 20, 2020
+CreateProjectUser=Divya
+SupportMas_MPJ=1
+ViewFileName=C:\Users\Divya\Desktop\9.2 Inline Help\ORBIT_Analytics_Help_index.htm
+ResultStatus=0
+BuildTimeHi=30832232
+BuildTimeLow=-465805290
+[Target:XML Output]
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+SSLayoutType=2
+[Target:Printed Documentation]
+SSLayoutType=7
+ActionID For Generation=1001
+ResultFileName=C:\Users\Divya\Desktop\2020\2020 Work according to months\08 Aug\SAML\Printed_Documentation_scriptreport_from_inline_help.doc
+Remove Folder with prompt=1
+CreateProjectTime=08:48, August 17, 2020
+CreateProjectUser=Divya
+SupportMas_MPJ=1
+ViewFileName=C:\Users\Divya\Desktop\2020\2020 Work according to months\08 Aug\SAML\Printed_Documentation_scriptreport_from_inline_help.doc
+ResultStatus=0
+BuildTimeHi=30831685
+BuildTimeLow=577037611
+[Target:Mobile App]
+SSLayoutType=3
+[Target:Multiscreen HTML5]
+SSLayoutType=2
+[Target:eBook]
+SSLayoutType=2
+[Target:Microsoft HTML Help]
+SSLayoutType=1
+[Target:WebHelp Pro]
+SSLayoutType=32
+[PreSingleSource]
+Html Help Project=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.hhp
+Table Of Content=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Help.hhc
+Index=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Help.hhk
+Topic Index=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\RHTopicKeyword$.hhk
+See Also Index=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.hha
+Browse Sequence=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.brs
+Glossary=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Help.glo
+Topic Properties=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trs
+Active Folders=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trf
+Baggage Files=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trb
+Skin List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trk
+Active Layout Names=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trl
+Template Files=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trt
+Project TOC List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trtocl
+Project Index List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.tridxl
+Project Glossary List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trglol
+Project CSS List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trcss
+Project Variable Set List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.trvset
+External URL Settings=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\SearchOptions.xml
+Screen Template File Details=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\ORBIT Analytics Help 9.2.sctfdl
+CPSwfToHTML5Map=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\__cpSwf2HTML5ZipMap
+Default Topic=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\Introduction.htm
+Build Tags0=21032;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\!Language!\en_US\RoboHHRE.lng
+Stop List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\9.2.0\ORBIT Analytics Help 9.2\!Language!\en_US\ORBIT Analytics Help 9.2.stp

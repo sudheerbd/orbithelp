@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Introduction to Datasets ","url":"Introduction_to_Datasets.htm"},{"type":"item","name":"Creating Datasets ","url":"Creating_Datasets.htm"},{"type":"item","name":"Viewing Datasets ","url":"Viewing_Datasets.htm"},{"type":"item","name":"Filtering Datasets ","url":"Filtering_Datasets.htm"},{"type":"item","name":"Editing Datasets ","url":"Editing_Datasets.htm"},{"type":"item","name":"Deleting Datasets ","url":"Deleting_Datasets.htm"},{"type":"item","name":"Renaming Datasets ","url":"Renaming_Datasets.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

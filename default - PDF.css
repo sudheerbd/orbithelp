@@ -1,0 +1,505 @@
+﻿/*Created with Adobe RoboHelp 2019.*/
+body {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+h1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #808080;
+}
+h2 {
+	font-weight: bold;
+	color: #2d66bc;
+	font-size: 16pt;
+}
+h3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+	color: #2d66bc;
+}
+h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	margin-top: 4.5pt;
+	margin-bottom: 0pt;
+	font-family: Arial;
+	line-height: 130%;
+	font-size: 12pt;
+	mso-bidi-font-weight: normal;
+}
+a.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+a.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+ol,
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Arial;
+	line-height: 200%;
+	font-size: 10pt	 ! important ;
+}
+table.SimpleGridBlue {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.SimpleGridBlue td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.SimpleGridBlue tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.SimpleGridBlue tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.tableforhP {
+	width: 80%;
+	table-layout: auto;
+	border-collapse: collapse;
+	font-family: Arial;
+	font-size: 10pt;
+	border: 1px solid black;
+}
+table.tableforhP td {
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+table.tableforhP th {
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #3892d3;
+	color: white;
+	border: 1px solid black;
+}
+table.tableforhP thead tr {
+	display: block;
+}
+
+table.tableforhP tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.LMWorkArea {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.LMWorkArea td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.LMWorkArea tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.LMWorkArea tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.LM1 {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.LM1 td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.LM1 tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.LM1 tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.style1 {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.style1 td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.style1 tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.style1 tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.style2 {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.style2 td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.style2 tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.style2 tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.MenuOptions {
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.MenuOptions td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.MenuOptions tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.MenuOptions tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.fixed_headers {
+	width: 80%;
+	table-layout: auto;
+	border-collapse: collapse;
+	font-family: Arial;
+	font-size: 10pt;
+	border: 1px solid black;
+}
+table.fixed_headers td {
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+table.fixed_headers th {
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #3892d3;
+	color: white;
+	border: 1px solid black;
+}
+table.fixed_headers tbody{
+	display:block;
+	width: 100%;
+	overflow: auto;
+	height: px;
+}
+table.fixed_headers thead tr {
+	display: block;
+}
+li.Bullets {
+	font-size: 10pt;
+	list-style: disc;
+}
+li.Numbered {
+	list-style: decimal;
+	font-size: 10pt;
+	margin-left: -20px;
+}
+p.note {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #fffbea;
+	border: solid 1px #f1c40f;
+	border-bottom-color: #ffd700;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+}
+p.note2 {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #fffbea;
+	border: solid 1px #f1c40f;
+	border-bottom-color: #ffd700;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+}
+p.note:before {
+	content: "Note: ";
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+}
+p.warning {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #f9e7e5;
+	border: solid 1px #c0392b;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+	text-transform: uppercase;
+}
+p.warning2 {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #f9e7e5;
+	border: solid 1px #c0392b;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+	text-transform: uppercase;
+}
+p.warning:before {
+	content: "WARNING: ";
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 12pt;
+}
+p.example {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #e7f6f0;
+	border: solid 1px #27ae60;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+	line-height: 18pt;
+}
+p.example2 {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #e7f6f0;
+	border: solid 1px #27ae60;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+	line-height: 18pt;
+}
+p.example:before {
+	content: "Example: ";
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+}
+p.tip {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #f0f7fb;
+	border: solid 1px #3498db;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+}
+p.tip:before {
+	content: "Tip: ";
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+}
+p.mono {
+	font-family: monospace;
+}
+p.codeblock {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	font-family: monospace;
+	background-color: #eee;
+	border: solid 1px #999;
+	border-bottom-color: #999;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 12px;
+	margin: 10px;
+}

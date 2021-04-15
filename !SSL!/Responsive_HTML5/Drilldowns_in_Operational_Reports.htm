@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Drilldowns in Data Reports</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "10.5";
+</script>
+ <meta name="brsprev" value="Multiple_Conditions_on_Same_Column.htm">
+ <meta name="brsnext" value="Multiple_Drilldowns_in_a_Report.htm">
+ <meta name="topic-breadcrumbs" content="Data Reports" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Drilldowns in Data Reports </h1>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 mso-bidi-font-weight: normal; line-height: 200%; font-size: 10pt;"><b>To 
+ work with Drilldowns</b></p>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 mso-bidi-font-weight: normal; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">1.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Create a Report 
+ on which the drilldown needs to be performed.</span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Arial; mso-bidi-font-family: Arial; 
+	 mso-fareast-language: JA; mso-list: Ignore;">2.</span><span style="mso-fareast-font-family: Arial; 
+	 mso-bidi-font-family: Arial; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Save the report 
+ by clicking <b style="mso-bidi-font-weight: normal;">Save.</b></span> 
+ </p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Arial; mso-bidi-font-family: Arial; 
+	 mso-fareast-language: JA; mso-list: Ignore;">3.</span><span style="mso-fareast-font-family: Arial; 
+	 mso-bidi-font-family: Arial; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The report (highlighted 
+ as “1”) appears under <b style="mso-bidi-font-weight: normal;">Reports</b> 
+ on the left-hand side.</span> </p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><img src="264.png" alt="" style=" border:none; width:100%; max-width:304px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Arial; mso-bidi-font-family: Arial; 
+	 mso-fareast-language: JA; mso-list: Ignore;">4.</span><span style="mso-fareast-font-family: Arial; 
+	 mso-bidi-font-family: Arial; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Open the newly 
+ created report.</span><span style="line-height: 150%; mso-fareast-language: JA; 
+							 mso-spacerun: yes;">&#160;</span> </p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Arial; mso-bidi-font-family: Arial; 
+	 mso-fareast-language: JA; mso-list: Ignore;">5.</span><span style="mso-fareast-font-family: Arial; 
+	 mso-bidi-font-family: Arial; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">On the top right-hand 
+ corner of the Run Results area, click <b style="mso-bidi-font-weight: normal;">Options</b><img src="Options.png" alt="" style=" border:none; width:100%; max-width:33px;" border="0" />, and 
+ then click <b style="mso-bidi-font-weight: normal;">Drilldowns </b></span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 font-weight: normal;">(highlighted 
+ as &quot;2&quot;).</span></b> </p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><img src="265.png" alt="" style=" border:none; width:100%; max-width:637px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">6.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Drilldowns</span></b> 
+ <span style="line-height: 150%; mso-fareast-language: JA;">dialog box 
+ appears. </span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="266.png" alt="" style=" border:none; width:100%; max-width:415px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-align: center; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; mso-bidi-font-weight: normal; line-height: 200%; 
+	 font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">7.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Drilldowns</b> 
+ dialog box, perform the following:</span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Drag and drop 
+ the required drilldown report that has the required parameters (highlighted 
+ as “3”) under the <b style="mso-bidi-font-weight: normal;">Drilldowns</b> 
+ area.</span></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><img src="267.png" alt="" style=" border:none; width:100%; max-width:632px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Drilldown 
+ Column</span></b> <span style="line-height: 150%; mso-fareast-language: JA;">and 
+ <b style="mso-bidi-font-weight: normal;">Navigate To</b> options appear.</span></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><img src="268.png" alt="" style=" border:none; width:100%; max-width:632px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Parameters</b> 
+ area, the required parameter (highlighted as “4”) appears with a list 
+ of available values for the parameter.</span></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">From the required 
+ report, drag and drop the required columns from report configurator area 
+ of the required report to the <b style="mso-bidi-font-weight: normal;">Drilldown 
+ Column</b> box (highlighted as “5”).</span></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><img src="269.png" alt="" style=" border:none; width:100%; max-width:647px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Navigate 
+ To</b> box (highlighted as “6”), click the required option from the following:</span></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l1 level2 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 mso-list: Ignore;">a.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></b>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">New 
+ Tab</span></b></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l1 level2 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 mso-list: Ignore;">b.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></b>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Window</span></b></p>
+<p class="BodyText2" style="margin-left: 1.25in; text-indent: -.25in; mso-list: l1 level2 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">From the Parameters 
+ Value box (highlighted as “7”), select the required option from the list.</span></p>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To save the changes, 
+ click <b style="mso-bidi-font-weight: normal;">Ok.</b></span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">8.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The drilldown 
+ report appears as selected in <b style="mso-bidi-font-weight: normal;">Navigate 
+ To</b> box.</span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">9.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The drilldown 
+ down column appears as shown below:</span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;<img src="270.png" alt="" style=" border:none; width:100%; max-width:737px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: .5in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">10.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">Select the drill down column to view the 
+ result.</span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="271.png" alt="" style=" border:none; width:100%; max-width:628px;" border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Bursting for FTP</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Reports\nScheduling a Report\nBursting\nBursting for FTP");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Reports.htm\">Reports<\/a> > <a href=\"Scheduling_a_Report.htm\">Scheduling a Report<\/a> > <a href=\"Bursting.htm\">Bursting<\/a> > Bursting for FTP<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Bursting for FTP</h1>
+<p style="font-weight: bold;">To perform bursting for FTP</p>
+<ol style="list-style: decimal;">
+	<li><p>In the <span style="font-weight: bold;">Delivery Plans</span> 
+	 dialog box, perform the following:</p></li>
+	<ol style="list-style: lower-alpha;">
+		<li><p>In the <span style="font-weight: bold;">Plan Name</span> 
+		 box, type the required delivery plan name.</p>
+		<p class="example">Plan Name : Bursting</p></li>
+		<li><p>In the <span style="font-weight: bold;">Description</span> 
+		 box, type the required description.</p>
+		<p class="example">Description is an optional field.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Delivery Type</span> 
+		 box, select the required delivery type from the following:</p></li>
+		<ul style="list-style: disc;">
+			<li><p>EMAIL</p></li>
+			<li><p>FTP</p></li>
+			<li><p>FILE</p></li>
+		</ul>
+		<li><p>To maintain the history of the delivery plan, select the 
+		 <span style="font-weight: bold;">Maintain History</span> checkbox.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Split/Delivery By</span> 
+		 box, drag the required field from the business object section.</p>
+		<p class="note">Since, bursting is done region-wise, drag Region 
+		 from the business object section.</p>
+		<p class="example">Split/Delivery By: Region</p></li>
+		<li><p>In the <span style="font-weight: bold;">Report Mapping Field</span> 
+		 list, select the required field that needs to be mapped to the 
+		 field with which the bursting is done.</p>
+		<p class="note">Since, bursting is done region-wise, and “Sample-Superstore”.<br />
+		“Region” appears in the Split/Delivery By box, the Report Mapping 
+		 Fields must be mapped appropriately.<br />
+		Split/Delivery by and Report Mapping Fields are mandatory fields.</p>
+		<p class="example">Report Mapping Field: Region</p>
+		<p><img src="image1600.gif" alt="" style="border-width: 1px; border-style: solid;" 
+				 border="1" /></p></li>
+	</ol>
+	<li><p>Under <img src="image1601.gif" alt="" border="0" /> <span style="font-weight: bold;">FTP</span> 
+	 tab, perform the following:</p></li>
+	<ol style="list-style: lower-alpha;">
+		<li><p>In the <span style="font-weight: bold;">Select Server</span> 
+		 box, drag and drop the required field from the business object 
+		 or select the already available FTP server from the list.</p>
+		<p class="note">Here, the existing FTP details have been selected.</p>
+		<p class="example">Select Server: Test Bursting</p></li>
+		<li><p>In the <span style="font-weight: bold;">Server Name</span> 
+		 box, drag and drop the required field from the business object 
+		 or type the required server name by clicking <img src="image1602.gif" 
+															 alt="" border="0" />.</p></li>
+		<li><p>In the <span style="font-weight: bold;">User Name</span> 
+		 box, drag and drop the required field from the business object 
+		 or type the required user name by clicking <img src="image1603.gif" 
+														 alt="" border="0" />.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Password</span> 
+		 box, drag and drop the required field from the business object 
+		 or type the required password by clicking <img src="image1604.gif" 
+														 alt="" border="0" />.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Port</span> box, 
+		 drag and drop the required field from the business object or type 
+		 the required port by clicking <img src="image1605.gif" alt="" 
+											 border="0" />.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Remote Directory</span> 
+		 box, drag and drop the required field from the business object 
+		 or type the required remote directory by clicking <img src="image1606.gif" 
+		 alt="" border="0" />.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Remote File Name</span> 
+		 box, drag and drop the required field from the business object 
+		 or type the required remote file name by clicking <img src="image1607.gif" 
+		 alt="" border="0" />.</p>
+		<p class="note">Server Name, User Name, Password, Port, Remote 
+		 Directory, and Remote File Name depend on the desired business 
+		 environment.</p></li>
+		<li><p>From the <span style="font-weight: bold;">Secured</span> 
+		 list, select the required option from the following:</p></li>
+		<ul style="list-style: disc;">
+			<li><p>false</p></li>
+			<li><p>true</p></li>
+		</ul>
+		<li><p>From the <span style="font-weight: bold;">Zip</span> list, 
+		 select the required option from the following:</p></li>
+		<ul style="list-style: disc;">
+			<li><p>false</p></li>
+			<li><p>true</p></li>
+		</ul>
+		<li><p>In the <span style="font-weight: bold;">Password</span> 
+		 box, drag and drop the required field from the business object 
+		 or type the required password by clicking <img src="image1608.gif" 
+														 alt="" border="0" />. 
+		 </p>
+		<p class="note"><br />
+		Password protection is applicable only for PDF, Excel and Word.<br />
+		Password is case sensitive.</p></li>
+		<li><p>Based on selected fields, a query is formed which appears 
+		 in the Query box as shown below:</p>
+		<p><img src="image1609.gif" alt="" style="border-width: 1px; border-style: solid;" 
+				 border="1" /></p></li>
+	</ol>
+	<li><p>To save the changes, click <span style="font-weight: bold;">Save</span>.</p></li>
+	<li><p>To cancel any updates, click <span style="font-weight: bold;">Cancel</span>.</p></li>
+</ol>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

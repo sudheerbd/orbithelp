@@ -1,0 +1,581 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Getting Started with Script Report</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "14.0_3";
+</script>
+ <meta name="brsprev" value="Creating_a_Script_Report.htm">
+ <meta name="brsnext" value="Python_Scripts_for_Multiple_Outputs.htm">
+ <meta name="topic-breadcrumbs" content="Script Reports" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Getting Started with Script Report</h1>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;">To get started 
+ with a Script Report</b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">1. In the <b style="mso-bidi-font-weight: normal;">Data 
+ Explorer</b> section, click <img src="image416.gif" style=" border:none; width:100%; max-width:25px;" alt="" border="0" /><span 
+	 style="mso-spacerun: yes;">&#160;</span><b style="mso-bidi-font-weight: normal;">Choose 
+ business object</b> next to <b style="mso-bidi-font-weight: normal;">Select 
+ Business Object. </b></p>
+<p class="MsoNormal" style="line-height: 150%;">2. A list of business objects 
+ appear.</p>
+<p class="MsoNormal" style="line-height: 150%;">3. From the list, double 
+ click the required business object.</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="examples" style="line-height: 150%; mso-list: l4 level1 lfo2;"><span 
+	 style="font-size: 24.0pt; mso-bidi-font-size: 10.0pt; line-height: 150%; 
+	 font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings;"><span 
+	 style="mso-list: Ignore;">?<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span></span>&#160;Example: 
+ Required Business Object: SuperStore</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">4. To view the columns 
+ under the required business object,<img src="image417.gif" style=" border:none; width:100%; max-width:22px;" alt="" border="0" />click (highlighted 
+ as “1”) before the business object.</p>
+<p class="MsoNormal" style="line-height: 150%;">5. The columns under the 
+ selected business object appear.</p>
+<p class="MsoNormal" style="line-height: 150%;">6. On the <b style="mso-bidi-font-weight: normal;">Data</b> 
+ section, click <img src="image418.gif" style=" border:none; width:100%; max-width:22px;" alt="" border="0" /><span 
+	 style="mso-spacerun: yes;">&#160;</span><b style="mso-bidi-font-weight: normal;">Add 
+ New Query</b>.</p>
+<p class="MsoNormal" style="line-height: 150%;">7. A new query (highlighted 
+ as “2”) appears.</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;&#160;&#160;&#160;&#160;<img src="image419.gif" style=" border:none; width:100%; max-width:523px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">8. In the Query/Editor 
+ section, on the <b style="mso-bidi-font-weight: normal;">Query</b> tab, 
+ a section to drop the columns appears.</p>
+<p class="MsoNormal" style="line-height: 150%;">9.From the Data Explorer 
+ area, drag and drop the required columns onto the <b style="mso-bidi-font-weight: normal;">Query</b> 
+ tab under <b style="mso-bidi-font-weight: normal;">COLUMNS</b>.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="examples" style="mso-list: l4 level1 lfo2;"><span style="font-size: 24.0pt; 
+															 mso-bidi-font-size: 10.0pt; 
+															 font-family: Wingdings; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings;"><span 
+	 style="mso-list: Ignore;">?<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span></span>&#160;Example: 
+ Required Columns: State</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>Sales</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;</span></p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .25in; margin-right: 0in;">
+	<p class="examples" style="margin-left: .25in; mso-list: l3 level1 lfo3; 
+		 tab-stops: 49.5pt; border: none; mso-border-top-alt: solid windowtext .5pt; 
+		 mso-border-bottom-alt: solid windowtext .5pt; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;"><span 
+	 style="font-size: 22.0pt; font-family: Webdings; mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings;"><span style="mso-list: Ignore;">¥<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span></span></span>&#160;This 
+	 automatically displays a <b style="mso-bidi-font-weight: normal;">Query</b> 
+	 section (highlighted as “4”) with the query for the dragged columns.</p>
+</div>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image420.gif" style=" border:none; width:100%; max-width:448px;" alt="" border="0" /></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">10.<span 
+	 style="mso-spacerun: yes;">&#160;</span>&#160;To display the output 
+ in the desired format, perform the following:</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: l1 level1 lfo4;"><span style="font-family: Symbol; 
+															 mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Editor</b> section, enter 
+ the relevant script.</p>
+<p class="examples" style="mso-list: l1 level1 lfo4;"><span style="font-family: Symbol; 
+															 mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Select script</b> list, click 
+ the required script.</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: l4 level1 lfo2;"><span style="font-size: 24.0pt; 
+															 mso-bidi-font-size: 10.0pt; 
+															 font-family: Wingdings; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings;"><span 
+	 style="mso-list: Ignore;">?<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span></span>&#160;Example: 
+ Required script: Python 2</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;"><b 
+	 style="mso-bidi-font-weight: normal;">Generating Output in Image(.png) 
+ format</b><span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: l1 level1 lfo4;"><span style="font-family: Symbol; 
+															 mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;To 
+ generate the output in the Image (.png) format, the following script is 
+ required:</p>
+<p class="MsoListParagraph" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: none;">&#160;</p>
+<table class="MsoTableGrid" style="mso-background-themecolor: background1; 
+		 mso-background-themeshade: 242; border-collapse: collapse; border: none; 
+		 mso-yfti-tbllook: 1184; mso-table-lspace: 9.0pt; margin-left: 6.75pt; 
+		 mso-table-rspace: 9.0pt; margin-right: 6.75pt; mso-table-anchor-vertical: paragraph; 
+		 mso-table-anchor-horizontal: margin; mso-table-left: left; mso-table-top: 9.7pt; 
+		 mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-insideh: none; 
+		 mso-border-insidev: none;" bgcolor="#F2F2F2" cellspacing="0" align="left">
+	<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;">
+		<td style="vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="590"><p class="MsoNormal" style="margin-left: .5in; 
+							 text-indent: -.25in; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+							 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+							 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+							 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">import plotly.plotly as py</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">import plotly.graph_objs as go</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;"># Create random data with numpy</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">import numpy as np</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;">&#160;</p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">x=[]</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">y=[]</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">SMALL_SIZE=2</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">csv_in='${Query-0}'</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">split = &quot;,&quot;</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">number = 0</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">ynum=0;</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">value='';</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;">&#160;</p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">py.sign_in('DemoAccount', '2qdyfjyr7o') 
+		 # Replace the username, and API key with your credentials.</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;">&#160;</p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">with open(csv_in , 'r') as f:</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">first_line = f.readline()</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">for line in f:</span></p>
+		<p class="MsoNormal" style="mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+												 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;fields 
+		 = line.strip().split(',')</span></p>
+		<p class="MsoNormal" style="mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+												 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;field2 
+		 = line.replace('&quot;','').strip().split(',')</span></p>
+		<p class="MsoNormal" style="mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+												 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;x.append(fields[0])</span></p>
+		<p class="MsoNormal" style="mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+												 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;y.append((field2[1]))</span></p>
+		<p class="MsoNormal" style="mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+												 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;print(x)</span></p>
+		<p class="MsoNormal" style="mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+												 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;print(y)</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;">data = [go.Bar(</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>x=x,</span></p>
+		<p class="MsoListParagraphCxSpFirst" style="text-indent: 0in; mso-list: none; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;y=y,</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;text=y,</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span>&#160;textposition 
+		 = 'auto',</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;</span>&#160;<span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>marker=dict(</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;</span>&#160;<span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>color='rgb(158,202,225)',</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>line=dict(</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>color='rgb(8,48,107)',</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;width=1.5),</span></p>
+		<p class="MsoListParagraphCxSpLast" style="text-indent: 0in; mso-list: none; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;</span>&#160;<span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>),</span></p>
+		<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New'; 
+		 mso-fareast-language: JA;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;opacity=0.6</span></p>
+		<p class="MsoListParagraphCxSpFirst" style="text-indent: 0in; mso-list: none; 
+			 mso-element: frame; mso-element-frame-hspace: 9.0pt; mso-element-wrap: around; 
+			 mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: margin; 
+			 mso-element-top: 9.7pt; mso-height-rule: exactly;"><span style="font-family: 'Courier New';"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;)]</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';">layout 
+		 = go.Layout(title='Orbit Bar Chart', width=800, height=640)</span></p>
+		<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; 
+			 mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';">fig 
+		 = go.Figure(data=data, layout=layout)</span></p>
+		<p class="MsoListParagraphCxSpLast" style="margin-left: 0in; mso-add-space: auto; 
+			 text-indent: 0in; mso-list: none; mso-element: frame; mso-element-frame-hspace: 9.0pt; 
+			 mso-element-wrap: around; mso-element-anchor-vertical: paragraph; 
+			 mso-element-anchor-horizontal: margin; mso-element-top: 9.7pt; 
+			 mso-height-rule: exactly;"><span style="font-family: 'Courier New';">py.image.save_as(fig, 
+		 filename='${PNG}')</span></p></td>
+	</tr>
+</table>
+<p class="MsoListParagraphCxSpFirst" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoListParagraphCxSpLast" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: none;">&#160;</p>
+<p class="examples" style="mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<div style="mso-element: para-border-div; border: none; border-top: solid #000000 1.0pt; 
+	 mso-border-top-alt: solid windowtext .5pt; padding: 1.0pt 0in 0in 0in; 
+	 margin-left: .25in; margin-right: 0in;">
+	<p class="examples" style="margin-left: .25in; line-height: 150%; mso-list: l3 level1 lfo3; 
+		 tab-stops: 45.0pt; border: none; mso-border-top-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in;"><span style="font-size: 22.0pt; 
+	 line-height: 150%; font-family: Webdings; mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings;"><span style="mso-list: Ignore;">¥<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span></span></span>&#160;In 
+	 the above script, the line <b style="mso-bidi-font-weight: normal;"><span 
+	 style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 150%; 
+	 font-family: 'Courier New';">csv_in=‘${Query-0}’</span></b><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-bidi-font-family: 'Times New Roman';">, is 
+	 to specify the input for the script. Internally, the input changes 
+	 to the CSV file and the file path is specified in place of</span> 
+	 <span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt; line-height: 150%; 
+			 font-family: 'Courier New';">‘<b style="mso-bidi-font-weight: normal;">${Query-0}</b></span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="font-size: 14.0pt; 
+												 mso-bidi-font-size: 12.0pt; 
+												 line-height: 150%; font-family: 'Courier New';">’</span></b><span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-bidi-font-family: 'Times New Roman';">, 
+	 behind the scenes.<span style="mso-spacerun: yes;">&#160;</span>&#160;from 
+	 where the columns are picked up into the report.</span></p>
+</div>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<div style="mso-element: para-border-div; border: none; border-bottom: solid #000000 1.0pt; 
+	 mso-border-bottom-alt: solid windowtext .5pt; padding: 0in 0in 1.0pt 0in; 
+	 margin-left: .25in; margin-right: 0in;">
+	<p class="examples" style="margin-left: .25in; mso-list: l3 level1 lfo3; 
+		 tab-stops: 45.0pt; border: none; mso-border-bottom-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 0in 0in 1.0pt 0in;"><span style="font-size: 22.0pt; 
+	 font-family: Webdings; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings;"><span 
+	 style="mso-list: Ignore;">¥<span style="font: 7.0pt 'Times New Roman';">&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">The 
+	 line</span> <b style="mso-bidi-font-weight: normal;"><span style="font-family: 'Courier New';">py.image.save_as(fig, 
+	 filename='${PNG}')</span></b><span style="mso-bidi-font-family: 'Times New Roman';">is 
+	 to specify the output as png. You can replace JPG as well in place 
+	 of PNG.</span> </p>
+	<p class="examples" style="margin-left: 0in; text-indent: 0in; mso-list: none; 
+		 tab-stops: 45.0pt; border: none; mso-border-bottom-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 0in 0in 1.0pt 0in;">&#160;</p>
+</div>
+<p class="MsoNormal" style="margin-left: .25in;">&#160;</p>
+<p class="examples" style="margin-left: 1.0in; mso-list: l5 level1 lfo5;"><span 
+	 style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;"><span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-bidi-font-family: 'Times New Roman';"><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">·</span></span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">To 
+ save the changes, click <b style="mso-bidi-font-weight: normal;">Save</b>.</span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 1.0in; mso-list: l5 level1 lfo5;"><span 
+	 style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">To 
+ view the ouput in the PNG format, click <b style="mso-bidi-font-weight: normal;">View 
+ Mode</b> (highlighted as “5”).</span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image421.gif" style=" border:none; width:100%; max-width:464px;" alt="" border="0" /></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 1.0in; mso-list: l2 level1 lfo6;"><span 
+	 style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">The 
+ report now switches to <b style="mso-bidi-font-weight: normal;">View Mode</b> 
+ from the <b style="mso-bidi-font-weight: normal;">Edit Mode</b>.</span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 1.0in; mso-list: l2 level1 lfo6;"><span 
+	 style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">In 
+ the View Mode, click <b style="mso-bidi-font-weight: normal;">Run.</b></span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 1.0in; mso-list: l2 level1 lfo6;"><span 
+	 style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">On 
+ the <b style="mso-bidi-font-weight: normal;">Output</b> tab, the report 
+ output appears as an Image(.png) as shown below:</span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: .75in; text-indent: 0in; mso-list: none;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image422.gif" style=" border:none; width:100%; max-width:473px;" alt="" border="0" /></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="margin-left: 1.0in; mso-list: l0 level1 lfo7;"><span 
+	 style="mso-bidi-font-size: 12.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">On 
+ the <b style="mso-bidi-font-weight: normal;">Log</b> tab, the log of the 
+ generated script report appears.</span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none; mso-bidi-font-size: 12.0pt;"><span 
+	 style="mso-bidi-font-family: 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image423.gif" style=" border:none; width:100%; max-width:486px;" alt="" border="0" /></span></p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .75in; margin-right: 0in;">
+	<p class="examples" style="margin-left: .25in; line-height: 150%; mso-list: l7 level1 lfo8; 
+		 tab-stops: 85.5pt; border: none; mso-border-top-alt: solid windowtext .5pt; 
+		 mso-border-bottom-alt: solid windowtext .5pt; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;"><span 
+	 style="font-size: 22.0pt; line-height: 150%; font-family: Webdings; 
+	 mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings;"><span 
+	 style="mso-list: Ignore;">¥<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-bidi-font-family: 'Times New Roman';">To 
+	 generate different outputs, only the scripts with the required inputs 
+	 and the output formats change under <b style="mso-bidi-font-weight: normal;">Editor</b> 
+	 section. The process of creating a script report remains the same 
+	 for any output type.</span></p>
+</div>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="examples" style="text-indent: 0in; mso-list: none;">&#160;</p>
+</body>
+</html>

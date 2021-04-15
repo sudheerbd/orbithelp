@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc10.js\"  name=\"Group Search Information\" url=\"Group_Search_Information.htm\"><item name=\"Search Base \" url=\"Search_Base_Groups.htm\" /><item name=\"Search Filter Groups\" url=\"Search_Filter_Groups.htm\" /></data>";

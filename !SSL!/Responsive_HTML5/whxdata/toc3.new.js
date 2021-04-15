@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Getting Started with ORBIT Application","url":"Getting_Started_with_ORBIT_Application.htm"},{"type":"item","name":"Logging onto the ORBIT Application","url":"Logging_onto_the_ORBIT_Application.htm"},{"type":"item","name":"Forgot Password","url":"Forgot_Password.htm"},{"type":"item","name":"Introduction to Home Page Features","url":"Introduction_to_Home_Page_Features.htm"},{"type":"item","name":"Introduction to ORBIT Features","url":"Introduction_to_ORBIT_Features.htm"},{"type":"item","name":"Accessing Account Details","url":"Accessing_Account_Details.htm"},{"type":"item","name":"Changing Password","url":"Changing_Password.htm"},{"type":"item","name":"Configuring the Settings ","url":"Configuring_the_Settings.htm"},{"type":"item","name":"Logging out of the ORBIT Application","url":"Logging_out_of_the_ORBIT_Application.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

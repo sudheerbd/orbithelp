@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating a Business ObjectPE</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "19.1.1.0_3";
+</script>
+ <meta name="brsprev" value="Creating_a_Logical_Model1.htm">
+ <meta name="brsnext" value="Applying_Security_to_the_Business_Object.htm">
+ <meta name="topic-breadcrumbs" content="Practice Examples  > Creating Reports  > Creating Domain " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<p class="MsoNormal" style="margin-left: .5in; mso-bidi-font-weight: normal; 
+	 font-size: 18pt; color: #808080;"><b>Practice Example: Creating a 
+ Business Object </b></p>
+<p class="MsoNormal" style="margin-left: .5in;"><b style="mso-bidi-font-weight: normal;">To 
+ create a new Business Object</b></p>
+<p class="MsoNormal" style="margin-left: 40.5pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="mso-fareast-language: JA;">Once the Logical model is created, 
+ create a Business Object. As learnt earlier, a business object is an intermediary 
+ between the domain and the reports.</span></p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-language: JA;">To 
+ create a New Business Object</span></b></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .75in; text-indent: -.25in; line-height: 150%; 
+	 mso-list: l22 level1 lfo39; tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt;"><span 
+	 style="mso-list: Ignore;">1.</span> <span style="mso-fareast-language: JA;">Under 
+ <b style="mso-bidi-font-weight: normal;">Logical Models</b>, right-click 
+ the <b style="mso-bidi-font-weight: normal;">Business Objects,</b> and 
+ click <b style="mso-bidi-font-weight: normal;">New Business Object.</b></span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+												 mso-fareast-language: JA; 
+												 mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="line-height: 150%; tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 mso-fareast-language: JA;">&#160;</span><span style="line-height: 150%; 
+													 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+													 mso-fareast-language: JA; 
+													 mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;</span></b><span 
+	 style="line-height: 150%; tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="MsoNormal" style="margin-left: 85.5pt;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;"><span style="mso-list: Ignore;">2.</span><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-spacerun: yes;">&#160;</span><span style="mso-fareast-language: JA;">&#160;New 
+ Business Object</span></b> <span style="mso-fareast-language: JA;">dialog 
+ box appears.</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;"><span style="mso-list: Ignore;">3. </span>To create 
+ a New Business Object, perform the following:</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;"><span style="mso-list: Ignore;">·</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Name</b> 
+ box, type the name of the business object.</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;">&#160;</p>
+<p class="examples" style="line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; padding: 0in; 
+	 mso-padding-alt: 1.0pt 0in 0in 0in; background-color: #ffffff; margin-left: 80px;">?<span 
+	 style="font-size: 22.0pt; font-family: Wingdings; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">&#160;</span>Example: 
+ BO Name: Sample Business Object</p>
+<p class="examples">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;"><span style="mso-list: Ignore;">·</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Description</b> 
+ box, type the description for the business object.</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px; background-color: #ffffff;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 mso-fareast-language: JA; background-color: #ffffff; margin-left: 74px;"><span 
+	 style="mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;&#160;?</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span style="mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; mso-padding-alt: 1.0pt 0in 0in 0in;">&#160;Example: 
+ Description: Description for Sample Business Object</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;"><span style="mso-list: Ignore;">·</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">To save the business object, click 
+ <b style="mso-bidi-font-weight: normal;">Save</b>.</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l42 level1 lfo28; 
+	 tab-stops: 22.5pt 31.5pt 40.5pt 45.0pt 49.5pt 58.5pt 76.5pt 86.25pt; 
+	 margin-left: 74px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 62px;"><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore;">4.&#160;&#160;</span><span 
+	 style="mso-fareast-language: JA;">Newly created business object appears 
+ under <b style="mso-bidi-font-weight: normal;">Business Objects</b> in 
+ the <b style="mso-bidi-font-weight: normal;">Domain Hierarchy.</b></span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 62px;"><span 
+	 style="mso-fareast-language: JA;"><span style="mso-spacerun: yes;">&#160;</span></span>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="mso-fareast-language: JA;"><span style="mso-spacerun: yes;">&#160;&#160;</span></span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 56px;"><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore;">&#160;5.&#160;&#160;</span><span 
+	 style="mso-fareast-language: JA;">The newly created business object 
+ opens two sections – <b style="mso-bidi-font-weight: normal;">Logical 
+ Tables &lt;Business Object Name&gt;</b> and <b style="mso-bidi-font-weight: normal;">Business 
+ Objects</b> &#160;<b style="mso-bidi-font-weight: normal;">–</b> appear 
+ in the work area.&#160;</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 56px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 56px;"><span 
+	 style="mso-fareast-language: JA;"><span style="mso-list: Ignore;">6.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Business 
+ Objects</b>, right-click the newly created business objects, and then 
+ click <b style="mso-bidi-font-weight: normal;">New Category</b>.</span></p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 56px;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 56px; mso-fareast-language: JA; background-color: #ffffff;"><span 
+	 style="mso-list: Ignore;">?</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span 
+	 style="mso-list: l16 level1 lfo44; tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; 
+	 mso-padding-alt: 1.0pt 0in 0in 0in;">&#160;Example: Newly Created 
+ BO: Sample Business Object</span></p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 56px; mso-fareast-language: JA; background-color: #ffffff;">&#160;</p>
+<p class="MsoNormal" style="mso-list: l22 level1 lfo39; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 56px; text-indent: -.25in; line-height: 150%;"><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore;">7.</span><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-language: JA;">New 
+ Category</span></b> <span style="mso-fareast-language: JA;">option appears 
+ underneath the Business Object.</span></p>
+<p class="MsoNormal" style="mso-list: l22 level1 lfo39; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 56px; text-indent: -.25in; line-height: 150%;">&#160;&#160;&#160;<span 
+	 style="mso-list: l22 level1 lfo39; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 text-indent: -.25in; line-height: 150%;">&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; text-align: center; mso-no-proof: yes;">&#160;&#160;&#160;&#160;</span></p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 32px;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: 1.0in; margin-right: 0in;">
+	<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; 
+		 mso-list: l39 level1 lfo30; tab-stops: 40.5pt 45.0pt 49.5pt 67.5pt 86.25pt; 
+		 border: none; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in; 
+		 margin-left: 0px;"><span style="font-size: 20.0pt; mso-bidi-font-size: 12.0pt; 
+									 line-height: 150%; font-family: Webdings; 
+									 mso-fareast-font-family: Webdings; 
+									 mso-bidi-font-family: Webdings; color: #0F1177; 
+									 mso-fareast-language: JA;"><span style="mso-list: Ignore;">¥<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-fareast-language: JA;">Categories are created to organize 
+	 the reports/objects.</span></p>
+</div>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 margin-left: 32px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 56px; line-height: 150%;"><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore;">8.</span><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">To group the related columns under 
+ one category, drag the required column from the Logical tables on the 
+ left hand-side, and drop them in the related categories.</span></p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 96px;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l22 level1 lfo39; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 96px;"><span 
+	 style="mso-no-proof: yes;">?</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span 
+	 style="mso-list: l16 level1 lfo44; tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; 
+	 mso-padding-alt: 1.0pt 0in 0in 0in;">&#160;Example: Related Category: 
+ Invoices</span></p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes; margin-left: 0px;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes; margin-left: 0px;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="mso-spacerun: yes;">&#160;</span> </p>
+<p class="MsoListParagraph" style="mso-list: l22 level1 lfo39; tab-stops: 4.5pt 13.5pt .75in 60.0pt 76.5pt 99.0pt 121.5pt 130.5pt 196.5pt 330.0pt;"><span 
+	 style="mso-fareast-font-family: Arial; mso-list: Ignore;">&#160;&#160;&#160;&#160;9.&#160;&#160;&#160;&#160;</span>&#160;To 
+ save the changes, click <b style="mso-bidi-font-weight: normal;">Save.</b></p>
+</body>
+</html>

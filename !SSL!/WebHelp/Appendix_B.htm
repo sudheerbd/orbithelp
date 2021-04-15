@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Appendix B</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Appendix B");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("Appendix B<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Appendix B</h1>
+<h2><strong>Application Security Vulnerability Mitigation Configuration</strong></h2>
+<p>Application Security Vulnerability Mitigation Configuration helps prevent security incidents and data breaches as well as limit the extent of damage when security attacks do happen.</p>
+<p>Configure these settings in the &lt;<span style="font-style: italic;"><i>application.properties</i></span>&gt; file.</p>
+<p>This article lists each of the mitigations available and provides a brief description of how the mitigation works. It also describes how to enable or configure the mitigations.</p>
+<p>You can set each of the mitigations on, off, or to their default value. Some mitigations have additional options that are indicated in the description.</p>
+<p class="note2"><span style="font-weight: bold;">Note</span>: Orbit recommends all the customers to set the Security Vulnerability Mitigation properties to <span style="font-weight: bold;">true</span> or to their default values.</p>
+<h3>Enable Application Security Vulnerability Mitigation Configuration</h3>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable Application Security Vulnerability Mitigation Configuration, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.enable = true</p>
+</li>
+<li>
+<p>When the user enables <span style="font-family: 'Courier New', monospace;">mitigation.enable</span> property, remaining security mitigation properties will apply on the Orbit application.</p>
+</li>
+<li>
+<p>When the <span style="font-family: 'Courier New', monospace;">mitigation.enable</span> property is set as <span style="font-family: 'Courier New', monospace;">false</span>, remaining security mitigation properties will not work.</p>
+</li>
+</ol>
+<h3 id="x-frame-options">X-Frame Options</h3>
+<p>The X-Frame Options protect against cross-site scripting attacks involving HTML iframes. The X-Frame Options response header improves the protection of web applications against <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks#click-jacking" target="_blank">click-jacking</a> by ensuring that their content is not embedded into other sites. It instructs the browser whether the content can be displayed within frames. &#160;</p>
+<p>Users can either choose to completely block rendering the site inside a frame by setting this header to DENY, allow it to be rendered by other pages on the same server with SAME-ORIGIN or, specify a list of whitelisted domains with ALLOW-FROM.</p>
+<ol>
+<li>
+<p>To enable X-Frame options, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.frame-options.enable = true</p>
+<p class="note2">Note: When the user enables frame-options.enable property, remaining X-Frame options will apply on the Orbit application.</p>
+</li>
+<li>
+<p>To allow the application/page to be displayed in a frame on the same origin as the page itself, set <span style="font-family: 'Courier New', monospace;">frame-options.same-origin.enable</span> property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.frame-options.same-origin.enable = true</p>
+</li>
+<li>
+<p>To allow the application/ page to be displayed in a frame only on the specified origin uri, set <span style="font-family: 'Courier New', monospace;">frame-options.allow-from.enable</span> property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.frame-options.allow-from.enable = true</p>
+</li>
+<li>
+<p>When the property <span style="font-family: 'Courier New', monospace;">frame-options.allow-from.enable</span> is set as <span style="font-family: 'Courier New', monospace;">true</span>, specify a list of whitelisted domains in the following property.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.frame-options.allow-from.origin =</p>
+<p class="example2"><span style="font-weight: bold;">Example</span>: orbit.secure.vulnerability.mitigation.frame-options.allow-from.origin = .<a href="http://example.com/" target="_blank">example.com</a>,.<a href="http://orbitanalytics.com/" target="_blank">orbitanalytics.com</a></p>
+</li>
+</ol>
+<h3>Cache-Control Options</h3>
+<p>The Cache-Control HTTP header holds directives (instructions) for <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching">caching</a> in both requests and responses.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable cache control, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.cache-control.enable = true</p>
+</li>
+<li>
+<p>When the <span style="font-family: 'Courier New', monospace;">cache-control.enable</span> property is set as <span style="font-family: 'Courier New', monospace;">true</span>, the response MUST always go through validation with the origin server first before using it. This prevents any caching of the server response.</p>
+<p>Spring Security will insert the following headers into the response</p>
+<pre class="screen">
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+</pre></li>
+</ol>
+<h3>XSS-Protection Options</h3>
+<p>The HTTP XSS-Protection response header is a feature of Internet Explorer, Chrome, and Safari that stops pages from loading when they detect reflected cross-site scripting (<a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">XSS</a>) attacks.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable XSS-Protection, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.xss-protection.enable = true</p>
+<p>When the <span style="font-family: 'Courier New', monospace;">xss-protection.enable</span> property is set as <span style="font-family: 'Courier New', monospace;">true</span>, it enables XSS filtering and if a cross-site scripting attack is detected rather than sanitizing the page, the browser will prevent rendering of the page.</p>
+<p>HTTP header displays <span style="font-family: 'Courier New', monospace;">X-XSS-Protection: 1; mode=block</span>.</p>
+</li>
+</ol>
+<h3>Referrer-Policy Options</h3>
+<p>The Referrer-Policy controls if and how much referrer information should be revealed.</p>
+<p>The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included with requests made.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable referrer policy, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.referrer-policy.enable = true</p>
+</li>
+<li>
+<p>To make the response header instructs the browser to let the destination knows the source where the user was previously, set <span style="font-family: 'Courier New', monospace;">referrer-policy.same-origin.enable</span> property as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.referrer-policy.same-origin.enable = true</p>
+<p>When <span style="font-family: 'Courier New', monospace;">referrer-policy.same-origin.enable</span> property is set as <span style="font-family: 'Courier New', monospace;">true</span> a referrer will be sent for <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy">same-site origins</a>, but cross-origin requests will send no referrer information.</p>
+</li>
+</ol>
+<h3>Content-Type-Options</h3>
+<p>Setting this header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable content type options, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.content-type-options.enable = true</p>
+<p>Enabling content type options will prevent the browser from MIME-sniffing a response away from the declared content-type.</p>
+</li>
+<li>
+<p>When <span style="font-family: 'Courier New', monospace;">content-type-options.enable</span> property is set as <span style="font-family: 'Courier New', monospace;">true</span>, the following header is added to HTTP responses: <span style="font-family: 'Courier New', monospace;">X-Content-Type-Options: nosniff</span></p>
+</li>
+</ol>
+<h3>Content Security Policy (CSP)</h3>
+<p>Content Security Policy (CSP) is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-site scripting (XSS). CSP is a declarative policy that provides a facility for web application authors to declare and ultimately inform the client (user-agent) about the sources from which the web application expects to load resources.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable content security policy, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.content-security-policy.enable = true</p>
+</li>
+<li>
+<p>Basic Content Security Policy header example:</p>
+<p class="codeblock">Content-Security-Policy: default-src 'self'</p>
+<p>Here, <span style="font-family: 'Courier New', monospace;">default-src</span> defines loading policy for all resources type in case a resource type’s dedicated directive is not defined (fallback). <span style="font-family: 'Courier New', monospace;">self</span> defines allowing only assets from the same domain.</p>
+<p class="note2"><span style="font-weight: bold;">Note</span>: Other directives include <code>script-src</code>, <code>style-src</code>, and <code>img-src</code> to specify permitted sources for scripts, CSS stylesheets, and images.</p>
+</li>
+<li>
+<p>Content Security Policy header example with multiple directives:</p>
+<p class="codeblock">Content-Security-Policy: default-src 'self'; img-src 'self' *.google.com; script-src 'self' *.example.com 'unsafe-eval''unsafe-inline'</p>
+</li>
+<li>
+<p>Here, images can be loaded from the same domain or google.com and scripts can be loaded from the same domain or example.com</p>
+<p><code>unsafe-inline</code> allows the use of inline source elements such as style attribute, onclick, or script tag bodies and javascript: URIs</p>
+<p><code>unsafe-eval</code> allows unsafe dynamic code evaluation such as JavaScript eval()</p>
+</li>
+<li>
+<p>Specify a list of whitelisted domains in the following property:</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.content-security-policy.allow-host-source =&#160;</p>
+<p class="example2"><span style="font-weight: bold;">Example</span>: orbit.secure.vulnerability.mitigation.content-security-policy.allow-host-source =&#160;.google.com,.example.com</p>
+</li>
+</ol>
+<h3>Strict Transport Security</h3>
+<p>Strict Transport Security is a web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable strict transport security, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.strict-transport-security.enable = true</p>
+<p class="note2"><span style="font-weight: bold;">Note</span>: Strict-Transport-Security is only added on HTTPS requests.</p>
+</li>
+<li>
+<p>To set the time, in seconds, that the browser should remember that a site is only to be accessed using HTTPS, configure the following property:</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.strict-transport-security.max-age-in-seconds = 31536000</p>
+</li>
+</ol>
+<h3>Stored XSS (Persistent XSS) Options</h3>
+<p>Stored XSS attacks are those where the injected script is permanently stored on the target servers, such as in a database, in a message forum, visitor log, comment field, etc. The victim then retrieves the malicious script from the server when it requests the stored information without that data being made safe to render in the browser.</p>
+<p>Data sanitization or data filtering can be performed to help prevent Stored XSS attacks.</p>
+<ol style="list-style: decimal;">
+<li>
+<p>To enable data sanitization and Stored XSS attack mitigation, set the following property value as <span style="font-family: 'Courier New', monospace;">true</span>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.router-data-filter.enable = true</p>
+</li>
+<li>
+<p>To set data filtering strict, set the following policy as <code>true</code>.</p>
+<p class="codeblock">orbit.secure.vulnerability.mitigation.router-data-filter.strict = true</p>
+<p class="note2"><span style="font-weight: bold;">Note</span>: When <code>router-data-filter.strict</code> is set as <code>true</code>, all the unwanted data/script is removed.</p>
+</li>
+<li>
+<p>When <code>router-data-filter.strict</code> is set as <code>false</code>, the unwanted data/script is sanitized.</p>
+</li>
+</ol>
+<p>&#160;</p>
+<p><span style="font-weight: bold;">References</span>:</p>
+<ul style="list-style: disc;">
+<li><span>https://docs.spring.io/spring-security/site/docs/5.4.5/reference/html5/#headers</span></li>
+<li><span>https://owasp.org/www-project-secure-headers/</span></li>
+<li><span>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</span></li>
+<li><span>https://owasp.org/www-project-top-ten/</span></li>
+</ul>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

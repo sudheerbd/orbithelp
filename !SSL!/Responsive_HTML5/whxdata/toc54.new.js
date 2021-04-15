@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Introduction to Dashboards ","url":"Introduction_to_Dashboards.htm"},{"type":"item","name":"Creating a Dashboard Report","url":"Creating_a_Dashboard_Report.htm"},{"type":"item","name":"Creating New Dashboard under Existing Folder ","url":"Creating_New_Dashboard_under_Existing_Folder.htm"},{"type":"item","name":"Creating Multiple Pages ","url":"Creating_Multiple_Pages.htm"},{"type":"item","name":"Filters","url":"Filters.htm"},{"type":"book","name":"Menu Options in Dashboards","key":"toc55","url":"Menu_Options_in_Dashboards1.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

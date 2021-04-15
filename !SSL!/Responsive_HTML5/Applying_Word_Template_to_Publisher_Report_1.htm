@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Applying Word Template to Publisher Report 1</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "13.4.1_1";
+</script>
+ <meta name="topic-breadcrumbs" content="Publisher Report > Creating Templates" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: Arial, sans-serif; color: #808080;">Applying Word 
+ Template to Publisher Report </h1>
+<p>&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">1. Create a New Publisher Report.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">2. In the <b style="mso-bidi-font-weight: normal;">Bands</b> 
+ section, under <b style="mso-bidi-font-weight: normal;">MainBand</b>, 
+ create a band “ParentTable”.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image904.gif" style=" border:none; width:100%; max-width:540px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">As shown in the above figure, the band “ParentTable” 
+ in publisher report maps to the band “ParentTable” in the Word template 
+ (highlighted as “1”). Also, the child band “ChildTable” in publisher report 
+ maps to the band “ChildTable” in the Word template (highlighted as “2”).</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">One child band cannot have another child band under 
+ it.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">3. 
+ Right-click “ParentTable” band, and then click <b style="mso-bidi-font-weight: normal;">New 
+ Query</b> to create a new query “Query 2”.</p>
+<p class="MsoListParagraph" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;When 
+ “Query 2” is selected, <b style="mso-bidi-font-weight: normal;">Query 
+ Details</b> section appears.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">4. 
+ Drag and drop the required columns from business object area to the <b 
+	 style="mso-bidi-font-weight: normal;">Configurator</b> tab. <span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;<img src="image908.gif" style=" border:none; width:100%; max-width:535px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">5. Right-click the “ParentTable” band, and then 
+ click <b style="mso-bidi-font-weight: normal;">New Band</b> to create 
+ a child band “<span style="mso-bidi-font-size: 12.0pt;">ChildTable</span>”.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">6. 
+ Right-click the Child Table, and then click <b style="mso-bidi-font-weight: normal;">New 
+ Query</b>, “Query 4”.<b style="mso-bidi-font-weight: normal;"><span style="mso-spacerun: yes;">&#160;&#160;</span></b>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoListParagraphCxSpFirst" style="mso-list: l0 level1 lfo1; margin-left: 40px; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol; 
+															 mso-list: Ignore;">·</span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Here, 
+ the Parent and Child bands are created to enable grouping.</p>
+<p class="MsoListParagraphCxSpLast" style="mso-list: l0 level1 lfo1; margin-left: 40px; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol; 
+															 mso-list: Ignore;">·</span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;When 
+ “Query 4” is selected, <b style="mso-bidi-font-weight: normal;">Query 
+ Details</b> section appears.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">7. Drag and drop the required columns from business 
+ object area to the <b style="mso-bidi-font-weight: normal;">Configurator</b> 
+ tab in the <b style="mso-bidi-font-weight: normal;">Query Details</b> 
+ section.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="image909.gif" style=" border:none; width:100%; max-width:521px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">8. In the <b style="mso-bidi-font-weight: normal;">Data 
+ Filters</b> section, drag the required column and set the filer.</p>
+<p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 45.0pt; 
+	 text-indent: 4.5pt; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Example: 
+ Required Column: State</p>
+<p class="examples" style="text-indent: 4.5pt; mso-list: l0 level1 lfo1; 
+	 tab-stops: 45.0pt; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Example: 
+ Required Condition: equals</p>
+<p class="examples" style="text-indent: 4.5pt; mso-list: l0 level1 lfo1; 
+	 tab-stops: 45.0pt; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Example: 
+ Data Filter: ${ParentTable.COL0}</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;<img src="image910.gif" style=" border:none; width:100%; max-width:520px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">9. 
+ To save the changes, click <b style="mso-bidi-font-weight: normal;">Save.</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Once the publisher report supporting grouping is 
+ created, then upload the word templates mentioned above using <b style="mso-bidi-font-weight: normal;">Templates</b> 
+ option. See <i style="mso-bidi-font-style: normal;"><a href="Applying_Word_Template_to_Publisher_Report.htm" 
+														 style="background-color: Transparent; 
+														 font-family: Arial, sans-serif; 
+														 font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; 
+	 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Applying Word Template to Publisher Report</span><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; 
+	 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; background-color: Transparent; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">s</span></a></i><span 
+	 style="mso-highlight: yellow; mso-bidi-font-style: normal; background: #ffff00;"> 
+ </span>for more information</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">To view the output, see <span style="font-style: italic;"><a 
+	 href="Viewing_Publisher_Report_in_Word.htm">Viewing Publisher Report 
+ in Word</a></span> for more information.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+</body>
+</html>

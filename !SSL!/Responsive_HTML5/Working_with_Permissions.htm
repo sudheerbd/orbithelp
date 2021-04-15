@@ -1,0 +1,2529 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Working with Permissions</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.5";
+</script>
+ <meta name="brsprev" value="Deleting_Authorities_with_Dependencies1.htm">
+ <meta name="brsnext" value="Setting_Permissions.htm">
+ <meta name="topic-breadcrumbs" content="User Management" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Working with Permissions </h1>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">In this section, 
+ each role can have different permissions. The admin can set only the requisite 
+ permissions for every role.</p>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">The following table 
+ provides different menu permissions for various roles:</p>
+<p class="BodyText2">&#160;</p>
+<table class="MsoNormalTable" style="border: none; mso-border-alt: solid windowtext .5pt; 
+		 mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; 
+		 mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext; 
+		 border-collapse: separate;" cellspacing="0">
+	<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 31.0pt;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="41" width="235" 
+			 bgcolor="#44546A"><p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="font-size: 11.0pt; color: #ffffff;">Menu Permissions</span></b></p></td>
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-left: none; 
+			 mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="41" width="162" 
+			 bgcolor="#44546A"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-left: none; 
+			 mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="41" width="84" 
+			 bgcolor="#44546A"><p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="font-size: 11.0pt; color: #ffffff;">Admin</span></b></p></td>
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-left: none; 
+			 mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="41" width="84" 
+			 bgcolor="#44546A"><p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="font-size: 11.0pt; color: #ffffff;">Analyst</span></b></p></td>
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-left: none; 
+			 mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="41" width="73" 
+			 bgcolor="#44546A"><p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="font-size: 11.0pt; color: #ffffff;">User</span></b></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 1;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Home</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 2;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Reports</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 3;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create 
+		 Data Report</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 4;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create 
+		 Analysis</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 5;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create 
+		 Dashboard</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 6;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Schedule</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 7;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Share</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 8;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Export</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 9;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Generate 
+		 Public Report Link</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 10;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create 
+		 Script Report</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 11;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create 
+		 Publisher Report</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 12;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Datasets</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 13;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Business 
+		 Models -Domains</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 14;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 15;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Save</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 16;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Update</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 17;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Delete</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 18;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Import</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 19;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Export</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 20;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Show 
+		 Test Query Results</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 21;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Business 
+		 Models – Data Sources</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 22;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 23;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Update</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 24;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Delete</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 25;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Import</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 26;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Export</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 27;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Business 
+		 Models – Security</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 28;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Business 
+		 Models – Meta Objects</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 29;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">User 
+		 Management – Users</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 30;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 31;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Save</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 32;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Update</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 33;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Reset 
+		 Password</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 34;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Activate/Deactivate</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 35;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">User 
+		 Management- Groups</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 36;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">User 
+		 Management- Roles</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 37;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 38;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Save</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 39;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Update</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 40;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Permissions</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 41;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="font-size: 11.0pt;">User Management- Authorities</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Webdings; 
+									 mso-ascii-font-family: 'Times New Roman'; 
+									 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Webdings; 
+									 mso-ascii-font-family: 'Times New Roman'; 
+									 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><span style="font-size: 9.0pt; mso-bidi-font-size: 11.0pt; 
+									 font-family: Webdings; mso-ascii-font-family: 'Times New Roman'; 
+									 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 42;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Create</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 43;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Update</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 44;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Delete</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 45;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Import</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 46;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Sync</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 47;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span 
+		 style="font-size: 11.0pt;">User Management- Permissions</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Webdings; 
+									 mso-ascii-font-family: 'Times New Roman'; 
+									 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Webdings; 
+									 mso-ascii-font-family: 'Times New Roman'; 
+									 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal">&#160;</p>
+		<p class="MsoNormal"><span style="font-size: 9.0pt; mso-bidi-font-size: 11.0pt; 
+									 font-family: Webdings; mso-ascii-font-family: 'Times New Roman'; 
+									 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 48;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">Save</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 49;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Monitoring- 
+		 Processes</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 50;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">All 
+		 Processes Access</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 51;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Monitoring- 
+		 Report Statistics</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 52;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal"><span style="font-size: 11.0pt;">All 
+		 Report Statistics Access</span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 53;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Business 
+		 Units</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 54;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Settings</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+	<tr style="mso-yfti-irow: 55; mso-yfti-lastrow: yes;">
+		<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="235"><p class="MsoNormal"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt;">Excel 
+		 Edge</span></b></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="162"><p class="MsoNormal">&#160;</p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="84"><p class="MsoNormal"><span style="font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">a</span></span></p></td>
+		<td style="vertical-align: top; border-top: none; border-left: none; 
+			 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; 
+			 mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="73"><p class="MsoNormal"><span style="font-size: 9.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 font-family: Webdings; 
+													 mso-ascii-font-family: 'Times New Roman'; 
+													 mso-hansi-font-family: 'Times New Roman';"><span 
+		 style="mso-char-type: symbol; mso-symbol-font-family: Webdings;">r</span></span></p></td>
+	</tr>
+</table>
+<p class="BodyText2">&#160;</p>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">This section provides 
+ the following exercise:</p>
+<p class="BodyText2" style="font-size: 12.0pt; line-height: 150%; font-family: 'Times New Roman', serif; 
+	 mso-fareast-language: JA;">&#160;</p>
+<p class="BodyText2" style="font-size: 12.0pt; line-height: 150%; font-family: 'Times New Roman', serif; 
+	 mso-fareast-language: JA;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p style="line-height: 150%; mso-fareast-language: JA; font-family: Arial, sans-serif; 
+			 font-size: 10pt;"><a href="Setting_Permissions.htm">Setting 
+	 Permissions</a></p></li>
+</ul>
+<p style="line-height: 150%; mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p style="line-height: 150%; mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p style="line-height: 150%; mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+</body>
+</html>

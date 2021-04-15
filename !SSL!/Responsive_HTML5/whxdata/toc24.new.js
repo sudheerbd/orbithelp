@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating a New Domain ","url":"Creating_a_New_Domain.htm"},{"type":"item","name":"Filtering a Domain","url":"Filtering_a_Domain.htm"},{"type":"item","name":"Domain Hierarchy ","url":"Domain_Hierarchy.htm"},{"type":"item","name":"Menu for Domain Hierarchy Objects","url":"Menu_for_Domain_Hierarchy_Objects.htm"},{"type":"item","name":"Exporting a Domain","url":"Exporting_a_Domain2.htm"},{"type":"book","name":"Testing Business Object Query","key":"toc25","url":"Testing_Business_Object_Query1.htm"},{"type":"book","name":"Creating a Physical Model","key":"toc26","url":"Creating_a_Physical_Model.htm"},{"type":"book","name":"Creating a Logical Model","key":"toc27","url":"Creating_a_Logical_Model.htm"},{"type":"book","name":"Creating a Business Object","key":"toc29","url":"Creating_a_BO.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Bar Charts</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="./ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Analysis\nVisualization Options in Analysis Reports\nBar Charts");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Analysis_Feature_Dashboard.htm\">Analysis<\/a> > <a href=\"Visual_Settings_of_Different_Charts_FD1.htm\">Visualization Options in Analysis Reports<\/a> > Bar Charts<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+
+
+<h1><a name="MiniTOCBookMark1"></a>Bar and Column Charts</h1>
+<p align="left" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" >This&#160;Topic&#160;introduces&#160;you&#160;to&#160;the&#160;Visual&#160;Settings&#160;of&#160;Bar&#160;Charts&#160;<a class="dropspot" href="javascript:TextPopup(this)" id="MTHotSpot46053" ><span class="MTText" style="display: none;" >Show</span><span class="MTText" >Hide</span></a></p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('MTHotSpot46053', 'MTPOPUP46053');
+//]]></script>
+<div align="left" class="droptext" id="MTPOPUP46053" >
+ <p align="left"  ><a href="#MiniTOCBookMark2" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Visualization (Chart type) Options</a></p>
+ <p align="left" style="margin-left:20px;"  ><a href="#MiniTOCBookMark3" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Manage Colors</a></p>
+ <p align="left"  ><a href="#MiniTOCBookMark4" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Visual Settings for Bar Charts</a></p>
+</div>
+<p>&#160;</p>
+<p>The Cartesian charts utilize the coordinate system: X and Y axes in displaying the data. The following charts come under Cartesian charts.</p>
+<ul style="list-style: disc;">
+<li>
+<p>Bar Basic, Stacked Bar, and 100% Stacked</p>
+</li>
+<li>
+<p>Column Basic, Stacked Column, 100% Stacked, Multi Axis, and Negative Values charts</p>
+</li>
+<li>
+<p>Line Basic, Spline, Step Line, Area, and Area Spline charts</p>
+</li>
+<li>
+<p>Combination charts</p>
+</li>
+</ul>
+<p>In this topic, visualization options and visual settings are explained using Bar basic, Column basic, and Combination chart examples.</p>
+<p>&#160;</p>
+<h2><a name="MiniTOCBookMark2"></a>Visualization (Chart type) Options</h2>
+<p>A bar chart displays data using rectangular bars. One axis of a bar chart measures a value, while the other axis shows the specific categories being compared.</p>
+<p>A bar chart usually consists of row, column, and data (value) fields.</p>
+<p>1. Bar charts has the following visualization options</p>
+<ul style="list-style: disc;">
+<li>
+<p>Values (Y-Axis)</p>
+</li>
+<li>
+<p>Category (X-Axis)</p>
+</li>
+<li>
+<p>Color</p>
+</li>
+</ul>
+<p>2. Drag and drop the required fields from the selected Business Object into the Values (Y-Axis), Category (X-Axis), and Color sections.</p>
+<p><span style="font-weight: bold;">Note</span>: Drag fields with numerical values into the <span style="font-weight: bold;">Values</span> section for several types of calculations (Sum, Average, Min, Max, etc.) However, using text values would also not be wrong; instead of Sum, it will give a <span style="font-weight: bold;">Count</span>.</p>
+<p>3. Orbit application generates the bar chart analysis report dynamically in the run results area.</p>
+<p><img src="Analysis_FD_036.jpg" alt="" style="border: none;" width="970" height="571" border="0" /></p>
+<p>&#160;</p>
+<h3><a name="MiniTOCBookMark3"></a>Manage Colors</h3>
+<p>In the <span style="font-weight: bold;">Color</span> section, user can choose the color scheme of the chart and change color of individual series.</p>
+<p>To change color scheme of the chart</p>
+<p>1. Click the expander arrow <img src="Arrow_01.jpg" alt="" style="border: none;" width="30" height="20" border="0" /> next to <span style="font-weight: bold;">Color</span> in the Report Configurator area and then click <span style="font-weight: bold;">Manage Colors</span>.</p>
+<p><img src="Analysis_FD_163.jpg" alt="" style="border: none;" border="0" /></p>
+<p>2. <span style="font-weight: bold;">Manage Colors</span> dialog box appears.</p>
+<p><img src="Analysis_FD_164.jpg" alt="" style="border: none;" border="0" /></p>
+<p>3. Click on the <span style="font-weight: bold;">Color Palette</span>. Color Palette list appears.</p>
+<p><img src="Analysis_FD_115.jpg" alt="" style="border: none;" border="0" /></p>
+<p>4. Select desired color palette from the list.</p>
+<p>5. To change default color of the Series</p>
+<ol style="list-style: lower-roman;">
+<li>
+<p>Click the Color box next to the series name to open the <span style="font-weight: bold;">Color Picker</span> dialog box.</p>
+<p><img src="Analysis_FD_165.jpg" alt="" style="border: none;" width="605" height="350" border="0" /></p>
+</li>
+<li>
+<p>Option 1: In the Color Picker, drag the vertical slider above <span style="font-weight: bold;">H</span> to choose a hue (color). Then click a spot in the large color box to choose the brightness and saturation of that color.</p>
+</li>
+<li>
+<p>Option 2: In the Color Picker, drag the vertical sliders above <span style="font-weight: bold;">H</span> (hue - color), <span style="font-weight: bold;">S</span> (Saturation), and <span style="font-weight: bold;">V</span> (<span class="mntl-sc-block-subheading__text">Value - Brightness) to choose a color.</span></p>
+</li>
+<li>
+<p>Option 3: Enter exact color values into the HSV, RGB, or Hexadecimal color fields.</p>
+</li>
+<li>
+<p>To change opacity, drag the vertical slider above <span style="font-weight: bold;">A</span> to choose alpha (opacity).</p>
+</li>
+<li>
+<p>Click <span style="font-weight: bold;">OK</span> to close the Color. The color you chose appears in the color box.</p>
+</li>
+</ol>
+<p>6. Click <span style="font-weight: bold;">Reset series colors</span> to reset colors to default color of the selected color palette.</p>
+<p>7. To reset colors to default color palette, click the expander arrow <img src="Arrow_01.jpg" alt="" style="border: none;" width="30" height="20" border="0" /> next to <span style="font-weight: bold;">Color</span> and then click <span style="font-weight: bold;">Reset Colors</span>.</p>
+<p>&#160;</p>
+<h2><a name="MiniTOCBookMark4"></a>Visual Settings for Bar Charts<a name="Visual_Settins_Bar_Chart" id="Visual_Settins_Bar_Chart"></a></h2>
+<p>To set visual settings</p>
+<p>1.&#160;On the report edit page, click <span style="font-weight: bold;">Visual Settings</span> next to the Data tab.</p>
+<p>2.&#160;Visual Settings for bar chart has the following tabs:</p>
+<ol style="list-style: upper-alpha;">
+<li><span style="font-weight: bold;">Chart</span>: See <a href="Customize_Chart_Visual_Settings_FD.htm">Customize Chart Visual Settings</a> for more details.</li>
+<li><span style="font-weight: bold;">Axes</span>: See <a href="Customize_Axes_Visual_Settings_FD.htm">Customize Axes Visual Settings</a> for more details.</li>
+<li><span style="font-weight: bold;">Series</span>: See <a href="Customize_Series_Visual_Settings_FD.htm">Customize Series Visual Settings</a> for more details.</li>
+<li><span style="font-weight: bold;">Legend</span>: See <a href="Customize_Legend_Visual_Settings_FD.htm">Customize Legend Visual Settings</a> for more details.</li>
+<li><span style="font-weight: bold;">Tooltip</span>: See <a href="Customize_Tooltip_Visual_Settings_FD.htm">Customize Tooltip Visual Settings</a> for more details.</li>
+</ol>
+<p>&#160;</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

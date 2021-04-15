@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating an Analysis Report","url":"Creating_an_Analysis_Report.htm"},{"type":"item","name":"Creating a Report under Existing Folder ","url":"Creating_a_Report_under_Existing_Folder.htm"},{"type":"book","name":"Types of Filters","key":"toc52","url":"Types_of_Filters.htm"},{"type":"item","name":"Configuring Query Settings ","url":"Configuring_Query_Settings_in_Analysis.htm"},{"type":"item","name":"Working with Drilldowns ","url":"Working_with_Drilldowns.htm"},{"type":"item","name":"Menus on Run Result area \t","url":"Menus_on_Run_Result_area.htm"},{"type":"item","name":"Splitting Date Dimensions ","url":"Splitting_Date_Dimensions.htm"},{"type":"book","name":"Options in Analysis ","key":"toc53","url":"Options_in_Analysis.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

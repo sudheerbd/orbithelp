@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Applying Sort</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Reports\nApplying Sort");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Reports.htm\">Reports<\/a> > Applying Sort<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1 style="color: #898989; font-family: Arial, sans-serif;">Applying Sort</h1>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">For the reports, 
+ the types of sort depend on the data types. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; font-style: normal; 
+	 font-weight: normal;">For <span style="font-weight: bold;">Date fields</span>, 
+ the following sort can be applied: </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-weight: bold;">Sort 
+ Old to New</span> - This sort displays the old dates first followed by 
+ the new dates</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">For example, 
+ if there is a data in the report from the year 2004 to 2016, then the 
+ data of the year 2004 is displayed first followed by 2005, 2006, and so 
+ on. the data of the year 2016 is displayed last. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-weight: bold;">Sort 
+ New to Old</span>- This sort displays the new dates first followed by 
+ the old dates. &#160;</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal;">For 
+ <span style="font-weight: bold;">Number fields</span>, the following sort 
+ can be applied: </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-weight: bold;">Sort 
+ 0 to 9</span> : &#160;This sort first displays the data that contains 
+ 0, then 1, 2 ,3 , and so on. &#160;The data containing 9 is displayed 
+ at the end. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-weight: bold;">Sort 
+ 9 to 0</span> : This sort first displays the data that contains 9, then 
+ 8, 7 ,6 , and so on. &#160;The data containing 0 is displayed at the end. 
+ </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal;">For 
+ <span style="font-weight: bold;">String fields</span>, the following sort 
+ can be applied: </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-weight: bold;">Sort 
+ A to Z</span> : This sort displays the data in the ascending order i,e. 
+ the value starting with A is displayed first, and then B, C and so on. 
+ The value starting with Z is displayed last. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-weight: bold;">Sort 
+ Z to A:</span> &#160;This sort displays the data in the descending order. 
+ </p>
+<p style="font-weight: bold; font-family: Arial, sans-serif; font-size: 10pt;">To 
+ apply sort for a date, perform the following: </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">1. In the Columns 
+ section, &#160;select the required column, and then click <span style="font-weight: bold;">Sort 
+ New to Old</span> (highlighted as &quot;1&quot;). </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><font size="2" style="font-size:10pt;">2. The report appears as follows with the sort option 
+ applied: </font></span></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; margin-left: 0px;">&#160;&#160;&#160;&#160;<img 
+	 src="image2830.gif" alt="" style="border-left-width: 1px; border-left-style: Solid; 
+	 border-top-width: 1px; border-top-style: Solid; border-right-width: 1px; 
+	 border-right-style: Solid; border-bottom-width: 1px; border-bottom-style: Solid;" 
+	 width="849" height="403" border="1" /></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; margin-top: 6px; 
+	 margin-bottom: 6px;">In the above report, the order date for the year 
+ 1987 is first displayed, followed by the year 1982, 1981, and so on . 
+ </p>
+<ul style="list-style: disc;">
+	<li><p style="font-family: Arial, sans-serif; font-size: 10pt; margin-top: 6px; 
+			 margin-bottom: 6px;">The sort for other data types can be 
+	 applied similarly. </p></li>
+</ul>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; margin-top: 6px; 
+	 margin-bottom: 6px;"><span style="font-weight: bold;">Note:</span> 
+ To remove the sorting, select <span style="font-weight: bold;">Disable 
+ sorting.</span></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;">Sorting 
+ Two Columns Simultaneously </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">When Sort is 
+ applied on two columns at the same time, the sequence in which the columns 
+ are arranged in the configurator takes the precedence. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">For Example, 
+ if sort is applied on the deptno and Hiredate&#160;in the above report, 
+ then the report displays the values that have sort applied on deptno first 
+ as shown below:</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;<img 
+	 src="image2831.gif" alt="" style="border: none;" width="926" height="393" 
+	 border="0" /></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">In the above 
+ report, <span style="font-weight: bold;">Sort 0 to 9</span> is applied 
+ on deptno and <span style="font-weight: bold;">Sort New to Old</span> 
+ is applied on Hiredate. The sort applied on deptno takes the precedence 
+ as the deptno appears before Hiredate in the Columns. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

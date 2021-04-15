@@ -1,0 +1,429 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Importing Data From SOAP</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Business Models\nDatasets\nCreating Dataset\nImporting Data from Different Sources\nImporting Data From Webservices\nImporting Data from SOAP");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Business_Models.htm\">Business Models<\/a> > <a href=\"Datasets.htm\">Datasets<\/a> > <a href=\"Creating_Dataset.htm\">Creating Dataset<\/a> > <a href=\"Import_Data_from_Different_Sources.htm\">Importing Data from Different Sources<\/a> > <a href=\"Importing_Data_From_Webservices.htm\">Importing Data From Webservices<\/a> > Importing Data from SOAP<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Importing Data from SOAP</h1>
+<p>&#160;</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; line-height: 26.6667px; 
+	 font-size: 10pt; color: #000000; font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: 400; letter-spacing: normal; 
+	 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial;"><b><span>T</span>o 
+ import data from SOAP Web Service</b></p>
+<ol start="1" style="margin-top: 0in; margin-bottom: 0px; color: #000000; 
+		 font-family: Arial; font-size: medium; font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: 400; letter-spacing: normal; 
+		 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 list-style: decimal;">
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt;">Under 
+	 the newly-created dataset, click<span>&#160;</span><b>Web Service</b>.</p></li>
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt;"><b>Web 
+	 Service</b>&#160;dialog appears.</p></li>
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt;"><span 
+	 style="font-family: Arial, sans-serif;">In the</span>&#160;<span style="font-family: Arial, sans-serif;"><b>Web 
+	 Service</b></span>&#160;<span style="font-family: Arial, sans-serif;">dialog, 
+	 perform the following:</span></p></li>
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt; 
+														 color: #000000; 
+														 font-style: normal; 
+														 font-variant-ligatures: normal; 
+														 font-variant-caps: normal; 
+														 font-weight: 400; 
+														 letter-spacing: normal; 
+														 orphans: 2; text-align: start; 
+														 text-indent: 0px; 
+														 text-transform: none; 
+														 white-space: normal; 
+														 widows: 2; word-spacing: 0px; 
+														 -webkit-text-stroke-width: 0px; 
+														 text-decoration-style: initial; 
+														 text-decoration-color: initial;">In 
+	 the&#160;<b>Nam</b>e box, type the web service name.</p></li>
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt; 
+														 color: #000000; 
+														 font-style: normal; 
+														 font-variant-ligatures: normal; 
+														 font-variant-caps: normal; 
+														 font-weight: 400; 
+														 letter-spacing: normal; 
+														 orphans: 2; text-align: start; 
+														 text-indent: 0px; 
+														 text-transform: none; 
+														 white-space: normal; 
+														 widows: 2; word-spacing: 0px; 
+														 -webkit-text-stroke-width: 0px; 
+														 text-decoration-style: initial; 
+														 text-decoration-color: initial;">In 
+	 the&#160;<b>Description</b>&#160;box, type the description for the 
+	 web service.</p></li>
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt; 
+														 color: #000000; 
+														 font-style: normal; 
+														 font-variant-ligatures: normal; 
+														 font-variant-caps: normal; 
+														 font-weight: 400; 
+														 letter-spacing: normal; 
+														 orphans: 2; text-align: start; 
+														 text-indent: 0px; 
+														 text-transform: none; 
+														 white-space: normal; 
+														 widows: 2; word-spacing: 0px; 
+														 -webkit-text-stroke-width: 0px; 
+														 text-decoration-style: initial; 
+														 text-decoration-color: initial;">From 
+	 the&#160;<b>Web Service Type</b>, select the required radio button 
+	 from the following:&#160;&#160;&#160;</p></li>
+	<ol style="margin-top: 0in; list-style: lower-alpha;">
+		<li class="MsoNormal" style="font-size: 10pt; font-weight: bold;"><p 
+			 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; 
+			 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+			 font-variant-ligatures: normal; font-variant-caps: normal; 
+			 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+			 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+			 -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; font-weight: bold;">REST</p></li>
+		<li class="MsoNormal" style="font-size: 10pt; font-weight: bold;"><p 
+			 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; 
+			 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+			 font-variant-ligatures: normal; font-variant-caps: normal; 
+			 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+			 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+			 -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; font-weight: bold;">SOAP</p></li>
+	</ol>
+</ol>
+<p class="example"><span style="font-family: Arial; line-height: 26.6667px; 
+						 font-size: 10pt; color: #000000; font-style: normal; 
+						 font-variant-ligatures: normal; font-variant-caps: normal; 
+						 font-weight: 400; letter-spacing: normal; orphans: 2; 
+						 text-transform: none; white-space: normal; widows: 2; 
+						 word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+						 text-decoration-style: initial; text-decoration-color: initial;"><font size="2" color="black" style="font-size:10.000000pt;">Web 
+ Service Type: SOAP</font></span></p>
+<ol start="7" style="margin-top: 0in; font-size: medium; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 list-style: decimal;">
+	<li class="MsoNormal" style="font-size: 10pt;"><p style="margin-top: 0pt; 
+														 margin-bottom: 0pt; 
+														 font-family: Arial; 
+														 line-height: 26.6667px; 
+														 font-size: 10pt; 
+														 color: #000000; 
+														 font-style: normal; 
+														 font-variant-ligatures: normal; 
+														 font-variant-caps: normal; 
+														 font-weight: 400; 
+														 letter-spacing: normal; 
+														 orphans: 2; text-align: start; 
+														 text-indent: 0px; 
+														 text-transform: none; 
+														 white-space: normal; 
+														 widows: 2; word-spacing: 0px; 
+														 -webkit-text-stroke-width: 0px; 
+														 text-decoration-style: initial; 
+														 text-decoration-color: initial;">In 
+	 the&#160;<b>URL</b>&#160;box, type required URL, and then click&#160;<b>Go</b>.</p></li>
+</ol>
+<p class="example">&#160;<span style="font-family: Arial; line-height: 26.6667px; 
+								 font-size: 10pt; color: #000000; font-style: normal; 
+								 font-variant-ligatures: normal; font-variant-caps: normal; 
+								 font-weight: 400; letter-spacing: normal; 
+								 orphans: 2; text-align: start; text-indent: 0px; 
+								 text-transform: none; white-space: normal; 
+								 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+								 text-decoration-style: initial; text-decoration-color: initial;"><font size="2" color="black" style="font-size:10.000000pt;">URL:&#160;<a 
+	 href="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL">http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</a></font></span></p>
+<p class="note"><b>Note:</b><span>&#160;</span>When the user enters the 
+ URL, and then clicks<span>&#160;</span><b>Go</b>, the methods from the 
+ URL are automatically populated in the<span>&#160;</span><b>Select Method</b><span>&#160;</span>list.</p>
+<ol start="8" style="list-style: decimal;">
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;">From 
+	 the<span>&#160;</span><b>Select Method</b><span>&#160;</span>list, 
+	 select the required option from the available method list, and then 
+	 click<span>&#160;</span><b>Get Soap Body</b>.</p></li>
+</ol>
+<p class="example">URL: FullCountryInfoAllCountries</p>
+<p class="note">The Soap body appears in the Soap Request tab.</p>
+<ol start="9" style="list-style: decimal;">
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;">In 
+	 the<span>&#160;</span><b>Result Node</b><span>&#160;</span>box, type 
+	 the required result node.</p></li>
+</ol>
+<p class="example">Result Node:<span>&#160;</span><span style="letter-spacing: 0.15pt; 
+														 background: rgb(255, 255, 255);"><font 
+	 color="#555555">m:FullCountryInfoAllCountriesResult/m:tCountryInfo</font></span></p>
+<ol start="10" style="list-style: decimal;">
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;">To 
+	 navigate to the next screen, click<span>&#160;</span><b>Next</b>.</p></li>
+</ol>
+<p style="line-height: 26.6667px; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 40px;"><img src="image1914.gif" 
+	 alt="" style="border: none;" width="744" height="648" border="0" /></p>
+<p style="line-height: 26.6667px; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 40px;">&#160;</p>
+<ol start="11" style="list-style: decimal;">
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;"><span><font size="2" color="black" style="font-size:10.000000pt;">Under<span>&#160;</span><b>Columns</b><span>&#160;</span>section, 
+	 the required columns appear. &#160;&#160;</font></span></p></li>
+</ol>
+<p style="line-height: 26.6667px; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 40px;">&#160;&#160;&#160;<img 
+	 src="image1915.gif" alt="" style="border-left-width: 1px; border-left-style: Solid; 
+	 border-top-width: 1px; border-top-style: Solid; border-right-width: 1px; 
+	 border-right-style: Solid; border-bottom-width: 1px; border-bottom-style: Solid;" 
+	 width="558" height="464" border="1" /></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; line-height: 26.6667px; 
+	 font-size: 10pt; color: #000000; font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: 400; letter-spacing: normal; 
+	 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial;">&#160;</p>
+<ol start="12" style="list-style: decimal;">
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;"><span><font size="2" color="black" style="font-size:10.000000pt;">To 
+	 import the columns, select the checkbox before the required columns, 
+	 and then click<span>&#160;</span><b>Import.</b></font></span></p></li>
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;">The 
+	 dataset appears in the workspace as shown below:</p></li>
+</ol>
+<p style="line-height: 26.6667px; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 40px;">&#160;</p>
+<p style="line-height: 26.6667px; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 40px;"><img src="image1916.gif" 
+	 alt="" style="border-left-width: 1px; border-left-style: Solid; border-top-width: 1px; 
+	 border-top-style: Solid; border-right-width: 1px; border-right-style: Solid; 
+	 border-bottom-width: 1px; border-bottom-style: Solid;" width="871" 
+	 height="442" border="1" /></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; line-height: 26.6667px; 
+	 font-size: 10pt; color: #000000; font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: 400; letter-spacing: normal; 
+	 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial;">&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<ol start="14" style="list-style: decimal;">
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;">To 
+	 view the data for the required dataset, click the required dataset.</p></li>
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;"><b>Columns 
+	 -&lt;object name&gt;</b>&#160;section appears with a list of columns.</p></li>
+	<li style="font-size: 10pt;"><p style="margin-top: 0pt; margin-bottom: 0pt; 
+									 font-family: Arial; line-height: 26.6667px; 
+									 font-size: 10pt; color: #000000; font-style: normal; 
+									 font-variant-ligatures: normal; font-variant-caps: normal; 
+									 font-weight: 400; letter-spacing: normal; 
+									 orphans: 2; text-align: start; text-indent: 0px; 
+									 text-transform: none; white-space: normal; 
+									 widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial;">To 
+	 view the data for the required columns, click<span>&#160;</span><b>View 
+	 Data</b>.<span style="font-family: Arial; line-height: 26.6667px; 
+					 font-size: 10pt; color: #000000; font-style: normal; 
+					 font-variant-ligatures: normal; font-variant-caps: normal; 
+					 font-weight: 400; letter-spacing: normal; orphans: 2; 
+					 text-align: start; text-indent: 0px; text-transform: none; 
+					 white-space: normal; widows: 2; word-spacing: 0px; 
+					 -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+					 text-decoration-color: initial;"><font size="2" color="black" style="font-size:10.000000pt;">&#160;&#160;</font></span></p></li>
+</ol>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

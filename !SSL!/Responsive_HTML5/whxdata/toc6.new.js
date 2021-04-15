@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating New User","url":"Creating_New_User.htm"},{"type":"item","name":"Enabling a New User","url":"Enabling_a_New_User.htm"},{"type":"item","name":"Assigning Roles to the Specific User","url":"Assigning_Roles_to_the_Specific_User.htm"},{"type":"item","name":"Assigning Groups to the Specific User","url":"Assigning_Groups_to_the_Specific_User.htm"},{"type":"item","name":"Filtering Users","url":"Filtering_Users.htm"},{"type":"item","name":"Editing Users ","url":"Editing_Users.htm"},{"type":"item","name":"Resetting Password","url":"Resetting_Password.htm"},{"type":"item","name":"Anonymous User ","url":"Anonymous_User.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

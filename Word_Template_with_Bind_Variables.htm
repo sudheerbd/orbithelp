@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Word Template with Bind Variables</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>Word Template with Bind Variables</h1>
+<p class="MsoNormal" style="line-height: 150%;">This page discusses about 
+ creating a Word Template with Bind variables. <span lang="EN-US" xml:lang="EN-US">The 
+ figure below displays various bind variable with its </span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-weight: bold;">Band Name</span><span 
+	 lang="EN-US" xml:lang="EN-US"> and its associated </span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-weight: bold;">Key values</span><span 
+	 lang="EN-US" xml:lang="EN-US">.</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="TempW.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 width="735" height="235" border="1" /></span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">In 
+ the Word Template, the </span><span lang="EN-US" xml:lang="EN-US" style="font-weight: bold;"><b 
+	 style="font-weight: bold;">Parameter</b> information: ${Parameterinfo.state}</span><span 
+	 lang="EN-US" xml:lang="EN-US"> is defined using </span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-weight: bold; text-decoration: underline; ">${BandName.Key}</span><span 
+	 lang="EN-US" xml:lang="EN-US"> notation.</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><b>ParameterInfo</b> 
+ is the Band name and <b>state</b> is the Key. Also, the <b>GeneratedDate</b> 
+ is the Band name and <b>Date</b> is the Key</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">The 
+ key in the <b>Parameterinfo</b> is picked from the <b>Name</b> of the 
+ selected User Filter. Here, the User Filter in the Publisher Report is 
+ State, and its <b>Name</b> is state as shown in the figure below.</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="StateF.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 width="784" height="325" border="1" /></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">For 
+ the <b>ParameterData,</b> the keys ${COL0} and ${COL1} are picked from 
+ column names under the Query as shown below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="COL.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 border="1" /></span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">The 
+ output for the above Word Template is displayed below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="WordToutput.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 border="1" /></span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; margin-left: 40px;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal;"><span 
+	 lang="EN-US" xml:lang="EN-US">Best Practice</span></b></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" 
+	 xml:lang="EN-US">It is recommended to create a publish report with 
+	 the required columns prior to uploading the excel/word template using 
+	 <b style="mso-bidi-font-weight: normal;">Templates</b> option.</span></p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" 
+	 xml:lang="EN-US">Once the template is uploaded, switch to <b style="mso-bidi-font-weight: normal;">View 
+	 Mode</b> and then view the output. &#160;See <i style="mso-bidi-font-style: normal;"><a 
+	 href="Viewing_the_Output.htm">Viewing the Output</a></i> for more 
+	 information.</span></p></li>
+</ul>
+<p>&#160;</p>
+<p>&#160;</p>
+</body>
+</html>

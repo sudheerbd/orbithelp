@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aliaslist version="1.0">
+	<alias name="CreatingCJ" link="Creating_a_Complex_Join.htm">
+	</alias>
+	<alias name="CreatingSimpleJoin" link="Creating_a_Simple_Join.htm">
+	</alias>
+</aliaslist>

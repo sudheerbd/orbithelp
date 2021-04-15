@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc version="1.0">
+	<properties imagewidth="16" windowstyles="8388610" exwindowstyles="256">
+	</properties>
+	<item name="Orbit Help " link="ORBIT_Help.htm">
+	</item>
+	<item name="Preface" link="Preface.htm">
+		<item name="Intended Audience " link="Intended_Audience.htm">
+		</item>
+		<item name="About Online Help " link="About_Online_Help.htm">
+		</item>
+		<item name="Conventions" link="Conventions.htm">
+		</item>
+		<item name="Feedback" link="Feedback.htm">
+		</item>
+	</item>
+	<item name="ORBIT Application " link="ORBIT_Application.htm">
+		<item name="Product Overview " link="Product_Overview.htm">
+		</item>
+		<item name="Architecture" link="Architecture.htm">
+		</item>
+		<item name="Data Model" link="Data_Model.htm">
+		</item>
+	</item>
+	<item name="User Interface" link="Administrative_Interface.htm">
+		<item name="Getting Started with ORBIT Application" link="Getting_Started_with_ORBIT_Application.htm">
+		</item>
+		<item name="Logging onto the ORBIT Application" link="Logging_onto_the_ORBIT_Application.htm">
+		</item>
+		<item name="Forgot Password" link="Forgot_Password.htm">
+		</item>
+		<item name="Introduction to Home Page Features" link="Introduction_to_Home_Page_Features.htm">
+		</item>
+		<item name="Introduction to ORBIT Features" link="Introduction_to_ORBIT_Features.htm">
+		</item>
+		<item name="Configuring the Settings " link="Configuring_the_Settings.htm">
+		</item>
+		<item name="Accessing Account Details" link="Accessing_Account_Details.htm">
+		</item>
+		<item name="Changing the Password" link="Changing_Password.htm">
+		</item>
+		<item name="Lock Screen" link="Lock_Screen.htm">
+		</item>
+		<item name="Help file" link="Help_file.htm">
+		</item>
+		<item name="Download Addons" link="Download_Excel_Edge.htm">
+		</item>
+		<item name="Logging out of the ORBIT Application" link="Logging_out_of_the_ORBIT_Application.htm">
+		</item>
+	</item>
+	<item name="Business Units" link="Business_Units.htm">
+		<item name="Introduction to Business Units" link="Introduction_to_Business_Units.htm">
+		</item>
+		<item name="Business Unit List" link="Creating_a_New_Business_Unit.htm">
+		</item>
+		<item name="Editing the Business Unit" link="Editing_the_Business_Unit.htm">
+		</item>
+		<item name="Filtering Business Units " link="Filtering_Business_Units.htm">
+		</item>
+		<item name="Reloading Licenses" link="Reloading_Licenses.htm">
+		</item>
+		<item name="Licensing Users Report" link="Licensing_Users_Report.htm">
+		</item>
+	</item>
+	<item name="User Management" link="Security.htm">
+		<item name="Working with Users" link="Working_with_Users1.htm">
+			<item name="Creating New User" link="Creating_New_User.htm">
+			</item>
+			<item name="Enabling a New User" link="Enabling_a_New_User.htm">
+			</item>
+			<item name="Assigning Roles to the Specific User" link="Assigning_Roles_to_the_Specific_User.htm">
+			</item>
+			<item name="Assigning Groups to the Specific User" link="Assigning_Groups_to_the_Specific_User.htm">
+			</item>
+			<item name="Filtering Users" link="Filtering_Users.htm">
+			</item>
+			<item name="Editing Users " link="Editing_Users.htm">
+			</item>
+			<item name="Resetting Password" link="Resetting_Password.htm">
+			</item>
+		</item>
+		<item name="Working with Groups " link="Working_with_Groups.htm">
+			<item name="Creating a New Group " link="Creating_a_New_Group.htm">
+			</item>
+			<item name="Assigning Users to the Group " link="Assigning_Users_to_the_Group.htm">
+			</item>
+			<item name="Assigning Roles to the Group " link="Assigning_Roles_to_the_Group.htm">
+			</item>
+			<item name="Filtering Groups " link="Filtering_Groups.htm">
+			</item>
+			<item name="Editing Groups " link="Editing_Groups.htm">
+			</item>
+		</item>
+		<item name="Working with Roles" link="Working_with_Roles.htm">
+			<item name="Creating a New Role " link="Creating_a_New_Role.htm">
+			</item>
+			<item name="Assigning Users to the Role" link="Assigning_Users_to_the_Role.htm">
+			</item>
+			<item name="Assigning Groups to the Role " link="Assigning_Groups_to_the_Role.htm">
+			</item>
+			<item name="Filtering Roles " link="Filtering_Roles.htm">
+			</item>
+			<item name="Configuring Permissions for the Roles " link="Configuring_Permissions_for_the_Roles.htm">
+			</item>
+			<item name="Editing Roles " link="Editing_Roles.htm">
+			</item>
+		</item>
+		<item name="Working with Authorities" link="Working_with_Authorities.htm">
+			<item name="Creating Authority" link="Creating_Authority.htm">
+			</item>
+			<item name="Importing Users from Authority " link="Importing_Users_from_Authority.htm">
+			</item>
+			<item name="Viewing Imported Users" link="Viewing_Imported_Users.htm">
+			</item>
+			<item name="Viewing the Newly Created Authority" link="Viewing_the_Newly_Created_Authority.htm">
+			</item>
+			<item name="Editing Authority " link="Editing_Authority.htm">
+			</item>
+			<item name="Deleting Authority " link="Deleting_Authority.htm">
+			</item>
+			<item name="LDAP" link="LDAP.htm">
+				<item name="Creating an LDAP Authority" link="Creating_an_LDAP_Authority.htm">
+				</item>
+				<item name="Attributes" link="Attributes.htm">
+				</item>
+				<item name="User Search Information " link="User_Search_Information.htm">
+					<item name="Search Base User" link="Search_Base.htm">
+					</item>
+					<item name="Search Filter User" link="Search_Filter.htm">
+						<item name="AND Filter" link="AND_Filter.htm">
+						</item>
+						<item name="OR Filter" link="OR_Filter.htm">
+						</item>
+						<item name="NOT Filter" link="NOT_Filter.htm">
+						</item>
+					</item>
+				</item>
+				<item name="Group Search Information" link="Group_Search_Information.htm">
+					<item name="Search Base Groups" link="Search_Base_Groups.htm">
+					</item>
+					<item name="Search Filter Groups" link="Search_Filter_Groups.htm">
+					</item>
+				</item>
+				<item name="Authorization" link="Authorization.htm">
+					<item name="Adding a New Authority Type" link="Creating_a_New_Authority_Type.htm">
+					</item>
+				</item>
+			</item>
+			<item name="Active Directory" link="Active_Directory.htm">
+				<item name="Creating an Active Directory Authority" link="Creating_an_Active_Directory_Authority1.htm">
+					<item name="Authentication" link="Authentication.htm">
+					</item>
+					<item name="Attributes" link="Attributes1.htm">
+					</item>
+				</item>
+				<item name="User Search Information" link="User_Search_Information1.htm">
+					<item name="Search Base" link="Search_Base1.htm">
+					</item>
+					<item name="Search Filter" link="Search_Filter1.htm">
+						<item name="AND Filter" link="AND_Filter1.htm">
+						</item>
+						<item name="OR Filter" link="OR_Filter1.htm">
+						</item>
+						<item name="NOT Filter" link="NOT_Filter1.htm">
+						</item>
+					</item>
+				</item>
+				<item name="Group Search Information" link="Group_Serch_Information.htm">
+					<item name="Search Base Groups" link="Search_Base_Group.htm">
+					</item>
+					<item name="Search Base Filter" link="Search_Base_Filter.htm">
+					</item>
+				</item>
+				<item name="Authorization" link="Authorization1.htm">
+					<item name="Adding a New Authority Type" link="Adding_a_New_Authority_Type.htm">
+					</item>
+				</item>
+			</item>
+			<item name="PeopleSoft" link="PeopleSoft.htm">
+				<item name="Creating a PeopleSoft Authority" link="Creating_a_PeopleSoft_Authority.htm">
+				</item>
+			</item>
+			<item name="SAML" link="SAML.htm">
+				<item name="Creating a SAML Authority" link="Creating_a_SAML_Authority.htm">
+				</item>
+				<item name="Working with Single Sign-on" link="Working_with_Single_Sign-on.htm">
+				</item>
+				<item name="Configuring Service Provider Details at IDP Website" link="Configuring_Service_Provider_Details_at_IDP_Website.htm">
+				</item>
+			</item>
+			<item name="Deleting Authorities with Dependencies" link="Deleting_Authorities_with_Dependencies1.htm">
+			</item>
+		</item>
+		<item name="Working with Permissions " link="Working_with_Permissions.htm">
+			<item name="Setting Permissions " link="Setting_Permissions.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Business Models" link="Business_Models.htm">
+		<item name="Data Sources" link="Data_Sources.htm">
+			<item name="Creating a New Data Source " link="Creating_a_New_Data_Source.htm">
+			</item>
+			<item name="Editing a Data Source " link="Editing_a_Data_Source.htm">
+			</item>
+			<item name="Removing a Data source" link="Remove_a_Data_source.htm">
+			</item>
+			<item name="Sharing Data Source" link="Sharing_Data_Source.htm">
+			</item>
+			<item name="Filtering Data Source" link="Filtering_Data_Source.htm">
+			</item>
+			<item name="Configuring Impala Data Source" link="Configuring_Impala_Data_Source.htm">
+			</item>
+			<item name="Creating Data Source Properties" link="Creating_Data_Source_Properties.htm">
+			</item>
+		</item>
+		<item name="Domains" link="Domains.htm">
+			<item name="Creating a New Domain " link="Creating_a_New_Domain.htm">
+			</item>
+			<item name="Domain Hierarchy " link="Domain_Hierarchy.htm">
+			</item>
+			<item name="Domain Actions" link="Domain_Actions1.htm">
+				<item name="Editing a Domain " link="Edit_a_Domain.htm">
+				</item>
+				<item name="Removing a Domain " link="Remove_a_Domain.htm">
+				</item>
+				<item name="Renaming a Domain " link="Rename_a_Domain.htm">
+				</item>
+				<item name="Exporting a Domain" link="Exporting_a_Domain2.htm">
+				</item>
+				<item name="Sharing a Domain" link="Share_a_Domain.htm">
+				</item>
+				<item name="Copying a Domain" link="Copy_a_Domain.htm">
+				</item>
+			</item>
+			<item name="Filtering a Domain" link="Filtering_a_Domain.htm">
+			</item>
+			<item name="Menu for Domain Hierarchy Objects" link="Menu_for_Domain_Hierarchy_Objects.htm">
+			</item>
+			<item name="Testing Business Object Query" link="Testing_Business_Object_Query1.htm">
+				<item name="Order By " link="Order_By.htm">
+				</item>
+			</item>
+			<item name="Creating a Physical Model" link="Creating_a_Physical_Model.htm">
+				<item name="Importing Objects to Physical Model" link="Importing_Objects_to_Physical_Model.htm">
+				</item>
+				<item name="Creating Object from SQL" link="Creating_Object_from_SQL.htm">
+				</item>
+				<item name="Importing File" link="Importing_From_File.htm">
+				</item>
+				<item name="Synchronize with Database" link="Synchronize_with_Database.htm">
+				</item>
+				<item name="Renaming Labels" link="Renaming_Labels.htm">
+				</item>
+				<item name="Renaming Physical Model" link="Renaming_Physical_Model.htm">
+				</item>
+				<item name="Deleting Physical Model" link="Deleting_Physical_Model.htm">
+				</item>
+				<item name="Setting Physical Model Properties  " link="Setting_Physical_Model_Properties.htm">
+				</item>
+				<item name="Properties for Tables/Views/Synonym  " link="Properties_for_Tables_Views_Synonym.htm">
+				</item>
+				<item name="Create a Business Object for a Column " link="Create_a_Business_Object_for_a_Column.htm">
+				</item>
+			</item>
+			<item name="Creating a Logical Model" link="Creating_a_Logical_Model.htm">
+				<item name="Joins" link="Joins.htm">
+				</item>
+				<item name="Establishing Joins between Tables" link="Establising_Joins_between_Tables.htm">
+					<item name="Creating a Simple Join " link="Creating_a_Simple_Join.htm">
+					</item>
+					<item name="Creating a Complex Join " link="Creating_a_Complex_Join.htm">
+					</item>
+				</item>
+				<item name="Tools on Logical Model Work Area" link="Tools_on_Logical_Model_Work_Area.htm">
+				</item>
+				<item name="Opening Existing Logical Model " link="Opening_Existing_Logical_Model.htm">
+				</item>
+				<item name="Data Security in Logical Model" link="Data_Security_in_Logical_Model1.htm">
+					<item name="Setting Data Security" link="Setting_Data_Security.htm">
+					</item>
+					<item name="Setting Global Security" link="Data_Security_in_Logical_Model.htm">
+					</item>
+					<item name="Setting Role-based Security" link="Setting_Role-based_Security.htm">
+					</item>
+					<item name="Initialization Block Security" link="Initialization_Block_Security.htm">
+					</item>
+				</item>
+				<item name="Duplicate a Logical Model" link="Duplicate_a_Logical_Model.htm">
+				</item>
+				<item name="Renaming a Logical Model" link="Renaming_a_Logical_Model.htm">
+				</item>
+				<item name="Deleting a Logical Model" link="Deleting_a_Logical_Model.htm">
+				</item>
+				<item name="Displaying Join Order View" link="Displaying_Join_Order_View.htm">
+				</item>
+				<item name="Setting Logical Model Properties" link="Setting_Logical_Model_Properties.htm">
+				</item>
+				<item name="Applying Filters in Logical Model" link="Columns_and_Filters_in_Logical_Model.htm">
+				</item>
+				<item name="Sorting Columns in Logical Models  " link="Sorting_Columns_in_Logical_Models.htm">
+				</item>
+			</item>
+			<item name="Creating a Business Object" link="Creating_a_BO.htm">
+				<item name="Configuring List of Values " link="Configuring_List_of_Values.htm">
+				</item>
+				<item name="Opening Business Objects" link="Opening_Business_Objects.htm">
+				</item>
+				<item name="Searching a Business Object" link="Searching_a_Business_Object.htm">
+				</item>
+				<item name="Removing Columns under Business Object " link="Removing_Columns_under_Business_Object.htm">
+				</item>
+				<item name="Reloading Logical Tables" link="Reloading_Logical_Tables.htm">
+				</item>
+				<item name="Renaming a Business Object" link="Renaming_a_Business_Object.htm">
+				</item>
+				<item name="Logical Tables Properties under Business Objects " link="Logical_Tables_Properties_under_Business_Objects.htm">
+				</item>
+				<item name="Creating New Category " link="Creating_New_Category.htm">
+				</item>
+				<item name="Creating New Hierarchy" link="Creating_New_Hierarchy.htm">
+				</item>
+				<item name="Assigning Security for Category under BO " link="Assigning_Security_for_Category_under_BO.htm">
+				</item>
+			</item>
+		</item>
+		<item name="Datasets" link="Datasets.htm">
+			<item name="Introduction to Datasets " link="Introduction_to_Datasets.htm">
+			</item>
+			<item name="Creating Dataset" link="Creating_Dataset.htm">
+				<item name="Importing Data from Different Sources" link="Import_Data_from_Different_Sources.htm">
+					<item name="Importing Data from File" link="Importing_Data_From_File.htm">
+					</item>
+					<item name="Importing Data from SQL Query" link="Importing_Data_from_SQL_Query.htm">
+					</item>
+					<item name="Importing Data From Webservices" link="Importing_Data_From_Webservices.htm">
+						<item name="Importing Data from REST" link="Importing_Data_from_REST.htm">
+						</item>
+						<item name="Importing Data from SOAP" link="Importing_Data_From_SOAP.htm">
+						</item>
+					</item>
+				</item>
+				<item name="Creating a Report using Datasets " link="Creating_Datasets.htm">
+				</item>
+			</item>
+			<item name="Viewing Datasets " link="Viewing_Datasets.htm">
+			</item>
+			<item name="Filtering Datasets " link="Filtering_Datasets.htm">
+			</item>
+			<item name="Creating a Report " link="Creating_a_Report_using_Dataset.htm">
+			</item>
+			<item name="Editing Datasets " link="Editing_Datasets.htm">
+			</item>
+			<item name="Deleting Datasets " link="Deleting_Datasets.htm">
+			</item>
+			<item name="Renaming Datasets " link="Renaming_Datasets.htm">
+			</item>
+			<item name="Schedule Refresh" link="Schedule_Refresh.htm">
+			</item>
+			<item name="Sharing a Dataset" link="Sharing_a_Dataset.htm">
+			</item>
+			<item name="Upload Files" link="Upload_Files.htm">
+			</item>
+		</item>
+		<item name="Meta Objects" link="Meta_Objects1.htm">
+			<item name="Changing Base Field Format in Report" link="Changing_Base_Field_Format_in_Report.htm">
+			</item>
+			<item name="Changing Number Field Format in Report " link="Changing_Number_Field_Format_in_Report.htm">
+			</item>
+			<item name="Changing Id Field Format in Report " link="Changing_Id_Field_Format_in_Report.htm">
+			</item>
+			<item name="Changing String Field Format in Report   " link="Changing_String_Field_Format_in_Report.htm">
+			</item>
+			<item name="Changing Date Field Format in Report   " link="Changing_Date_Field_Format_in_Report.htm">
+			</item>
+			<item name="Changing Time Field Format in Report" link="Changing_Time_Field_Format_in_Report.htm">
+			</item>
+			<item name="Changing Boolean Field Format in Report " link="Changing_Boolean_Field_Format_in_Report.htm">
+			</item>
+		</item>
+		<item name="Security" link="BO_Security.htm">
+			<item name="Business Objects" link="Business_Objects.htm">
+				<item name="Assign Roles &amp; Users" link="Assigning_Roles.htm">
+				</item>
+				<item name="Assign to Role " link="Assign_to_Role.htm">
+				</item>
+				<item name="Assign to User" link="Assign_to_User.htm">
+				</item>
+			</item>
+		</item>
+		<item name="Finance Cube " link="Finance_Cube.htm">
+			<item name="Finance Cube" link="Finance_cube_model.htm">
+			</item>
+			<item name="Data Load" link="Data_Load.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Monitoring" link="Monitoring.htm">
+		<item name="Processes" link="Processes1.htm">
+			<item name="Processes" link="Processes.htm">
+				<item name="Viewing Process" link="Viewing_Scheduled_Parameters.htm">
+				</item>
+				<item name="Interrupting the process" link="Interrupting_the_processes.htm">
+				</item>
+				<item name="Resubmitting the process" link="Resubmiting_the_process.htm">
+				</item>
+				<item name="Deleting Process" link="Delete_Process.htm">
+				</item>
+				<item name="Previous Process" link="Previous_and_Next_Process.htm">
+				</item>
+				<item name="Next Process" link="Next_Process.htm">
+				</item>
+				<item name="Show Schedule" link="Show_Schedule.htm">
+				</item>
+				<item name="Viewing Outputs" link="Viewing_Outputs.htm">
+				</item>
+				<item name="Searching Processes" link="Processes_Search.htm">
+				</item>
+			</item>
+			<item name="Schedules" link="Schedules1.htm">
+				<item name="Schedule Details" link="Schedules_Details.htm">
+				</item>
+				<item name="Editing Schedules" link="Editing_Schedules.htm">
+				</item>
+				<item name="Rescheduling the schedule" link="Rescheduling_a_schedule.htm">
+				</item>
+				<item name="Cancelling the Schedule" link="Cancelling_the_Process.htm">
+				</item>
+				<item name="Pause Schedule" link="Pause_Schedule.htm">
+				</item>
+				<item name="Resume Schedule" link="Resume_Schedule.htm">
+				</item>
+				<item name="Deleting Schedule" link="Deleting_Schedule.htm">
+				</item>
+				<item name="Show Processes" link="Show_Processes.htm">
+				</item>
+				<item name="Viewing Schedules" link="Viewing_Schedules.htm">
+				</item>
+				<item name="Scheduler Id Search" link="Scheduler_Id_Search.htm">
+				</item>
+			</item>
+		</item>
+		<item name="Report Statistics" link="Report_Statistics1.htm">
+			<item name="Filtering Reports " link="Filtering_Reports.htm">
+			</item>
+		</item>
+		<item name="Report Tokens" link="Report_Tokens.htm">
+			<item name="Creating a Report Token" link="Creating_a_Report_Token.htm">
+			</item>
+		</item>
+		<item name="Nodes" link="Nodes.htm">
+			<item name="Working with Nodes" link="Working_with_nodes.htm">
+			</item>
+		</item>
+	</item>
+	<item name="System" link="System.htm">
+		<item name="Settings" link="Settings.htm">
+			<item name="Preferences" link="Preferences.htm">
+			</item>
+			<item name="Locales " link="Locales.htm">
+			</item>
+			<item name="Diagnostics" link="Diagnostics.htm">
+			</item>
+			<item name="Deliveries" link="Deliveries.htm">
+			</item>
+		</item>
+		<item name="Plugins" link="Plugins.htm">
+			<item name="Creating a Plugin" link="Creating_a_Plugin.htm">
+			</item>
+			<item name="Register a Plugin Program" link="Register_a_Plugin_Program.htm">
+			</item>
+			<item name="Configuring a Plugin Job" link="Configuring_a_Plugin_Job.htm">
+			</item>
+			<item name="Editing a Plugin" link="Editing_register_plugin_program.htm">
+			</item>
+			<item name="Deleting a Plugin" link="Deleting_a_Plugin.htm">
+			</item>
+			<item name="Scheduling Plugin Program" link="Scheduling_Plugin_program.htm">
+			</item>
+		</item>
+		<item name="Maintenance" link="Maintenance.htm">
+			<item name="Scheduler Operation" link="Operation.htm">
+			</item>
+			<item name="Scheduler Calendar" link="Calender.htm">
+			</item>
+			<item name="Edit Calendar" link="Edit_Calendar.htm">
+			</item>
+			<item name="Delete Calendar" link="Delete_Calendar.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Jobs" link="Jobs1.htm">
+		<item name="Custom Jobs" link="Custom_Jobs.htm">
+			<item name="Environment Setup" link="Environment_Setup.htm">
+			</item>
+			<item name="Custom Job Lifecycle" link="Custom_Jobs1.htm">
+			</item>
+			<item name="Custom Job Registration" link="Custom_Job_Registration.htm">
+			</item>
+			<item name="Custom Job Implementation" link="Custom_Job_Implementation.htm">
+			</item>
+			<item name="Custom job API" link="Custom_job_API.htm">
+			</item>
+			<item name="Custom Job Implementation Guidelines" link="Custom_Job_Implementation_Guidelines.htm">
+			</item>
+		</item>
+		<item name="Seeded Jobs" link="Seeded_Jobs.htm">
+			<item name="Change Ownership" link="Change_Ownership.htm">
+			</item>
+			<item name="Extract Orbit MetaData Job" link="Extract_Orbit_MetaData_Job.htm">
+			</item>
+			<item name="Importing Discoverer Object(s)" link="Importing_Discoverer_Object(s).htm">
+			</item>
+			<item name="Importing Domain/Report" link="Importing_Domain1.htm">
+			</item>
+			<item name="Importing Oracle Reports(Concurrent Programs)" link="Importing_Oracle_Reports(Concurrent_Programs).htm">
+			</item>
+			<item name="Import Users,Roles and Groups from Excel" link="Import_Users,Roles_and_Groups_from_Excel1.htm">
+			</item>
+			<item name="Process Finance Cube Batch" link="Process_Finance_Cube_Batch.htm">
+			</item>
+			<item name="Purge Processes" link="Purge_Job.htm">
+			</item>
+			<item name="Audit Archive" link="Audit_Archive.htm">
+			</item>
+		</item>
+		<item name="Plugin Jobs" link="Plugin_Jobs.htm">
+			<item name="GLSense Fusion Balance Job" link="GLSense_Fusion_Balance_Job.htm">
+			</item>
+			<item name="GLSense Fusion Setup Job" link="GLSense_Fusion_Setup_Job.htm">
+			</item>
+			<item name="GLSense Fusion Import User Job" link="GLSense_Fusion_Import_User_Job.htm">
+			</item>
+			<item name="GLSense Netsuite Balance Job" link="GLSense_Netsuite_Balance_Job.htm">
+			</item>
+			<item name="GLSense Netsuite Setup Job" link="GLSense_Netsuite_Setup_Job.htm">
+			</item>
+			<item name="GLSense Netsuite Import User Job" link="GLSense_Netsuite_Import_User_Job.htm">
+			</item>
+			<item name="GLSense EBS Generate View Script Job" link="GLSense_EBS_Generate_View_Script_Job.htm">
+			</item>
+			<item name="GLSense Import EBS FSG Reports Job" link="GLSense_Import_EBS_FSG_Reports_Job.htm">
+			</item>
+		</item>
+		<item name="Job Actions" link="Job_Actions.htm">
+			<item name="Scheduling a Job" link="Scheduling_Custom_Jobs.htm">
+			</item>
+			<item name="Editing a Job" link="Edit_Custom_Job.htm">
+			</item>
+			<item name="Pause a Job" link="Pause_Job.htm">
+			</item>
+			<item name="Resume a Job" link="Resume_Job.htm">
+			</item>
+			<item name="Exporting a Job" link="Export_Custom_Job.htm">
+			</item>
+			<item name="Removing a Job" link="Delete_Custom_Job.htm">
+			</item>
+			<item name="Sharing a Jobs" link="Sharing_Jobs.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Reports" link="Reports.htm">
+		<item name="Introduction to Reports " link="Introduction_to_Reports.htm">
+		</item>
+		<item name="Creating a New Report" link="Creating_a_New_Report.htm">
+		</item>
+		<item name="Viewing Opened Reports" link="Viewing_Opened_Reports.htm">
+		</item>
+		<item name="Menu Options in Reports" link="Menu_Options_in_Reports.htm">
+		</item>
+		<item name="Data Explorer " link="Data_Explorer.htm">
+		</item>
+		<item name="Report Configurator Area " link="Report_Configurator_Area.htm">
+		</item>
+		<item name="Run Results Area" link="Run_Results_Area.htm">
+		</item>
+		<item name="Aggregations" link="Aggregations.htm">
+		</item>
+		<item name="Properties " link="Properties1.htm">
+		</item>
+		<item name="Applying Sort" link="Applying_Sort.htm">
+		</item>
+		<item name="Sorting Null values" link="Sorting_Null_values.htm">
+		</item>
+		<item name="Organizing Reports " link="Organizing_Reports.htm">
+		</item>
+		<item name="Sharing a report at folder level" link="Sharing_a_report_at_folder_level.htm">
+		</item>
+		<item name="Creating a Sub Folder in a Folder" link="Creating_a_Sub_Folder_in_a_Folder.htm">
+		</item>
+		<item name="Running a Report" link="Running_a_Report.htm">
+		</item>
+		<item name="Schedules" link="Schedules.htm">
+		</item>
+		<item name="Scheduling a Report" link="Scheduling_a_Report.htm">
+			<item name="Scheduling" link="Scheduling_report.htm">
+				<item name="Scheduling" link="Schedule_a_Report.htm">
+				</item>
+				<item name="Parameters " link="Parameters_1.htm">
+				</item>
+				<item name="Schedule" link="Schedule.htm">
+				</item>
+				<item name="Setting Simple Option" link="Setting_Simple_Option.htm">
+				</item>
+				<item name="Setting Advance Option" link="Setting_Advance_Option.htm">
+				</item>
+				<item name="Schedule Options" link="Schedule_Options.htm">
+				</item>
+				<item name="Validate Condition" link="Validate_Condition.htm">
+				</item>
+				<item name="Setting Output and Delivery Types " link="Setting_Output_and_Delivery_Types.htm">
+				</item>
+				<item name="Creating Notifications" link="Creating_Notifications.htm">
+				</item>
+				<item name="Previous Schedule/Runs" link="Previous_Schedule_Runs.htm">
+				</item>
+			</item>
+			<item name="Bursting" link="Bursting.htm">
+				<item name="Bursting for Email" link="Bursting_for_Email.htm">
+					<item name="Working with Bursting Email" link="Working_with_Bursting_Email.htm">
+					</item>
+					<item name="Using Calculation Formula" link="Using_Calculation_Formula_in_Email_Bursting.htm">
+					</item>
+				</item>
+				<item name="Bursting for FTP" link="Bursting_for_FTP.htm">
+				</item>
+				<item name="Bursting for File" link="Bursting_for_File.htm">
+				</item>
+			</item>
+		</item>
+		<item name="Adding a Report to Favorites" link="Adding_a_Report_to_Favourites.htm">
+		</item>
+		<item name="Editing a Report" link="Editing_a_Report.htm">
+		</item>
+		<item name="Renaming a Report" link="Renaming_a_Report.htm">
+		</item>
+		<item name="Copying a Report" link="Copying_a_Report.htm">
+		</item>
+		<item name="Deleting a Report" link="Deleting_a_Report.htm">
+		</item>
+		<item name="Sharing a Report" link="Sharing_a_Report.htm">
+		</item>
+		<item name="Exporting a Report" link="Exporting_a_Report.htm">
+		</item>
+		<item name="Calculation Column" link="Applying_Formula.htm">
+		</item>
+		<item name="Generating Report Link " link="Generating_Report_Link.htm">
+		</item>
+		<item name="Viewing Recently Run Reports " link="Viewing_Recently_Run_Reports.htm">
+		</item>
+		<item name="Delimiter Text" link="Delimiter_Text.htm">
+		</item>
+		<item name="Setting Default Output" link="Setting_Default_Output.htm">
+			<item name="Report Properties" link="Report_Properties.htm">
+			</item>
+			<item name="Template Based" link="Template_Based.htm">
+			</item>
+		</item>
+		<item name="Viewing Report Details" link="Viewing_Report_Details.htm">
+		</item>
+	</item>
+	<item name="Data Reports" link="Operational_Reports.htm">
+		<item name="Introduction to Data Reports " link="Introduction_to_Operational_Reports.htm">
+		</item>
+		<item name="Menu in Run Results Area " link="Menu_in_Run_Results_Area.htm">
+		</item>
+		<item name="Creating a Data Report " link="Creating_an_Operational_Report.htm">
+			<item name="Creating a Reports Folder" link="Creating_a_Reports_Folder.htm">
+			</item>
+			<item name="Creating New Report Under Existing Folder" link="Creating_New_Report_In_Existing_Folder.htm">
+			</item>
+		</item>
+		<item name="Applying Filters" link="Applying_Filters_and_Prompts1.htm">
+			<item name="Local Filters" link="Data_Filter.htm">
+			</item>
+			<item name="User Filters " link="User_Filters.htm">
+			</item>
+			<item name="Grid Filters " link="Grid_Filters.htm">
+			</item>
+			<item name="Group Filters" link="Group_Filters.htm">
+			</item>
+		</item>
+		<item name="Configuring Widget Settings " link="Configuring_Widget_Settings.htm">
+		</item>
+		<item name="Selecting Default Values" link="Selecting_Default_Values.htm">
+			<item name="From this query" link="From_this_query.htm">
+			</item>
+			<item name="Dynamic Values" link="Dynamic_Values.htm">
+			</item>
+		</item>
+		<item name="Configuring Query Settings " link="Configuring_Query_Settings.htm">
+		</item>
+		<item name="Save As" link="Save_As.htm">
+		</item>
+		<item name="Save As New Quick Filter" link="Save_as_New_Quick_Filter_in_Data_Reports.htm">
+		</item>
+		<item name="Save Current Quick Filter " link="Save_This_Search.htm">
+		</item>
+		<item name="Quick Filters " link="Managing_Report_Views.htm">
+		</item>
+		<item name="Properties of Data Report" link="Properties_of_Data_Report.htm">
+		</item>
+		<item name="Applying Multiple Aggregations" link="Applying_Multiple_Aggregations.htm">
+		</item>
+		<item name="Sizing the Columns Automatically " link="Sizing_the_Columns_Automatically.htm">
+		</item>
+		<item name="Exporting Reports " link="Exporting_Reports.htm">
+		</item>
+		<item name="Generate Link " link="Generate_Link.htm">
+		</item>
+		<item name="Add to Dataset" link="Add_to_Dataset.htm">
+		</item>
+		<item name="View SQL " link="View_Query.htm">
+		</item>
+		<item name="Pre Executive Block" link="Pre_Executive_Block.htm">
+		</item>
+		<item name="Conditional Formats " link="Conditional_Formats.htm">
+			<item name="Setting the Conditional Formatting " link="Setting_the_Conditional_Formatting.htm">
+			</item>
+			<item name="Multiple Conditions on Same Column " link="Multiple_Conditions_on_Same_Column.htm">
+			</item>
+		</item>
+		<item name="Drill-through in Data Reports " link="Drilldowns_in_Operational_Reports.htm">
+			<item name="Multiple Drill-through in a Report" link="Multiple_Drilldowns_in_a_Report.htm">
+			</item>
+			<item name="Multiple Drill-through on Same Column " link="Multiple_Drilldowns_on_Same_Column.htm">
+			</item>
+		</item>
+		<item name="Grouping Columns in a Report " link="Grouping_Columns_in_a_Report.htm">
+		</item>
+		<item name="Setting Aggregate Functions on Reports " link="Setting_Aggregate_Functions_on_Reports.htm">
+		</item>
+		<item name="Sorting Field-wise in Reports " link="Sorting_Field-wise_in_Reports.htm">
+			<item name="Sorting Fields in Ascending Order" link="Sorting_Fields_in_Ascending_Order.htm">
+			</item>
+			<item name="Sorting Fields in Descending Order" link="Sorting_Fields_in_Descending_Order.htm">
+			</item>
+		</item>
+		<item name="Removing/Displaying Columns from Reports" link="Removing_Displaying_Columns_from_Reports.htm">
+		</item>
+		<item name="Creating Pivot From a Data Report" link="Create_Pivot_From_a_Data_Report.htm">
+		</item>
+		<item name="Macro-enabled Templates in Excel for Data Reports " link="Macro-enabled_Templates_in_Excel_for_Data_Reports.htm">
+			<item name="Macro-enabled Templates" link="Macro-enabled_Templates.htm">
+			</item>
+		</item>
+		<item name="Multi-level Group Export to Excel" link="Multi-level_Group_Export_to_Excel.htm">
+		</item>
+		<item name="Using Display Text in Grouping " link="Using_Display_Text_in_Grouping.htm">
+		</item>
+		<item name="Insight Report " link="Insight_Report.htm">
+		</item>
+	</item>
+	<item name="Analysis" link="Analysis_Feature_Dashboard.htm">
+		<item name="Creating an Analysis Report" link="Creating_an_Analysis_Report_FD_1.htm">
+		</item>
+		<item name="Menu Options in Analysis Report" link="Menu_Options_in_Analysis_Report_FD.htm">
+		</item>
+		<item name="Options in Analysis Report" link="Options_in_Analysis_Report_FD.htm">
+			<item name="Exporting Analysis Report" link="Exporting_Analysis_Report.htm">
+			</item>
+			<item name="Add this View to Home" link="Add_this_View_to_Home.htm">
+			</item>
+			<item name="Underlying Data" link="Underlying_Data.htm">
+			</item>
+		</item>
+		<item name="Types of Filters" link="Types_of_Filters.htm">
+			<item name="Local Filters" link="Local_Filters_FD.htm">
+			</item>
+			<item name="User Filters" link="User_Filters_FD.htm">
+			</item>
+		</item>
+		<item name="Dynamic Dimensions, Measures" link="Dynamic_Dimensions,_Measures_FD.htm">
+		</item>
+		<item name="Grouping and Hierarchy Drilldown" link="Grouping_and_Hierarchy_Drilldown_FD.htm">
+		</item>
+		<item name="Splitting Date Dimensions" link="Splitting_Date_Dimensions.htm">
+		</item>
+		<item name="Visualization Options in Analysis Reports" link="Visual_Settings_of_Different_Charts_FD1.htm">
+			<item name="Auto Visualization" link="Auto_Visualization_FD.htm">
+			</item>
+			<item name="Bar Charts" link="Bar_Charts_FD.htm">
+			</item>
+			<item name="Pie Charts" link="Pie_Charts_FD.htm">
+			</item>
+			<item name="Tree Maps, Sun Burst" link="Tree_Maps,_Sun_Burst_FD.htm">
+			</item>
+			<item name="Scatter, Bubble Charts" link="Scatter_Bubble_Charts_FD.htm">
+			</item>
+			<item name="Packed Bubbles" link="Packed_Bubbles_FD.htm">
+			</item>
+			<item name="Tabular Charts" link="Tabular_Charts_FD.htm">
+			</item>
+			<item name="Pivot/Matrix Charts" link="Pivot_Matrix_Charts_FD.htm">
+			</item>
+			<item name="Heat Map" link="Heat_Map_FD.htm">
+			</item>
+			<item name="Word Cloud" link="Word_Cloud_FD.htm">
+			</item>
+			<item name="Sankey Chart" link="Sankey_Chart_FD.htm">
+			</item>
+			<item name="Value Pair" link="Value_Pair_FD.htm">
+			</item>
+			<item name="KPI Card" link="KPI_Card_FD.htm">
+			</item>
+			<item name="Map" link="Map_FD.htm">
+			</item>
+			<item name="Solid Gauge" link="Solid_Gauge_FD.htm">
+			</item>
+		</item>
+		<item name="Visual Settings of different Charts" link="Visual_Settings_of_Analysis_Reports_FD.htm">
+			<item name="Customize Chart Visual Settings" link="Customize_Chart_Visual_Settings_FD.htm">
+			</item>
+			<item name="Customize Axes Visual Settings" link="Customize_Axes_Visual_Settings_FD.htm">
+			</item>
+			<item name="Customize Slice Visual Settings" link="Customize_Slice_Visual_Settings_FD.htm">
+			</item>
+			<item name="Customize Value Visual Settings" link="Customize_Value_Visual_Settings.htm">
+			</item>
+			<item name="Customize Series Visual Settings" link="Customize_Series_Visual_Settings_FD.htm">
+			</item>
+			<item name="Customize Legend Visual Settings" link="Customize_Legend_Visual_Settings_FD.htm">
+			</item>
+			<item name="Customize Tooltip Visual Settings" link="Customize_Tooltip_Visual_Settings_FD.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Dashboards" link="Dashboards.htm">
+		<item name="Introduction to Dashboards " link="Introduction_to_Dashboards.htm">
+		</item>
+		<item name="Creating a Dashboard Report" link="Creating_a_Dashboard_Report.htm">
+		</item>
+		<item name="Creating New Dashboard under Existing Folder " link="Creating_New_Dashboard_under_Existing_Folder.htm">
+		</item>
+		<item name="Creating Multiple Pages " link="Creating_Multiple_Pages.htm">
+		</item>
+		<item name="Filters" link="Filters.htm">
+		</item>
+		<item name="Dynamic Filters" link="Dynamic_Filters_FD.htm">
+			<item name="Dynamic Dimension" link="Dynamic_Dimension_FD.htm">
+			</item>
+			<item name="Dynamic Measure" link="Dynamic_Measure_FD.htm">
+			</item>
+			<item name="List Filter" link="Data_Filter_FD.htm">
+			</item>
+			<item name="Range Filter" link="Range_Filter_FD.htm">
+			</item>
+		</item>
+		<item name="Cross Filters" link="Cross_Filters.htm">
+		</item>
+		<item name="Add Widget" link="Add_Widget.htm">
+			<item name="Visualization" link="Visualization.htm">
+			</item>
+			<item name="Image Widget" link="Image_Widget.htm">
+			</item>
+			<item name="Styled Text Widget" link="Text_Widget.htm">
+			</item>
+			<item name="Audio Widget" link="Audio_Widget.htm">
+			</item>
+		</item>
+		<item name="Visualization options" link="Visualization_options.htm">
+			<item name="Use as Filters" link="Widget_option.htm">
+			</item>
+			<item name="Ignore in Interactivity" link="Ignore_in_Interactivity.htm">
+			</item>
+			<item name="Change Dimensions and Measures" link="Change_Dimensions_and_Measures.htm">
+			</item>
+			<item name="Duplicate Visualization" link="Duplicate_Visualization.htm">
+			</item>
+			<item name="Delete Visualization" link="Delete_Visualization.htm">
+			</item>
+			<item name="Configure Drill-through" link="Configure_Drill-through.htm">
+			</item>
+			<item name="Underlying Data" link="Underlying_Data_option.htm">
+			</item>
+			<item name="View SQL" link="View_SQL__DR.htm">
+			</item>
+		</item>
+		<item name="Menu Options in Dashboards" link="Menu_Options_in_Dashboards1.htm">
+			<item name="Dashboard Options" link="Dashboard_Options1.htm">
+				<item name="Themes" link="Dashboard_Options.htm">
+				</item>
+				<item name="Auto Refresh" link="Auto_Refresh.htm">
+				</item>
+				<item name="Data Interaction Options" link="Data_Interaction_Options.htm">
+					<item name="Allow Highlight Others" link="Allow_Auto_Interactivity.htm">
+					</item>
+					<item name="Allow Cross Filters" link="Allow_Cross_Filters.htm">
+					</item>
+					<item name="Allow Drilldowns" link="Allow_Drilldowns.htm">
+					</item>
+					<item name="Allow Filter Others" link="Allow_Filter_Others.htm">
+					</item>
+					<item name="Underlying Data" link="Underlying_Data1.htm">
+					</item>
+				</item>
+			</item>
+			<item name="Exporting Dashboard " link="Export_Dashboard.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Publisher Report" link="Publisher_Report.htm">
+		<item name="Introduction" link="Introduction1.htm">
+		</item>
+		<item name="Components of a Publisher Report " link="Components_of_a_Publisher_Report.htm">
+		</item>
+		<item name="Creating a Publisher Report" link="Creating_a_Publisher_Report.htm">
+		</item>
+		<item name="Creating Templates" link="Creating_Templates.htm">
+			<item name="Output Compliance Matrix" link="Output_Compliance_Matrix.htm">
+			</item>
+			<item name="Creating an Excel Template" link="Creating_an_Excel_Template.htm">
+			</item>
+			<item name="Creating a Word Template" link="Creating_a_Word_Template.htm">
+			</item>
+			<item name="Creating a HTML Template " link="Creating_a_HTML_Template.htm">
+			</item>
+			<item name="Creating a FTL Template" link="Creating_a_FTL_Template1.htm">
+			</item>
+		</item>
+		<item name="Applying Various Templates to Publisher Report" link="Viewing_a_Publisher_Report_in_Excel.htm">
+			<item name="Applying Excel Template to Publisher Report" link="Applying_Excel_Template_to_Publisher_Report.htm">
+			</item>
+			<item name="Applying Word Template to Publisher Report" link="Applying_Word_Template_to_Publisher_Report.htm">
+			</item>
+			<item name="Applying HTML Template to Publisher Report" link="Viewing_the_Publisher_Report_in_HTML.htm">
+			</item>
+			<item name="Applying FTL Template to Publisher Report" link="Applying_FTL_Template_to_Publisher_Report.htm">
+			</item>
+		</item>
+		<item name="Viewing Publisher Reports in Various Output Types" link="Viewing_Publisher_Reports.htm">
+			<item name="Viewing Publisher Report in Excel" link="Viewing_the_Excel_Template_Output.htm">
+			</item>
+			<item name="Viewing Publisher Report in Word" link="Viewing_Publisher_Report_in_Word1.htm">
+			</item>
+			<item name="Viewing Publisher Report in HTML" link="Viewing_Publisher_Report_in_HTML.htm">
+			</item>
+			<item name="Viewing Output in Required Output FTL" link="Viewing_Output_in_Required_Output_FTL.htm">
+			</item>
+		</item>
+		<item name="Grouping in Publisher Report">
+			<item name="Creating an Excel Template for Grouping " link="Creating_an_Excel_Template_for_Grouping.htm">
+			</item>
+			<item name="Performing Grouping in Publisher Report" link="Performing_Grouping_on_Publisher_Report.htm">
+			</item>
+		</item>
+		<item name="Template with Bind Variables" link="Template_with_Bind_Variables.htm">
+			<item name="Excel Template with Bind Variables" link="Excel_Template_with_Bind_Variables.htm">
+			</item>
+			<item name="Word Template with Bind Variables" link="Word_Template_with_Bind_Variables.htm">
+			</item>
+		</item>
+		<item name="Creating a Word Template with Grouping and Page Break" link="Creating_a_Word_Template_with_Grouping_and_Page_Break.htm">
+			<item name="Applying Repeat Header Rows Option " link="Applying_Repeat_Header_Rows_Option.htm">
+			</item>
+			<item name="Without Repeat Header Rows Option" link="Without_Repeat_Header_Rows_Option.htm">
+			</item>
+			<item name="Applying Word Template to Publisher Report " link="Applying_Word_Template_to_Publisher_Report_1.htm">
+			</item>
+		</item>
+		<item name="Viewing the Output" link="Viewing_the_Output.htm">
+		</item>
+		<item name="Options" link="OptionsPR1.htm">
+			<item name="Properties" link="Properties2.htm">
+			</item>
+			<item name="Templates" link="Templates2.htm">
+			</item>
+			<item name="Generate Link" link="Generate_Link_PR.htm">
+			</item>
+			<item name="Delivery Plans" link="Delivery_Plans_PR.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Script Reports" link="Script_Reports.htm">
+		<item name="Introduction" link="Introduction2.htm">
+		</item>
+		<item name="Creating a Script Report" link="Creating_a_Script_Report.htm">
+		</item>
+		<item name="Getting Started with Script Report" link="Getting_Started_with_Script_Report.htm">
+		</item>
+		<item name="Python Scripts for Multiple Outputs " link="Python_Scripts_for_Multiple_Outputs.htm">
+		</item>
+		<item name="R Scripts for Multiple Outputs" link="R_Scripts_for_Multiple_Outputs.htm">
+		</item>
+		<item name="Options" link="Options.htm">
+			<item name="Properties " link="Properties3.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Finance Report" link="Finance_Report.htm">
+		<item name="Creating a Finance Report" link="Creating_Finance_Report.htm">
+		</item>
+		<item name="Scheduling a Finance Report" link="Scheduling_a_Finance_Report.htm">
+		</item>
+		<item name="Sharing a Finance Report" link="Sharing_Finance_Repoprt.htm">
+		</item>
+		<item name="Viewing Finance Report Output" link="Viewing_Finance_Report_Output.htm">
+		</item>
+		<item name="Finance Reports imported from EBS FSG" link="Finance_Reports_imported_from_EBS_FSG.htm">
+		</item>
+	</item>
+	<item name="Custom Reports" link="Custom_Reports.htm">
+		<item name="Creating a Custom Report" link="Creating_a_Custom_Report.htm">
+		</item>
+		<item name="Scheduling a Custom Report" link="Scheduling_a_Custom_Report.htm">
+		</item>
+		<item name="Editing a Custom Report" link="Editing_a_Custom_Report.htm">
+		</item>
+		<item name="Removing a Custom Report" link="Removing_a_Custom_Report.htm">
+		</item>
+		<item name="Sharing a Custom Report" link="Sharing_a_Custom_Report.htm">
+		</item>
+		<item name="Exporting a Custom Report" link="Exporting_a_Custom_Report.htm">
+		</item>
+	</item>
+	<item name="Collaboration" link="Collaboration.htm">
+		<item name="Threads" link="Threads.htm">
+			<item name="Creating a New Thread" link="Creating_a_New_Thread.htm">
+			</item>
+			<item name="Editing the thread" link="Editing_the_thread.htm">
+			</item>
+			<item name="Managing the Collaborators" link="Managing_the_Collaborators.htm">
+			</item>
+			<item name="Removing the Thread" link="Removing_the_Thread.htm">
+			</item>
+			<item name="Closing the Thread" link="Closing_the_Thread.htm">
+			</item>
+			<item name="Opening the closed Thread" link="Opening_the_closed_chart.htm">
+			</item>
+			<item name="Filtering the Thread" link="Searching_the_Thread.htm">
+			</item>
+			<item name="Viewing the Thread" link="Viewing_the_Thread.htm">
+			</item>
+			<item name="Opening the Chat" link="Opening_the_Thread_Chat.htm">
+			</item>
+			<item name="Uploading Snapshot in Thread Chat" link="Uploading_Snapshot_in_Thread_Chat.htm">
+			</item>
+			<item name="Uploading Document in Thread Chat" link="Uploading_Document_in_Thread_Chat.htm">
+			</item>
+			<item name="Working with Voting Request" link="Working_with_Voting_Request.htm">
+			</item>
+			<item name="Thread Chat Settings Menu" link="Thread_Chat_Settings_Menu.htm">
+			</item>
+			<item name="Locking a Thread" link="Locking_a_Thread.htm">
+			</item>
+			<item name="Unlocking a Thread" link="Unlocking_a_Thread.htm">
+			</item>
+			<item name="Archiving a Thread" link="Archiving_a_Thread.htm">
+			</item>
+			<item name="Assigning a Snapshot to the Thread " link="Assigning_a_Snapshot_to_the_Thread.htm">
+			</item>
+			<item name="Creating Annotations for Snapshots in Thread Chat" link="Creating_Annotations_for_Snapshots_in_Thread_Chat.htm">
+			</item>
+		</item>
+		<item name="Snapshots" link="Snapshots.htm">
+			<item name="Creating a New Snapshot" link="Creating_a_New_Snapshot.htm">
+			</item>
+			<item name="Viewing a Snapshot" link="Viewing_a_Snapshot.htm">
+			</item>
+			<item name="Editing a Snapshot" link="Editing_a_Snapshot.htm">
+			</item>
+			<item name="Removing a Snapshot" link="Removing_a_Snapshot.htm">
+			</item>
+			<item name="Filtering a Snapshot" link="Filtering_a_Snapshot.htm">
+			</item>
+			<item name="Assigning a Thread to a Snapshot" link="Assigning_a_Thread_to_a_Snapshot.htm">
+			</item>
+		</item>
+	</item>
+	<item name="XLEdge" link="Excel_Edge.htm">
+		<item name="Getting Started with XLEdge " link="Getting_Started_with_Excel_Edge.htm">
+		</item>
+		<item name="Installing XLEdge Application " link="Installing_Excel_Edge_Application.htm">
+		</item>
+		<item name="Configuring Instance" link="Configuring_Instance.htm">
+		</item>
+		<item name="Logging into XLEdge " link="Logging_into_Excel_edge.htm">
+		</item>
+		<item name="Menu options in XLEdge" link="Menu_options_in_XLEdge.htm">
+		</item>
+		<item name="Tools in the Reports Section " link="Tools_in_the_Reports_Section.htm">
+		</item>
+		<item name="Logging out of XLEdge Application " link="Logging_out_of_Excel_Edge_Application.htm">
+		</item>
+		<item name="Working with XLEdge " link="Working_with_Excel_Edge.htm">
+			<item name="Running a Report in XLEdge" link="Running_a_Report_in_Excel_Edge.htm">
+			</item>
+			<item name="Submitting the Process " link="Submit_the_Process.htm">
+			</item>
+			<item name="Schedule the Process" link="Schedule_the_Process.htm">
+			</item>
+			<item name="Viewing the Outputs" link="Viewing_the_Outputs.htm">
+			</item>
+			<item name="Viewing the Process Details " link="Viewing_the_Process_Details.htm">
+			</item>
+			<item name="Viewing Parameters" link="Viewing_Parameters.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Appendix A" link="Appendix_A.htm">
+	</item>
+	<item name="Appendix B" link="Appendix_B.htm">
+	</item>
+</toc>

@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Attributes</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.1.0_2";
+</script>
+ <meta name="brsprev" value="Creating_an_LDAP_Authority.htm">
+ <meta name="brsnext" value="User_Search_Information.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > LDAP" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Attributes</h1>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; font-size: 10pt;"><span style="background: #ffffff;">All 
+ the LDAP objects have attributes that take unique or multiple values, 
+ these values describe the object characteristics. For example, a user 
+ object in LDAP will have attributes such as his first name, last name, 
+ email etc.</span></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b style="mso-bidi-font-weight: normal;">T</b>he 
+ name of an attribute is similar to the name of a field in a database. 
+ The actual value assigned to the attribute is stored in LDAP.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><br />
+Orbit supports the attributes with the following values:</p>
+<p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%;">userNameAttributeValue 
+ = &quot;uid&quot;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%;">groupNameAttributeValue 
+ = &quot;cn&quot;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%;">groupRoleAttributeValue 
+ = &quot;member&quot;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%;">userObjectClassValue 
+ = &quot;person&quot;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%;">groupObjectClass=”group”</span></p>
+<p class="MsoListParagraphCxSpLast" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; line-height: 150%; 
+							 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-bidi-font-size: 12.0pt; 
+	 line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%;">groupRoleAttribute=”member”</span></p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore; mso-bidi-font-size: 12.0pt; color: #222222;">¥</span><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;However, 
+ the available attributes can be overwritten using the required attribute 
+ value.<span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="line-height: 150%; mso-bidi-font-weight: normal; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><b>To Change the 
+ Attributes</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">1. In the <b style="mso-bidi-font-weight: normal;">Edit 
+ Authority</b> dialog, on the<b style="mso-bidi-font-weight: normal;">Authentication</b> 
+ section, click <span style="mso-spacerun: yes;">&#160;</span><img src="image771.gif" alt="" style=" border:none; width:100%; max-width:26px;" border="0" /><b style="mso-bidi-font-weight: normal;">Attributes.</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">2. The <b style="mso-bidi-font-weight: normal;">Attributes</b> 
+ dialog appears.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image773.gif" alt="" style=" border:none; width:100%; max-width:420px;" border="0" /></p>
+<p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-font-family: Webdings; 
+							 mso-bidi-font-family: Webdings; mso-list: Ignore;">¥</span><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Using 
+ the <b style="mso-bidi-font-weight: normal;">Attributes</b> section, add 
+ the new attribute or delete the existing attribute.</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 39.0pt; mso-add-space: auto; 
+	 mso-list: l0 level1 lfo2; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-list: Ignore;">·</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;To 
+ add a new attribute, click <span style="mso-no-proof: yes;"><img src="image774.gif" alt="" style=" border:none; width:100%; max-width:26px;" border="0" /></span><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-spacerun: yes;">&#160;</span>Add Attribute</b>.</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 39.0pt; mso-add-space: auto; 
+	 mso-list: l0 level1 lfo2; font-family: Arial, sans-serif; font-size: 10pt;"><img src="image775.gif" alt="" style=" border:none; width:100%; max-width:413px;" border="0" /></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 39.0pt; mso-add-space: auto; 
+	 mso-list: l0 level1 lfo2; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-font-family: Webdings; 
+							 mso-bidi-font-family: Webdings; mso-list: Ignore;">¥</span><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Initially 
+ the “<span style="mso-bidi-font-size: 12.0pt; line-height: 150%;">groupObjectClass</span>” 
+ had a value “<span style="mso-bidi-font-size: 12.0pt; line-height: 150%;">group</span>”. 
+ This is now overwritten with the value “<span style="line-height: 150%;">groupOfNames”.</span></p>
+<p class="MsoListParagraphCxSpLast" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;To 
+ save the attribute, click <b style="mso-bidi-font-weight: normal;">Ok.</b></p>
+</body>
+</html>

@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Getting Started with Excel Edge ","url":"Getting_Started_with_Excel_Edge.htm"},{"type":"item","name":"Installing Excel Edge Application ","url":"Installing_Excel_Edge_Application.htm"},{"type":"item","name":"Logging into Excel edge ","url":"Logging_into_Excel_edge.htm"},{"type":"item","name":"Tools in the Reports Section ","url":"Tools_in_the_Reports_Section.htm"},{"type":"item","name":"Logging out of Excel Edge Application ","url":"Logging_out_of_Excel_Edge_Application.htm"},{"type":"book","name":"Working with Excel Edge ","key":"toc71","url":"Working_with_Excel_Edge.htm"},{"type":"item","name":"Tomcat Configuration Changes for Excel Edge","url":"Tomcat_Configuration_Changes_for_Excel_Edge.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

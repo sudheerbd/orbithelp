@@ -1,0 +1,64 @@
+﻿[Target:Responsive HTML5]
+SSLayoutType=2
+[Target:FlashHelp]
+SSLayoutType=2
+[Target:Adobe AIR]
+SSLayoutType=512
+[Target:WebHelp]
+SSLayoutType=2
+ActionID For Generation=1001
+ResultFileName=C:\Users\Divya\Desktop\9.X inline help\ORBIT_Analytics_Help_index.htm
+Remove Folder with prompt=1
+CreateProjectTime=20:11, June 04, 2020
+CreateProjectUser=Divya
+SupportMas_MPJ=1
+ViewFileName=C:\Users\Divya\Desktop\9.X inline help\ORBIT_Analytics_Help_index.htm
+ResultStatus=0
+BuildTimeHi=30816894
+BuildTimeLow=-768403671
+[Target:XML Output]
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+SSLayoutType=2
+[Target:Printed Documentation]
+SSLayoutType=7
+[Target:Mobile App]
+SSLayoutType=3
+[Target:Multiscreen HTML5]
+SSLayoutType=2
+[Target:eBook]
+SSLayoutType=2
+[Target:Microsoft HTML Help]
+SSLayoutType=1
+[Target:WebHelp Pro]
+SSLayoutType=32
+[PreSingleSource]
+Html Help Project=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .hhp
+Table Of Content=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Help.hhc
+Index=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Help.hhk
+Topic Index=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\RHTopicKeyword$.hhk
+See Also Index=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .hha
+Browse Sequence=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .brs
+Glossary=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Help.glo
+Topic Properties=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trs
+Active Folders=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trf
+Baggage Files=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trb
+Skin List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trk
+Active Layout Names=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trl
+Template Files=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trt
+Project TOC List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trtocl
+Project Index List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .tridxl
+Project Glossary List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trglol
+Project CSS List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trcss
+Project Variable Set List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .trvset
+External URL Settings=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\SearchOptions.xml
+Screen Template File Details=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\ORBIT Analytics Help 9.0.x .sctfdl
+CPSwfToHTML5Map=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\__cpSwf2HTML5ZipMap
+Default Topic=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\Introduction.htm
+Build Tags0=30121;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\!Language!\en_US\RoboHHRE.lng
+Stop List=c:\Users\Divya\Desktop\2020\1 ORBIT INLINE ROBO HELP FILE\ORBIT Analytics Help 9.0.x\!Language!\en_US\ORBIT Analytics Help 9.0.x .stp

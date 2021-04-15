@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Deleting Authorities with Dependencies1</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.3_1";
+</script>
+ <meta name="brsprev" value="Creating_a_PeopleSoft_Authority.htm">
+ <meta name="brsnext" value="Working_with_Permissions.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Deleting Authorities with Dependencies</h1>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">When deletion 
+ is attempted on an authority having a dependency, the authority does not 
+ get deleted straightaway. Its associated users and roles must be deleted 
+ first to delete an authority. </p>
+<p style="font-weight: bold; font-family: Arial, sans-serif; font-size: 10pt;">Scenario 
+ </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">In the below 
+ screen, a new authority &quot;TestAUTH&quot; is created and users are 
+ imported from that authority. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;<img src="image833.gif" style=" border:none; width:100%; max-width:763px;" alt="" border="0" /></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">When deletion 
+ is sttempted on TestAUTH, it displays the message&quot; This authority 
+ cannot be deleted. Some of the users are already imported. Please remove 
+ reference objects(users,roles)&quot;. </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image834.gif" style=" border:none; width:100%; max-width:764px;" alt="" border="0" /></p>
+<p><span style="font-family: Arial, sans-serif; font-size: 10pt;">This 
+ implies that the user imported using TestAUTH must be deleted prior to 
+ the deletion of &#160;TestAUTH authority.</span> </p>
+</body>
+</html>

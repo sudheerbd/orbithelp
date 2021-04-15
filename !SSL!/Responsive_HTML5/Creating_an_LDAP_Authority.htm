@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating an LDAP Authority</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.1.0_1";
+</script>
+ <meta name="brsprev" value="LDAP.htm">
+ <meta name="brsnext" value="Attributes.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > LDAP" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating an LDAP Authority</h1>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b>To Create a New LDAP Authority</b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">1.&#160;&#160;&#160;&#160;&#160;&#160;On 
+ the <b style="mso-bidi-font-weight: normal;">User Management</b> menu, 
+ click <b style="mso-bidi-font-weight: normal;">Authorities</b>.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;<img src="image766.gif" alt="" style=" border:none; width:100%; max-width:215px;" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">2. 
+ <b style="mso-bidi-font-weight: normal;">Authorities</b> page appears 
+ with a list of authorities. &#160;&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image767.gif" alt="" style=" border:none; width:100%; max-width:581px;" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">3. 
+ <span style="line-height: 150%;">To create a new authority, click <b style="mso-bidi-font-weight: normal;">New</b> 
+ (highlighted as &quot;1&quot;) on the top right-hand </span><span style="line-height: 150%;">side 
+ of the Authorities page. &#160;</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image768.gif" alt="" style=" border:none; width:100%; max-width:611px;" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;4<b 
+	 style="mso-bidi-font-weight: normal;">.&#160;New Authority</b> dialog 
+ box appears.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image769.gif" alt="" style=" border:none; width:100%; max-width:576px;" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">5.&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">New Authority</b> dialog, 
+ enter the following to create a new authority</p>
+<p class="MsoNormal" style="margin-left: .5in; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">a. In the <b style="mso-bidi-font-weight: normal;">Name</b> 
+ box, type the name of the authority.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p class="examples" style="text-indent: -4.5pt; mso-list: l2 level1 lfo1; 
+	 mso-bidi-font-size: 12.0pt; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore;">&#160;&#160;&#160;?&#160;</span><span style="mso-bidi-font-family: 'Times New Roman';">&#160;&#160;Example: 
+ Name: OPEN-LDAP</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">b. In the <b style="mso-bidi-font-weight: normal;">Authority 
+ Key</b> box, type the authority key.</p>
+<p class="examples" style="text-indent: 0in; line-height: 150%; mso-list: l2 level1 lfo1; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">&#160;&#160;?&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">&#160;Example: 
+ Authority Key: LDAP_AUTH_KEY</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">c. To sync the users/settings on login, select <b 
+	 style="mso-bidi-font-weight: normal;">Sync on Login</b> checkbox.</p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">d. In the <b style="mso-bidi-font-weight: normal;">Description</b> 
+ box, type the description for the authority.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">6. Under the <b style="mso-bidi-font-weight: normal;">Authentication</b> 
+ section, in the <b style="mso-bidi-font-weight: normal;">Authority Type</b> 
+ box, type/select the required</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">authority type from the following:</p>
+<p class="MsoListParagraphCxSpFirst" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;"><b style="mso-bidi-font-weight: normal;">·</b></span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Oracle 
+ ERP Security</p>
+<p class="MsoListParagraphCxSpMiddle" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;LDAP</p>
+<p class="MsoListParagraphCxSpMiddle" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Active 
+ Directory</p>
+<p class="MsoListParagraphCxSpLast" style="font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+							 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+	 mso-bidi-font-family: Symbol; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;PeopleSoft</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Wingdings; 
+															 mso-list: Ignore; 
+															 mso-bidi-font-size: 12.0pt; 
+															 mso-bidi-font-family: 'Times New Roman';">?</span><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">Example: 
+ Required Authority Type: LDAP</span></p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings; mso-list: Ignore;">¥&#160;</span>&#160;Based 
+ on the selected authority types, the fields in the <b style="mso-bidi-font-weight: normal;">Authentication</b> 
+ section change.</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">a. 
+ In the <b style="mso-bidi-font-weight: normal;">Server URL</b> box, type 
+ the URL of the Server.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Example: 
+ Server URL: ldap://192.168.2.124:389</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore;">¥&#160;</span>&#160;Here, ldap is the protocol, 
+ &quot;192.168.2.124&quot; is the ip, and 389 is the default port number.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">b. 
+ In the <b style="mso-bidi-font-weight: normal;">User DN</b> box, type 
+ the Username.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; tab-stops: .75in; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;Example: 
+ User DN: ORBIT8\Administrator</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;c. 
+ &#160;In the <b style="mso-bidi-font-weight: normal;">Password</b> box, 
+ type the password.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; tab-stops: 49.5pt; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;</span>Example: Password: Welcome@123</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;</span>&#160;d. In the 
+ <b style="mso-bidi-font-weight: normal;">Base DN</b> box, type the Base 
+ DN. &#160;</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore;">¥</span><span style="line-height: 150%; mso-fareast-font-family: Webdings; 
+										 mso-bidi-font-family: Webdings; 
+										 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Base 
+ DN: This is a point from where the server starts its search.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+							 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;&#160;Syntax: 
+ dc=orbit, dc=com</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore;">¥&#160;</span>&#160;When the user enters only Base 
+ DN, the server starts its search from the root, and retrieves all the 
+ users. The starting point (Base DN) is displayed here in the figure below 
+ (highlighted as &quot;2&quot;):</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image770.gif" alt="" style=" border:none; width:100%; max-width:657px;" border="0" /></p>
+</body>
+</html>

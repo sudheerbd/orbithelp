@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aliaslist version="1.0">
+	<alias name="OrderBy" link="Order_By.htm">
+	</alias>
+	<alias name="LogoutofORBIT" link="Logging_out_of_the_ORBIT_Application.htm">
+	</alias>
+	<alias name="IntrotoORBIT" link="Introduction_to_ORBIT_Application.htm">
+	</alias>
+	<alias name="SettingPMProps" link="Setting_Physical_Model_Properties.htm">
+	</alias>
+	<alias name="AggregationinPivot" link="Aggregation_in_Pivot.htm">
+	</alias>
+	<alias name="SettingDeliveries" link="Setting_Deliveries.htm">
+	</alias>
+	<alias name="SortinginAscending" link="Sorting_in_Ascending_Order.htm">
+	</alias>
+	<alias name="AssignRolestoGRP" link="Assigning_Roles_to_the_Group.htm">
+	</alias>
+	<alias name="Schedule" link="Schedule.htm">
+	</alias>
+	<alias name="SettingConditionalFormating" link="Setting_the_Conditional_Formatting.htm">
+	</alias>
+	<alias name="OptionsinAnalysis" link="Options_in_Analysis.htm">
+	</alias>
+	<alias name="SortinAscending" link="Sorting_Fields_in_Ascending_Order.htm">
+	</alias>
+	<alias name="assignuserstorole" link="Assigning_Users_to_the_Role.htm">
+	</alias>
+	<alias name="pausingProcess" link="Pausing_the_Process.htm">
+	</alias>
+	<alias name="OpeningBO" link="Opening_Business_Objects.htm">
+	</alias>
+	<alias name="FiltersinPivot" link="Filters_in_Pivot.htm">
+	</alias>
+	<alias name="ResetPWD" link="Resetting_Password.htm">
+	</alias>
+	<alias name="ApplyingSecuritytoBU" link="Applying_Security_to_the_Business_Units.htm">
+	</alias>
+	<alias name="CreatingMultiplePages" link="Creating_Multiple_Pages.htm">
+	</alias>
+	<alias name="IntrotoHOME" link="Introduction_to_Home_Page_Features.htm">
+	</alias>
+	<alias name="RenamingLabels" link="Renaming_Labels.htm">
+	</alias>
+	<alias name="RunningaReport" link="Running_a_Report.htm">
+	</alias>
+	<alias name="FilteringBO" link="Filtering_Business_Objects.htm">
+	</alias>
+	<alias name="SettingPerm" link="Setting_Permissions.htm">
+	</alias>
+	<alias name="DomainHierarchy" link="Domain_Hierarchy.htm">
+	</alias>
+	<alias name="FilteringDomain" link="Filtering_a_Domain.htm">
+	</alias>
+	<alias name="ImportUserfrmAuth" link="Importing_Users_from_Authority.htm">
+	</alias>
+	<alias name="BOSecurity" link="BO_Security.htm">
+	</alias>
+	<alias name="ScheduleReport" link="Schedule_a_Report.htm">
+	</alias>
+	<alias name="Workwithsettings" link="Working_with_Settings.htm">
+	</alias>
+	<alias name="OutputandDelivery" link="Output_and_Delivery.htm">
+	</alias>
+	<alias name="CancellingProcess" link="Cancelling_the_Process.htm">
+	</alias>
+	<alias name="OperationalReports" link="Operational_Reports.htm">
+	</alias>
+	<alias name="FilteringUsers" link="Filtering_Users.htm">
+	</alias>
+	<alias name="RemoveDisplayColumns" link="Removing_Displaying_Columns_from_Reports.htm">
+	</alias>
+	<alias name="ActivatingBU" link="Activating_the_Business_Unit.htm">
+	</alias>
+	<alias name="LabelFilters" link="Label_filters.htm">
+	</alias>
+	<alias name="DataSources" link="Data_Sources.htm">
+	</alias>
+	<alias name="IntrotoOperReports" link="Introduction_to_Operational_Reports.htm">
+	</alias>
+	<alias name="Createnewgrp" link="Creating_a_New_Group.htm">
+	</alias>
+	<alias name="ConfiguingQuerySettings" link="Configuring_Query_Settings_in_Analysis.htm">
+	</alias>
+	<alias name="GridFilters" link="Grid_Filters.htm">
+	</alias>
+	<alias name="EditingGroups" link="Editing_Groups.htm">
+	</alias>
+	<alias name="ViewNewAuth" link="Viewing_the_Newly_Created_Authority.htm">
+	</alias>
+	<alias name="Filters" link="Filters.htm">
+	</alias>
+	<alias name="LogicalTablePropsunderBO" link="Logical_Tables_Properties_under_Business_Objects.htm">
+	</alias>
+	<alias name="ORBIT_app" link="ORBIT_Application.htm">
+	</alias>
+	<alias name="ConfigEmailSett" link="Configuring_Email_Settings.htm">
+	</alias>
+	<alias name="UserFilters" link="User_Filters1.htm">
+	</alias>
+	<alias name="ViewRecentlyRunReports" link="Viewing_Recently_Run_Reports.htm">
+	</alias>
+	<alias name="RenamingReport" link="Renaming_a_Report.htm">
+	</alias>
+	<alias name="CreatingNewDomain" link="Creating_a_New_Domain.htm">
+	</alias>
+	<alias name="ViewingimportUsers" link="Viewing_Imported_Users.htm">
+	</alias>
+	<alias name="IntrotoReports" link="Introduction_to_Reports.htm">
+	</alias>
+	<alias name="Monitoring" link="Monitoring.htm">
+	</alias>
+	<alias name="ApplyingFormula" link="Applying_Formula.htm">
+	</alias>
+	<alias name="CreatingPhysicalModel" link="Creating_a_Physical_Model.htm">
+	</alias>
+	<alias name="EditingReport" link="Editing_a_Report.htm">
+	</alias>
+	<alias name="workwithroles" link="Working_with_Roles.htm">
+	</alias>
+	<alias name="Creatingnewbu" link="Creating_a_New_Business_Unit.htm">
+	</alias>
+	<alias name="domains" link="Domains.htm">
+	</alias>
+	<alias name="MenuforDomainHierarchy" link="Menu_for_Domain_Hierarchy_Objects.htm">
+	</alias>
+	<alias name="Notifications" link="Notifications.htm">
+	</alias>
+	<alias name="CreatingaDashReport" link="Creating_a_Dashboard_Report.htm">
+	</alias>
+	<alias name="EditingBU" link="Editing_the_Business_Unit.htm">
+	</alias>
+	<alias name="AssignGrouptoSpecUser" link="Assigning_Groups_to_the_Specific_User.htm">
+	</alias>
+	<alias name="EditingDatsets" link="Editing_Datasets.htm">
+	</alias>
+	<alias name="IntrotoORBITFeatures" link="Introduction_to_ORBIT_Features.htm">
+	</alias>
+	<alias name="ResumingProcess" link="Resuming_the_Process.htm">
+	</alias>
+	<alias name="AccessingAccountDetails" link="Accessing_Account_Details.htm">
+	</alias>
+	<alias name="EditingUsers" link="Editing_Users.htm">
+	</alias>
+	<alias name="CreatenewDS" link="Creating_a_New_Data_Source.htm">
+	</alias>
+	<alias name="CreatingLM" link="Creating_a_Logical_Model.htm">
+	</alias>
+	<alias name="User_Interface" link="Administrative_Interface.htm">
+	</alias>
+	<alias name="LogontoORBIT" link="Logging_onto_the_ORBIT_Application.htm">
+	</alias>
+	<alias name="DrilldownsinOperReports" link="Drilldowns_in_Operational_Reports.htm">
+	</alias>
+	<alias name="UserFilter" link="User_Filters.htm">
+	</alias>
+	<alias name="ExportingReports" link="Exporting_Reports.htm">
+	</alias>
+	<alias name="Viewingoutputs" link="Viewing_Outputs.htm">
+	</alias>
+	<alias name="Analysis" link="Analysis.htm">
+	</alias>
+	<alias name="WorkinginPivot" link="Working_with_Pivot.htm">
+	</alias>
+	<alias name="WorkwithPerm" link="Working_with_Permissions.htm">
+	</alias>
+	<alias name="CreatingConditions" link="Creating_Conditions.htm">
+	</alias>
+	<alias name="FilteringProcesses" link="Filtering_Processes.htm">
+	</alias>
+	<alias name="WorkingwithLocales" link="Working_with_Locales.htm">
+	</alias>
+	<alias name="RemovingColumnsinBO" link="Removing_Columns_under_Business_Object.htm">
+	</alias>
+	<alias name="RenamingPhysicalModels" link="Renaming_Physical_Model.htm">
+	</alias>
+	<alias name="Architecture" link="Architecture.htm">
+	</alias>
+	<alias name="AddReporttoFavs" link="Adding_a_Report_to_Favourites.htm">
+	</alias>
+	<alias name="ResubmittingProcess" link="Resubmitting_the_Process.htm">
+	</alias>
+	<alias name="Reports" link="Reports.htm">
+	</alias>
+	<alias name="BusinessModels" link="Business_Models.htm">
+	</alias>
+	<alias name="ImpDateHierarchyTable" link="Importing_Date_Hirerarchy_Table.htm">
+	</alias>
+	<alias name="SortfieldwiseinReports" link="Sorting_Field-wise_in_Reports.htm">
+	</alias>
+	<alias name="CreatinganOperReport" link="Creating_an_Operational_Report.htm">
+	</alias>
+	<alias name="DisableSorting" link="Disabling_Sorting.htm">
+	</alias>
+	<alias name="CreatingNewUser" link="Creating_New_User.htm">
+	</alias>
+	<alias name="ToolsonLMWA" link="Tools_on_Logical_Model_Work_Area.htm">
+	</alias>
+	<alias name="GroupingColumnsinReports" link="Grouping_Columns_in_a_Report.htm">
+	</alias>
+	<alias name="ViewQuery" link="View_Query.htm">
+	</alias>
+	<alias name="TestingBOQuery" link="Testing_Business_Object_Query1.htm">
+	</alias>
+	<alias name="MultipleDrillsinReport" link="Multiple_Drilldowns_in_a_Report.htm">
+	</alias>
+	<alias name="FilteringDatasets" link="Filtering_Datasets.htm">
+	</alias>
+	<alias name="DeletingDatsets" link="Deleting_Datasets.htm">
+	</alias>
+	<alias name="OpeningExistingLM" link="Opening_Existing_Logical_Model.htm">
+	</alias>
+	<alias name="ReloadingBView" link="Reloading_Business_View.htm">
+	</alias>
+	<alias name="Parameters" link="Parameters.htm">
+	</alias>
+	<alias name="SettingAdvancedOption" link="Setting_the_Advanced_Option.htm">
+	</alias>
+	<alias name="FilteringBU" link="Filtering_Business_Units.htm">
+	</alias>
+	<alias name="menuOptionsinReports" link="Menu_Options_in_Reports.htm">
+	</alias>
+	<alias name="FilteringRoles" link="Filtering_Roles.htm">
+	</alias>
+	<alias name="Assignuserstogrp" link="Assigning_Users_to_the_Group.htm">
+	</alias>
+	<alias name="SettingLMProperties" link="Setting_Logical_Model_Properties.htm">
+	</alias>
+	<alias name="SettingOutputs" link="Setting_Outputs.htm">
+	</alias>
+	<alias name="ORBITProcessFlow" link="ORBIT_Process_Flow.htm">
+	</alias>
+	<alias name="MenuOptionsinDashboard" link="Menu_Options_in_Dashboards.htm">
+	</alias>
+	<alias name="WorkingwithDrills" link="Working_with_Drilldowns.htm">
+	</alias>
+	<alias name="Datasets" link="Introduction_to_Datasets.htm">
+	</alias>
+	<alias name="assigngrptoroles" link="Assigning_Groups_to_the_Role.htm">
+	</alias>
+	<alias name="CreatingObjfromSQL" link="Creating_Object_from_SQL.htm">
+	</alias>
+	<alias name="OrganizingReports" link="Organizing_Reports.htm">
+	</alias>
+	<alias name="SettingSimpleOption" link="Setting_the_Simple_Option.htm">
+	</alias>
+	<alias name="MetaObjects" link="Meta_Objects.htm">
+	</alias>
+	<alias name="ViewingDeliveries" link="Viewing_Deliveries.htm">
+	</alias>
+	<alias name="ValueFilters" link="Value_Filters.htm">
+	</alias>
+	<alias name="SortinDescending" link="Sorting_Fields_in_Descending_Order.htm">
+	</alias>
+	<alias name="SharingReport" link="Sharing_a_Report.htm">
+	</alias>
+	<alias name="ORBITHelp" link="ORBIT_Help.htm">
+	</alias>
+	<alias name="BusinessObjectsArea" link="Business_Objects_Area.htm">
+	</alias>
+	<alias name="ConfiguringLOV" link="Configuring_List_of_Values.htm">
+	</alias>
+	<alias name="AssignRolestoUsers" link="Assigning_Roles_to_the_Specific_User.htm">
+	</alias>
+	<alias name="EstablishingJoinsbwtables" link="Establishing_Joins_between_Tables.htm">
+	</alias>
+	<alias name="ExportingDatsets" link="Exporting_Datasets.htm">
+	</alias>
+	<alias name="RunResultsarea" link="Run_Results_Area.htm">
+	</alias>
+	<alias name="SortinginDescending" link="Sorting_in_Descending_Order.htm">
+	</alias>
+	<alias name="FilteringGroups" link="Filtering_Groups.htm">
+	</alias>
+	<alias name="UploadingFiles" link="Uploading_Files.htm">
+	</alias>
+	<alias name="ConfRolepermissions" link="Configuring_Permissions_for_the_Roles.htm">
+	</alias>
+	<alias name="ConfiguringWidgetSettings" link="Configuring_Widget_Settings.htm">
+	</alias>
+	<alias name="DeleteAuth" link="Deleting_Authority.htm">
+	</alias>
+	<alias name="CreatingReportsFolder" link="Creating_a_Reports_Folder.htm">
+	</alias>
+	<alias name="AssigningUsers" link="Assigning_Users.htm">
+	</alias>
+	<alias name="CreatingDatasets" link="Creating_Datasets.htm">
+	</alias>
+	<alias name="ConditionalFormats" link="Conditional_Formats.htm">
+	</alias>
+	<alias name="CreatingBO" link="Creating_a_BO.htm">
+	</alias>
+	<alias name="createnewrole" link="Creating_a_New_Role.htm">
+	</alias>
+	<alias name="RenamingBO" link="Renaming_a_Business_Object.htm">
+	</alias>
+	<alias name="IntroductiontoBU" link="Introduction_to_Business_Units.htm">
+	</alias>
+	<alias name="ImportingDomain" link="Exporting_a_Domain.htm">
+	</alias>
+	<alias name="ChangingPassword" link="Changing_Password.htm">
+	</alias>
+	<alias name="MultipleCondsonSamecol" link="Multiple_Conditions_on_Same_Column.htm">
+	</alias>
+	<alias name="Dashboards" link="Dashboards.htm">
+	</alias>
+	<alias name="TypesofFilters" link="Types_of_Filters.htm">
+	</alias>
+	<alias name="ExportingAnalysisReport" link="Exporting_Analysis_Report.htm">
+	</alias>
+	<alias name="DataSecurityinLM" link="Data_Security_in_Logical_Model.htm">
+	</alias>
+	<alias name="Prod_Overview" link="Product_Overview.htm">
+	</alias>
+	<alias name="IntrotoMonitoring" link="Introduction_to_Monitoring.htm">
+	</alias>
+	<alias name="ConfiguringQuerySettings" link="Configuring_Query_Settings.htm">
+	</alias>
+	<alias name="MenusonRunResults" link="Menus_on_Run_Result_area.htm">
+	</alias>
+	<alias name="Security" link="Security.htm">
+	</alias>
+	<alias name="ReportConfigArea" link="Report_Configurator_Area.htm">
+	</alias>
+	<alias name="SchedulingNewProcess" link="Scheduling_New_Process.htm">
+	</alias>
+	<alias name="WorkwithAuth" link="Working_with_Authorities.htm">
+	</alias>
+	<alias name="System_requirements" link="System_Requirements.htm">
+	</alias>
+	<alias name="Properties" link="Properties.htm">
+	</alias>
+	<alias name="ApplyingFiltersandPrompts" link="Applying_Filters_and_Prompts1.htm">
+	</alias>
+	<alias name="WorkwithGroups" link="Working_with_Groups.htm">
+	</alias>
+	<alias name="WorkwithUsers" link="Working_with_Users1.htm">
+	</alias>
+	<alias name="AddingnewcolumnsunderBO" link="Adding_New_Column_under_Business_Objects.htm">
+	</alias>
+	<alias name="MenuinRunResults" link="Menus_on_Run_Result_area.htm">
+	</alias>
+	<alias name="IntrotoDashboards" link="Introduction_to_Dashboards.htm">
+	</alias>
+	<alias name="Templates" link="Templates.htm">
+	</alias>
+	<alias name="ImportingFile" link="Importing_From_File.htm">
+	</alias>
+	<alias name="SizingColumns" link="Sizing_the_Columns_Automatically.htm">
+	</alias>
+	<alias name="ViewingDatasets" link="Viewing_Datasets.htm">
+	</alias>
+	<alias name="RenamingLM" link="Renaming_a_Logical_Model.htm">
+	</alias>
+	<alias name="CreatingJoinsinOR" link="Creating_Joins_in_Operational_Reports.htm">
+	</alias>
+	<alias name="RenamingDatsets" link="Renaming_Datasets.htm">
+	</alias>
+	<alias name="AssigningRoles" link="Assigning_Roles.htm">
+	</alias>
+	<alias name="SplittingDsteDimension" link="Splitting_Date_Dimensions.htm">
+	</alias>
+	<alias name="SearchingBO" link="Searching_a_Business_Object.htm">
+	</alias>
+	<alias name="SettingRepeatIntervals" link="Setting_Repeat_Intervals.htm">
+	</alias>
+	<alias name="ConditionalFilter" link="Conditional_Filter.htm">
+	</alias>
+	<alias name="ConditionalFilters" link="Conditional_Filters1.htm">
+	</alias>
+	<alias name="EditingRoles" link="Editing_Roles.htm">
+	</alias>
+	<alias name="DeletingReport" link="Deleting_a_Report.htm">
+	</alias>
+	<alias name="SortinginPivot" link="Sorting_in_Pivot.htm">
+	</alias>
+	<alias name="EnablingNewUser" link="Enabling_a_New_User.htm">
+	</alias>
+	<alias name="ConfiguringSettings" link="Configuring_the_Settings.htm">
+	</alias>
+	<alias name="FilteringDS" link="Filtering_Data_Source.htm">
+	</alias>
+	<alias name="CreateAuth" link="Creating_Authority.htm">
+	</alias>
+	<alias name="settingAggregateFunctions" link="Setting_Aggregate_Functions_on_Reports.htm">
+	</alias>
+	<alias name="CreatingAnalysisReport" link="Creating_an_Analysis_Report.htm">
+	</alias>
+	<alias name="LockingColumn" link="Locking_a_Column_in_Report.htm">
+	</alias>
+	<alias name="Getting_Started_With_ORBIT" link="Getting_Started_with_ORBIT_Application.htm">
+	</alias>
+	<alias name="ExportingDomain" link="Exporting_a_Domain2.htm">
+	</alias>
+	<alias name="BusinessUnits" link="Business_Units.htm">
+	</alias>
+	<alias name="EditingAuth" link="Editing_Authority.htm">
+	</alias>
+	<alias name="MultipleDrillsonSamecolumn" link="Multiple_Drilldowns_on_Same_Column.htm">
+	</alias>
+	<alias name="SyncwithDB" link="Synchronize_with_Database.htm">
+	</alias>
+</aliaslist>

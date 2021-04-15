@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Sorting Null values</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Reports\nSorting Null values");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Reports.htm\">Reports<\/a> > Sorting Null values<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Sorting Null Values</h1>
+<p>Before applying sort on a data report with null values, configure the 
+ <strong>Nulls Sorting Priority</strong> property to get desired sort order 
+ for null values.</p>
+<p><strong>Configuring Nulls Sorting Priority Property</strong>:</p>
+<ol style="list-style: decimal;">
+	<li><p>Open a data report which has null values in the data in the 
+	 <strong>Edit</strong> mode.</p>
+	<p>Or</p>
+	<p>Create a data report with null values in the data.</p></li>
+	<li><p>Click <strong>Run</strong>, to run the report.</p>
+	<p><img src="Null_sorting_001.jpg" alt="" style="border: none;" width="900" height="547" border="0" /></p>
+	<p><strong>Example</strong>: A data report with null values in the 
+	 data.</p></li>
+	<li><p>Do either of the following to open the <strong>Properties</strong> 
+	 dialog:</p></li>
+	<li><p>On the top right-hand corner of the run results area, click 
+	 <img src="image2527.gif" alt="" style="border: none;" border="0" /> 
+	 <strong>Options</strong>, and then click <strong>Properties</strong>.</p>
+	<p>or</p>
+	<p>In the <strong>Report Configurator</strong> section, click on a 
+	 column and then click <strong>Properties</strong>.</p>
+	<p><img src="Null_sorting_004.jpg" alt="" style="border: none;" width="900" height="417" border="0" /></p></li>
+	<li><p>In the <strong>Properties</strong> dialog, on the left-hand 
+	 pane, select the column name on which you want to apply sorting.</p></li>
+	<li><p>Properties of the selected column appear on the right-hand pane.</p></li>
+	<li><p>In the properties list, Under the <strong>Format</strong> section, 
+	 click <strong>Nulls Sorting Priority</strong>.</p>
+	<p><img src="Null_sorting_002.jpg" alt="" style="border: none;" width="700" height="750" border="0" /></p></li>
+	<li><p>Against the <strong>Nulls Sorting Priority</strong>, click under 
+	 <strong>Values</strong> and select any one of the following:</p>
+	<p class="note2"><span style="font-weight: bold;">Note</span>: By default, 
+	 Null sorting Priority is <strong>Blank</strong> which is equivalent 
+	 to DEFAULT.</p>
+	<ul style="list-style: disc;">
+		<li><p>DEFAULT: Select DEFAULT to retain the default sort order.</p></li>
+		<li><p>FIRST: Select FIRST to show null values at the top of the 
+		 report, when sorting is applied to the column.</p></li>
+		<li><p>LAST: Select LAST to show null values at the bottom of the 
+		 report, when sorting is applied to the column.</p>
+		<p><img src="Null_sorting_003.jpg" alt="" style="border: none;" width="700" height="750" border="0" /></p></li>
+	</ul></li>
+	<li><p>Click <strong>Ok</strong> to save the changes.</p></li>
+</ol>
+<p>&#160;</p>
+<p><strong>To sort null values in a data report</strong>:</p>
+<p class="note2"><strong>Note</strong>: Perform this after configuring 
+ <strong>Nulls Sorting Priority</strong> property.</p>
+<ol>
+	<li><p>In the <strong>Report Configurator</strong> section, click on 
+	 a column containing number fields and then click <strong>Sort 0 to 
+	 9</strong>.</p></li>
+	<li><p>The selected column is sorted from 0 to 9 and null values are 
+	 shown first in the report.</p>
+	<p><strong>Example</strong>: In the example below, Nulls Sorting Priority 
+	 is set as FIRST and Sort 0 to 9 is applied on the DEPTNO column.</p>
+	<p><img src="Null_sorting_006.jpg" alt="" style="border: none;" width="900" height="513" border="0" /></p></li>
+	<li><p>In the <strong>Report Configurator</strong> section, click on 
+	 a column containing number fields and then click <strong>Sort 9 to 
+	 0</strong>.</p></li>
+	<li><p>The selected column is sorted from 9 to 0 but null values are 
+	 still shown first in the report.</p>
+	<p><strong>Example</strong>: In the example below, Nulls Sorting Priority 
+	 is set as FIRST and Sort 9 to 0 is applied on the DEPTNO column.</p>
+	<p><img src="Null_sorting_005.jpg" alt="" style="border: none;" width="900" height="514" border="0" /></p></li>
+	<li><p>Sorting A to Z, Z to A, New to Old, or Old to New on a column 
+	 works similarly.</p>
+	<p><strong>Example</strong>: In the example below, Nulls Sorting Priority 
+	 is set as LAST, and Sort A to Z is applied on the <strong>JOB</strong> 
+	 column.</p>
+	<p><img src="Null_sorting_007.jpg" alt="" style="border: none;" width="900" height="516" border="0" /></p></li>
+</ol>
+<p class="note2"><span style="font-weight: bold;">Note</span>: <br />
+A metaobject config property “<span style="font-weight: bold;">Nulls Sorting 
+ Priority</span>” is also added at Base level in the Meta Objects screen.<br />
+If the user does not configure <span style="font-weight: bold;">Nulls Sorting 
+ Priority</span> at report level, then Base level property is considered 
+ for sorting.</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Exporting Analysis Report","url":"Exporting_Analysis_Report.htm"},{"type":"item","name":"Add this View to Home","url":"Add_this_View_to_Home.htm"},{"type":"item","name":"Underlying Data ","url":"Underlying_Data.htm"},{"type":"item","name":"Save As New Quick Filter","url":"Save_As_New_Quick_Filter.htm"},{"type":"item","name":"Save Current Quick Filter ","url":"Save_Current_Quick_Filter.htm"},{"type":"item","name":"Manage Quick Filters ","url":"Manage_Quick_Filters.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

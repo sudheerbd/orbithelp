@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Custom job API</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Jobs\nCustom Jobs\nCustom job API");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Jobs1.htm\">Jobs<\/a> > <a href=\"Custom_Jobs.htm\">Custom Jobs<\/a> > Custom job API<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Custom job API</h1>
+<p class="MsoNormal" style="line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt;"><span lang="EN-US" xml:lang="EN-US">The 
+ OrbitJobContext is the primary job context which provides many details 
+ related Orbit Jobs.</span></p>
+<p class="MsoNormal" style="line-height: 20.0pt;">&#160;</p>
+<ol style="list-style: decimal;">
+	<li><p class="MsoNormal" style="line-height: 10.7pt; margin-left: 0px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getLogger()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; text-indent: 12px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >&#160;It is 
+ ORBIT logger, which is used to log debug/error messages.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormalCxSpMiddle" style="margin-left: .25in; mso-add-space: auto;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-ansi-language: EN-IN;">Implementation 
+ Code :</span></b></p>
+<p class="MsoNormalCxSpMiddle" style="margin-left: .25in; mso-add-space: auto;">&#160;</p>
+<table class="MsoNormalTable" style="mso-cellspacing: 0in; margin-left: .25in; 
+		 border: solid #000000 1.0pt; mso-border-alt: solid windowtext .5pt; 
+		 mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; 
+		 border-collapse: separate;" cellspacing="0" width="600">
+	<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;">
+		<td style="vertical-align: top; border: none; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="601"><p class="MsoNormal" style="margin-left: .5in; 
+							 line-height: 150%;">&#160;</p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">package com.orbit.reporting.custom.job;</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">import java.io.File;</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">import org.quartz.JobExecutionContext;</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">import org.quartz.JobExecutionException;</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">import com.orbit.reporting.job.OrbitJobContext;</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">import com.orbit.reporting.job.OrbitQuartzJob;</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">public class MyCustomJob extends OrbitQuartzJob 
+		 {</font></span></p>
+		<p class="MsoNormal" style="line-height: 150%;"><span style="font-size: 8.0pt; 
+		 line-height: 150%; font-family: 'Courier New'; mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;&#160;@Override</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">public void execute(JobExecutionContext 
+		 context) throws JobExecutionException</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;"><span style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&#160;try{</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">OrbitJobContext ctx = getOrbitJobContext(context, 
+		 this);</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;"><span style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&#160;ctx.getLogger().debug(&quot;Entered 
+		 into MyCustomJob...&quot;);</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;"><span style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&#160;File 
+		 sorceFilePath = new&#160;</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">File(ctx.getFilePath(&quot;murty.txt&quot;));</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;"><span style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&#160;ctx.generateOutputFile(sorceFilePath);<span 
+		 style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;</span></font></span> 
+		 </p>
+		<p class="MsoNormal" style="margin-left: 1.5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">ctx.getLogger().debug(&quot;execution 
+		 is completed.....&quot;);</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;"><span style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&#160;}</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;catch(Exception ex){</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;"><span style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+		 style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;&#160;ctx.getLogger().error(&quot;error 
+		 : &quot;+ex.toString());</font></span></p>
+		<p class="MsoNormal" style="margin-left: 1.0in; text-indent: .5in; 
+			 line-height: 150%;"><span style="font-size: 8.0pt; line-height: 150%; 
+										 font-family: 'Courier New'; mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">}</font></span></p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; 
+			 tab-stops: .5in center 225.65pt;"><span style="font-size: 8.0pt; 
+													 line-height: 150%; 
+													 font-family: 'Courier New'; 
+													 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;&#160;}<span 
+		 style="mso-tab-count: 1;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></font></span> 
+		 </p>
+		<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+		 style="font-size: 8.0pt; line-height: 150%; font-family: 'Courier New'; 
+		 mso-ansi-language: EN-IN;"><font size="1" style="font-size:8pt;">}</font></span></p>
+		<p class="MsoNormalCxSpMiddle">&#160;</p></td>
+	</tr>
+</table>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="color: #ffffff; 
+							 mso-color-alt: windowtext;"><font color="white" >&#160;</font></span>&#160;<span 
+	 lang="EN-US" xml:lang="EN-US"><br />
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Similarly, 
+ implementation code for other below-mentioned methods can also be written.</span> 
+ </p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<ol start="2" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>generateOutputFile()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >It is used to 
+ generate output file based on output type selected from ORBIT User Interface.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<ol start="3" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getFilePath()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >It is used to 
+ get ORBIT configured output directory where output files are generated.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<ol start="4" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getJobParams()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 15.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >When you register 
+ a custom job, you can send couple of parameters from ORBIT UI as per custom 
+ job. You can retrieve those parameters using this method.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<ol start="5" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getParentProcessId()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >Every ORBIT 
+ job has a unique process ID. This method is used to get the process ID.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<ol start="6" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getOutputType()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >This method 
+ is used to get the output type configured from ORBIT User Interface.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<ol start="7" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getOutputFile()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >This method 
+ is used to get the output file, if generated.</font></span></p>
+<p class="MsoNormal" style="line-height: 20.0pt;">&#160;</p>
+<ol start="8" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 10.7pt; 
+			 text-indent: -24px;"><span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" ><b>getOutputStream()</b></font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 20.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 15.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >It is used to 
+ push any output content into this output stream. It is required to close 
+ this stream when a job is completed. It is part of the job implementation.</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt;">&#160;</p>
+<ol start="9" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt; 
+			 text-indent: -24px;"><b><span lang="EN-US" xml:lang="EN-US" 
+											 style="color: #263238;"><font color="#263238" >getJobId()</font></span></b> 
+	 </p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt; text-indent: -24px;">&#160;</p>
+<p class="MsoNormal" style="line-height: 15.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #263238;"><font color="#263238" >This is to get 
+ the custom job id</font></span> </p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt;">&#160;</p>
+<ol start="10" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt; 
+			 text-indent: -24px;"><b><span lang="EN-US" xml:lang="EN-US" 
+											 style="color: #263238;"><font color="#263238" >getJobConfig()</font></span></b><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >&#160;</font></span></p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 15.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #263238;"><font color="#263238" >This method 
+ is to get the value entered in the job config parameter in the UI.</font></span> 
+ <span lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >&#160;</font></span></p>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt;">&#160;</p>
+<ol start="11" style="list-style: decimal;">
+	<li><p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt; 
+			 text-indent: -24px;"><b><span lang="EN-US" xml:lang="EN-US" 
+											 style="color: #263238;"><font color="#263238" >getParameterType(parameter)</font></span></b> 
+	 </p></li>
+</ol>
+<p class="MsoNormal" style="margin-left: .25in; line-height: 15.0pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 15.0pt; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="color: #000000;"><font color="black" >This method 
+ is to get the parameter type defined in the UI either STRING,DATE, or 
+ INTEGER.</font></span></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

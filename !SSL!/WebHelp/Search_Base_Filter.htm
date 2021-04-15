@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Search Base Filter</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("User Management\nWorking with Authorities\nActive Directory\nGroup Search Information\nSearch Base Filter");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Security.htm\">User Management<\/a> > <a href=\"Working_with_Authorities.htm\">Working with Authorities<\/a> > <a href=\"Active_Directory.htm\">Active Directory<\/a> > <a href=\"Group_Serch_Information.htm\">Group Search Information<\/a> > Search Base Filter<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Search Base Filter</h1>
+<ol style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif;"><p class="examples" style="font-family: Arial, sans-serif; 
+													 line-height: 26.6667px; 
+													 margin-left: 0px;">Under<span>&#160;</span><b>Group 
+	 Search Information</b><span>&#160;</span>section, perform the following:</p></li>
+	<ul style="margin-top: 0px; margin-bottom: 0px; font-family: Arial; 
+			 line-height: 26.6667px; font-size: 10pt	 ! important ; 
+			 list-style: disc;">
+		<li><p class="examples" style="margin-top: 0pt; margin-bottom: 0pt; 
+				 font-family: Arial, sans-serif; line-height: 26.6667px; 
+				 font-size: 10pt; margin-left: 40px; text-indent: -40px;">In 
+		 the<span>&#160;</span><b>Search Base</b><span>&#160;text </span>box, 
+		 type the required search base.</p></li>
+	</ul>
+</ol>
+<p class="examples" style="font-family: Arial, sans-serif; line-height: 26.6667px; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; 
+	 text-decoration-style: initial; text-decoration-color: initial; margin-left: 80px;"><span>Example: 
+ Search Base: OU=Orbit2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<ul style="list-style: disc;">
+	<li><p style="margin-left: 40px;">In the search filter text box type 
+	 the required search base.</p></li>
+</ul>
+<p style="margin-left: 80px;">Example: Search Filter: (&amp;(objectCategory=Group)(objectClass=group)(cn=group6))</p>
+<p style="margin-left: 0px;">&#160;&#160;&#160;&#160;&#160;2. This retrieves 
+ the required reports from the ObjectCategory equals to &quot;Group&quot; 
+ and ObjectClass equals to&quot; User group6&quot;</p>
+<p style="margin-left: 0px;"><img src="Group_Filter.jpg" alt="" style="border-left-style: Solid; 
+									 border-top-style: Solid; border-right-style: Solid; 
+									 border-bottom-style: Solid; border-left-width: 1px; 
+									 border-right-width: 1px; border-top-width: 1px; 
+									 border-bottom-width: 1px;" width="704" height="522" border="1" /></p>
+<ol start="3" style="line-height: 26.6667px; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 text-decoration-thickness: initial; text-decoration-style: initial; 
+		 text-decoration-color: initial; list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoListParagraphCxSpFirst" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; font-family: Arial; 
+		 line-height: 26.6667px; font-size: 10pt;">Import the required 
+	 users once they are retrieved.</p></li>
+</ol>
+<ol start="4" style="line-height: 26.6667px; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 text-decoration-thickness: initial; text-decoration-style: initial; 
+		 text-decoration-color: initial; list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="MsoListParagraphCxSpLast" 
+		 style="margin-top: 0.5pt; margin-bottom: 0.5pt; font-family: Arial; 
+		 line-height: 26.6667px; font-size: 10pt;">Verify the existence 
+	 of Roles and their associated Users to it, in the User Management 
+	 section as shown below.</p></li>
+</ol>
+<p style="margin-left: 0px;"><img src="Roles_filtered.jpg" alt="" style="border-left-style: Solid; 
+									 border-left-width: 1px; border-right-style: Solid; 
+									 border-right-width: 1px; border-top-style: Solid; 
+									 border-top-width: 1px; border-bottom-style: Solid; 
+									 border-bottom-width: 1px;" width="1088" height="183" border="1" /></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

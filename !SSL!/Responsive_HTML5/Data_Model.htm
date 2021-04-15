@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Data Model</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "2.0_3";
+</script>
+ <meta name="brsprev" value="Architecture.htm">
+ <meta name="brsnext" value="Administrative_Interface.htm">
+ <meta name="topic-breadcrumbs" content="ORBIT Application " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Data Model</h1>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The figure below explains the data flow in the ORBIT 
+ application.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image12.gif" alt="" style=" border:none; width:100%; max-width:748px;" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;The data is taken from the following data 
+ sources:</p>
+<p class="MsoNormal" style="line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<ul style="list-style: disc; margin-top: 0in; font-family: Arial, sans-serif; 
+		 font-size: 10pt;">
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l1 level1 lfo1; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Database</b></p></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l1 level1 lfo1; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Files</b></p></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l1 level1 lfo1; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Web Services</b></p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">The data from the data sources is pulled into the 
+ Physical Model. Physical Models and Logical Models are parts of a Domain. 
+ In the logical model, the relation between the data is established. This 
+ is where the Joins are created between the tables, views, or synonyms. 
+ Once a logical model is created, business object is automatically created.</p>
+<p class="MsoNormal" style="line-height: 200%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-spacerun: yes;">&#160;</span>Using 
+ the business object, the following reports are created:</p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo2; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Data Reports</b></p></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo2; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Analysis</b></p></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo2; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Dashboards</b></p></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo2; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Publisher Reports </b></p></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo2; 
+		 font-family: Arial, sans-serif; font-size: 10pt;"><p style="line-height: 200%; 
+		 mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><b>Script Reports </b></p></li>
+</ul>
+</body>
+</html>

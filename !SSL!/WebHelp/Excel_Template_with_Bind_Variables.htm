@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Excel Template with Bind Variables</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Publisher Report\nTemplate with Bind Variables\nExcel Template with Bind Variables");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Publisher_Report.htm\">Publisher Report<\/a> > <a href=\"Template_with_Bind_Variables.htm\">Template with Bind Variables<\/a> > Excel Template with Bind Variables<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Excel Template with Bind Variables</h1>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">This 
+ section, explains about the Template with Bind &#160;Variables and &#160;how 
+ they are created.</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">The 
+ figure below displays various Bind variable with its Name and its associated 
+ Key values.</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="Bind1.jpg" alt="" 
+													 style="border-left-style: Solid; 
+													 border-top-style: Solid; 
+													 border-right-style: Solid; 
+													 border-bottom-style: Solid; 
+													 border-left-width: 1px; 
+													 border-right-width: 1px; 
+													 border-top-width: 1px; 
+													 border-bottom-width: 1px;" 
+													 width="1086" height="415" 
+													 border="1" /></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image16.png" 
+													 alt="" style="border: none;" 
+													 border="0" /> _1.GeneratedDate: 
+ Its associated key ${Date} displays information about the <span style="font-weight: bold;">Date 
+ and Time</span> the report had Run.</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image15.png" 
+													 alt="" style="border: none;" 
+													 width="25" height="27" 
+													 border="0" />_2.ReportName: 
+ Its associated key ${Name} displays the Name of the report.</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image17.png" 
+													 alt="" style="border: none;" 
+													 width="25" height="26" 
+													 border="0" />_3.ParametersInfo: 
+ Its associated key E.g. ${sal} is set as a User Filter here.</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image21.png" 
+													 style="border: none;" 
+													 alt="" width="25" 
+													 height="26" border="0" />_4.Header: 
+ The header for the ParametersData </p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image19.png" 
+													 style="border: none;" 
+													 alt="" width="25" 
+													 height="26" border="0" /> 
+ _5.ParametersData: The User Filter data is displayed here column wise 
+ in ${COL0}, ${COL1} </p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image22.png" 
+													 style="border: none;" 
+													 alt="" width="25" 
+													 height="26" border="0" /> 
+ _6.DataHeader: The field names for the contents in &#160;the reports (E.g. 
+ Ename,Job,Sal,Dname)</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="image20.png" 
+													 style="border: none;" 
+													 alt="" width="25" 
+													 height="26" border="0" />_7.ReportData: 
+ The Report data which is extracted gets displayed here.</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">The <span style="font-weight: bold;">Names</span> 
+ mentioned in <span style="font-weight: bold;">Name Manager</span> field 
+ of Excel are the <span style="font-weight: bold;">Standard Notations</span> 
+ which the User cant change. Below is the List of <span style="font-weight: bold;">Standard 
+ Notations</span></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%;">GeneratedDate,</p></li>
+	<li><p class="MsoNormal" style="line-height: 150%;">ReportName,</p></li>
+	<li><p class="MsoNormal" style="line-height: 150%;">ParametersInfo,</p></li>
+	<li><p class="MsoNormal" style="line-height: 150%;">ParametersData,</p></li>
+	<li><p class="MsoNormal" style="line-height: 150%;">ReportData </p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%;"><span style="line-height: 150%;">If 
+ the user tries to change the Notations then the data wont be extracted 
+ from the reports </span></p>
+<p class="MsoNormal" style="line-height: 150%;">Note: </p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="background-color: #ffffff; line-height: 150%;">We 
+	 need to mention the Names as _1 or _2 so on to define the placing. 
+	 Follow the rules mentioned below in the figure while defining a Name.</p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; background-color: #ffffff;"><span 
+	 style="line-height: 150%;">Based on the notations given the data is 
+	 extracted, the user has an option to customise the Template based 
+	 on the Styles and while sequencing.</span></p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="Underscore.jpg" 
+													 alt="" style="border-left-style: Solid; 
+													 border-left-width: 1px; 
+													 border-right-style: Solid; 
+													 border-right-width: 1px; 
+													 border-top-style: Solid; 
+													 border-top-width: 1px; 
+													 border-bottom-style: Solid; 
+													 border-bottom-width: 1px;" 
+													 border="1" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">If the Notation <span style="font-weight: bold;">(E.g. 
+ ${Date} is changed to ${Dates}</span> then the data cannot be extracted 
+ as shown in the figure below.</p>
+<p class="MsoNormal"><img src="Date.jpg" alt="" style="border-left-style: Solid; 
+							 border-top-style: Solid; border-right-style: Solid; 
+							 border-bottom-style: Solid; border-left-width: 1px; 
+							 border-right-width: 1px; border-top-width: 1px; 
+							 border-bottom-width: 1px;" width="446" height="68" 
+							 border="1" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">If we mention the notations properly it provides the 
+ actual information as mentioned below.</p>
+<p class="MsoNormal"><img src="dates1.jpg" alt="" style="border-left-style: Solid; 
+							 border-top-style: Solid; border-right-style: Solid; 
+							 border-bottom-style: Solid; border-left-width: 1px; 
+							 border-right-width: 1px; border-top-width: 1px; 
+							 border-bottom-width: 1px;" width="446" height="73" 
+							 border="1" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">The ParametersInfo Name is picked from the User Filter 
+ set in Publisher Report as <span style="font-weight: bold;">sal</span> 
+ as mentioned in below figure.</p>
+<p class="MsoNormal"><img src="sal.jpg" alt="" style="border-left-style: Solid; 
+							 border-top-style: Solid; border-right-style: Solid; 
+							 border-bottom-style: Solid; border-left-width: 1px; 
+							 border-right-width: 1px; border-top-width: 1px; 
+							 border-bottom-width: 1px;" width="976" height="312" 
+							 border="1" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">For 
+ the ParameterData, the keys ${COL0} and ${COL1} are picked from column 
+ names under the Query as shown below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="COL.jpg" alt="" 
+													 style="border-left-style: Solid; 
+													 border-left-width: 1px; 
+													 border-right-style: Solid; 
+													 border-right-width: 1px; 
+													 border-top-style: Solid; 
+													 border-top-width: 1px; 
+													 border-bottom-style: Solid; 
+													 border-bottom-width: 1px;" 
+													 width="801" height="415" 
+													 border="1" /></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">The Excel Output is displayed 
+ as below.</p>
+<p class="MsoNormal" style="line-height: 150%;"><img src="excel_outputnew.jpg" alt="" style="border-left-style: Solid; 
+													 border-left-width: 1px; 
+													 border-right-style: Solid; 
+													 border-right-width: 1px; 
+													 border-top-style: Solid; 
+													 border-top-width: 1px; 
+													 border-bottom-style: Solid; 
+													 border-bottom-width: 1px;" width="663" height="422" border="1" /></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

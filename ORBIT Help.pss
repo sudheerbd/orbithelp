@@ -1,0 +1,114 @@
+﻿[Target:WebHelp Pro]
+ResultFileName=!SSL!\WebHelp_Pro\ORBIT_Help.htm
+SSLayoutType=32
+ServerProjectName=ORBIT Help
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:WebHelp]
+ResultFileName=!SSL!\WebHelp\ORBIT_Help.htm
+SSLayoutType=2
+CreateProjectTime=22:39, January 15, 2017
+CreateProjectUser=Orbit
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp\ORBIT_Help.htm
+ResultStatus=0
+BuildTimeHi=30568387
+BuildTimeLow=1659558631
+[Target:Microsoft HTML Help]
+ResultFileName=!SSL!\Microsoft_HTML_Help\ORBIT_Help.chm
+SSLayoutType=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:FlashHelp]
+ResultFileName=!SSL!\FlashHelp\ORBIT_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Printed Documentation]
+ResultFileName=C:\Users\Orbit\Desktop\ORBIT Help\Printed_Documentation.doc
+SSLayoutType=7
+ActionID For Generation=1001
+Remove Folder with prompt=1
+CreateProjectTime=23:02, January 12, 2017
+CreateProjectUser=Orbit
+SupportMas_MPJ=1
+ViewFileName=C:\Users\Orbit\Desktop\ORBIT Help\Printed_Documentation.doc
+ResultStatus=0
+BuildTimeHi=30567787
+BuildTimeLow=268057590
+[Target:XML Output]
+ResultFileName=!SSL!\XML_Output\ORBIT_Help.xml
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+ResultFileName=!SSL!\FlashHelp_Pro\ORBIT_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Adobe AIR]
+ResultFileName=!SSL!\Adobe_AIR\ORBIT_Help.air
+SSLayoutType=512
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Multiscreen HTML5]
+ResultFileName=!SSL!\Multiscreen_HTML5\ORBIT_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:eBook]
+ResultFileName=!SSL!\eBook\ORBIT_Help.epub
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+[Target:Responsive HTML5]
+ResultFileName=!SSL!\Responsive_HTML5\ORBIT_Help.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Mobile App]
+ResultFileName=!SSL!\Mobile_App\ORBIT_Help.htm
+SSLayoutType=3
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[PreSingleSource]
+Html Help Project=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.hhp
+Table Of Content=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.hhc
+Index=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.hhk
+Topic Index=C:\Users\Orbit\Desktop\New folder\ORBIT Help\RHTopicKeyword$.hhk
+See Also Index=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.hha
+Browse Sequence=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.brs
+Glossary=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.glo
+Topic Properties=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trs
+Active Folders=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trf
+Baggage Files=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trb
+Skin List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trk
+Active Layout Names=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trl
+Template Files=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trt
+Project TOC List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trtocl
+Project Index List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.tridxl
+Project Glossary List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trglol
+Project CSS List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trcss
+Project Variable Set List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.trvset
+External URL Settings=C:\Users\Orbit\Desktop\New folder\ORBIT Help\SearchOptions.xml
+Screen Template File Details=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT Help.sctfdl
+CPSwfToHTML5Map=C:\Users\Orbit\Desktop\New folder\ORBIT Help\__cpSwf2HTML5ZipMap
+Default Topic=C:\Users\Orbit\Desktop\New folder\ORBIT Help\ORBIT_Help.htm
+Build Tags0=3054;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=C:\Users\Orbit\Desktop\New folder\ORBIT Help\!Language!\en_US\RoboHHRE.lng
+Stop List=C:\Users\Orbit\Desktop\New folder\ORBIT Help\!Language!\en_US\ORBIT Help.stp

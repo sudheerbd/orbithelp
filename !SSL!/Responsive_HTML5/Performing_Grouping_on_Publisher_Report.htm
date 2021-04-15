@@ -1,0 +1,562 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Performing Grouping on Publisher Report</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "19.3_1";
+</script>
+ <meta name="brsprev" value="Importing_Report.htm">
+ <meta name="brsnext" value="Generating_Excel_Output_in_Schedule_Report.htm">
+ <meta name="topic-breadcrumbs" content="Practice Examples " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Performing Grouping on Publisher Report</h1>
+<p>&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">Prior 
+ to performing grouping on the publisher report in ORBIT and view the output 
+ in Excel, you must have the template ready with required filter (for example: 
+ State).&#160;&#160;For more information, see&#160;<em><a href="Creating_an_Excel_Template_for_Grouping.htm">Creating 
+ an Excel Template for Grouping</a>.</em></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;">Applying 
+ Grouping to the Publisher Report </p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><strong>To 
+ Apply Grouping to the Publisher Report</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<ol style="margin: 10px 0px 0px; list-style-type: decimal; padding-left: 22px; 
+		 color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><span>Under 
+	 the&#160;<strong>Bands&#160;</strong>section,&#160;<strong>MainBand</strong>&#160;appears.</span></li>
+</ol>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;2. 
+ Under the&#160;<strong>MainBand</strong>, perform the following:</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;a. 
+ &#160;On the&#160;<strong>MainBand</strong>, right-click and then select&#160;<strong>New 
+ Band</strong>&#160;to create a new band.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(OR)</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Hover 
+ the cursor on the&#160;<strong>MainBand</strong>, click&#160;<img src="image182.gif" alt="" style=" border:none; width:100%; max-width:28px;" border="0" />, and then click&#160;<strong>New 
+ Band</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Example: 
+ New Band: Header</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;<img src="image181.gif" alt="" style=" border:none; width:100%; max-width:371px;" border="0" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;Here, 
+ “<strong>Header”</strong>&#160;is for the header band that we created 
+ in the excel sheet.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;b. 
+ &#160;On the&#160;<strong>Header</strong>&#160;band, right-click, and 
+ then click&#160;<strong>New Query</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><br />
+&#160;c. From the Business object area, drag and drop the columns, based 
+ on which the grouping must be performed, on to the&#160;<img src="image183.gif" alt="" style=" border:none; width:100%; max-width:26px;" border="0" /><strong>Configurator</strong>&#160;area.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Example: 
+ Columns: State</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sales</p>
+<ul style="list-style: disc;">
+	<li style="color: rgb(51, 51, 51); text-transform: none;"><p style="margin: 10px 0px 0px; 
+		 padding: 0px; color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">Here, perform 
+	 the aggregation on the “<strong>Sales”</strong>&#160;as the sum of 
+	 the sales is required state-wise.</p></li>
+	<li style="color: rgb(51, 51, 51); text-transform: none;"><p style="margin: 10px 0px 0px; 
+		 padding: 0px; color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">Now, create 
+	 a data band to extract the data under&#160;<strong>Header</strong>. 
+	 Since&#160;<strong>Data</strong>&#160;band is needed for every group, 
+	 place the&#160;<strong>Data</strong>&#160;band under&#160;<strong>Header</strong></p></li>
+</ul>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;d. 
+ On the&#160;<strong>Header</strong>&#160;band, right-click, and then select&#160;<strong>New 
+ Band</strong>&#160;to create a new band.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;(OR)</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;Hover 
+ the cursor on the&#160;<strong>Header</strong>&#160;band, click<span style="max-width: 100%;"><img src="image182.gif" alt="" style=" border:none; width:100%; max-width:28px;" border="0" /></span>&#160;, 
+ and then click&#160;<strong>New Band</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;</p>
+<ul style="margin: 10px 0px 0px; list-style-type: disc; padding-left: 22px; 
+		 color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;">Example: 
+	 New Band: Data</li>
+</ul>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">e. 
+ On the&#160;<strong>Data</strong>&#160;band (highlighted as “5”), right-click, 
+ and then select&#160;<strong>New Query</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(OR)</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;Hover 
+ the cursor on the&#160;<strong>Data</strong>&#160;band, click&#160;<span 
+	 style="max-width: 100%;"><img src="image182.gif" alt="" style=" border:none; width:100%; max-width:28px;" border="0" /></span>&#160;, and then 
+ click&#160;<strong>New Query</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><br />
+<span style="color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">&#160;f. A new 
+ query option (highlighted as “6”) appears.</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><br />
+&#160;&#160;<img src="image185.gif" alt="" style=" border:none; width:100%; max-width:476px;" border="0" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">g. 
+ Select the query option.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">h.&#160;<strong>Query 
+ Details&#160;</strong>(highlighted as “7”) and&#160;<strong>Query</strong>&#160;(highlighted 
+ as “8”) sections appear.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><br />
+<img src="image186.gif" alt="" style=" border:none; width:100%; max-width:500px;" border="0" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">i. 
+ For the query under&#160;<strong>Data</strong>&#160;band, drag and drop 
+ the columns from Business Object area to the&#160;<span style="max-width: 100%;"><img src="image183.gif" alt="" style=" border:none; width:100%; max-width:26px;" border="0" /></span><strong>Configurator</strong>&#160;under&#160;<strong>Query 
+ Details.</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><strong>&#160;&#160;</strong><span 
+	 style="color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+	 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><strong>&#160;&#160;&#160;</strong></span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><strong>&#160;</strong>j. 
+ Use the calculation column to create the own formula (highlighted as “9”) 
+ by clicking on&#160;<strong>New Calculation Column</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><strong>&#160;&#160;<img src="image188.gif" alt="" style=" border:none; width:100%; max-width:451px;" border="0" /></strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;<span 
+	 style="color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+	 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><br />
+k. Under the&#160;<strong>Query</strong>&#160;section, a query is built 
+ based on the dragged columns.</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;<img src="image189.gif" alt="" style=" border:none; width:100%; max-width:443px;" border="0" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><img 
+	 class="emoticon emoticon-tick" title="(tick)" src="http://polarisassociates.atlassian.net/wiki/s/-917694814/6452/70ae3c76d1e429e54f0a27adb0a3b1281e7a7082/_/images/icons/emoticons/check.png" 
+	 alt="(tick)" style="margin: 0px; padding: 0px; border: 0px; max-width: none;" 
+	 align="bottom" border="0" />&#160;&#160;Since the grouping is done 
+ state-wise, add the data filters for the Query under&#160;<strong>Header.</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">l. 
+ Select the query under&#160;<strong>Data&#160;</strong>band, and then 
+ select the&#160;<strong>Data Filters</strong>&#160;tab under&#160;<strong>Query 
+ Details</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><br />
+</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">m. 
+ From the Business Object, area drag and drop the required column (highlighted 
+ as “11”), which works as a filter, onto the&#160;<strong>Data Filters</strong>&#160;tab 
+ (highlighted as “10”).</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<ul style="margin: 10px 0px 0px; list-style-type: disc; padding-left: 22px; 
+		 color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;">Example: 
+	 Filter Column: State</li>
+</ul>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">n. 
+ For the required filter, click&#160;<span style="max-width: 100%;"><img src="image190.gif" alt="" style=" border:none; width:100%; max-width:30px;" border="0" /></span><strong>Show 
+ multi select filter.</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;"><br />
+&#160;&#160;&#160;&#160;<img src="image191.gif" alt="" style=" border:none; width:100%; max-width:244px;" border="0" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;&#160;&#160;&#160;<span 
+	 style="color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+	 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">o. From the “<strong>Show items when the value</strong>” 
+ list, select the required option.</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<ul style="margin: 10px 0px 0px; list-style-type: disc; padding-left: 22px; 
+		 color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;">Example: 
+	 Required Option: equals</li>
+</ul>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">p. 
+ Under the list, in the textbox, enter the value for the filter.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<ul style="margin: 10px 0px 0px; list-style-type: disc; padding-left: 22px; 
+		 color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+		 orphans: 2; text-align: left; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif; font-size: 10pt;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;">Example: 
+	 Filter Value: ${Header.COL0}</li>
+</ul>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">q. 
+ State column in the configurator area is at&#160;<strong>COL0</strong>.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">r. 
+ Save the report under appropriate folder, by clicking on&#160;<strong>Save.</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">s. 
+ Once you have saved the report, you must apply the template of the required 
+ format. See&#160;<em><a href="Applying_Excel_Template_to_Publisher_Report.htm">Applying 
+ Excel Template for Publisher Report</a>&#160;</em>&#160;to apply template.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">t. 
+ The report appears as follows:</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image825.gif" style=" border:none; width:100%; max-width:370px;" alt="" border="0" /></p>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p style="font-family: Arial, sans-serif; font-size: 10pt;">Grouping 
+	 is possible only in Excel and HTML; grouping cannot be done in Word 
+	 templates. </p></li>
+</ul>
+</body>
+</html>

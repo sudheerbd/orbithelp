@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc66.js\"  name=\"Tree Maps, Sun Burst and Heat Maps\" url=\"Tree_Maps,_Sun_Burst_and_Heat_Maps.htm\"><item name=\"Widget Setting of Tree Maps, SunBurst and Heat Maps\" url=\"Tree_Maps.htm\" /></data>";

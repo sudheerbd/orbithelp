@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Performing Grouping on Publisher Report</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function ehlp_showtip(current,e,text)
+{
+  if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == 'Netscape'))
+  {
+    document.tooltip.document.write("<layer bgColor='yellow' style='border:1px solid black;font-size:12px;'>"+ text + "</layer>");
+    document.tooltip.document.close();
+    document.tooltip.left=e.pageX+5;
+    document.tooltip.top=e.pageY+5;
+    document.tooltip.visibility="show";
+  }
+}
+function ehlp_hidetip()
+{
+  document.tooltip.visibility="hidden";
+}
+//]]>
+</script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Publisher Report\nGrouping in Publisher Report\nPerforming Grouping in Publisher Report");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Publisher_Report.htm\">Publisher Report<\/a> > <a href=\"Creating_an_Excel_Template_for_Grouping.htm\">Grouping in Publisher Report<\/a> > Performing Grouping in Publisher Report<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Performing Grouping on Publisher Report</h1>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">Prior 
+ performing grouping in the Publisher Report in ORBIT and view the output 
+ in Excel, you must have the template ready with required filter.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-family: Arial, sans-serif; font-size: 10pt;">For 
+ more information, see <a title="Click here for more info" href="Creating_an_Excel_Template_for_Grouping.htm" onmouseover="if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == 'Netscape')) ehlp_showtip(this,event,'Click here for more info');" onmouseout="if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == 'Netscape')) ehlp_hidetip();">Creating 
+ an Excel Template for Grouping</a></p>
+<p>&#160;</p>
+<p>1. Open a New report under the&#160;<strong>Bands&#160;</strong>section,&#160;<strong>MainBand</strong>&#160;appears.<span 
+	 style="orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; color: rgb(51, 51, 51); font-family: Arial, sans-serif;">In 
+ the&#160;<strong>MainBand</strong>, right-click and then select&#160;<strong>New 
+ Band</strong>&#160;to create a new band.</span></p>
+<p style="color: rgb(51, 51, 51); orphans: 2; widows: 2; font-family: Arial, sans-serif; 
+	 margin-left: 40px;"><span style="-webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+								 text-decoration-color: initial; font-weight: bold;">E.g:</span><span 
+	 style="-webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial;"> New Band: </span><span style="-webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-weight: bold;">Header</span><span 
+	 style="-webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial;"> its the same Name created in Excel 
+ Template.</span></p>
+<p><span style="color: rgb(51, 51, 51); orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-family: Arial, sans-serif;">2. On the&#160;<strong>Header</strong>&#160;band, 
+ click the drop down and select&#160;<strong>New Query</strong></span><strong><span 
+	 style="color: rgb(51, 51, 51); orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif; 
+	 font-weight: normal;">. Drag and drop the required Business Objects 
+ in the columns in the </span><span style="color: rgb(51, 51, 51); orphans: 2; 
+									 widows: 2; -webkit-text-stroke-width: 0px; 
+									 text-decoration-style: initial; text-decoration-color: initial; 
+									 font-family: Arial, sans-serif; mso-add-space: auto; 
+									 mso-list: l0 level1 lfo4;"><img src="image1223.gif" 
+	 alt="" style="border: none;" width="22" height="20" border="0" /></span><span 
+	 style="color: rgb(51, 51, 51); orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif; 
+	 font-weight: bold;">Configurator</span><span style="color: rgb(51, 51, 51); 
+													 orphans: 2; widows: 2; 
+													 -webkit-text-stroke-width: 0px; 
+													 text-decoration-style: initial; 
+													 text-decoration-color: initial; 
+													 font-family: Arial, sans-serif; 
+													 font-weight: normal;"> 
+ area.</span><span style="color: rgb(51, 51, 51); orphans: 2; widows: 2; 
+					 -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+					 text-decoration-color: initial; font-family: Arial, sans-serif;"> 
+ </span></strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; background-color: #ffffff; 
+	 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 color: rgb(51, 51, 51); text-transform: none; font-family: Arial, sans-serif; 
+	 line-height: Normal;">3. Create a <span style="font-weight: bold;">Data</span> 
+ Band to extract the data under&#160;<strong>Header</strong>. Since&#160;<strong>Data</strong>&#160;Band 
+ is needed for every group, place the&#160;<strong>Data</strong>&#160;band 
+ under&#160;<strong>Header</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; background-color: #ffffff; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; color: rgb(51, 51, 51); 
+	 text-transform: none; text-decoration-style: initial; text-decoration-color: initial; 
+	 line-height: Normal; font-family: Arial, sans-serif;"><strong><span 
+	 style="font-weight: normal;">4.</span> I</strong>n the&#160;<strong>Data</strong>&#160;Band 
+ ,click the drop down and select&#160;<strong>New Query</strong>. A new 
+ query appears refer below figure.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; background-color: #ffffff; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; color: rgb(51, 51, 51); 
+	 text-transform: none; text-decoration-style: initial; text-decoration-color: initial; 
+	 line-height: Normal; font-family: Arial, sans-serif;"><img src="Group4.jpg" 
+	 alt="" style="border-left-style: Solid; border-left-width: 1px; border-right-style: Solid; 
+	 border-right-width: 1px; border-top-style: Solid; border-top-width: 1px; 
+	 border-bottom-style: Solid; border-bottom-width: 1px;" border="1" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 orphans: 2; widows: 2; font-family: Arial, sans-serif;"><span style="color: rgb(51, 51, 51); 
+	 text-indent: 24px;">5. Select the Query </span><strong>Query Details 
+ </strong>&#160;and&#160;<strong>Query </strong>sections appear drag and 
+ drop the required Business Objects under columns automatically the Query 
+ is generated.</p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 orphans: 2; widows: 2; font-family: Arial, sans-serif;"><img src="group5.jpg" 
+	 alt="" style="border-left-style: Solid; border-left-width: 1px; border-right-style: Solid; 
+	 border-right-width: 1px; border-top-style: Solid; border-top-width: 1px; 
+	 border-bottom-style: Solid; border-bottom-width: 1px;" border="1" /><span 
+	 style="color: rgb(51, 51, 51); text-indent: 36px;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif;"><span style="color: rgb(51, 51, 51); 
+											 text-indent: 36px;">6. Drag 
+ the required Business Object in the Column (E.g: Region) in the </span><span 
+	 style="color: rgb(51, 51, 51); text-indent: 36px; font-weight: bold;">Local 
+ Filters</span><span style="color: rgb(51, 51, 51); text-indent: 36px;"> 
+ and to build your own calculations click </span><img src="image9.png" 
+														 alt="" style="border: none;" 
+														 width="34" height="36" 
+														 border="0" /> 
+ click<span style="font-weight: bold;"> New Calculation</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; font-weight: normal;">7. <span style="font-weight: bold;">Calculation 
+ Formula</span> dialogue box appears, mention the <span style="font-weight: bold;">Name</span> 
+ and build a formula as shown in the figure below. Click <span style="font-weight: bold;">OK</span> 
+ </p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-weight: normal; orphans: 2; widows: 2; font-family: Arial, sans-serif;"><img 
+	 src="formula.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 width="905" height="554" border="1" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; font-weight: normal; color: rgb(51, 51, 51);">8. 
+ Under the&#160;<strong>Query Details<span style="font-weight: normal;"> 
+ the Calculation built is dragged as shown in the figure below.</span></strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; color: rgb(51, 51, 51); font-weight: normal;"><strong><span 
+	 style="font-weight: normal;"><img src="total.jpg" alt="" style="border-left-style: Solid; 
+										 border-left-width: 1px; border-right-style: Solid; 
+										 border-right-width: 1px; border-top-style: Solid; 
+										 border-top-width: 1px; border-bottom-style: Solid; 
+										 border-bottom-width: 1px;" width="953" 
+										 height="424" border="1" /></span></strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; font-weight: normal; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+	 text-decoration-style: initial; text-decoration-color: initial; color: rgb(51, 51, 51); 
+	 font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; 
+	 letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; 
+	 white-space: normal; word-spacing: 0px; font-size: 10pt; font-family: Arial, sans-serif;">Note: 
+ Since the grouping is done, add the<span style="font-weight: bold;"> Local 
+ Filters</span> for the Query under&#160;<strong>Header<span style="font-weight: normal;"> 
+ as shown in the figure below.</span></strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; letter-spacing: normal; text-align: left; 
+	 text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; 
+	 font-size: 10pt; font-family: Arial, sans-serif; font-weight: normal;"><strong><span 
+	 style="font-weight: normal;"><img src="Header_query.jpg" alt="" style="border-left-style: Solid; 
+										 border-left-width: 1px; border-right-style: Solid; 
+										 border-right-width: 1px; border-top-style: Solid; 
+										 border-top-width: 1px; border-bottom-style: Solid; 
+										 border-bottom-width: 1px;" width="1185" height="343" border="1" /></span></strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial; font-size: 10pt; font-family: Arial, sans-serif;"><span 
+	 style="color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+	 text-align: left; text-indent: 0px; text-transform: none; white-space: normal; 
+	 word-spacing: 0px; font-size: 10pt; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif;"><font size="2" style="font-size:10pt;"><strong>9. 
+ </strong>Select the Query under&#160;<strong>Data&#160;</strong>band, 
+ and then select the&#160;</font></span><span style="color: rgb(51, 51, 51); font-style: normal; 
+										 font-variant-ligatures: normal; 
+										 font-variant-caps: normal; letter-spacing: normal; 
+										 text-align: left; text-indent: 0px; 
+										 text-transform: none; white-space: normal; 
+										 word-spacing: 0px; font-size: 10pt; 
+										 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+										 text-decoration-style: initial; 
+										 text-decoration-color: initial; 
+										 font-family: Arial, sans-serif; 
+										 font-weight: bold;"><font size="2" style="font-size:10pt;">Local</font></span><span 
+	 style="color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; font-weight: normal; letter-spacing: normal; 
+	 text-align: left; text-indent: 0px; text-transform: none; white-space: normal; 
+	 word-spacing: 0px; font-size: 10pt; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-family: Arial, sans-serif;"><font size="2" style="font-size:10pt;"> 
+ <strong>Filters</strong>&#160;section under&#160;<strong>Query Details</strong>.</font></span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 orphans: 2; widows: 2; font-family: Arial, sans-serif;">10. Drag and 
+ drop the required Business Object in the column of the Local Filters click 
+ Edit. <img src="Filters.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+			 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+			 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+			 width="175" height="52" border="1" /> <span style="font-weight: bold;">E.g: 
+ </span>Region </p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; color: rgb(51, 51, 51); max-width: 100%;"><img src="Region_Filter.jpg" alt="" style="border-left-style: Solid; border-top-style: Solid; 
+	 border-right-style: Solid; border-bottom-style: Solid; border-left-width: 1px; 
+	 border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" width="839" height="570" border="1" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif;"><span style="color: rgb(51, 51, 51); 
+											 max-width: 100%;">F</span><span 
+	 style="color: rgb(51, 51, 51);">or the required filter, click&#160;</span><span 
+	 style="max-width: 100%;"><img src="image1245.gif" alt="" style="border: none;" 
+									 border="0" />as shown in the above 
+ figure</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; max-width: 100%;"><img src="Filters1.jpg" 
+															 alt="" style="border-left-style: Solid; 
+															 border-left-width: 1px; 
+															 border-right-style: Solid; 
+															 border-right-width: 1px; 
+															 border-top-style: Solid; 
+															 border-top-width: 1px; 
+															 border-bottom-style: Solid; 
+															 border-bottom-width: 1px;" 
+															 width="663" 
+															 height="540" 
+															 border="1" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 color: rgb(51, 51, 51); orphans: 2; widows: 2; font-family: Arial, sans-serif;">From 
+ the “<strong>Show items when the value</strong>” list, select the required 
+ option from the drop down. <span style="font-weight: bold;">E.g:</span> 
+ Equals</p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; color: rgb(51, 51, 51);">Under the 
+ list, in the textbox, enter the<span style="font-weight: bold;"> Value</span> 
+ for the filter or <span style="font-weight: bold;">Choose Valve,</span> 
+ click <img src="image10.png" alt="" style="border: none;" width="23" height="27" 
+			 border="0" /> as shown in the figure below and click <span 
+	 style="font-weight: bold;">OK</span></p>
+<p style="margin: 10px 0px 0px; padding: 0px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 font-family: Arial, sans-serif; color: rgb(51, 51, 51);"><img src="Valve.jpg" 
+	 alt="" style="border-left-style: Solid; border-left-width: 1px; border-right-style: Solid; 
+	 border-right-width: 1px; border-top-style: Solid; border-top-width: 1px; 
+	 border-bottom-style: Solid; border-bottom-width: 1px;" width="679" 
+	 height="456" border="1" /></p>
+<p style="margin: 10px 0px 0px; padding: 0px; background-color: #ffffff; 
+	 text-decoration-style: initial; text-decoration-color: initial; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; font-family: Arial, sans-serif;">Note: 
+ Valve: ${Header.COL0} Region column in the configurator area is at&#160;<strong>COL0</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; background-color: #ffffff; 
+	 text-decoration-style: initial; text-decoration-color: initial; orphans: 2; 
+	 widows: 2; font-weight: normal; -webkit-text-stroke-width: 0px; font-family: Arial, sans-serif;"><strong><span 
+	 style="font-weight: normal;">11.</span> </strong>Save the report under 
+ appropriate folder, click <span style="font-weight: bold;">Save</span><strong>.</strong></p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 orphans: 2; widows: 2; font-family: Arial, sans-serif; font-weight: normal;">12. 
+ Apply the Excel Template to the report See&#160;<em><a href="Applying_Excel_Template_to_Publisher_Report.htm">Applying 
+ Excel Template for Publisher Report</a> for more details.</em></p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 orphans: 2; widows: 2; font-family: Arial, sans-serif; font-weight: normal;"><em><img src="Excel_Output1.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" border="1" /></em></p>
+<p style="margin: 10px 0px 0px; padding: 0px; -webkit-text-stroke-width: 0px; 
+	 background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; 
+	 orphans: 2; widows: 2; font-family: Arial, sans-serif; font-weight: normal;">&#160;</p>
+<table style="border: Solid 1px #ff8080;" cellspacing="0" width="100%">
+	<col style="width: 100%;" />
+	<tr>
+		<td><p style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+		 style="font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">Note:</font></span></p>
+		<p style="font-family: Arial, sans-serif; font-size: 10pt;">Grouping 
+		 is possible only in Excel and HTML; grouping cannot be done in 
+		 Word templates. </p></td>
+	</tr>
+</table>
+<p style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+ if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == 'Netscape'))
+  document.write("<div id='tooltip' class='WebHelpPopupMenu'></div>");
+//]]>
+</script><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

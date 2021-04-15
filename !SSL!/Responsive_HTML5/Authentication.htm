@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Authentication</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.2.1.0_1";
+</script>
+ <meta name="brsprev" value="Creating_an_Active_Directory_Authority1.htm">
+ <meta name="brsnext" value="Attributes1.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > Active Directory > Creating an Active Directory Authority" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: Arial, sans-serif;">Authentication</h1>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">1. Under the <b style="mso-bidi-font-weight: normal;">Authentication</b> 
+ section, in the <b style="mso-bidi-font-weight: normal;">Authority Type</b> 
+ box, type/select the required <span style="mso-bookmark: _Hlk503962077;">authority 
+ type from the following:</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="mso-bookmark: _Hlk503962077; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol; 
+															 mso-list: Ignore;">·</span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Oracle 
+ ERP Security</p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-bookmark: _Hlk503962077; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol; 
+															 mso-list: Ignore;">·</span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;LDAP</p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-bookmark: _Hlk503962077; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol; 
+															 mso-list: Ignore;">·</span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Active 
+ Directory</p>
+<p class="MsoListParagraphCxSpLast" style="mso-bookmark: _Hlk503962077; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-fareast-font-family: Symbol; 
+															 mso-bidi-font-family: Symbol; 
+															 mso-list: Ignore;">·</span><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;PeopleSoft</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; tab-stops: 49.5pt; 
+	 mso-bookmark: _Hlk503962077; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Wingdings; mso-list: Ignore; mso-bidi-font-size: 12.0pt; 
+	 mso-bidi-font-family: 'Times New Roman';">?</span><span style="mso-bidi-font-size: 12.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore; 
+															 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman';">Example: 
+ Required Authority Type: Active Directory</span></p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bookmark: _Hlk503962077;">¥&#160;&#160;&#160;&#160;&#160;Based 
+ on the selected authority types, the fields in the <b style="mso-bidi-font-weight: normal;">Authentication</b> 
+ section </span><span style="mso-bookmark: _Hlk503962077;">change.</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bookmark: _Hlk503962077;">2</span>. <span style="mso-spacerun: yes;">&#160;</span>In 
+ the <b style="mso-bidi-font-weight: normal;">Server URL</b> box, type 
+ the URL of the Server.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; mso-bookmark: _Hlk503962171; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;Example: 
+ Server URL: ldap://192.168.2.126:389</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore;">¥ </span><span style="mso-bookmark: _Hlk503962171;">Here, 
+ ldap is the protocol, &quot;192.168.2.126&quot; is the ip, and 389 is 
+ the default port number.</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bookmark: _Hlk503962171;">3. In the <b style="mso-bidi-font-weight: normal;">User 
+ DN</b> box, type the Username.</span></p>
+<p class="examples" style="mso-list: l2 level1 lfo1; mso-bookmark: _Hlk503962171; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;Example: 
+ User DN: ORBIT8\Administrator</p>
+<p class="MsoNormal" style="mso-bookmark: _Hlk503962171; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;4. In the <b style="mso-bidi-font-weight: normal;">Password</b> 
+ box, type the password.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; tab-stops: 49.5pt; 
+	 mso-bookmark: _Hlk503962171; font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;</span>Example: Password: Welcome@123</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-bookmark: _Hlk503962260;">&#160;5. In the <b style="mso-bidi-font-weight: normal;">Base 
+ DN</b> box, type the Base DN. &#160;</span></p>
+<p class="MsoListParagraph" style="mso-bookmark: _Hlk503962260; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-font-family: Webdings; 
+							 mso-bidi-font-family: Webdings; mso-list: Ignore;">¥</span><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;Base 
+ DN: This is a point from where the server starts its search.</p>
+<p class="examples" style="mso-list: l2 level1 lfo1; mso-bookmark: _Hlk503962260; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;&#160;Syntax: 
+ dc=orbit8, dc=com</p>
+<p class="MsoListParagraph" style="mso-bookmark: _Hlk503962260; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="line-height: 150%; mso-fareast-font-family: Webdings; 
+							 mso-bidi-font-family: Webdings; mso-list: Ignore;">¥</span><span 
+	 style="line-height: 150%; mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;When 
+ the user enters only Base DN, the server starts its search from the root, 
+ and</p>
+<p class="MsoNormal" style="mso-bookmark: _Hlk503962260; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">retrieves all the users. The starting point (Base 
+ DN) is displayed here in the figure below (highlighted as &quot;2&quot;):</p>
+<p class="MsoNormal" style="mso-bookmark: _Hlk503962260; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image826.gif" style=" border:none; width:100%; max-width:965px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="mso-bookmark: _Hlk503962260; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<span style="font-family: Arial, sans-serif; font-size: 10pt;">&#160; </span>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+</body>
+</html>

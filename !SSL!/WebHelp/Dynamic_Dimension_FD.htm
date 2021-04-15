@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Dynamic Dimension</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="./ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Dashboards\nDynamic Filters\nDynamic Dimension");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Dashboards.htm\">Dashboards<\/a> > <a href=\"Dynamic_Filters_FD.htm\">Dynamic Filters<\/a> > Dynamic Dimension<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+
+
+<h1><a name="MiniTOCBookMark1"></a>Dynamic Dimension</h1>
+<p align="left" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" >This&#160;topic&#160;explains&#160;about&#160;Dynamic&#160;Dimension&#160;feature&#160;<a class="dropspot" href="javascript:TextPopup(this)" id="MTHotSpot27019" ><span class="MTText" style="display: none;" >Show</span><span class="MTText" >Hide</span></a></p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('MTHotSpot27019', 'MTPOPUP27019');
+//]]></script>
+<div align="left" class="droptext" id="MTPOPUP27019" >
+ <p align="left"  ><a href="#MiniTOCBookMark2" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Creating Dynamic Dimension</a></p>
+ <p align="left"  ><a href="#MiniTOCBookMark3" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Visual Settings of Dynamic Dimension</a></p>
+ <p align="left" style="margin-left:20px;"  ><a href="#MiniTOCBookMark4" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;"></a></p>
+ <p align="left" style="margin-left:40px;"  ><a href="#MiniTOCBookMark4" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Title</a></p>
+ <p align="left" style="margin-left:40px;"  ><a href="#MiniTOCBookMark5" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Display Type</a></p>
+ <p align="left" style="margin-left:40px;"  ><a href="#MiniTOCBookMark6" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Layout</a></p>
+ <p align="left" style="margin-left:20px;"  ><a href="#MiniTOCBookMark7" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Resize Dynamic Dimension Widget</a></p>
+ <p align="left"  ><a href="#MiniTOCBookMark8" style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;">Working with Dynamic Dimension Widget</a></p>
+</div>
+<h2><a name="MiniTOCBookMark2"></a>Creating Dynamic Dimension</h2>
+<p>To add dynamic dimension to a dashboard report:</p>
+<p>1. Open a dashboard reports page in <a href="Menu_Options_in_Analysis_Report_FD.htm#Report_edit_mode">Edit Mode</a>.</p>
+<p>2. Right click on required fields, click <span style="font-weight: bold;">Pick Visualization</span> and then click <img src="Dynamic_dimension_button01.jpg" alt="" style="border: none;" width="31" height="30" border="0" /> <span style="font-weight: bold;">Dynamic Dimension</span></p>
+<p>(OR)</p>
+<p>Drag the required fields from the Business Object into the Run Result area, click the expander arrow <img src="Arrow_01.jpg" alt="" style="border: none;" width="30" height="20" border="0" /> in the Report Configurator area and then click <img src="Dynamic_dimension_button01.jpg" alt="" style="border: none;" width="31" height="30" border="0" /> <span style="font-weight: bold;">Dynamic Dimension</span>.</p>
+<p class="tip">Hold <span style="font-weight: bold;">Ctrl</span> and click on required fields to make multiple selections.</p>
+<p>3. <span style="font-weight: bold;">Dynamic Dimension</span> Widget <span style="font-weight: bold;"></span>appears in the Run Result area.</p>
+<p><img src="Dashboard_FD_006.jpg" alt="" style="border: Solid 1px #000000;" border="1" /></p>
+<p>4. Drag desired fields into the <span style="font-weight: bold;">List of dimensions</span> section (Highlighted as 1) in the report configuration area.</p>
+<p>&#160;</p>
+<h2><a name="MiniTOCBookMark3"></a>Visual Settings of Dynamic Dimension<a name="Visual_settings_Dynamic_Dimension" id="Visual_settings_Dynamic_Dimension"></a></h2>
+<p>Customize the look of Dynamic Dimension</p>
+<h4><a name="MiniTOCBookMark4"></a>Title</h4>
+<p>Customize the Dynamic Dimension widget title.</p>
+<p>Default Value: None</p>
+<p><span style="font-weight: bold;">Auto</span>: When Title is set to <span style="font-weight: bold;">Auto</span>, Orbit application generates the title.</p>
+<p><img src="Dashboard_FD_009.jpg" alt="" style="border: none;" border="0" /></p>
+<p><span style="font-weight: bold;">Custom</span>: Select Custom to set a custom title to the widget. When you select Custom, a <span style="font-weight: bold;">Text</span> box appears where you can enter the title.</p>
+<p><img src="Dashboard_FD_007.jpg" alt="" style="border: none;" border="0" /></p>
+<p><span style="font-weight: bold;">None</span>: Select None to hide widget title.</p>
+<p><img src="Dashboard_FD_008.jpg" alt="" style="border: none;" border="0" /></p>
+<h4><a name="MiniTOCBookMark5"></a>Display Type</h4>
+<p>Select display type of Dynamic Dimension widget.</p>
+<p>Default Value: Drop Down</p>
+<p><span style="font-weight: bold;">Drop Down</span>: Shows dynamic dimensions in a drop down list. Click&#160;the expander arrow <img src="Arrow_01.jpg" alt="" style="border: none;" width="30" height="20" border="0" /> on the Dynamic Dimension widget to see list of dimensions.</p>
+<p><img src="Dashboard_FD_010.jpg" alt="" style="border: none;" border="0" /></p>
+<p><span style="font-weight: bold;">Button List</span>: Shows dynamic dimensions as a button list. When you select Button List, <span style="font-weight: bold;">Layout</span> option appears.</p>
+<p><img src="Dashboard_FD_011.jpg" alt="" style="border: none;" border="0" /></p>
+<h4><a name="MiniTOCBookMark6"></a>Layout</h4>
+<p>select the Layout of the Button List</p>
+<p>Default Value: Horizontal</p>
+<p><span style="font-weight: bold;">Horizontal</span>: Shows Dynamic Dimension as a horizontal button list.</p>
+<p><img src="Dashboard_FD_011.jpg" alt="" style="border: none;" border="0" /></p>
+<p><span style="font-weight: bold;">Vertical</span>: Shows Dynamic Dimension as a vertical button list.</p>
+<p><img src="Dashboard_FD_012.jpg" alt="" style="border: none;" border="0" /></p>
+<h3><a name="MiniTOCBookMark7"></a>Resize Dynamic Dimension Widget</h3>
+<p>Move the cursor to any edge or corner of the widget until a double-headed arrow appears. When this arrow appears, click-and-drag it to make the widget larger or smaller.</p>
+<h2><a name="MiniTOCBookMark8"></a>Working with Dynamic Dimension Widget</h2>
+<p>Dynamic Dimension widget allows you to filter the data displayed on the chart widgets in the dashboard reports page.</p>
+<p>Click any one of the buttons in the Dynamic Dimension widget; data on the chart widgets updates.</p>
+<p><img src="Dynamic_Dimension_widget_01.gif" alt="" style="border: Solid 1px #000000;" border="1" /></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Word Template with Bind Variables</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Publisher Report\nTemplate with Bind Variables\nWord Template with Bind Variables");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Publisher_Report.htm\">Publisher Report<\/a> > <a href=\"Template_with_Bind_Variables.htm\">Template with Bind Variables<\/a> > Word Template with Bind Variables<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Word Template with Bind Variables</h1>
+<p class="MsoNormal" style="line-height: 150%;">This page discusses about 
+ creating a Word Template with Bind variables. <span lang="EN-US" xml:lang="EN-US">The 
+ figure below displays various bind variable with its </span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-weight: bold;">Band Name</span><span 
+	 lang="EN-US" xml:lang="EN-US"> and its associated </span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-weight: bold;">Key values</span><span 
+	 lang="EN-US" xml:lang="EN-US">.</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="TempW.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 width="735" height="235" border="1" /></span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">In 
+ the Word Template, the </span><span lang="EN-US" xml:lang="EN-US" style="font-weight: bold;"><b 
+	 style="font-weight: bold;">Parameter</b> information: ${Parameterinfo.state}</span><span 
+	 lang="EN-US" xml:lang="EN-US"> is defined using </span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-weight: bold; text-decoration: underline; "><u>${BandName.Key}</u></span><span 
+	 lang="EN-US" xml:lang="EN-US"> notation.</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><b>ParameterInfo</b> 
+ is the Band name and <b>state</b> is the Key. Also, the <b>GeneratedDate</b> 
+ is the Band name and <b>Date</b> is the Key</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">The 
+ key in the <b>Parameterinfo</b> is picked from the <b>Name</b> of the 
+ selected User Filter. Here, the User Filter in the Publisher Report is 
+ State, and its <b>Name</b> is state as shown in the figure below.</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="StateF.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 width="784" height="325" border="1" /></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">For 
+ the <b>ParameterData,</b> the keys ${COL0} and ${COL1} are picked from 
+ column names under the Query as shown below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="COL.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 border="1" /></span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">The 
+ output for the above Word Template is displayed below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="WordToutput.jpg" alt="" style="border-left-style: Solid; border-left-width: 1px; 
+	 border-right-style: Solid; border-right-width: 1px; border-top-style: Solid; 
+	 border-top-width: 1px; border-bottom-style: Solid; border-bottom-width: 1px;" 
+	 border="1" /></span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; margin-left: 40px;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal;"><span 
+	 lang="EN-US" xml:lang="EN-US">Best Practice</span></b></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" 
+	 xml:lang="EN-US">It is recommended to create a publish report with 
+	 the required columns prior to uploading the excel/word template using 
+	 <b style="mso-bidi-font-weight: normal;">Templates</b> option.</span></p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" 
+	 xml:lang="EN-US">Once the template is uploaded, switch to <b style="mso-bidi-font-weight: normal;">View 
+	 Mode</b> and then view the output. &#160;See <i style="mso-bidi-font-style: normal;"><a 
+	 href="Viewing_the_Output.htm">Viewing the Output</a></i> for more 
+	 information.</span></p></li>
+</ul>
+<p>&#160;</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

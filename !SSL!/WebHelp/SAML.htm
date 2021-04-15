@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>SAML</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("User Management\nWorking with Authorities\nSAML");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Security.htm\">User Management<\/a> > <a href=\"Working_with_Authorities.htm\">Working with Authorities<\/a> > SAML<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>SAML</h1>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: normal; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial;"><span style="font-family: Arial, sans-serif; 
+											 line-height: normal; font-size: 10pt; 
+											 color: #000000; font-style: normal; 
+											 font-variant-ligatures: normal; 
+											 font-variant-caps: normal; 
+											 font-weight: normal; letter-spacing: normal; 
+											 orphans: 2; text-transform: none; 
+											 white-space: normal; widows: 2; 
+											 word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+											 text-decoration-style: initial; 
+											 text-decoration-color: initial; 
+											 background-color: #ffffff;"><font size="2" color="black" style="font-size:10.000000pt;"><b>Security 
+ Assertion Markup Language</b><span lang="EN-IN" xml:lang="EN-IN"><font 
+	 color="#222222">&#160;is an&#160;</font></span>open standard&#160;<span><font 
+	 color="#222222">for exchanging&#160;</font></span>authentication<span><font 
+	 color="#222222">&#160;and&#160;</font></span>authorization&#160;data 
+ between parties, in particular, between an&#160;identity provider&#160;and 
+ a&#160;service provider.</font></span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: normal; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial;">&#160;</p>
+<p class="MsoNormal" style="line-height: 20.0pt;"><span style="color: #000000;"><font color="black" >To 
+ implement SAML, there are two prerequisites:</font></span></p>
+<ol start="1" style="list-style: decimal; margin-top: 0in;">
+	<li class="MsoNormal" style="color: #000000; line-height: 20.0pt; mso-list: l0 level1 lfo1;"><span 
+	 style="color: windowtext;">The application should run on https with 
+	 valid SSL.</span></li>
+	<li class="MsoNormal" style="color: #000000; line-height: 20.0pt; mso-list: l0 level1 lfo1;">Java 
+	 KeyStore file generated from SSL certificate like JKS with alias and 
+	 secret of JKS file.</li>
+</ol>
+<p>&#160;</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: normal; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; 
+	 text-decoration-color: initial;">&#160;</p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><b><span 
+	 lang="EN-IN" xml:lang="EN-IN">Integrating SAML with ORBIT application</span></b></p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span 
+	 lang="EN-IN" xml:lang="EN-IN">To integrate SAML with ORBIT application 
+ create a SAML authority in ORBIT</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; color: #000000; font-family: Arial; 
+		 font-size: medium; font-style: normal; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; font-weight: 400; letter-spacing: normal; 
+		 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+		 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 list-style: disc;">
+	<li style="font-weight: bold; text-decoration: none; "><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+		 line-height: 26.6667px; font-size: 10pt; font-weight: bold; text-decoration: none; "><a 
+	 href="Creating_a_SAML_Authority.htm" style="font-weight: bold; text-decoration: none; ">Creating 
+	 a SAML Authority</a></p></li>
+	<li style="font-weight: bold; text-decoration: none; "><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+		 line-height: 26.6667px; font-size: 10pt; font-weight: bold; text-decoration: none; "><a 
+	 href="Working_with_Single_Sign-on.htm" style="font-weight: bold; text-decoration: none; ">Working 
+	 with Single Sign-on</a></p></li>
+	<li style="font-weight: bold; text-decoration: none; "><p class="MsoNormal" 
+		 style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial, sans-serif; 
+		 line-height: 26.6667px; font-size: 10pt; font-weight: bold; text-decoration: none; "><a 
+	 href="Configuring_Service_Provider_Details_at_IDP_Website.htm" style="text-decoration: none; ">Configuring 
+	 Service Provider Details at IDP Website</a></p></li>
+</ul>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

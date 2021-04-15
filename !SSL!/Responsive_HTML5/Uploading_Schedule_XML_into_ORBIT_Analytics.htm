@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Uploading Schedule XML into ORBIT Analytics</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "18.1.1.1.0_1";
+</script>
+ <meta name="brsprev" value="Migrating_Business_Areas.htm">
+ <meta name="brsnext" value="Creating_Datasources.htm">
+ <meta name="topic-breadcrumbs" content="ORBIT Extensions > ORBIT Discoverer Migration > Discoverer Migration into ORBIT Analytics  > Migrating Business Areas" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Uploading Schedule XML into ORBIT Analytics </h1>
+<p class="MsoNormal" style="margin-left: .25in;"><b style="mso-bidi-font-weight: normal;">To 
+ upload Schedule.xml file into ORBIT Analytics application</b></p>
+<p class="MsoNormal" style="margin-left: .25in;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">1.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;Navigate 
+ to ORBIT URL.</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">2.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;In 
+ the login page, type the user name and password, and then click <b style="mso-bidi-font-weight: normal;">Login.</b></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">3.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;The 
+ home page of the ORBIT Analytics application appears.</p>
+<p class="MsoListParagraph" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">4.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-list: l0 level1 lfo2; mso-padding-alt: 0in 0in 0in 0in;">On 
+ the left-hand side menu, point to </span><span style="mso-list: l0 level1 lfo2; 
+												 mso-padding-alt: 0in 0in 0in 0in;"><b 
+	 style="mso-bidi-font-weight: normal;">Monitoring,</b> and then click 
+ <b style="mso-bidi-font-weight: normal;">Processes.</b></span></p>
+<p class="MsoListParagraph" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 2.0in;"><img src="US1.png" alt="" style=" border:none; width:100%; max-width:220px;" border="0" /></p>
+<p class="MsoListParagraph" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">5.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Scheduled Processes</b> page 
+ appears with a list of available processes.<span style="font-size: 16.0pt; 
+													 mso-bidi-font-size: 12.0pt;">&#160;</span></p>
+<p class="MsoListParagraph" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">6.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;To 
+ upload schedule xml file, click <b style="mso-bidi-font-weight: normal;">New 
+ Process</b> on the right-hand side corner of the window, and then click 
+ <b style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; 
+	 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Arial, sans-serif;">Import 
+ Discoverer Object(s). </span></b><span style="mso-bidi-font-weight: normal;">&#160;</span></p>
+<p class="MsoNormal" style="margin-left: .25in;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 2.0in; font-size: 16.0pt; mso-bidi-font-size: 12.0pt;"><img src="IDO1.png" alt="" style=" border:none; width:100%; max-width:384px;" border="0" /></p>
+<p class="MsoNormal" style="margin-left: .25in;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">7.</span><span 
+	 style="mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-font-family: 'Times New Roman'; 
+												 mso-ansi-language: EN-US; 
+												 mso-fareast-language: EN-US; 
+												 mso-bidi-language: AR-SA; 
+												 font-family: Arial, sans-serif;">Import 
+ Discoverer Object(s)</span></b> dialog window appears.</p>
+<p class="MsoListParagraphCxSpLast" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 1.0in; font-size: 16.0pt; mso-bidi-font-size: 12.0pt;"><img src="IDO2.jpg" alt="" style=" border:none; width:100%; max-width:633px;" border="0" /></p>
+<p class="MsoNormal" style="margin-left: 1.0in;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">8.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;Under 
+ <b style="mso-bidi-font-weight: normal;">Parameters</b>, click <b style="mso-bidi-font-weight: normal;">Upload</b> 
+ (highlighted as “2”) next to the <b style="mso-bidi-font-weight: normal;">Upload 
+ File</b> box.</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">9.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Open</b> dialog box appears 
+ with required files.</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">10.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span></span>&#160;Select 
+ the required xml file, and then click <b style="mso-bidi-font-weight: normal;">Open.</b></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">11.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span></span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Upload File</b> box, the 
+ selected file path appears.</p>
+<p class="MsoListParagraphCxSpLast" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .75in; font-size: 16.0pt; mso-bidi-font-size: 12.0pt;"><span 
+	 style="mso-no-proof: yes;"><img src="US5.png" alt="" style=" border:none; width:100%; max-width:627px;" border="0" /></span></p>
+<p class="MsoNormal" style="margin-left: 1.0in;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">12.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span></span>&#160;To 
+ submit the file, click <b style="mso-bidi-font-weight: normal;">Submit.</b></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">13.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span>&#160;Under <b 
+	 style="mso-bidi-font-weight: normal;">Scheduled Processes</b>, the 
+ newly submitted file (highlighted as “3”) appears.</p>
+<p class="MsoListParagraphCxSpFirst" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">14.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span>&#160;On the left-hand 
+ side menu, point to <b style="mso-bidi-font-weight: normal;">Business 
+ Models</b>, and then click <b style="mso-bidi-font-weight: normal;">Domains.</b></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">15.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Domains</b> page appears with 
+ a list of available domains.</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: .75in; mso-add-space: auto; 
+	 mso-list: l32 level1 lfo24;"><span style="mso-list: Ignore;">16.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span></span>&#160;Under 
+ the <b style="mso-bidi-font-weight: normal;">Domains &amp; Data Models</b>, 
+ the newly created domain (highlighted as “4”) appears.</p>
+<p class="MsoListParagraphCxSpLast" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .75in; font-size: 16.0pt; mso-bidi-font-size: 12.0pt;"><span 
+	 style="mso-no-proof: yes;">&#160;&#160;</span><img src="US7.png" alt="" style=" border:none; width:100%; max-width:680px;" border="0" /></p>
+<p class="MsoNormal" style="margin-left: .75in;">&#160;</p>
+</body>
+</html>

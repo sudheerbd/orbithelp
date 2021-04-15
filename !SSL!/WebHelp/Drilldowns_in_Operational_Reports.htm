@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Drill-through in Data Reports</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Data Reports\nDrill-through in Data Reports ");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Operational_Reports.htm\">Data Reports<\/a> > Drill-through in Data Reports <\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Configure Drill-through in Data Reports </h1>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 mso-bidi-font-weight: normal; line-height: 200%; font-size: 10pt;"><b>To 
+ work with Drill-through</b></p>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 mso-bidi-font-weight: normal; line-height: 200%; font-size: 10pt;">&#160;</p>
+<ol style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif;"><p class="BodyText2" style="margin-left: 40.5pt; 
+													 mso-list: l0 level1 lfo1; 
+													 font-family: Arial, sans-serif; 
+													 text-indent: -54px;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Create a Report 
+	 on which the drill-through needs to be performed.</span></p></li>
+	<li style="font-family: Arial, sans-serif;"><p class="BodyText2" style="margin-left: 40.5pt; 
+													 mso-list: l0 level1 lfo1; 
+													 font-family: Arial, sans-serif; 
+													 text-indent: -54px;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The report (highlighted 
+	 as “1”) appears on the right-hand side.</span> </p></li>
+</ol>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><img 
+	 src="image2127.gif" alt="" style="border: none;" width="588" height="245" 
+	 border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<ol start="3" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px;"><span style="line-height: 150%; mso-fareast-language: JA;">Open 
+	 the newly created report in </span><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 font-weight: bold;">Edit 
+	 Mode</span><span style="line-height: 150%; mso-fareast-language: JA;">.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span> 
+	 </p></li>
+</ol>
+<ol start="4" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px;"><span style="line-height: 150%; mso-fareast-language: JA;">On 
+	 the top right-hand corner of the Run Results area, click <img src="image3002.gif" 
+	 alt="" style="border: none;" border="0" /> <b style="mso-bidi-font-weight: normal;">Options</b>, 
+	 and then click </span><span style="line-height: 150%; mso-fareast-language: JA; 
+								 font-weight: bold;">Configure</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;"> <b style="mso-bidi-font-weight: normal;">Drill-through 
+	 </b></span><b style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+	 mso-fareast-language: JA; font-weight: normal;">(highlighted as &quot;2&quot;).</span></b> 
+	 </p></li>
+</ol>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 text-indent: -54px; margin-left: 94px;"><img src="image3294.gif" style="border: none;" 
+													 alt="" border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<ol start="5" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px;"><b style="mso-bidi-font-weight: normal;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Drill-through 
+	 Reports </span></b><span style="line-height: 150%; mso-fareast-language: JA;">dialog 
+	 box appears. </span></p></li>
+</ol>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="text-indent: -.25in; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 line-height: 150%; mso-fareast-language: JA; font-size: 10pt;"><font size="2" style="font-size:10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span></p>
+<p class="BodyText2" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 line-height: 150%; mso-fareast-language: JA; text-indent: -54px; margin-left: 94px;"><img 
+	 src="image3003.gif" alt="" style="border: none;" width="572" height="413" 
+	 border="0" /></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; line-height: 150%; mso-fareast-language: JA; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<ol start="6" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px;"><span style="line-height: 150%; mso-fareast-language: JA;">Under 
+	 <b style="mso-bidi-font-weight: normal;">Drill-through Reports </b>dialog 
+	 box, perform the following:</span></p></li>
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; 
+				 font-family: Arial, sans-serif; text-indent: -54px;">To 
+		 drag and drop the required drill-through report, click <img src="image3011.gif" 
+		 alt="" style="border: none;" width="18" height="19" border="0" /> 
+		 <span style="font-weight: bold;">Add drill-through reports</span>.</p></li>
+		<li><p class="BodyText2" style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; 
+				 font-family: Arial, sans-serif; text-indent: -54px;"><span 
+		 style="font-weight: bold;">Reports</span> popup window appears 
+		 as shown below <span style="line-height: 150%; mso-fareast-language: JA;">(highlighted 
+		 as “3”) </span>:</p></li>
+	</ul>
+</ol>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; text-indent: -54px;">&#160;</p>
+<p class="BodyText2" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 text-indent: -54px; margin-left: 134px;"><img src="image3012.gif" 
+													 alt="" style="border-left-width: 1px; 
+													 border-left-style: Solid; 
+													 border-top-width: 1px; 
+													 border-top-style: Solid; 
+													 border-right-width: 1px; 
+													 border-right-style: Solid; 
+													 border-bottom-width: 1px; 
+													 border-bottom-style: Solid;" 
+													 width="710" height="384" 
+													 border="1" /></p>
+<p class="BodyText2" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 text-indent: -54px; margin-left: 134px;">&#160;</p>
+<ol style="list-style: decimal;">
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; 
+				 font-family: Arial, sans-serif; text-indent: -54px; line-height: 150%;"><span 
+		 style="mso-fareast-language: JA;">Drag and drop the required drill-through 
+		 report that has the required parameters (highlighted as “4”) under 
+		 the <b style="mso-bidi-font-weight: normal;">Drill-through Reports</b> 
+		 area.</span></p></li>
+	</ul>
+</ol>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;"><span 
+	 style="line-height: 150%; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span><span style="line-height: 150%; 
+	 mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';"><font size="1" style="font-size:7pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span>&#160;</p>
+<p class="BodyText2" style="mso-list: l1 level1 lfo2; font-family: Arial, sans-serif; 
+	 text-indent: -72px; margin-left: 152px;"><img src="image3013.gif" 
+													 alt="" style="border-left-width: 1px; 
+													 border-left-style: Solid; 
+													 border-top-width: 1px; 
+													 border-top-style: Solid; 
+													 border-right-width: 1px; 
+													 border-right-style: Solid; 
+													 border-bottom-width: 1px; 
+													 border-bottom-style: Solid;" 
+													 width="713" height="386" 
+													 border="1" /></p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<ul style="list-style: disc;">
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+				 font-family: Arial, sans-serif; text-indent: -72px;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%;">Drill-through 
+		 Column</span></b><span style="mso-list: l1 level1 lfo2;"> </span><span 
+		 style="line-height: 150%;">and <b style="mso-bidi-font-weight: normal;">Navigate 
+		 To</b> options appear.</span></p></li>
+		<li><p class="BodyText2" style="margin-left: .75in; mso-list: l1 level1 lfo2; 
+				 font-family: Arial, sans-serif; text-indent: -72px; line-height: 150%;"><span 
+		 style="mso-fareast-language: JA;">From the required report, drag 
+		 and drop the required columns from report </span><span style="mso-fareast-language: JA; 
+		 font-weight: bold;">Configurator</span><span style="mso-fareast-language: JA;"> 
+		 area of the report to the <b style="mso-bidi-font-weight: normal;">Drill-through 
+		 Column</b> box (highlighted as “5”).</span></p></li>
+		<li><p class="BodyText2" style="margin-left: .75in; mso-list: l1 level1 lfo2; 
+				 font-family: Arial, sans-serif; text-indent: -72px;"><span 
+		 style="mso-fareast-language: JA;">Under <b style="mso-bidi-font-weight: normal;">Parameters</b> 
+		 area, the required parameter appears with a list of available 
+		 values for the parameter.</span></p></li>
+		<li><p class="BodyText2" style="margin-left: .75in; mso-list: l1 level1 lfo2; 
+				 font-family: Arial, sans-serif; text-indent: -72px; mso-fareast-language: JA;"><b 
+		 style="mso-bidi-font-weight: normal; font-weight: normal;">F</b>rom 
+		 the <span style="font-weight: bold;">Parameters</span> Value box, 
+		 select the required column from the list (highlighted as “6”).</p></li>
+	</ul>
+</ul>
+<p class="BodyText2" style="margin-left: .75in; text-indent: -.25in; mso-list: l1 level1 lfo2; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 text-indent: -72px; margin-left: 152px;"><img src="image3014.gif" 
+													 alt="" style="border: none;" 
+													 width="537" height="386" 
+													 border="0" /></p>
+<p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; line-height: 200%; font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<ul style="list-style: disc;">
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: .75in; mso-fareast-language: JA; 
+				 font-family: Arial, sans-serif; text-indent: -72px;"><span 
+		 style="mso-list: l1 level1 lfo2; font-family: Arial, sans-serif; 
+		 font-size: 10pt; line-height: 150%; mso-fareast-language: JA;"><font size="2" style="font-size:10pt;">In 
+		 the <b style="mso-bidi-font-weight: normal;">Navigate To</b> box 
+		 (highlighted as “7”), click the required option from the following:</font></span></p></li>
+	</ul>
+	<ol>
+		<li style="list-style: lower-alpha;"><p class="BodyText2" style="margin-left: 1.25in; 
+												 text-indent: -.25in; mso-list: l1 level2 lfo2; 
+												 font-family: Arial, sans-serif; 
+												 line-height: 200%; font-size: 10pt;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+													 mso-fareast-language: JA;">New 
+		 Tab</span></b></p></li>
+		<li style="list-style: lower-alpha;"><p class="BodyText2" style="margin-left: 1.25in; 
+												 text-indent: -.25in; mso-list: l1 level2 lfo2; 
+												 font-family: Arial, sans-serif; 
+												 line-height: 200%; font-size: 10pt;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+													 mso-fareast-language: JA;">Window</span></b></p></li>
+	</ol>
+	<ul style="list-style: disc;">
+		<li><p class="BodyText2" style="margin-left: 1.25in; mso-list: l1 level2 lfo2; 
+				 font-family: Arial, sans-serif; text-indent: -120px; line-height: 150%;"><span 
+		 style="mso-list: l1 level1 lfo2; mso-fareast-language: JA;">To 
+		 save the changes, click <b style="mso-bidi-font-weight: normal;">Ok.</b></span></p></li>
+	</ul>
+</ul>
+<ol start="7" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px; line-height: 150%;"><span style="mso-fareast-language: JA;">The 
+	 drill-through report appears as selected in <b style="mso-bidi-font-weight: normal;">Navigate 
+	 To</b> box.</span></p></li>
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px; line-height: 150%; mso-fareast-language: JA;">The 
+	 drill-through column appears as shown below:</p></li>
+</ol>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; text-indent: -54px; line-height: 150%; 
+	 mso-fareast-language: JA;">&#160;</p>
+<p class="BodyText2" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 text-indent: -54px; margin-left: 94px; line-height: 150%; mso-fareast-language: JA;"><img 
+	 src="image3295.gif" style="border: none;" alt="" border="0" /></p>
+<p class="BodyText2" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 text-indent: -54px; margin-left: 94px; line-height: 150%; mso-fareast-language: JA;">&#160;</p>
+<ol start="10" style="list-style: decimal;">
+	<li style="font-family: Arial, sans-serif; font-size: 10pt;"><p class="BodyText2" 
+		 style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+		 text-indent: -54px; line-height: 150%; mso-fareast-language: JA;">Select 
+	 the drill-through column to view the result<span style="line-height: 200%; 
+														 font-size: 9pt;"><font size="1" style="font-size:9pt;">.</font></span></p></li>
+</ol>
+<p class="BodyText2" style="margin-left: 40.5pt; mso-list: l0 level1 lfo1; 
+	 font-family: Arial, sans-serif; text-indent: -54px; line-height: 150%; 
+	 mso-fareast-language: JA;">&#160;</p>
+<p class="BodyText2" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 text-indent: -54px; mso-fareast-language: JA; margin-left: 94px; line-height: 200%; 
+	 font-size: 9pt;"><img src="image3016.gif" alt="" style="border-left-width: 1px; 
+							 border-left-style: Solid; border-top-width: 1px; 
+							 border-top-style: Solid; border-right-width: 1px; 
+							 border-right-style: Solid; border-bottom-width: 1px; 
+							 border-bottom-style: Solid;" width="602" height="410" 
+							 border="1" /></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc73.js\"  name=\"Creating Datasources\" url=\"Creating_Datasources.htm\"><item name=\"Creating discoverer data source \" url=\"Creating__discoverer__data_source.htm\" /><item name=\"Creating discoverer_eul5 data source \" url=\"Creating__discoverer_eul5__data_source.htm\" /></data>";

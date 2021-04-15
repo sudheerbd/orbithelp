@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating a New Role ","url":"Creating_a_New_Role.htm"},{"type":"item","name":"Assigning Users to the Role","url":"Assigning_Users_to_the_Role.htm"},{"type":"item","name":"Assigning Groups to the Role ","url":"Assigning_Groups_to_the_Role.htm"},{"type":"item","name":"Filtering Roles ","url":"Filtering_Roles.htm"},{"type":"item","name":"Configuring Permissions for the Roles ","url":"Configuring_Permissions_for_the_Roles.htm"},{"type":"item","name":"Editing Roles ","url":"Editing_Roles.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

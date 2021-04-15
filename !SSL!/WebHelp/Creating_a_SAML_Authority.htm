@@ -1,0 +1,402 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Creating a SAML Authority</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("User Management\nWorking with Authorities\nSAML\nCreating a SAML Authority");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Security.htm\">User Management<\/a> > <a href=\"Working_with_Authorities.htm\">Working with Authorities<\/a> > <a href=\"SAML.htm\">SAML<\/a> > Creating a SAML Authority<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Creating a SAML Authority</h1>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; 
+	 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-weight: bold;"><b><span 
+	 lang="EN-IN" xml:lang="EN-IN" style="font-weight: bold;">To Create 
+ a SAML authority</span></b></p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; 
+	 orphans: 2; text-align: start; text-indent: 0px; text-transform: none; 
+	 white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; font-weight: bold;">&#160;</p>
+<ol style="list-style: decimal;">
+	<li style="font-weight: normal;"><p class="MsoNormal" style="line-height: 26.6667px; 
+										 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+										 text-decoration-style: initial; 
+										 text-decoration-color: initial; 
+										 margin-left: 0px;"><b style="font-weight: normal;"><span 
+	 lang="EN-IN" xml:lang="EN-IN" style="line-height: 15.6933px; font-family: Calibri, sans-serif; 
+	 font-weight: normal;"><font style="font-size: 11pt; font-weight: normal;" 
+								 size="2">On the left-hand side menu, point 
+	 to</font></span></b>&#160;<img src="image2405.gif" alt="" style="border: none;" 
+									 border="0" />&#160;<b>User Management</b>, 
+	 and then click&#160;<img src="image2404.gif" alt="" style="border: none;" 
+								 border="0" /> <b>Authorities</b>.</p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; 
+			 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; margin-left: 0px;"><b><span 
+	 lang="EN-IN" xml:lang="EN-IN" style="font-weight: bold;">Authorities</span></b><span>&#160;</span><span 
+	 lang="EN-IN" xml:lang="EN-IN">section appears with a list of available 
+	 authorities.</span></p></li>
+	<li><p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; 
+			 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; margin-left: 0px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN">On the&#160;<b>Authorities</b>&#160;section, click&#160;<img 
+	 src="image2406.gif" alt="" style="border: none;" border="0" /> (highlighted 
+	 as “1”).</span></p></li>
+</ol>
+<p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; text-indent: -0.25in; 
+	 margin-left: 40px;">&#160;</p>
+<p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; text-indent: -0.25in; 
+	 margin-left: 80px;"><img src="image2410.gif" alt="" style="border-left-width: 1px; 
+								 border-left-style: Solid; border-top-width: 1px; 
+								 border-top-style: Solid; border-right-width: 1px; 
+								 border-right-style: Solid; border-bottom-width: 1px; 
+								 border-bottom-style: Solid;" width="780" 
+								 height="164" border="1" /></p>
+<ol start="4" style="list-style: decimal;">
+	<li><p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; 
+			 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; margin-left: 0px;"><b><span 
+	 lang="EN-IN" xml:lang="EN-IN">New Authority</span></b><span><span>&#160;</span></span><span 
+	 lang="EN-IN" xml:lang="EN-IN">dialog box appears.</span></p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; 
+			 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; margin-left: 0px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN">In the&#160;<b>New Authority</b>&#160;dialog box, 
+	 perform the following:</span></p></li>
+</ol>
+<p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 48px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN"><span><span lang="EN-IN" xml:lang="EN-IN">a</span>.<span 
+	 style="font: 7pt 'Times New Roman';"><font size="1" style="font-size:7pt;"><font style="font-size: 7pt;" 
+												 size="1">&#160;&#160;</font></font></span></span></span><span 
+	 lang="EN-IN" xml:lang="EN-IN">In the<span>&#160;</span><b>Nam</b>e 
+ box, type the name of the authority.</span></p>
+<p class="example"><span lang="EN-IN" xml:lang="EN-IN">Authority Key: SAMLSAMP</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 48px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN"><span>b.<span style="font: 7pt 'Times New Roman';"><font size="1" style="font-size:7pt;"><font 
+	 style="font-size: 7pt;" size="1">&#160;</font></font></span></span></span><span 
+	 lang="EN-IN" xml:lang="EN-IN">In the<span>&#160;</span><b>Authority 
+ Key</b><span>&#160;</span>box, type the authority key.</span></p>
+<p class="example"><span lang="EN-IN" xml:lang="EN-IN">Authority Key: SAMLDS</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 48px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN"><span>c.<span style="font: 7pt 'Times New Roman';"><font size="1" style="font-size:7pt;"><font 
+	 style="font-size: 7pt;" size="1">&#160;</font></font></span></span></span><span 
+	 lang="EN-IN" xml:lang="EN-IN">In<span>&#160;</span><b>Description</b><span>&#160;</span>box, 
+ type the description.</span></p>
+<p class="example"><span lang="EN-IN" xml:lang="EN-IN">Description: This 
+ is sample description</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 48px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN"><span>d.<span style="font: 7pt 'Times New Roman';"><font size="1" style="font-size:7pt;"><font 
+	 style="font-size: 7pt;" size="1">&#160;</font></font></span></span></span><span 
+	 lang="EN-IN" xml:lang="EN-IN">Under the<span>&#160;</span><b>Authentication</b><span>&#160;</span>section, 
+ perform the following:</span></p>
+<ol style="list-style: lower-roman;">
+	<ol style="list-style: lower-roman;">
+		<ol style="list-style: lower-roman;">
+			<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 text-decoration-style: initial; text-decoration-color: initial; 
+					 margin-left: 0px;"><span lang="EN-IN" xml:lang="EN-IN">From 
+			 the<span>&#160;</span><b>Authority Type</b><span>&#160;</span>list, 
+			 select the required authority.</span></p></li>
+		</ol>
+	</ol>
+</ol>
+<p class="example"><span lang="EN-IN" xml:lang="EN-IN">Required authority: 
+ SAML</span></p>
+<ul style="list-style: disc;">
+	<ol style="list-style: lower-roman;">
+		<ol style="list-style: lower-roman;">
+			</ol>
+		<ol start="2" style="list-style: lower-roman;">
+			<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 text-decoration-style: initial; text-decoration-color: initial; 
+					 margin-left: 0px;"><span style="font-size: 10.0pt; 
+												 line-height: 200%; font-family: Arial, sans-serif; 
+												 mso-fareast-font-family: 'Times New Roman'; 
+												 mso-ansi-language: EN-IN; 
+												 mso-fareast-language: EN-IN; 
+												 mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">To 
+			 <b>Import Idp metadata</b>, user have two options:</font></span><span 
+			 lang="EN-IN" xml:lang="EN-IN"> </span></p></li>
+		</ol>
+	</ol>
+</ul>
+<ul style="list-style: disc;">
+	<li style="font-weight: normal;"><p class="MsoListParagraphCxSpMiddle" 
+										 style="line-height: 26.6667px; 
+										 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+										 text-decoration-style: initial; 
+										 text-decoration-color: initial; 
+										 margin-left: 96px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN" style="font-weight: bold;">URL</span></p></li>
+	<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; 
+			 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; margin-left: 96px;"><span 
+	 lang="EN-IN" xml:lang="EN-IN" style="font-weight: bold;">File</span>&#160;&#160;&#160;</p></li>
+	<ol style="list-style: lower-roman;">
+		<ol style="list-style: lower-roman;">
+			</ol>
+		<ol start="3" style="list-style: lower-roman;">
+			<li><p class="MsoListParagraphCxSpMiddle" style="orphans: 2; 
+					 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+					 text-decoration-color: initial; margin-left: 0px; 
+					 font-size: 10.0pt; line-height: 200%; font-family: Arial, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman';"><span 
+			 style="font-size: 10.0pt; mso-ansi-language: EN-IN; mso-fareast-language: EN-IN; 
+			 mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">To <b>Import</b> <b>Idp</b> <b>Metadata</b> 
+			 using url, select <b>URL</b> radio button.</font></span></p></li>
+			<li><p class="MsoListParagraphCxSpMiddle" style="line-height: 26.6667px; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 text-decoration-style: initial; text-decoration-color: initial; 
+					 margin-left: 0px;"><span style="font-size: 10.0pt; 
+												 line-height: 200%; font-family: Arial, sans-serif; 
+												 mso-fareast-font-family: 'Times New Roman'; 
+												 mso-ansi-language: EN-IN; 
+												 mso-fareast-language: EN-IN; 
+												 mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">In 
+			 the&#160;<b>URL</b>, type the required IDP metadata URL.</font></span></p></li>
+		</ol>
+	</ol>
+</ul>
+<p class="example"><span lang="EN-IN" xml:lang="EN-IN">IDP Url:&#160;</span><span 
+	 class="MsoHyperlink" lang="EN-IN" xml:lang="EN-IN"><a href="https://dev-174968.oktapreview.com/app/exkh1nabygp3NGFmC0h7/sso/saml/metadata">https://dev-174968.oktapreview.com/app/exkh1nabygp3NGFmC0h7/sso/saml/metadata</a></span></p>
+<p class="note"><span lang="EN-IN" xml:lang="EN-IN">This URL is same as 
+ the URL of the Identity Provider metadata in IDP site.</span></p>
+<p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; margin-left: 80px;"><img src="image3267.gif" 
+	 alt="" style="border: none;" border="0" /></p>
+<ol style="list-style: lower-roman;">
+	<ol style="list-style: lower-roman;">
+		<ol style="list-style: lower-roman;">
+			<ol start="5" style="list-style: lower-roman;">
+				<li><p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; 
+						 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+						 text-decoration-style: initial; text-decoration-color: initial; 
+						 margin-left: 0px;"><span style="font-size: 10.0pt; 
+													 line-height: 200%; 
+													 font-family: Arial, sans-serif; 
+													 mso-fareast-font-family: 'Times New Roman'; 
+													 mso-ansi-language: EN-IN; 
+													 mso-fareast-language: EN-IN; 
+													 mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">To 
+				 <b>Import</b> <b>Idp</b> <b>Metadata</b> using file, select 
+				 <b>File</b> radio button.</font></span> </p></li>
+				<li><p class="MsoListParagraphCxSpLast" style="orphans: 2; 
+						 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+						 text-decoration-color: initial; margin-left: 0px; 
+						 mso-add-space: auto; line-height: 20.0pt;"><span 
+				 style="mso-text-indent-alt: -.25in; mso-list: l0 level1 lfo1;">In 
+				 the <b>File</b>, click <b>Upload</b> next to the text 
+				 field.</span></p></li>
+				<li><p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; 
+						 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+						 text-decoration-style: initial; text-decoration-color: initial; 
+						 margin-left: 0px; font: 7.0pt 'Times New Roman';"><span 
+				 style="font-size: 10.0pt; font-family: Arial, sans-serif; 
+				 mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-IN; 
+				 mso-fareast-language: EN-IN; mso-bidi-language: AR-SA; 
+				 mso-add-space: auto; mso-text-indent-alt: -.25in; line-height: 20.0pt; 
+				 mso-list: l0 level1 lfo1;"><font size="2" style="font-size:10pt;">S</font></span><span style="font-size: 10.0pt; 
+															 line-height: 200%; 
+															 font-family: Arial, sans-serif; 
+															 mso-fareast-font-family: 'Times New Roman'; 
+															 mso-ansi-language: EN-IN; 
+															 mso-fareast-language: EN-IN; 
+															 mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">elect 
+				 the required idp metadata file, from the local machine</font></span> 
+				 .</p></li>
+			</ol>
+		</ol>
+	</ol>
+</ol>
+<p class="note"><span style="font-size: 10.0pt; line-height: 200%; font-family: Arial, sans-serif; 
+						 mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-IN; 
+						 mso-fareast-language: EN-IN; mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">The 
+ file is an xml, provided by IdP like IDCS, ADFS etc.</font></span> </p>
+<p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; orphans: 2; 
+	 widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+	 text-decoration-color: initial; font: 7.0pt 'Times New Roman'; margin-left: 80px;"><img 
+	 src="image3268.gif" alt="" style="border: none;" border="0" /></p>
+<ol style="list-style: lower-roman;">
+	<ol style="list-style: lower-roman;">
+		<ol style="list-style: lower-roman;">
+			<ol start="8" style="list-style: lower-roman;">
+				<li><p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; 
+						 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+						 text-decoration-style: initial; text-decoration-color: initial; 
+						 margin-left: 0px;"><span style="font-size: 10.0pt; 
+													 line-height: 200%; 
+													 font-family: Arial, sans-serif; 
+													 mso-fareast-font-family: 'Times New Roman'; 
+													 mso-ansi-language: EN-IN; 
+													 mso-fareast-language: EN-IN; 
+													 mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;">Once 
+				 the file data uploaded, <b>IdP Entity Id</b> will appear</font></span> 
+				 </p></li>
+			</ol>
+		</ol>
+	</ol>
+</ol>
+<ol start="6" style="list-style: lower-roman;">
+	<li style="list-style: decimal;"><p class="MsoListParagraph" style="line-height: 26.6667px; 
+										 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+										 text-decoration-style: initial; 
+										 text-decoration-color: initial; 
+										 margin-left: 0px;"><span>To save 
+	 the changes, click&#160;<b>Save</b>.</span></p></li>
+</ol>
+<p class="note"><span lang="EN-IN" xml:lang="EN-IN">Once the authority 
+ is created, it appears under Authorities section (highlighted as “2”).</span></p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; 
+	 line-height: 26.6667px; font-size: 10pt; color: #000000; font-style: normal; 
+	 font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; 
+	 letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; 
+	 text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; 
+	 -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; 
+	 margin-left: 0.25in;">&#160;</p>
+<p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; margin-left: 40px;"><span 
+	 lang="EN-IN" xml:lang="EN-IN">&#160;&#160;&#160;&#160;</span><img 
+	 src="image2409.gif" alt="" style="border: none;" width="1002" height="302" 
+	 border="0" /></p>
+<p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; font-variant-ligatures: normal; 
+	 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+	 text-decoration-style: initial; text-decoration-color: initial; margin-left: 40px;">&#160;</p>
+<ol start="7" style="list-style: decimal;">
+	<li><p class="MsoListParagraphCxSpLast" style="line-height: 26.6667px; 
+			 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; 
+			 text-decoration-color: initial; margin-left: 0px;"><span lang="EN-IN" 
+	 xml:lang="EN-IN">Now logout and login again using the following URL:</span></p></li>
+</ol>
+<p class="example"><span lang="EN-IN" xml:lang="EN-IN">URL: </span><span 
+	 style="font-size: 10.0pt; line-height: 200%; font-family: Arial, sans-serif; 
+	 mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-IN; 
+	 mso-fareast-language: EN-IN; mso-bidi-language: AR-SA;"><font size="2" style="font-size:10pt;"><a href="https://www.google.com/url?q=https://orbdev01.orbit8.com/reporting/&amp;sa=D&amp;source=hangouts&amp;ust=1597746482727000&amp;usg=AFQjCNHeZuycnWY8J18f5H_tOyi_5-dKFw" 
+	 target="_blank">https://orbdev01.orbit8.com/reporting/</a></font></span> 
+ </p>
+<p class="note"><span lang="EN-IN" xml:lang="EN-IN">Here, https, orbit 
+ tenant have been used since the SAML authority is now configured in ORBIT 
+ application.</span><span>&#160;</span></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

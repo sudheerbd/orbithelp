@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating Object from SQL","url":"Creating_Object_from_SQL.htm"},{"type":"item","name":"Importing From File","url":"Importing_From_File.htm"},{"type":"item","name":"Renaming Labels","url":"Renaming_Labels.htm"},{"type":"item","name":"Renaming Physical Model","url":"Renaming_Physical_Model.htm"},{"type":"item","name":"Deleting Physical Model","url":"Deleting_Physical_Model.htm"},{"type":"item","name":"Setting Physical Model Properties  ","url":"Setting_Physical_Model_Properties.htm"},{"type":"item","name":"Properties for Tables/Views/Synonym  ","url":"Properties_for_Tables_Views_Synonym.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

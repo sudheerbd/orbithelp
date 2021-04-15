@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc40.js\"  name=\"Selecting Default Values\" url=\"Selecting_Default_Values.htm\"><item name=\"From this query\" url=\"From_this_query.htm\" /><item name=\"Dynamic Values\" url=\"Dynamic_Values.htm\" /></data>";

@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating a Complex Join</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "6.2.3.1.0_2";
+</script>
+ <meta name="brsprev" value="Creating_a_Simple_Join.htm">
+ <meta name="brsnext" value="Tools_on_Logical_Model_Work_Area.htm">
+ <meta name="topic-breadcrumbs" content="Business Models > Domains > Creating a Logical Model > Establishing Joins between Tables" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating a Complex Join </h1>
+<p style="font-weight: bold;">To create a Complex Join </p>
+<p>&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; mso-list: l4 level1 lfo2; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;"><span style="mso-fareast-language: JA; 
+												 mso-list: Ignore;">1.</span><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">Select the source table.</span></p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: 49.5pt; line-height: 200%; 
+	 width: 50.129%;">
+	<p class="MsoNormal" style="margin-left: .25in; text-indent: -.25in; 
+		 line-height: 150%; mso-list: l2 level1 lfo6; tab-stops: 40.5pt 45.0pt 49.5pt 76.5pt 86.25pt; 
+		 border: none; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in; font-family: Arial, sans-serif; 
+		 font-size: 10pt;"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Webdings; 
+								 mso-bidi-font-family: Webdings; color: #0F1177; 
+								 mso-fareast-language: JA; mso-list: Ignore;">¥</span><span 
+	 style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings; color: #0F1177; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">When the hand symbol appears on 
+	 the selected table, a join can be created.</span></p>
+</div>
+<p class="MsoNormal" style="margin-left: .5in; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-fareast-language: JA; font-family: Arial, sans-serif; line-height: 200%; 
+	 font-size: 10pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; mso-list: l4 level1 lfo2; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;"><span style="mso-fareast-language: JA; 
+												 mso-list: Ignore;">2.</span><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">Drag the arrow from the selected 
+ source table to destination table.</span></p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; mso-list: l4 level1 lfo2; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; font-family: Arial, sans-serif; 
+	 line-height: 200%; font-size: 10pt;"><span style="mso-fareast-language: JA; 
+												 mso-list: Ignore;">3.</span><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-language: JA;">Relationship 
+ (Source table =&gt;Destination table)</span></b> <span style="mso-fareast-language: JA;">dialog 
+ box appears.</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; mso-list: l1 level1 lfo1; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; text-indent: -.25in;">4. 
+ <span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;<span 
+	 style="font-family: Arial, sans-serif; line-height: 200%; mso-list: l1 level1 lfo4; 
+	 mso-fareast-language: JA;">To create a complex join, in the </span><span 
+	 style="font-family: Arial, sans-serif; line-height: 200%; mso-list: l1 level1 lfo4; 
+	 mso-fareast-language: JA; font-weight: bold;">Relationship</span><span 
+	 style="font-family: Arial, sans-serif; line-height: 200%; mso-list: l1 level1 lfo4; 
+	 mso-fareast-language: JA;"> dialog box, select the <b style="mso-bidi-font-weight: normal;">Complex 
+ Join</b> check box.</span><span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; line-height: 150%; 
+	 mso-list: l1 level1 lfo1; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="text-indent: -.25in; 
+												 line-height: 150%; mso-list: l1 level1 lfo1; 
+												 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+												 mso-fareast-language: JA; 
+												 font-weight: normal; mso-bidi-font-weight: normal;">5</span><span 
+	 style="text-indent: -.25in; line-height: 150%; mso-list: l1 level1 lfo1; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; mso-fareast-language: JA; 
+	 font-weight: normal;">.</span><span style="text-indent: -.25in; line-height: 150%; 
+										 mso-list: l1 level1 lfo1; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+										 mso-fareast-language: JA;"> </span></b><span 
+	 style="text-indent: -.25in; line-height: 150%; mso-list: l1 level1 lfo1; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span 
+	 style="text-indent: -.25in; line-height: 150%; mso-list: l1 level1 lfo1; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</span><b style="mso-bidi-font-weight: normal;"><span 
+	 style="text-indent: -.25in; line-height: 150%; mso-list: l1 level1 lfo1; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; mso-fareast-language: JA;">Complex 
+ Join</span></b><span style="text-indent: -.25in; line-height: 150%; mso-list: l1 level1 lfo1; 
+						 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"> </span><span 
+	 style="text-indent: -.25in; line-height: 150%; mso-list: l1 level1 lfo1; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; mso-fareast-language: JA;">box 
+ appears as shown below:</span></p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; line-height: 150%; 
+	 mso-list: l1 level1 lfo1; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; page-break-after: avoid; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 35px;"><span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-no-proof: yes;"><img src="image682.gif" alt="" style=" border:none; width:100%; max-width:632px;" border="0" /></span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; line-height: 150%; 
+	 mso-list: l1 level1 lfo1; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="mso-list: Ignore; mso-fareast-language: JA;">&#160;&#160;6</span><span 
+	 style="mso-fareast-language: JA; mso-list: Ignore;">. &#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Complex 
+ Join</b> box, perform the following:</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·</span>&#160;<span style="mso-fareast-language: JA;">In 
+ the <b style="mso-bidi-font-weight: normal;">Complex Join</b> box, click</span> 
+ <img src="more201.png" alt="" style=" border:none; width:100%; max-width:26px;" border="0" /><span style="mso-spacerun: yes;">&#160;</span><span 
+	 style="mso-fareast-language: JA;">to populate the complex join.</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">· </span>&#160;<span 
+	 style="mso-no-proof: yes;"><b style="mso-bidi-font-weight: normal;">Expression 
+ Builder (Complex Join</b>) dialog box appears.</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;"><img src="image683.gif" alt="" style=" border:none; width:100%; max-width:714px;" border="0" /></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;">&#160;</p>
+<p class="MsoNormal" style="text-indent: -.25in; line-height: 150%; mso-list: l0 level1 lfo2; 
+	 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; margin-left: 99px;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">&#160;&#160;&#160;&#160;·&#160;</span><span 
+	 style="mso-no-proof: yes;">In the <b style="mso-bidi-font-weight: normal;">Expression 
+ Builder</b>, under the <b style="mso-bidi-font-weight: normal;">Category</b> 
+ area, select the required option from the following:</span> </p>
+<p class="MsoNormal" style="margin-left: 140.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level2 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: 'Courier New'; mso-fareast-font-family: 'Courier New'; 
+	 mso-fareast-language: JA;"><span style="mso-list: Ignore;">o<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span></span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-language: JA;">Available 
+ Objects</span></b></p>
+<p class="MsoNormal" style="margin-left: 140.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level2 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="mso-list: Ignore;">o</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-language: JA;">Functions</span></b></p>
+<p class="MsoNormal" style="margin-left: 140.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level2 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-fareast-language: JA; mso-bidi-font-weight: normal; font-size: 10pt; 
+	 font-weight: normal;"><b style="font-weight: normal;"><span style="font-family: Wingdings; 
+	 font-size: 18pt;">&#160;&#160;&#160;&#160;&#160;&#160;?</span> Example: 
+ Category: Available Objects </b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·&#160;</span><span style="mso-fareast-language: JA;">Under 
+ the <b style="mso-bidi-font-weight: normal;">Sub-Category</b> area, select 
+ the required table/view/synonyms.</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<table class="MsoNormalTable" style=" margin-left:104.25pt; border:none; mso-border-alt:solid windowtext .5pt; mso-yfti-tbllook:1184; mso-padding-alt:0in 5.4pt 0in 5.4pt; mso-border-insideh:.5pt solid windowtext; mso-border-insidev:.5pt solid windowtext; border-collapse:separate; left:0px; top:2154px; width:100%; max-width:550px;" cellspacing="0">
+	<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;">
+		<td style="vertical-align: top; border: none; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="550" bgcolor="#F2F2F2"><p class="MsoNormal" style="line-height: 150%; 
+												 tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+												 font-size: 10pt; mso-fareast-language: JA; 
+												 mso-bidi-font-weight: normal; 
+												 font-weight: normal;"><b><span 
+		 style="font-weight: normal;">Example: Sub Category: AP_INVOICES_V</span></b></p>
+		<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+			 font-size: 10pt; font-weight: normal; mso-fareast-language: JA;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-weight: normal;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AP_INVOICE_PAYMENTS_V</span></b></p>
+		<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt; 
+													 line-height: 150%; 
+													 mso-fareast-language: JA;"><span 
+		 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></b>&#160;</p></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;</span>&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: 123px; width: 59.737%;">
+	<p class="MsoNormal" style="margin-left: .25in; text-indent: -.25in; 
+		 line-height: 150%; mso-list: l2 level1 lfo3; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+		 border: none; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;">&#160;</p>
+	<p class="MsoNormal" style="margin-left: .25in; text-indent: -.25in; 
+		 line-height: 150%; mso-list: l2 level1 lfo3; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+		 border: none; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;"><span style="mso-list: Ignore;">¥</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-fareast-language: JA;">Based on the selected sub-category, 
+	 the columns appear on the right-hand side.</span></p>
+</div>
+<p class="MsoNormal" style="margin-left: 140.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-fareast-language: JA;">Double-click to insert the required 
+ columns.</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<table class="MsoNormalTable" style="margin-left: 104.25pt; border: none; 
+		 mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; 
+		 mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-insideh: .5pt solid windowtext; 
+		 mso-border-insidev: .5pt solid windowtext; border-collapse: separate;" 
+		 cellspacing="0" bgcolor="#F2F2F2">
+	<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; 
+		 height: 37.4pt;">
+		<td style="vertical-align: top; border: none; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 height="50" width="487"><p style="font-weight: normal;"><b 
+		 style="mso-bidi-font-weight: normal;"><span style="mso-fareast-language: JA; 
+													 font-weight: normal;">Example:</span><span 
+		 style="mso-fareast-language: JA;"> </span><span style="mso-fareast-language: JA; 
+														 font-weight: normal;">Required 
+		 Column</span></b><span style="mso-fareast-language: JA;">: INVOICE_ID</span></p></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="margin-left: 2.0in; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="font-size: 11.0pt; mso-fareast-language: JA;">&#160;</span><span 
+	 style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></b></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA;"><span style="mso-list: Ignore;">·&#160;</span><span 
+	 style="mso-list: Ignore; font-family: Arial, sans-serif;">You can 
+ use the available </span><span style="mso-list: Ignore; font-family: Arial, sans-serif; 
+								 font-weight: bold;">Operators</span><span 
+	 style="mso-list: Ignore; font-family: Arial, sans-serif;"> such as 
+ +, -,* ,/, !,=,&gt;,&lt;,(,),[,],,;,and % &#160;to create an expression. 
+ &#160;</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">&#160;</span>&#160;<span 
+	 style="mso-no-proof: yes;">Based on the selection, the expression 
+ appears in the expression box.</span> </p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;"><img src="image684.gif" alt="" style=" border:none; width:100%; max-width:738px;" border="0" /></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="mso-list: Ignore;">·</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-no-proof: yes;">To save the changes, click <b style="mso-bidi-font-weight: normal;">Ok</b>.</span> 
+ </p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA; mso-list: Ignore;">·&#160;&#160;&#160;</span>&#160;<span 
+	 style="mso-no-proof: yes;">The expression appears in the <b style="mso-bidi-font-weight: normal;">Complex 
+ Join</b> box.</span> </p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;"><img src="image850.gif" style=" border:none; width:100%; max-width:615px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt; 
+	 mso-no-proof: yes;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-fareast-language: JA;">To save the join, click <b style="mso-bidi-font-weight: normal;">OK</b>.</span></p>
+<p class="MsoNormal" style="margin-left: 104.25pt; text-indent: -.25in; 
+	 line-height: 150%; mso-list: l0 level1 lfo2; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-fareast-language: JA;"><span style="mso-list: Ignore;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;<span 
+	 style="mso-fareast-language: JA;">To close dialog box, click <b style="mso-bidi-font-weight: normal;">Cancel.</b></span></p>
+<p class="MsoNormal" style="line-height: 150%; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; line-height: 150%; 
+	 mso-list: l1 level1 lfo1; tab-stops: 40.5pt 45.0pt 49.5pt 86.25pt;">&#160;</p>
+</body>
+</html>

@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Creating Authority","url":"Creating_Authority.htm"},{"type":"item","name":"Importing Users from Authority ","url":"Importing_Users_from_Authority.htm"},{"type":"item","name":"Viewing Imported Users","url":"Viewing_Imported_Users.htm"},{"type":"item","name":"Viewing the Newly Created Authority","url":"Viewing_the_Newly_Created_Authority.htm"},{"type":"item","name":"Editing Authority ","url":"Editing_Authority.htm"},{"type":"item","name":"Deleting Authority ","url":"Deleting_Authority.htm"},{"type":"book","name":"LDAP","key":"toc10","url":"LDAP.htm"},{"type":"book","name":"Active Directory","key":"toc15","url":"Active_Directory.htm"},{"type":"book","name":"PeopleSoft","key":"toc20","url":"PeopleSoft.htm"},{"type":"item","name":"Deleting Authorities with Dependencies","url":"Deleting_Authorities_with_Dependencies1.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

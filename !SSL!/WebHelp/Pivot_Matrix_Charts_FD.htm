@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Pivot/Matrix Charts</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Analysis\nVisualization Options in Analysis Reports\nPivot/Matrix Charts");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Analysis_Feature_Dashboard.htm\">Analysis<\/a> > <a href=\"Visual_Settings_of_Different_Charts_FD1.htm\">Visualization Options in Analysis Reports<\/a> > Pivot/Matrix Charts<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Pivot/Matrix Charts</h1>
+<p>Pivot tables are interactive tables that allow the user to group and summarize large amounts of data in a concise, tabular format for easier reporting and analysis.</p>
+<h2>Visualization (Chart type) Options</h2>
+<p>A pivot table usually consists of row, column, and data (value) fields.</p>
+<p>1. Table chart has the following visualization options</p>
+<ul style="list-style: disc;">
+<li>
+<p>Values</p>
+</li>
+<li>
+<p>Rows</p>
+</li>
+<li>
+<p>Columns</p>
+</li>
+</ul>
+<p>2. Drag and drop the required fields from the selected Business Object into the Values, Rows, and Columns sections.</p>
+<p><span style="font-weight: bold;">Note</span>: Drag fields with numerical values into the <span style="font-weight: bold;">Values</span> section for several types of calculations (Sum, Average, Min, Max, etc.)</p>
+<p>However, using text values would also not be wrong; instead of Sum, it will give a <span style="font-weight: bold;">Count</span>.</p>
+<p>3. Orbit application generates the Pivot/matrix analysis report dynamically in the run results area.</p>
+<p><img src="Analysis_FD_022.jpg" alt="" style="border: none;" width="828" height="330" border="0" /></p>
+<p><b class="ocpUI"><span style="font-weight: normal;">4.</span> Expand</b> and <b class="ocpUI">Collapse</b> buttons are displayed so that you can display or hide details in pivot &#160;chart.</p>
+<p>&#160;</p>
+<h2>Visual Settings for Tabular Charts</h2>
+<p>To set visual settings</p>
+<p>1.&#160;On the report edit page, click <span style="font-weight: bold;">Visual Settings</span> next to the Data tab.</p>
+<p>2.&#160;Visual Settings for pivot chart has the following tabs:</p>
+<ol style="list-style: upper-alpha;">
+<li>General</li>
+<li>Sub Totals</li>
+<li>Grand Totals</li>
+</ol>
+<h3>General</h3>
+<p>General tab has the following visual settings:</p>
+<p>A. <span style="font-weight: bold;">Detail Data</span>: Show/hide .</p>
+<p>Default Value: False</p>
+<p>In the Detail Data box, select <span style="font-weight: bold;">True</span> to show .</p>
+<p>&#160;</p>
+<p>B. <span style="font-weight: bold;">Layout</span>: Changes pivot table layout.</p>
+<p>Default Value: Outline</p>
+<p>In the <span style="font-weight: bold;">Layout</span> box, select the required option from the following:</p>
+<ul style="list-style: disc;">
+<li>
+<p>Outline</p>
+</li>
+<li>
+<p>Compact</p>
+</li>
+<li>
+<p>Tabular</p>
+</li>
+<li>
+<p>&#160;<span style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 13px; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Tabular: Displays one column per field and provides space for field headers.</span></p>
+</li>
+</ul>
+<ol style="list-style: lower-roman;">
+<li>
+<p><span style="font-weight: bold;">Outline</span>: Displays items in the next column one row below the current item. It can display subtotals at the top of every group. When Layout value is set as <span style="font-weight: bold;">Outline</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_023.jpg" alt="" style="border: none;" width="676" height="238" border="0" /></p>
+</li>
+<li>
+<p><span style="font-weight: bold;">Compact</span>: Displays items from different row area fields in one column and uses indentation to distinguish between the items from different fields.</p>
+<p>Row labels take up less space in compact form, which leaves more room for numeric data. Compact form is saves space and makes the pivot table more readable.</p>
+<p>When Layout value is set as <span style="font-weight: bold;">Compact</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_024.jpg" alt="" style="border: none;" width="676" height="265" border="0" /></p>
+</li>
+<li>
+<p><span style="font-weight: bold;">Tabular</span>: Displays one column per field and provides space for field headers. When Layout value is set as <span style="font-weight: bold;">Tabular</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_025.jpg" alt="" style="border: none;" width="698" height="206" border="0" /></p>
+</li>
+</ol>
+<p>&#160;</p>
+<p>C. <span style="font-weight: bold;">Measure on Row</span>: Show/hide measures column.</p>
+<p>Default Value: False</p>
+<p>In the Measure on Row box, select <span style="font-weight: bold;">True</span> to show the <span style="font-weight: bold;">Measures</span> column.</p>
+<p><span style="font-weight: bold;">Note</span>: Measures column appears in the report only when the <span style="font-weight: bold;">Values</span> section in the Report Configurator area has at least two fields.</p>
+<p><img src="Analysis_FD_026.jpg" alt="" style="border: none;" width="783" height="262" border="0" /></p>
+<p>&#160;</p>
+<h3>Sub Totals</h3>
+<p>Sub Totals tab has the following visual settings:</p>
+<p>A. <span style="font-weight: bold;">Column Totals</span>: Changes Column total position in the Pivot chart.</p>
+<p>Default Value: Last</p>
+<p><span style="font-weight: bold;">Note</span>: Column Totals appear in the report only when the <span style="font-weight: bold;">Column</span> section in the Report Configurator area has at least two fields.</p>
+<p>In the <span style="font-weight: bold;">Column Total</span> box, select the required option from the following:</p>
+<ul style="list-style: disc;">
+<li>
+<p>Last</p>
+</li>
+<li>
+<p>First</p>
+</li>
+<li>
+<p>None</p>
+</li>
+</ul>
+<ol style="list-style: lower-roman;">
+<li>
+<p>When Column Totals value is set as <span style="font-weight: bold;">Last</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_027.jpg" alt="" id="T1" style="position: relative;" width="882" height="259" border="0" name="T1" /></p>
+</li>
+<li>
+<p>When Column Totals value is set as <span style="font-weight: bold;">First</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_028.jpg" alt="" id="img1" style="border: none;" width="941" height="255" border="0" name="img1" /></p>
+</li>
+<li>
+<p>When Column Totals value is set as <span style="font-weight: bold;">None</span>, the report appears as follows. Column Totals do not appear in the pivot chart when you select None.</p>
+<p><img src="Analysis_FD_029.jpg" alt="" style="border: none;" width="938" height="333" border="0" /></p>
+</li>
+</ol>
+<p>&#160;</p>
+<p>B. <span style="font-weight: bold;">Row Totals</span>: Changes row total position in the Pivot chart.</p>
+<p>Default Value: Last</p>
+<p><span style="font-weight: bold;">Note</span>: Row Totals appear in the report only when the <span style="font-weight: bold;">Row</span> section in the Report Configurator area has at least two fields.</p>
+<p>In the <span style="font-weight: bold;">Row Total</span> box,&#160;select the required option from the following:</p>
+<ul style="list-style: disc;">
+<li>
+<p>Last</p>
+</li>
+<li>
+<p>First</p>
+</li>
+<li>
+<p>None</p>
+</li>
+</ul>
+<ol style="list-style: lower-roman;">
+<li>
+<p>When Row Totals value is set as <span style="font-weight: bold;">Last</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_030.jpg" alt="" id="T11" style="position: relative;" border="0" name="T11" /></p>
+</li>
+<li>
+<p>When Row Totals value is set as <span style="font-weight: bold;">First</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_031.jpg" alt="" id="img11" style="border: none;" border="0" name="img11" /></p>
+</li>
+<li>
+<p>When Row Totals value is set as <span style="font-weight: bold;">None</span>, the report appears as follows. Row Totals do not appear in the pivot chart when you select None.</p>
+<p><img src="Analysis_FD_032.jpg" alt="" style="border: none;" border="0" /></p>
+</li>
+</ol>
+<p>&#160;</p>
+<h3>Grand Totals</h3>
+<p>Grand Totals tab has the following visual settings:</p>
+<p>A. <span style="font-weight: bold;">Column Totals</span>: Changes Column total position in the Pivot chart.</p>
+<p>Default Value: Last</p>
+<p>In the <span style="font-weight: bold;">Column Total</span> box, select the required option from the following:</p>
+<ul style="list-style: disc;">
+<li>
+<p><span style="font-weight: bold;">Last</span>: When Column Totals value is set as Last, the column grand totals appear at the end of the pivot chart.</p>
+</li>
+<li>
+<p><span style="font-weight: bold;">First</span>: When Column Totals value is set as First, the column grand totals appear at the start of the pivot chart.</p>
+</li>
+<li>
+<p><span style="font-weight: bold;">None</span>: When Column Totals value is set as None, the column grand totals do not appear in the pivot chart.</p>
+</li>
+</ul>
+<p>&#160;</p>
+<p>B. <span style="font-weight: bold;">Row Totals</span>: Changes Row total position in the Pivot chart.</p>
+<p>Default Value: Last</p>
+<p>In the <span style="font-weight: bold;">Row Total</span> box, select the required option from the following:</p>
+<ul style="list-style: disc;">
+<li>
+<p><span style="font-weight: bold;">Last</span>: When Row Totals value is set as Last, the row grand totals appear at the end of the pivot chart.</p>
+</li>
+<li>
+<p><span style="font-weight: bold;">First</span>: When Row Totals value is set as First, the row grand totals appear at the start of the pivot chart.</p>
+</li>
+<li>
+<p><span style="font-weight: bold;">None</span>: When Row Totals value is set as None, the row grand totals do not appear in the pivot chart.</p>
+</li>
+</ul>
+<p>&#160;</p>
+<p>When Column Totals and Row Totals values are set as <span style="font-weight: bold;">Last</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_033.jpg" alt="" style="border: none;" border="0" /></p>
+<p>When Column Totals and Row Totals values are set as <span style="font-weight: bold;">First</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_034.jpg" alt="" style="border: none;" border="0" /></p>
+<p>When Column Totals and Row Totals values are set as <span style="font-weight: bold;">None</span>, the report appears as follows:</p>
+<p><img src="Analysis_FD_035.jpg" alt="" style="border: none;" border="0" /></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

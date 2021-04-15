@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating a Data Report using Dataset</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "19.2.0_1";
+</script>
+ <meta name="brsprev" value="Creating_Reports_Using_Dataset.htm">
+ <meta name="brsnext" value="Creating_an_Analysis_Report_using_Dataset.htm">
+ <meta name="topic-breadcrumbs" content="Practice Examples  > Creating Reports Using Dataset" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating a Data Report using Dataset </h1>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; mso-bidi-font-weight: normal; font-size: 10pt;"><b>To 
+ Create a Data Report using Dataset</b></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l21 level1 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">1.&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">On the <b style="mso-bidi-font-weight: normal;">Reports</b> 
+ section, click </span><span style="mso-bidi-font-weight: normal; line-height: 150%; 
+							 mso-no-proof: yes;"><img src="image638.gif" alt="" style=" border:none; width:100%; max-width:33px;" border="0" /></span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;"><b style="mso-bidi-font-weight: normal;">New 
+ Report</b></span><span style="line-height: 150%; mso-no-proof: yes;">,</span> 
+ <span style="line-height: 150%; mso-no-proof: yes;">and then click <b 
+	 style="mso-bidi-font-weight: normal;">Data Report</b>.</span><span 
+	 style="line-height: 150%; mso-no-proof: yes; mso-spacerun: yes;">&#160;</span> 
+ </p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l21 level1 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">2.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the </span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; font-weight: bold;">Data 
+ Explorer,</span><span style="line-height: 150%; mso-fareast-language: JA;"> 
+ click <b style="mso-bidi-font-weight: normal;">Upload File</b></span><span 
+	 style="mso-fareast-language: JA; mso-no-proof: yes;"><img src="image004.png" alt="" border="0" style="width:100%; max-width:28px" /></span><span style="line-height: 150%; 
+															 mso-fareast-language: JA;">. 
+ </span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l21 level1 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="text-indent: -.25in; 
+											 font-family: Arial, sans-serif; 
+											 line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">3.</span><span 
+	 style="text-indent: -.25in; font-family: Arial, sans-serif; line-height: 150%; 
+	 mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="text-indent: -.25in; mso-list: l21 level1 lfo49; font-family: Arial, sans-serif;">&#160;</span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="text-indent: -.25in; 
+												 mso-list: l21 level1 lfo49; 
+												 font-family: Arial, sans-serif; 
+												 line-height: 150%; mso-fareast-language: JA;">Upload 
+ File</span></b><span style="text-indent: -.25in; mso-list: l21 level1 lfo49; 
+						 font-family: Arial, sans-serif;"> </span><span 
+	 style="text-indent: -.25in; mso-list: l21 level1 lfo49; font-family: Arial, sans-serif; 
+	 line-height: 150%; mso-fareast-language: JA;">dialog box appears.</span></p>
+<p class="BodyText2" style="margin-left: 40.5pt; text-indent: -.25in; mso-list: l21 level1 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">4.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To create a data 
+ set, perform the following:</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">a.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Dataset 
+ Name</b> box, type the name of the dataset.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="examples" style="line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; mso-border-alt: solid #ACB9CA .5pt; 
+	 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; margin-left: 104px;"><span style="mso-fareast-language: JA; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;Example: 
+ Dataset Name: Demo Dataset</p>
+<p class="examples">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">b.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Description</b> 
+ box, type the description for the dataset.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="examples" style="line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; mso-border-alt: solid #ACB9CA .5pt; 
+	 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; margin-left: 64px;"><span style="mso-fareast-language: JA; 
+															 mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;?</span><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;Example: 
+ Description: This is demo dataset</p>
+<p class="examples">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">c.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To navigate to 
+ the next window, click <b style="mso-bidi-font-weight: normal;">Next</b>.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">d.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Upload the required 
+ file in the required format, and then click <b style="mso-bidi-font-weight: normal;">Next.</b></span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="examples" style="line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; mso-border-alt: solid #ACB9CA .5pt; 
+	 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; margin-left: 104px;"><span style="mso-fareast-font-family: Wingdings; 
+															 mso-bidi-font-family: Wingdings; 
+															 mso-list: Ignore;">?</span><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;Example: 
+ Required File Type: CSV or Other Delimited Text Format</p>
+<p class="examples" style="line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; mso-border-alt: solid #ACB9CA .5pt; 
+	 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; margin-left: 104px;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="mso-list: none;">Required File: SuperStore1.csv</span><span 
+	 style="text-indent: 0in; mso-list: none; font-family: Arial, sans-serif; 
+	 mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; page-break-after: avoid; 
+	 mso-no-proof: yes; font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoCaption" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">e.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The columns present 
+ in the uploaded file appear.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-align: left; text-indent: -.25in; 
+	 mso-list: l21 level2 lfo49; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">f.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To import the 
+ file, click <b style="mso-bidi-font-weight: normal;">Import</b>.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-align: left; text-indent: -.25in; 
+	 mso-list: l21 level2 lfo49; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore;">g.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Under Business 
+ Object section, the business object associated with the newly created 
+ dataset appears with columns under it.</span><span style="line-height: 150%; 
+													 mso-fareast-language: JA; 
+													 mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">h.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Drag and Drop 
+ the required columns from Business Objects area to Report Configurator 
+ area.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l21 level2 lfo49; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">i.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The report appears 
+ in the Run Results area.</span></p>
+<p class="BodyText2" style="line-height: 150%; mso-fareast-language: JA; 
+	 font-family: 'Times New Roman', serif; font-size: 10pt;">&#160;</p>
+</body>
+</html>

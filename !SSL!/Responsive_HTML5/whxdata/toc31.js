@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc30.js\"  name=\"Business Objects\" url=\"Business_Objects.htm\"><item name=\"Assign Roles &amp; Users\" url=\"Assigning_Roles.htm\" /><item name=\"Assign to Role \" url=\"Assign_to_Role.htm\" /><item name=\"Assign to User\" url=\"Assign_to_User.htm\" /></data>";

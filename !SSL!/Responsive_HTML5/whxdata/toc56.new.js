@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Introduction","url":"Introduction1.htm"},{"type":"item","name":"Output Compliance Matrix","url":"Output_Compliance_Matrix.htm"},{"type":"book","name":"Creating Reports","key":"toc57","url":"Creating_Reports1.htm"},{"type":"book","name":"Viewing a Publisher Report in Excel","key":"toc58","url":"Viewing_a_Publisher_Report_in_Excel.htm"},{"type":"book","name":"Viewing Publisher Report in Word","key":"toc59","url":"Viewing_Publisher_Report_in_Word.htm"},{"type":"item","name":"Viewing the Publisher Report in HTML ","url":"Viewing_the_Publisher_Report_in_HTML.htm"},{"type":"book","name":"Creating Templates","key":"toc60","url":"Creating_Templates.htm"},{"type":"book","name":"Options","key":"toc62","url":"OptionsPR1.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

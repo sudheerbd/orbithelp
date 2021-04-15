@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Applying Word Template to Publisher Report</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Publisher Report\nCreating a Word Template with Grouping and Page Break\nApplying Word Template to Publisher Report ");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Publisher_Report.htm\">Publisher Report<\/a> > <a href=\"Creating_a_Word_Template_with_Grouping_and_Page_Break.htm\">Creating a Word Template with Grouping and Page Break<\/a> > Applying Word Template to Publisher Report <\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1 style="font-family: Arial, sans-serif; color: #808080;">Applying Word 
+ Template to Publisher Report </h1>
+<p>&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">1. Create a New Publisher Report.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">2. In the <b style="mso-bidi-font-weight: normal;">Bands</b> 
+ section, under <b style="mso-bidi-font-weight: normal;">MainBand</b>, 
+ create a band “ParentTable”.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 40px;"><img src="image2929.gif" alt="" 
+												 style="border-left-width: 1px; 
+												 border-left-style: Solid; 
+												 border-top-width: 1px; 
+												 border-top-style: Solid; 
+												 border-right-width: 1px; 
+												 border-right-style: Solid; 
+												 border-bottom-width: 1px; 
+												 border-bottom-style: Solid;" 
+												 width="714" height="194" 
+												 border="1" /></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 5pt; margin-bottom: 5pt;">As 
+	 shown in the above figure, the band “ParentTable” in publisher report 
+	 maps to the band “ParentTable” in the Word template (highlighted as 
+	 “1”). </p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 5pt; margin-bottom: 5pt;">Also, 
+	 the child band “ChildTable” in publisher report maps to the band “ChildTable” 
+	 in the Word template (highlighted as “2”).</p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt; margin-left: 0px;"><span style="font-weight: bold;">Note</span>: 
+ One child band cannot have another child band under it.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">3. 
+ Right-click “ParentTable” band, and then click <b style="mso-bidi-font-weight: normal;">New 
+ Query</b> to create a new query “Query 2”.</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoListParagraph" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+			 font-size: 10pt; margin-top: 5pt; margin-bottom: 5pt;">When 
+	 “Query 2” is selected, <b style="mso-bidi-font-weight: normal;">Query 
+	 Details</b> section appears.</p></li>
+</ul>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt; 
+	 margin-top: 5pt; margin-bottom: 5pt;">4. Drag and drop the required 
+ columns from business object area to the <span style="font-weight: bold;">Columns</span> 
+ section under <b style="mso-bidi-font-weight: normal;">Configurator</b> 
+ tab. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt; 
+	 margin-left: 40px;">&#160;&#160;<img src="image2930.gif" alt="" style="border: none;" 
+											 width="541" height="353" border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">5. Right-click the “ParentTable” band, and then 
+ click <b style="mso-bidi-font-weight: normal;">New Band</b> to create 
+ a child band “<span style="mso-bidi-font-size: 12.0pt;">ChildTable</span>”.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">6. 
+ Right-click the Child Table, and then click <b style="mso-bidi-font-weight: normal;">New 
+ Query</b>, “Query 4”.<b style="mso-bidi-font-weight: normal;"><span style="mso-spacerun: yes;">&#160;&#160;</span></b>&#160;<span 
+	 style="mso-spacerun: yes;">&#160;</span></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoListParagraphCxSpFirst" style="mso-list: l0 level1 lfo1; 
+			 margin-left: 40px; font-family: Arial, sans-serif; font-size: 10pt; 
+			 margin-top: 5pt; margin-bottom: 5pt; text-indent: -40px;">Here, 
+	 the Parent and Child bands are created to enable grouping.</p></li>
+	<li><p class="MsoListParagraphCxSpLast" style="mso-list: l0 level1 lfo1; 
+			 margin-left: 40px; font-family: Arial, sans-serif; font-size: 10pt; 
+			 margin-top: 5pt; margin-bottom: 5pt; text-indent: -40px;">When 
+	 “Query 4” is selected, <b style="mso-bidi-font-weight: normal;">Query 
+	 Details</b> section appears.</p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">7. Drag and drop the required columns from business 
+ object area to the <b style="mso-bidi-font-weight: normal;">Configurator</b> 
+ tab in the <b style="mso-bidi-font-weight: normal;">Query Details</b> 
+ section.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="line-height: 150%; font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><img 
+	 src="image2931.gif" alt="" style="border: none;" width="547" height="365" 
+	 border="0" /></font></span></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">8. In the <span style="mso-bidi-font-weight: normal; 
+										 font-weight: bold;">Local</span><span 
+	 style="mso-bidi-font-weight: normal;"> </span><b style="mso-bidi-font-weight: normal;">Filters</b> 
+ section, drag the required column and set the filter. R<span style="mso-list: l0 level1 lfo1; 
+	 tab-stops: 45.0pt;">efer </span><span style="font-weight: bold;"><a 
+	 href="Data_Filter.htm">Local Filters</a>.</span></p>
+<ul style="list-style: disc;">
+	<li><p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 45.0pt; 
+			 font-family: Arial, sans-serif; font-size: 10pt; margin-top: 5pt; 
+			 margin-bottom: 5pt;"><span style="font-weight: bold;">Example</span>: 
+	 Required Column: State</p></li>
+	<li><p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 45.0pt; 
+			 font-family: Arial, sans-serif; font-size: 10pt; margin-top: 5pt; 
+			 margin-bottom: 5pt;"><span style="font-weight: bold;">Example</span>: 
+	 Required Condition: equals</p></li>
+	<li><p class="examples" style="mso-list: l0 level1 lfo1; tab-stops: 45.0pt; 
+			 font-family: Arial, sans-serif; font-size: 10pt; margin-top: 5pt; 
+			 margin-bottom: 5pt;"><span style="font-weight: bold;">Example</span>: 
+	 Local Filter: ${ParentTable.COL0}</p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;&#160;&#160;&#160;&#160;<img src="image3095.gif" 
+															 alt="" style="border: none;" 
+															 width="513" 
+															 height="377" 
+															 border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">9. 
+ To save the changes, click <b style="mso-bidi-font-weight: normal;">Save.</b></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Once the publisher report supporting grouping is 
+ created, then upload the word templates mentioned above using <b style="mso-bidi-font-weight: normal;">Templates</b> 
+ option. See <i style="mso-bidi-font-style: normal;"><a href="Applying_Word_Template_to_Publisher_Report.htm" 
+														 style="background-color: Transparent; 
+														 font-family: Arial, sans-serif; 
+														 font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; 
+	 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><font size="2" style="font-size:10pt;">Applying Word Template to Publisher Report</font></span><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; 
+	 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; background-color: Transparent; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;">s</font></span></a><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; 
+	 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; background-color: Transparent; 
+	 font-family: Arial, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"> </font></span></i>for 
+ more information</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">To view the output, see <span style="font-style: italic;"><i><a 
+	 href="Viewing_Publisher_Report_in_Word.htm">Viewing Publisher Report 
+ in Word</a></i></span> for more information.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

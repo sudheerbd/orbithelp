@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Running a Report in Excel Edge","url":"Running_a_Report_in_Excel_Edge.htm"},{"type":"item","name":"Submitting the Process ","url":"Submit_the_Process.htm"},{"type":"item","name":"Schedule the Process","url":"Schedule_the_Process.htm"},{"type":"item","name":"Viewing the Outputs","url":"Viewing_the_Outputs.htm"},{"type":"item","name":"Viewing the Process Details ","url":"Viewing_the_Process_Details.htm"},{"type":"item","name":"Viewing Parameters","url":"Viewing_Parameters.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

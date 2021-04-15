@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating a Word Template with Grouping and Page Break</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "13.4.1";
+</script>
+ <meta name="topic-breadcrumbs" content="Publisher Report > Creating Templates" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: Arial, sans-serif; color: #808080;">Creating a 
+ Word Template with Grouping and Page Break</h1>
+<p class="MsoNormal">Create a Word template in the following format:</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">The above template illustrates 
+ that the Parent table consisting of four rows.</p>
+<p class="MsoNormal" style="line-height: 150%;">The first three rows form 
+ the Heading and the fourth row forms the data row.</p>
+<p class="MsoListParagraphCxSpFirst" style="mso-list: l1 level1 lfo2;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-no-proof: yes;"><span style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;First 
+ Row: <b style="mso-bidi-font-weight: normal;"><span style="mso-no-proof: yes;">##band=&lt;band_name&gt;&lt;dot&gt;&lt;TG&gt;&lt;dot&gt;&lt;PBR&gt;</span></b></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 1.0in; mso-add-space: auto; 
+	 mso-list: l1 level2 lfo2;"><span style="font-family: 'Courier New'; 
+										 mso-fareast-font-family: 'Courier New';"><span 
+	 style="mso-list: Ignore;">o<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span></span></span>&#160;Where 
+ band_name = ParentTable</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 1.0in; mso-add-space: auto; 
+	 mso-list: l1 level2 lfo2;"><span style="font-family: 'Courier New'; 
+										 mso-fareast-font-family: 'Courier New';"><span 
+	 style="mso-list: Ignore;">o<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span></span></span>&#160;TG 
+ = Table Grouping (this implies that the table has a child table)</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1.0in; mso-add-space: auto; 
+	 mso-list: l1 level2 lfo2;"><span style="font-family: 'Courier New'; 
+										 mso-fareast-font-family: 'Courier New';"><span 
+	 style="mso-list: Ignore;">o<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;</span></span></span>&#160;PBR= 
+ This implies that there should be a page break between the tables</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="mso-list: l1 level1 lfo2;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;Second 
+ Row: ${COL0}</p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-list: l1 level1 lfo2;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;Third 
+ Row: ##band=ChildTable</p>
+<p class="MsoListParagraphCxSpLast" style="mso-list: l1 level1 lfo2;"><span 
+	 style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;Fourth 
+ Row (the data row}: ${COL0}, ${COL1}, ${COL2}, and ${COL3}</p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal">Once the table is created, apply Repeat Header Rows 
+ option to display header in every page.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;">To view the outputs and 
+ scenarios without Repeat Header Rows, <i style="mso-bidi-font-style: normal;">see</i> 
+ <i style="mso-bidi-font-style: normal;"><a href="#_Without_Repeat_Header">Without 
+ Repeat Header Rows</a>.<span style="mso-spacerun: yes;">&#160;</span></i></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%; mso-bidi-font-style: normal; 
+			 mso-spacerun: yes;"><a href="Applying_Repeat_Header_Rows_Option.htm">Applying 
+	 Repeat Header Rows Option</a> </p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; mso-bidi-font-style: normal; 
+			 mso-spacerun: yes;"><a href="Without_Repeat_Header_Rows_Option.htm">Without 
+	 Repeat Header Rows Option</a> </p></li>
+</ul>
+<p class="MsoNormal" style="line-height: 150%; mso-bidi-font-style: normal; 
+	 mso-spacerun: yes;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%; mso-bidi-font-style: normal; 
+	 mso-spacerun: yes;">&#160;</p>
+</body>
+</html>

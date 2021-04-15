@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2017" />
+<title>Grouping and Hierarchy Drilldown</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+<body>
+<h1>Grouping and Hierarchy Drilldown</h1>
+<?rh-placeholder type="minitoc" ph-style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" 
+ list-type="none" caption="This Topic provides detailed information about Grouping and Hierarchy Drilldowns" 
+ caption-style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" 
+ margin=";;;" min-heading-level="h2" max-heading-level="h6" flags="7" ?>
+<h2>Introduction</h2>
+<p>When several fields in a business object form a natural hierarchy, it is possible to group them and create a hierarchy drilldown.</p>
+<p>For example, a report that shows sales revenue by region can allow the user to select a state within the region, click on it and see sales revenue by city within that state.</p>
+<p>Using hierarchy drilldown, you can explore in-depth details about your data in a single chart.</p>
+<p>&#160;</p>
+<p>List of charts that support grouping and hierarchy drilldown</p>
+<ul style="list-style: disc;">
+<li>
+<p>Bar and Column charts</p>
+</li>
+<li>
+<p>Line charts</p>
+</li>
+<li>
+<p>Area charts</p>
+</li>
+<li>
+<p>Pie, Doughnut charts</p>
+</li>
+<li>
+<p>Spiderweb charts</p>
+</li>
+<li>
+<p>Scatter and bubble charts</p>
+</li>
+</ul>
+<p>Charts support the grouping and hierarchy drilldown for dimension (data) fields dropped in the category section - that is, for each chart type, the visual elements in a chart (columns in column charts, pie slices in pie charts, etc.) can act as drilldown hot-spots.</p>
+<p>&#160;</p>
+<h2>Set up Grouping and Hierarchy Drilldown in a report</h2>
+<p>1. To set up grouping and drilldown, create an analysis report.</p>
+<p>2. On the analysis report page, from the selected business object, drag the fields for which you want to enable grouping and hierarchy drilldown into the <span style="font-weight: bold;">Category</span> section of the <span style="font-weight: bold;">Report Configurator</span> area.</p>
+<p><span style="font-weight: bold;">Note</span>: Grouping and hierarchy drilldown works when the <span style="font-weight: bold;">Category</span> section of the <span style="font-weight: bold;">Report Configurator</span> area has more than one field.</p>
+<p><img src="Analysis_FD_190.jpg" alt="" style="border: none;" width="1400" height="743" border="0" /></p>
+<p>3. Click the expander arrow <img src="Arrow_01.jpg" alt="" style="border: none;" width="30" height="20" border="0" /> next to <span style="font-weight: bold;">Category</span> in the <span style="font-weight: bold;">Report Configurator</span> area and then point to <span style="font-weight: bold;">Grouping</span>.</p>
+<p>4. Grouping options appear.</p>
+<p><img src="Analysis_FD_191.jpg" alt="" style="border: none;" border="0" /></p>
+<p>5. Select <span style="font-weight: bold;">Concatenate Items</span> from Grouping options, to display visual elements in the chart separate from each other.</p>
+<p>Note: <span style="font-weight: bold;">Concatenate Items</span> is the default selection.</p>
+<p>Note: When you select <span style="font-weight: bold;">Concatenate Items</span>, it joins string names of the visual elements.</p>
+<p><img src="Analysis_FD_192.jpg" alt="" style="border: none;" width="1471" height="860" border="0" /></p>
+<p>6. Select <span style="font-weight: bold;">Group</span> from the Grouping options, to group visual elements.</p>
+<p><img src="Analysis_FD_193.jpg" alt="" style="border: none;" border="0" /></p>
+<p>7. Select <span style="font-weight: bold;">Hierarchy Drilldown</span>, to enable hierarchy drilldown. Drill controls appear at the top of the chart.</p>
+<p><img src="Analysis_FD_194.jpg" alt="" style="border: none;" border="0" /></p>
+<p>&#160;</p>
+<h3>Ways to access the drill features</h3>
+<p>You have two ways for accessing the drill down, and drill up features for charts that have hierarchies.</p>
+<ul style="list-style: disc;">
+<li>
+<p>Use Drill controls and breadcrumb navigation at the top of the chart.</p>
+</li>
+<li>
+<p>Right-click a visual element (like a bar, pie slice, or bubble) to reveal and use the Drill menu.</p>
+</li>
+</ul>
+<h3>Drill Controls</h3>
+<h4><img src="Drilldown button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> / <img src="Drilldown button_Disable.jpg" alt="" style="border: none;" width="24" height="25" border="0" /> Enable/Disable drilldown</h4>
+<p><img src="Drilldown button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> indicates drilldown is enabled.</p>
+<p><img src="Drilldown button_Disable.jpg" alt="" style="border: none;" width="24" height="25" border="0" /> indicates drilldown is disabled.</p>
+<p>1. Select <img src="Drilldown button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> <span style="font-weight: bold;">Enable/Disable drilldown</span> to disable drilldown.</p>
+<p>2. Select <img src="Drilldown button_Disable.jpg" alt="" style="border: none;" width="24" height="25" border="0" /> <span style="font-weight: bold;">Enable/Disable drilldown</span> to enable drilldown.</p>
+<p><span style="font-weight: bold;">Note</span>: When you disable drilldown, drilldown controls won't work. But <span style="font-weight: bold;">Move to hierarchy top level</span> and Breadcrumb navigation menu controls work.</p>
+<h4><img src="Drill up button.jpg" alt="" style="border: none;" width="27" height="30" border="0" /> Drill up</h4>
+<p>Click <img src="Drill up button.jpg" alt="" style="border: none;" width="27" height="30" border="0" /> <span style="font-weight: bold;">Drill Up</span> to drill up <strong style="font-weight: normal;">one level at a time.</strong></p>
+<p style="font-weight: normal;"><strong style="font-weight: normal;"><img src="Drill Up_01.gif" alt="" style="border: Solid 1px #000000;" border="1" /></strong></p>
+<p>&#160;</p>
+<h4><img src="Drill down all items button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> Drill down all items</h4>
+<p>Click <img src="Drill down all items button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> <span style="font-weight: bold;">Drill down all items</span> to drill down all items of the chart one level at a time.</p>
+<p><img src="Drill down_01.gif" alt="" style="border: Solid 1px #000000;" border="1" /></p>
+<p>&#160;</p>
+<h4><img src="Top level button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> Move to hierarchy top level</h4>
+<p>Click <img src="Top level button.jpg" alt="" style="border: none;" width="31" height="31" border="0" /> <span style="font-weight: bold;">Move to hierarchy top level</span> to drill up to the chart top level at once.</p>
+<p>&#160;</p>
+<p><img src="Drill Up_02.gif" alt="" style="border: Solid 1px #000000;" border="1" /></p>
+<p>&#160;</p>
+<h3>Drill Menu on the Visual Elements</h3>
+<p>Right-click on a visual element to reveal <span style="font-weight: bold;">Drill</span> menu.</p>
+<p><img src="Analysis_FD_195.jpg" alt="" style="border: Solid 1px #000000;" border="1" /></p>
+<h4>Drill Down</h4>
+<p>Select <span style="font-weight: bold;">Drill Down</span> to drill down selected visual element <strong style="font-weight: normal;">one level at a time.</strong></p>
+<h4>Drill down all items</h4>
+<p>Select <span style="font-weight: bold;">Drill down all items</span> to drill down all items of the chart one level at a time.</p>
+<h4>Drill Up</h4>
+<p>Select <span style="font-weight: bold;">Drill Up</span> to drill up <strong style="font-weight: normal;">one level at a time.</strong></p>
+<h4>Drill up to top level</h4>
+<p>Select <span style="font-weight: bold;">Drill up to top level</span> to drill up to the chart top level at once.</p>
+</body>
+</html>

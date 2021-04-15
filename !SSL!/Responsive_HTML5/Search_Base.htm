@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Search Base</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.1.1.0_1";
+</script>
+ <meta name="brsprev" value="User_Search_Information.htm">
+ <meta name="brsnext" value="Search_Filter.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities > LDAP > User Search Information " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Search Base</h1>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">1. 
+ Under <b style="mso-bidi-font-weight: normal;">User Search Information</b> 
+ section, perform the following:</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">Here, 
+ the values in the <b style="mso-bidi-font-weight: normal;">Search Base</b> 
+ box yields all the users under <b style="mso-bidi-font-weight: normal;">People</b> 
+ in LDAP.</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">a. 
+ In the <b style="mso-bidi-font-weight: normal;">Search Base</b> box, type 
+ the required search attribute and value.</p>
+<p class="examples" style="mso-list: l0 level1 lfo1; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+							 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;Example: 
+ ou=People</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-list: Ignore;">¥</span><span style="font: 7.0pt 'Times New Roman';">&#160;</span>&#160;The 
+ above condition retrieves all the users. Here, “ou” is the attribute Organizational 
+ Unit and “People” is its value.</p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><img src="image776.gif" alt="" style=" border:none; width:100%; max-width:564px;" border="0" /></p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-list: Ignore;">¥</span><span style="font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Search Base</b> defines the 
+ starting point of the search. When “<span style="mso-bidi-font-size: 12.0pt; 
+											 line-height: 150%;">ou=People</span>” 
+ is provided in the <b style="mso-bidi-font-weight: normal;">Search Base</b>, 
+ then the starting point of the search is <span style="mso-bidi-font-size: 12.0pt; 
+												 line-height: 150%;">People</span> 
+ (not the entire domain as with Base Domain).<span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b>Result:</b></p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><b><img src="image777.gif" alt="" style=" border:none; width:100%; max-width:622px;" border="0" /></b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+</body>
+</html>

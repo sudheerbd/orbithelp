@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Active Directory</title>
+<link rel="StyleSheet" href="Examples_.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "5.4.2";
+</script>
+ <meta name="brsprev" value="Creating_a_New_Authority_Type.htm">
+ <meta name="brsnext" value="Creating_an_Active_Directory_Authority1.htm">
+ <meta name="topic-breadcrumbs" content="User Management > Working with Authorities" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Active Directory</h1>
+<p class="MsoNormal" style="line-height: 150%; color: #333333; font-family: Arial, sans-serif; 
+	 background-color: #ffffff; font-size: 10pt;"><span style="background: #ffffff;">Active 
+ Directory (AD) is a Windows OS directory service that facilitates working 
+ with interconnected, complex, and different network resources in a unified 
+ manner.</span></p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="color: #333333; background: #ffffff;">T</span>he 
+ figure below illustrates the structure of how the users and groups must 
+ be created in Active Directory.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><img src="image827.gif" style=" border:none; width:100%; max-width:465px;" alt="" border="0" /></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif; font-size: 10pt;">The 
+ initial search starts from the Base DN. The syntax of the Base DN is as 
+ follows:</p>
+<p class="examples" style="mso-list: l1 level1 lfo1; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+							 mso-bidi-font-family: Wingdings; mso-list: Ignore;">?</span><span 
+	 style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Wingdings; 
+	 mso-bidi-font-family: Wingdings; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;&#160;Syntax: 
+ dc=orbit8, dc=com</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">When the user enters only Base DN, the server starts 
+ its search from the root, and retrieves all the users. Under the Base 
+ DN, Common Name (CN) is created in Active Directory. Here, the common 
+ names are created as follows: <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoListParagraph" style="font-family: Arial, sans-serif; font-size: 10pt;"><span 
+	 style="mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; 
+	 mso-list: Ignore;">·</span><span style="mso-fareast-font-family: Symbol; 
+										 mso-bidi-font-family: Symbol; 
+										 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;cn=Users 
+ (where cn is the attribute and Users is its value)</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">Once the structure is organized, the users/roles 
+ can be imported into Orbit.</p>
+<p class="MsoNormal" style="line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-spacerun: yes;">I</span>n Orbit 
+ application, creating an AD authority in the Authorities section under 
+ User Management, enables authorization and authentication to import users 
+ and roles into Orbit from Active Directory.</p>
+<p class="MsoNormal" style="line-height: 150%;"><span style="font-family: Arial, sans-serif; 
+														 font-size: 10pt;">Orbit 
+ enables authentication to import users from AD and authorization to import 
+ roles from authorities including Oracle EBS, PeopleSoft, Active Directory, 
+ and LDAP.</span><span style="mso-spacerun: yes;">&#160;</span></p>
+</body>
+</html>

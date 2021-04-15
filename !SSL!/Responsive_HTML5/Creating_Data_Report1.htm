@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating Data Report1</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "19.1.1_2";
+</script>
+ <meta name="brsprev" value="Applying_Security_to_the_Business_Object.htm">
+ <meta name="brsnext" value="Create_an_Analysis_Report.htm">
+ <meta name="topic-breadcrumbs" content="Practice Examples  > Creating Reports " />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating Data Report</h1>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal; font-family: Arial, sans-serif;"><b>To 
+ create a Data Report</b></p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; mso-list: l34 level1 lfo42; 
+	 text-indent: -.25in; font-family: Arial, sans-serif;"><span style="line-height: 150%; 
+	 mso-fareast-language: JA; mso-list: Ignore;">1.</span><span style="line-height: 150%; 
+	 mso-fareast-language: JA; mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In <b style="mso-bidi-font-weight: normal;">Reports</b>, 
+ click <img src="image635.gif" alt="" style=" border:none; width:100%; max-width:33px;" border="0" /><b 
+	 style="mso-bidi-font-weight: normal;">New Report</b></span><span style="line-height: 150%; 
+	 mso-fareast-language: JA;">, and then click <b style="mso-bidi-font-weight: normal;">Data</b> 
+ <b style="mso-bidi-font-weight: normal;">Report</b></span><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-fareast-language: JA; line-height: 150%; mso-no-proof: yes;"> 
+ </span></b><span style="line-height: 150%; mso-fareast-language: JA;"><b 
+	 style="mso-bidi-font-weight: normal;">.</b></span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">2.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Run Result area 
+ &#160;appears along with Data Explorer and Report Configurator area. </span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">3.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To select the 
+ business object, click</span> <span style="mso-no-proof: yes;"><img src="image066.png" alt="" border="0" style="width:100%; max-width:27px" /></span><span style="line-height: 150%; 
+															 mso-fareast-language: JA; 
+															 mso-spacerun: yes;">&#160;</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">next to <b style="mso-bidi-font-weight: normal;">Select 
+ Business Object.</b></span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">4.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">Search</span></b> 
+ <span style="line-height: 150%; mso-fareast-language: JA;">area &#160;appears 
+ with available business objects.</span><span style="text-indent: -.25in; 
+												 mso-list: l34 level1 lfo42; 
+												 font-family: Arial, sans-serif; 
+												 line-height: 150%; mso-fareast-language: JA;">&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">5.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Search</b> 
+ box, type the business object name to search.</span><span style="line-height: 150%; 
+															 mso-fareast-language: JA; 
+															 mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">(OR)</p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 150%; font-family: Arial, sans-serif; 
+	 font-size: 10pt;"><span style="mso-fareast-language: JA;">Select the 
+ required business object, and then click <b style="mso-bidi-font-weight: normal;">OK.</b></span></p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">(OR)</p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">Double-click the 
+ required business object.</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="mso-fareast-font-family: Wingdings; 
+											 mso-bidi-font-family: Wingdings; 
+											 mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;?</span><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-list: l16 level1 lfo44; tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; 
+	 mso-border-alt: solid #ACB9CA .5pt; mso-padding-alt: 1.0pt 0in 0in 0in;">&#160;Example: 
+ Required Business Object: Sample Business Object</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">6.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The selected 
+ business object appears with the available tables/views/synonyms and its 
+ associated columns under it, in the Business Object area.</span></p>
+<p class="MsoCaption" style="font-family: Arial, sans-serif;"><span style="mso-spacerun: yes;">&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">7.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To view the columns 
+ under the selected business object, click</span><img src="expand200.png" alt="" style=" border:none; width:100%; max-width:20px;" border="0" /> 
+ <span style="mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">before the</span> 
+ <span style="line-height: 150%; mso-fareast-language: JA;">required table/view/synonym. 
+ </span><span style="line-height: 150%; mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="examples" style="margin-left: .25in; line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; mso-border-alt: solid #ACB9CA .5pt; 
+	 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in; font-family: Arial, sans-serif; 
+	 background-color: #ffffff;"><span style="mso-fareast-font-family: Wingdings; 
+										 mso-bidi-font-family: Wingdings; 
+										 mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;&#160;?</span><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;Example: 
+ Required Table: Invoices</p>
+<p class="examples">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">8.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Drag and drop 
+ the required columns from the required table/view/synonym to <b style="mso-bidi-font-weight: normal;">Columns</b> 
+ under <b style="mso-bidi-font-weight: normal;">Configurator</b></span> 
+ <span style="mso-no-proof: yes; mso-bidi-font-weight: normal;"><img src="config200.png" alt="" style=" border:none; width:100%; max-width:22px;" border="0" /></span><b style="mso-bidi-font-weight: normal;"><span 
+	 style="mso-fareast-language: JA; mso-spacerun: yes;">&#160;</span><span 
+	 style="mso-fareast-language: JA;">in</span></b> <span style="line-height: 150%; 
+															 mso-fareast-language: JA;">Report 
+ Configurator area<b style="mso-bidi-font-weight: normal;">.</b></span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">9.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">A data report 
+ appears in the Run Results area. </span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .5in; margin-right: 0in;">
+	<p class="BodyText2" style="margin-left: .25in; text-indent: -.25in; 
+		 mso-list: l39 level1 lfo30; tab-stops: 67.5pt 1.5in; border: none; 
+		 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+		 padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in; font-family: Arial, sans-serif;"><span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings; color: #0F1177; mso-fareast-language: JA; 
+	 mso-list: Ignore;">¥</span><span style="mso-bidi-font-size: 12.0pt; 
+										 line-height: 150%; mso-fareast-font-family: Webdings; 
+										 mso-bidi-font-family: Webdings; 
+										 color: #0F1177; mso-fareast-language: JA; 
+										 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Select columns 
+	 from one or more data objects under one business object to generate 
+	 reports.</span></p>
+</div>
+<p class="BodyText2" style="margin-left: .5in; line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; line-height: 150%; mso-fareast-language: JA; 
+	 font-family: Arial, sans-serif; font-size: 10pt;">(OR)</p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To generate a 
+ data report, click <b style="mso-bidi-font-weight: normal;">Run</b></span><b 
+	 style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA;">.</span></b> 
+ <b style="mso-bidi-font-weight: normal;"><span style="line-height: 150%; 
+												 mso-fareast-language: JA; 
+												 mso-spacerun: yes;">&#160;</span></b></p>
+<p class="BodyText2" style="margin-left: .5in; font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">10.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">The report appears in Run Results area. 
+ </span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">11.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">To save the report, click <b style="mso-bidi-font-weight: normal;">Save</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">.</span></b></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">12.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<b style="mso-bidi-font-weight: normal;"><span 
+	 style="line-height: 150%; mso-fareast-language: JA;">Save Report</span></b> 
+ <span style="line-height: 150%; mso-fareast-language: JA;">dialog box 
+ appears.</span></p>
+<p class="BodyText2" style="margin-left: .5in; text-indent: -.25in; mso-list: l34 level1 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">13.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;</span>&#160;<span style="line-height: 150%; 
+	 mso-fareast-language: JA;">If the required report folder &#160;already 
+ exists, then perform the following:</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">a.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Name</b> 
+ box , type the report name.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="examples" style="margin-left: .25in; line-height: 150%; mso-list: l16 level1 lfo44; 
+	 tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; border: none; mso-border-alt: solid #ACB9CA .5pt; 
+	 padding: 0in; mso-padding-alt: 1.0pt 0in 0in 0in; font-family: Arial, sans-serif; 
+	 background-color: #ffffff;"><span style="mso-fareast-language: JA; 
+										 mso-fareast-font-family: Wingdings; 
+										 mso-bidi-font-family: Wingdings; 
+										 mso-list: Ignore;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;?</span><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span>&#160;Example: 
+ Name: Test Invoices Report</p>
+<p class="examples">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">b.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">In the <b style="mso-bidi-font-weight: normal;">Description</b> 
+ box, type the description.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif;">&#160;</p>
+<p class="BodyText2" style="text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif; background-color: #ffffff; margin-left: 136px;"><span 
+	 style="mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings; 
+	 mso-list: Ignore;">?</span><span style="mso-fareast-font-family: Wingdings; 
+										 mso-bidi-font-family: Wingdings; 
+										 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;</span><span 
+	 style="line-height: 150%; mso-list: l16 level1 lfo44; tab-stops: .75in 63.0pt 67.5pt 94.5pt 103.5pt; 
+	 mso-border-alt: solid #ACB9CA .5pt; mso-padding-alt: 1.0pt 0in 0in 0in;">&#160;Example: 
+ Description: Sample Description for Invoices Report</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif; background-color: #ffffff;">&#160;</p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">c.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The selected 
+ folder appears in the <b style="mso-bidi-font-weight: normal;">Selected 
+ Folder</b> box.</span></p>
+<p class="BodyText2" style="margin-left: 1.0in; text-indent: -.25in; mso-list: l34 level2 lfo42; 
+	 font-family: Arial, sans-serif;"><span style="line-height: 150%; mso-fareast-language: JA; 
+											 mso-list: Ignore;">d.</span><span 
+	 style="line-height: 150%; mso-fareast-language: JA; mso-list: Ignore; 
+	 font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">To save the report, 
+ click <b style="mso-bidi-font-weight: normal;">Save.</b></span></p>
+<p class="BodyText2" style="margin-left: .75in; page-break-after: avoid; 
+	 mso-no-proof: yes; font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="text-indent: -.25in; line-height: 150%; mso-fareast-language: JA; 
+	 mso-list: Ignore;">4.</span><span style="text-indent: -.25in; line-height: 150%; 
+										 mso-fareast-language: JA; mso-list: Ignore; 
+										 font: 7.0pt 'Times New Roman';">&#160;</span><span 
+	 style="text-indent: -.25in; mso-list: l34 level1 lfo42;">&#160;</span><span 
+	 style="text-indent: -.25in; mso-list: l34 level1 lfo42; line-height: 150%; 
+	 mso-fareast-language: JA;">If the required report folder does not 
+ exist, then create a new reports folder, and then save the report in it. 
+ See </span><i style="mso-bidi-font-style: normal;"><span style="text-indent: -.25in; 
+															 mso-list: l34 level1 lfo42; 
+															 mso-fareast-language: JA; 
+															 mso-bidi-font-size: 12.0pt; 
+															 line-height: 150%; 
+															 mso-bidi-font-family: 'Times New Roman';"><a 
+	 href="Creating_a_Reports_Folder.htm">Creating a Reports Folder</a></span></i></p>
+<p class="BodyText2" style="margin-left: .5in; mso-bidi-font-weight: normal; 
+	 line-height: 150%; mso-fareast-language: JA; font-family: Arial, sans-serif; 
+	 font-size: 10pt;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #000000 1.0pt; 
+	 border-left: none; border-bottom: solid #000000 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .5in; margin-right: 0in;">
+	<p class="BodyText2" style="margin-left: .25in; text-indent: -.25in; 
+		 mso-list: l39 level1 lfo30; border: none; mso-border-top-alt: solid windowtext .5pt; 
+		 mso-border-bottom-alt: solid windowtext .5pt; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in; 
+		 font-family: Arial, sans-serif;"><span style="mso-bidi-font-size: 12.0pt; 
+												 line-height: 150%; mso-fareast-font-family: Webdings; 
+												 mso-bidi-font-family: Webdings; 
+												 color: #0F1177; mso-fareast-language: JA; 
+												 mso-list: Ignore;">¥</span><span 
+	 style="mso-bidi-font-size: 12.0pt; line-height: 150%; mso-fareast-font-family: Webdings; 
+	 mso-bidi-font-family: Webdings; color: #0F1177; mso-fareast-language: JA; 
+	 mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span>&#160;<span 
+	 style="line-height: 150%; mso-fareast-language: JA;">The reports can 
+	 be categorized using <b style="mso-bidi-font-weight: normal;">Folders</b> 
+	 when saving the reports.</span></p>
+</div>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+<p class="MsoNormal" style="font-family: Arial, sans-serif;">&#160;</p>
+</body>
+</html>

@@ -1,0 +1,103 @@
+﻿[Target:FlashHelp]
+SSLayoutType=2
+[Target:Adobe AIR]
+SSLayoutType=512
+[Target:WebHelp]
+SSLayoutType=2
+ActionID For Generation=1001
+ResultFileName=!SSL!\WebHelp\ORBIT_Analytics_Help_index.htm
+Remove Folder with prompt=1
+CreateProjectTime=14:15, January 08, 2020
+CreateProjectUser=Orbit
+SupportMas_MPJ=1
+ViewFileName=!SSL!\WebHelp\ORBIT_Analytics_Help_index.htm
+ResultStatus=0
+BuildTimeHi=30787072
+BuildTimeLow=728158748
+[Target:XML Output]
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+SSLayoutType=2
+[Target:Printed Documentation]
+SSLayoutType=7
+ActionID For Generation=1001
+ResultFileName=C:\Users\Orbit\Desktop\pratima\Printed_Documentation.doc
+Remove Folder with prompt=1
+ResultStatus=0
+CreateProjectTime=10:59, December 03, 2019
+CreateProjectUser=Orbit
+SupportMas_MPJ=1
+ViewFileName=C:\Users\Orbit\Desktop\pratima\Printed_Documentation.doc
+BuildTimeHi=30779802
+BuildTimeLow=-1394613929
+[Target:Mobile App]
+SSLayoutType=3
+[Target:Responsive HTML5]
+SSLayoutType=2
+ActionID For Generation=1001
+ResultFileName=!SSL!\Responsive_HTML5\ORBIT_Analytics_Help_index.htm
+Remove Folder with prompt=1
+CreateProjectTime=15:51, May 24, 2018
+CreateProjectUser=Orbit
+SupportMas_MPJ=1
+ViewFileName=!SSL!\Responsive_HTML5\ORBIT_Analytics_Help_index.htm
+ResultStatus=0
+ResultStatusSharePoint=2
+Enable Result Dialog=1
+BuildTimeHi=30667593
+BuildTimeLow=612651814
+[Target:Multiscreen HTML5]
+SSLayoutType=2
+[Target:eBook]
+SSLayoutType=2
+ActionID For Generation=1001
+ResultFileName=!SSL!\eBook\ORBIT_Analytics_Help.epub
+Remove Folder with prompt=1
+[Target:Microsoft HTML Help]
+SSLayoutType=1
+ActionID For Generation=1001
+ResultFileName=!SSL!\Microsoft_HTML_Help\ORBIT_Analytics_Help.chm
+Remove Folder with prompt=1
+[Target:WebHelp Pro]
+SSLayoutType=32
+MindReader Server=
+ActionID For Generation=1001
+ResultFileName=!SSL!\WebHelp_Pro\ORBIT_Help.htm
+Remove Folder with prompt=1
+CreateProjectTime=16:42, May 24, 2018
+CreateProjectUser=Orbit
+SupportMas_MPJ=1
+ViewFileName=!SSL!\WebHelp_Pro\ORBIT_Help.htm
+ResultStatus=0
+BuildTimeHi=30667600
+BuildTimeLow=1343299128
+[PreSingleSource]
+Html Help Project=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.hhp
+Table Of Content=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Help.hhc
+Index=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Help.hhk
+Topic Index=C:\Users\Orbit\Desktop\ORBIT Analytics Help\RHTopicKeyword$.hhk
+See Also Index=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.hha
+Browse Sequence=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.brs
+Glossary=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Help.glo
+Topic Properties=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trs
+Active Folders=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trf
+Baggage Files=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trb
+Skin List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trk
+Active Layout Names=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trl
+Template Files=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trt
+Project TOC List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trtocl
+Project Index List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.tridxl
+Project Glossary List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trglol
+Project CSS List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trcss
+Project Variable Set List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.trvset
+External URL Settings=C:\Users\Orbit\Desktop\ORBIT Analytics Help\SearchOptions.xml
+Screen Template File Details=C:\Users\Orbit\Desktop\ORBIT Analytics Help\ORBIT Analytics Help.sctfdl
+CPSwfToHTML5Map=C:\Users\Orbit\Desktop\ORBIT Analytics Help\__cpSwf2HTML5ZipMap
+Default Topic=C:\Users\Orbit\Desktop\ORBIT Analytics Help\Introduction.htm
+Build Tags0=9443;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=C:\Users\Orbit\Desktop\ORBIT Analytics Help\!Language!\en_US\RoboHHRE.lng
+Stop List=C:\Users\Orbit\Desktop\ORBIT Analytics Help\!Language!\en_US\ORBIT Analytics Help.stp

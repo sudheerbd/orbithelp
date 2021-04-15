@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Creating &lt;discoverer&gt; data source</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "18.1.2.0_1";
+</script>
+ <meta name="brsprev" value="Creating_Datasources.htm">
+ <meta name="brsnext" value="Creating__discoverer_eul5__data_source.htm">
+ <meta name="topic-breadcrumbs" content="ORBIT Extensions > ORBIT Discoverer Migration > Creating Datasources" />
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1>Creating discoverer Data Source </h1>
+<p class="MsoNormal" style="background-color: #ffffff;"><span style="background-color: #ffffff;"><b 
+	 style="mso-bidi-font-weight: normal;"><span style="color: #222222;">To 
+ create &lt;discoverer&gt; data source</span></b></span></p>
+<p class="MsoNormal" style="background-color: #ffffff;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">1.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;On 
+ the left-hand side menu, point to <b style="mso-bidi-font-weight: normal;">Business 
+ Models</b>, and then click <b style="mso-bidi-font-weight: normal;">Data 
+ Sources.</b></p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">2.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Data Sources</b> page appears 
+ with a list of available data sources (highlighted as “1”).</p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">3.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;To 
+ create a new data source, click <b style="mso-bidi-font-weight: normal;">New</b> 
+ (highlighted as “2”).</p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;"><span 
+	 style="mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;</span><img src="DiscoDS1.png" alt="" style=" border:none; width:100%; max-width:559px;" border="0" /></p>
+<p class="MsoListParagraphCxSpMiddle" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">4.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">New Data Source</b> dialog box 
+ appears. <span style="mso-spacerun: yes;">&#160;</span></p>
+<p class="MsoListParagraphCxSpLast" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">5.</span><span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Name</b> box, type the data 
+ source name.</p>
+<p class="MsoListParagraphCxSpLast" style="mso-list: l36 level1 lfo35;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;? 
+ Example: Name: discoverer </p>
+<p class="MsoNormal">&#160;<span style="mso-list: Ignore;">6.</span><span 
+	 style="mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="mso-list: l36 level1 lfo35;">&#160;In the <b style="mso-bidi-font-weight: normal;">Description</b> 
+ box, type the description, if needed.</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #A0ACB2 1.0pt; 
+	 border-left: none; border-bottom: solid #A0ACB2 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid #A0ACB2 .5pt; mso-border-top-themecolor: background2; 
+	 mso-border-top-themeshade: 191; mso-border-bottom-alt: solid #A0ACB2 .5pt; 
+	 mso-border-bottom-themecolor: background2; mso-border-bottom-themeshade: 191; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .5in; margin-right: 0in;">
+	<p class="MsoListParagraphCxSpLast" style="margin-left: .25in; mso-add-space: auto; 
+		 mso-list: l18 level1 lfo32; border: none; mso-border-top-alt: solid #A0ACB2 .5pt; 
+		 mso-border-top-themecolor: background2; mso-border-top-themeshade: 191; 
+		 mso-border-bottom-alt: solid #A0ACB2 .5pt; mso-border-bottom-themecolor: background2; 
+		 mso-border-bottom-themeshade: 191; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;"><span 
+	 style="font-size: 22.0pt; line-height: 150%; font-family: Webdings; 
+	 mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings;"><span 
+	 style="mso-list: Ignore;">¥<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Description</b> field is optional.</p>
+</div>
+<p class="MsoNormal" style="margin-left: .25in;">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">7.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Data Source Type</b>, select 
+ the required option from the following:</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 1.0in; mso-add-space: auto; 
+	 mso-list: l34 level1 lfo33;"><span style="font-family: Symbol; mso-fareast-font-family: Symbol; 
+										 mso-bidi-font-family: Symbol;"><span 
+	 style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></span></span>&#160;JDBC</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1.0in; mso-add-space: auto; 
+	 mso-list: l34 level1 lfo33;"><span style="mso-list: Ignore;">·</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;JNDI</p>
+<p class="MsoListParagraphCxSpLast" style="mso-add-space: auto; mso-list: l36 level1 lfo35; 
+	 margin-left: 56px;">? Example: Data Source Type: JDBC </p>
+<p class="MsoNormal">&#160;<span style="mso-list: Ignore;">8.</span><span 
+	 style="mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span><span 
+	 style="mso-list: l36 level1 lfo35;">&#160;In the <b style="mso-bidi-font-weight: normal;">Select 
+ Database</b> list, select the required option.</span></p>
+<p class="MsoNormal" style="mso-list: l36 level1 lfo35;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;? 
+ Example: Select Database: Oracle JDBC (Oracle Thin Driver)</p>
+<p class="MsoListParagraph" style="mso-list: l36 level1 lfo35;"><span style="mso-list: Ignore;">9.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Username</b> box, type the 
+ required username.</p>
+<p class="MsoListParagraph" style="mso-list: l36 level1 lfo35;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;? 
+ Example: Username: apps </p>
+<p class="MsoListParagraph" style="mso-list: l36 level1 lfo35;"><span style="mso-list: Ignore;">10.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;</span>&#160;In the <b 
+	 style="mso-bidi-font-weight: normal;">Password</b> box, type the password.</p>
+<p class="MsoListParagraph" style="mso-list: l36 level1 lfo35;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;? 
+ Example: Password:apps<br style="mso-special-character: line-break;" />
+</p>
+<div style="mso-element: para-border-div; border-top: solid #A0ACB2 1.0pt; 
+	 border-left: none; border-bottom: solid #A0ACB2 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid #A0ACB2 .5pt; mso-border-top-themecolor: background2; 
+	 mso-border-top-themeshade: 191; mso-border-bottom-alt: solid #A0ACB2 .5pt; 
+	 mso-border-bottom-themecolor: background2; mso-border-bottom-themeshade: 191; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .5in; margin-right: 0in;">
+	<p class="MsoListParagraph" style="margin-left: .25in; mso-add-space: auto; 
+		 mso-list: l18 level1 lfo32; border: none; mso-border-top-alt: solid #A0ACB2 .5pt; 
+		 mso-border-top-themecolor: background2; mso-border-top-themeshade: 191; 
+		 mso-border-bottom-alt: solid #A0ACB2 .5pt; mso-border-bottom-themecolor: background2; 
+		 mso-border-bottom-themeshade: 191; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;"><span 
+	 style="font-size: 22.0pt; line-height: 150%; font-family: Webdings; 
+	 mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings;"><span 
+	 style="mso-list: Ignore;">¥<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span></span>&#160;The 
+	 username and password are required to connect to the apps database.</p>
+</div>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoListParagraphCxSpFirst" style="mso-list: l36 level1 lfo35;"><span 
+	 style="mso-list: Ignore;">11.<span style="font: 7.0pt 'Times New Roman';">&#160;</span></span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Oracle JDBC Settings</b>, 
+ perform the following:</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;"><span style="mso-list: Ignore;">a.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Host Name</b> box, type the 
+ required host name.</p>
+<p class="MsoListParagraphCxSpLast" style="mso-add-space: auto; mso-list: l36 level1 lfo35; 
+	 margin-left: 160px;">? Example: Host Name : localhost</p>
+<p class="MsoListParagraph" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;"><span style="mso-list: Ignore;">b.</span><span 
+	 style="mso-list: Ignore; font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Port</b> box, type the required 
+ port.</p>
+<p class="MsoListParagraph" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+	 style="mso-list: l36 level1 lfo35;">? Example: Port : 1521</span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;"><span style="mso-list: Ignore;">c.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;In 
+ the <b style="mso-bidi-font-weight: normal;">Database Name</b> box, type 
+ the required database name.</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;? 
+ Example: Database :orcl</p>
+<p class="MsoNormal">&#160;</p>
+<div style="mso-element: para-border-div; border-top: solid #A0ACB2 1.0pt; 
+	 border-left: none; border-bottom: solid #A0ACB2 1.0pt; border-right: none; 
+	 mso-border-top-alt: solid #A0ACB2 .5pt; mso-border-top-themecolor: background2; 
+	 mso-border-top-themeshade: 191; mso-border-bottom-alt: solid #A0ACB2 .5pt; 
+	 mso-border-bottom-themecolor: background2; mso-border-bottom-themeshade: 191; 
+	 padding: 1.0pt 0in 1.0pt 0in; margin-left: .5in; margin-right: 0in;">
+	<p class="MsoListParagraphCxSpFirst" style="margin-left: .25in; mso-add-space: auto; 
+		 mso-list: l18 level1 lfo32; border: none; mso-border-top-alt: solid #A0ACB2 .5pt; 
+		 mso-border-top-themecolor: background2; mso-border-top-themeshade: 191; 
+		 mso-border-bottom-alt: solid #A0ACB2 .5pt; mso-border-bottom-themecolor: background2; 
+		 mso-border-bottom-themeshade: 191; padding: 0in; mso-padding-alt: 1.0pt 0in 1.0pt 0in;"><span 
+	 style="font-size: 22.0pt; line-height: 150%; font-family: Webdings; 
+	 mso-fareast-font-family: Webdings; mso-bidi-font-family: Webdings;"><span 
+	 style="mso-list: Ignore;">¥<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span></span>&#160;<b 
+	 style="mso-bidi-font-weight: normal;">Driver Source</b> and <b style="mso-bidi-font-weight: normal;">Data 
+	 Source Class</b> fields are automatically populated based on the <b 
+	 style="mso-bidi-font-weight: normal;">Select Database</b> option.</p>
+</div>
+<p class="MsoListParagraphCxSpMiddle" style="text-indent: 0in; mso-list: none;">&#160;</p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;"><span style="mso-list: Ignore;">d.</span><span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;To 
+ test the connection, click <b style="mso-bidi-font-weight: normal;">Test 
+ Connection</b>.</p>
+<p class="MsoListParagraph" style="margin-left: 1.25in; mso-add-space: auto; 
+	 mso-list: l32 level2 lfo24;"><span style="mso-list: Ignore;">e.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;To 
+ save the changes, click <b style="mso-bidi-font-weight: normal;">Save</b>.</p>
+</body>
+</html>

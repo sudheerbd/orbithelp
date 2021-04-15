@@ -1,0 +1,81 @@
+﻿[Target:Responsive HTML5]
+SSLayoutType=2
+[Target:FlashHelp]
+SSLayoutType=2
+[Target:Adobe AIR]
+SSLayoutType=512
+[Target:WebHelp]
+SSLayoutType=2
+ActionID For Generation=1001
+ResultFileName=!SSL!\WebHelp\ORBIT_Analytics_Help_index.htm
+Remove Folder with prompt=1
+CreateProjectTime=21:19, April 09, 2021
+CreateProjectUser=Siva
+SupportMas_MPJ=1
+ViewFileName=!SSL!\WebHelp\ORBIT_Analytics_Help_index.htm
+ResultStatus=0
+BuildTimeHi=30879067
+BuildTimeLow=1297784531
+[Target:XML Output]
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+SSLayoutType=2
+MindReader Server=
+ActionID For Generation=1001
+ResultFileName=!SSL!\FlashHelp_Pro\ORBIT_Analytics_Help_9.2.0.htm
+Remove Folder with prompt=1
+[Target:Printed Documentation]
+SSLayoutType=7
+ActionID For Generation=1001
+ResultFileName=!SSL!\Printed_Documentation_scriptreport_from_inline_help.docx
+Remove Folder with prompt=1
+CreateProjectTime=09:49, April 07, 2021
+CreateProjectUser=Rekha
+SupportMas_MPJ=1
+ViewFileName=!SSL!\Printed_Documentation_scriptreport_from_inline_help.docx
+ResultStatus=2
+BuildTimeHi=30877345
+BuildTimeLow=914122386
+[Target:Mobile App]
+SSLayoutType=3
+[Target:Multiscreen HTML5]
+SSLayoutType=2
+[Target:eBook]
+SSLayoutType=2
+[Target:Microsoft HTML Help]
+SSLayoutType=1
+[Target:WebHelp Pro]
+SSLayoutType=32
+CreateProjectTime=19:47, November 01, 2020
+CreateProjectUser=Siva
+SupportMas_MPJ=1
+[PreSingleSource]
+Html Help Project=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.hhp
+Table Of Content=d:\Robohelp\OrbitHelp\ORBIT Help.hhc
+Index=d:\Robohelp\OrbitHelp\ORBIT Help.hhk
+Topic Index=d:\Robohelp\OrbitHelp\RHTopicKeyword$.hhk
+See Also Index=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.hha
+Browse Sequence=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.brs
+Glossary=d:\Robohelp\OrbitHelp\ORBIT Help.glo
+Topic Properties=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trs
+Active Folders=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trf
+Baggage Files=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trb
+Skin List=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trk
+Active Layout Names=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trl
+Template Files=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trt
+Project TOC List=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trtocl
+Project Index List=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.tridxl
+Project Glossary List=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trglol
+Project CSS List=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trcss
+Project Variable Set List=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.trvset
+External URL Settings=d:\Robohelp\OrbitHelp\SearchOptions.xml
+Screen Template File Details=d:\Robohelp\OrbitHelp\ORBIT Analytics Help 9.2.0.sctfdl
+CPSwfToHTML5Map=d:\Robohelp\OrbitHelp\__cpSwf2HTML5ZipMap
+Default Topic=d:\Robohelp\OrbitHelp\ORBIT_Help.htm
+Build Tags0=15118;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=d:\Robohelp\OrbitHelp\!Language!\en_US\RoboHHRE.lng
+Stop List=d:\Robohelp\OrbitHelp\!Language!\en_US\ORBIT Analytics Help 9.2.0.stp

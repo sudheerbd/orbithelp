@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Aggregations</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Reports\nAggregations");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Reports.htm\">Reports<\/a> > Aggregations<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Aggregations</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The following 
+ aggregations can be performed on report columns:</span></p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Sum</span></b> <span lang="EN-US" xml:lang="EN-US">- 
+	 this is an aggregate function where the sum of expression is assessed 
+	 over a set of rows.</span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Avg</span></b> <span lang="EN-US" xml:lang="EN-US">- 
+	 this is an aggregate function where the average of an expression is 
+	 assessed over a set of rows.</span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Count</span></b><span lang="EN-US" xml:lang="EN-US">: 
+	 this is an aggregate function that counts the number of rows in an 
+	 expression.</span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Distinct Count</span></b> <span lang="EN-US" 
+	 xml:lang="EN-US">:This <span style="color: #000000; mso-color-alt: windowtext; 
+									 background: #ffffff;"><font color="black" >eliminates the 
+	 repeated appearance of the same data.</font></span></span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Min</span></b><span lang="EN-US" xml:lang="EN-US">: 
+	 this <span style="color: #333333; background: #ffffff;"><font color="#333333" >function returns 
+	 the minimum value of an expression.</font></span></span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Max</span></b><span lang="EN-US" xml:lang="EN-US">: 
+	 <span style="color: #333333; background: #ffffff;"><font color="#333333" >this function returns 
+	 the maximum value of an expression.</font></span> &#160;</span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Standard Deviation:</span></b> <span 
+	 lang="EN-US" xml:lang="EN-US">&#160;this is a measure of the spread 
+	 of scores within a set of data.&#160;&#160;<b>StdDev</b> is the Standard 
+	 &#160;Deviation -Sample and <b>StdDevp</b> is the standard deviation- 
+	 population. It is the square root of variance.</span></p></li>
+	<li class="MsoNormal" style="mso-list: l1 level1 lfo1; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Variance:</span></b> <span lang="EN-US" 
+	 xml:lang="EN-US">&#160;this is the average of squared differences 
+	 from the Mean. &#160;Variance is of two types: <b>Var</b> and <b>Varp</b>, 
+	 where Var is the Variance sample and Varp is the Variance population. 
+	 <b>&#160;</b></span></p></li>
+</ul>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">To View the 
+ Aggregate Functions</span></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">1. In the <b>Configurator</b> 
+ tab, drag and drop the required columns.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">2. To apply aggregate 
+ function, select the required column and the click <img src="image1516.gif" 
+														 alt="" style="border: none;" 
+														 border="0" /><b>Aggregation.</b></span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">3. &#160;In the 
+ Aggregation menu, the following options appear:</span></p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Sum</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Avg</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Count</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Distinct Count</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Min</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Max</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">StdDev</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">StdDevp</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Variance</span></b></p></li>
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo2; tab-stops: .5in;"><p><b><span 
+	 lang="EN-US" xml:lang="EN-US">Variancep</span></b></p></li>
+</ul>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="margin-left: 40px;"><img src="image3509.gif" 
+													 style="border-left-width: 1px; 
+													 border-left-style: Solid; 
+													 border-top-width: 1px; 
+													 border-top-style: Solid; 
+													 border-right-width: 1px; 
+													 border-right-style: Solid; 
+													 border-bottom-width: 1px; 
+													 border-bottom-style: Solid;" 
+													 alt="" width="360" 
+													 height="652" border="1" /></p>
+<p class="MsoNormal" style="margin-left: 30.0pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>R Scripts for Multiple Outputs</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Script Reports\nR Scripts for Multiple Outputs");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Script_Reports.htm\">Script Reports<\/a> > R Scripts for Multiple Outputs<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>R Scripts for Multiple Outputs</h1>
+<p class="MsoNormal" style="margin-left: 0in; tab-stops: list .25in; text-indent: 0in; 
+	 mso-list: l1 level1 lfo2;">To generate the output in the line Chart 
+ format, the following script is required:</p>
+<p class="MsoNormal" style="margin-left: 0in; text-indent: 0in; mso-list: l1 level1 lfo2; 
+	 tab-stops: list .25in;"><img src="image3251.gif" alt="" style="border: none;" 
+									 width="911" height="344" border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="mso-no-proof: yes;"><b>Script:</b></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" >mdata &lt;- read.csv(&quot;${Query-0}&quot;,header=TRUE)</font></span></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" >library(ggplot2)</font></span></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" >for (i in mdata[2]) 
+ {</font></span></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" ><span style="mso-spacerun: yes;">&#160;</span>&#160;Sale 
+ &lt;- i/100000</font></span></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" ><span style="mso-spacerun: yes;">&#160;</span>&#160;slabel 
+ &lt;- round(i, digits = 0)</font></span></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" >}</font></span></p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="color: #000000; mso-color-alt: windowtext;"><font color="black" >myarrow=arrow(angle 
+ = 15, ends = &quot;both&quot;, type = &quot;closed&quot;)</font></span></p>
+<p class="MsoNormal" style="line-height: 115%;">&#160;</p>
+<p class="note"><b>&#160;</b>In the above script, the parameter <b style="mso-bidi-font-weight: normal;"><span 
+	 style="font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 200%; 
+	 font-family: 'Courier New';"><font size="3" style="font-size:11pt;">“${Query-0}”,</font></span></b> is to specify 
+ the input for the script report.</p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo1; 
+		 tab-stops: list .5in;">To save the changes, click <b style="mso-bidi-font-weight: normal;">Save</b>.</li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo1; 
+		 tab-stops: list .5in;">To view the output in the line format, 
+	 click <img src="image3252.gif" alt="" style="border: none;" border="0" /> 
+	 <b style="mso-bidi-font-weight: normal;">View Mode</b>.</li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo1; 
+		 tab-stops: list .5in;">The report now switches to <b style="mso-bidi-font-weight: normal;">View 
+	 Mode</b> from the <b style="mso-bidi-font-weight: normal;">Edit Mode</b>.</li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo1; 
+		 tab-stops: list .5in;">In the view mode, click <b style="mso-bidi-font-weight: normal;">Run.</b></li>
+	<li class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo1; 
+		 tab-stops: list .5in;">On the <b style="mso-bidi-font-weight: normal;">Output</b> 
+	 tab, the report output appears as a line chart as shown below:</li>
+</ul>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><img src="image3253.gif" alt="" style="border: none;" 
+							 width="839" height="585" border="0" /></p>
+<ul style="list-style: disc; margin-top: 0in;">
+	<li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;">On 
+	 the <b style="mso-bidi-font-weight: normal;">Log</b> tab, the log 
+	 of the generated script report appears.</li>
+</ul>
+<p>&#160;</p>
+<p><img src="image3254.gif" alt="" style="border: none;" width="846" height="313" 
+		 border="0" /></p>
+<p>&#160;</p>
+<p class="note">To generate different outputs, only the scripts with the 
+ required inputs and the output formats change under <b>Editor</b> section. 
+ The process of creating a script report remains the same for any output 
+ type.</p>
+&#160; 
+<p class="MsoNormal">&#160;<b style="mso-bidi-font-weight: normal;">Bar 
+ Chart</b></p>
+<p class="MsoNormal">&#160;<span style="color: #222222; background: #ffffff;"><font color="#222222" >Rstats</font></span> 
+ script for generating <span style="mso-bidi-font-weight: bold;">Bar</span> 
+ <span style="mso-bidi-font-weight: bold;">Chart</span> Output.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >mdata 
+ &lt;- read.csv(&quot;${Query-0}&quot;,header=TRUE)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >library(ggplot2)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >for 
+ (i in mdata[2]) {</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" ><span 
+	 style="mso-spacerun: yes;">&#160;</span>&#160;Sale &lt;- i/100000</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" ><span 
+	 style="mso-spacerun: yes;">&#160;</span>&#160;slabel &lt;- round(i, 
+ digits = 0)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >}</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >ggplot(data=mdata,aes(State,Sale,label=slabel))+geom_bar(stat=&quot;identity&quot;)+geom_text(size=2,vjust=-1,color=&quot;black&quot;)+theme(axis.text.x 
+ = element_text(angle = 45, hjust = 1))</font></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b>Output:</b></p>
+<p class="MsoNormal"><img src="image3255.gif" alt="" style="border: none;" 
+							 border="0" /></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal;">XLSX 
+ Chart</b></p>
+<p class="MsoNormal">&#160;<span style="color: #222222; background: #ffffff;"><font color="#222222" >R-</font></span>script 
+ for generating <span style="mso-bidi-font-weight: bold;">Bar</span> <span 
+	 style="mso-bidi-font-weight: bold;">Chart</span> Output.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >library(&quot;xlsx&quot;)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >print(&quot;Step 
+ Started&quot;)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >MyData 
+ &lt;- read.csv(file=&quot;${Query-0}&quot;)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >print(&quot;Step 
+ 1&quot;)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >write.xlsx(MyData, 
+ file = &quot;${XLSX}&quot;,sheetName = &quot;TestSheet&quot;)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; background-color: #e7e6e6;"><span 
+	 style="font-family: 'Courier New'; color: #000000; mso-color-alt: windowtext;"><font color="black" >print(&quot;Step 
+ Ended&quot;)</font></span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%;">&#160;</p>
+<p class="note">If user having compatibility exception while running a 
+ R-script report, replace <span style="font-weight: bold;">library (&quot;xlsx&quot;)</span> 
+ to <span style="font-weight: bold;">library (&quot;openxlsx&quot;).</span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 115%;"><b>Output</b><span style="font-family: 'Courier New';">:</span></p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 9.0pt; line-height: 115%; font-family: 'Courier New';"><img 
+	 src="image3256.gif" alt="" style="border: none;" border="0" /></p>
+&#160; 
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

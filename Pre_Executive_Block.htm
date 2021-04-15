@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2017" />
+<title>Pre Executive Block</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>Pre Executive Block</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Pre-execute block 
+ is triggered before the report is actually executed. Pre-execution can 
+ be performed at the following two levels:</span></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%; mso-list: l1 level1 lfo1; 
+			 tab-stops: 1.0in; margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Report 
+	 Level</span></p></li>
+	<li><p class="MsoNormal" style="line-height: 150%; mso-list: l1 level1 lfo1; 
+			 tab-stops: 1.0in; margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Logical 
+	 Model Level</span></p></li>
+</ul>
+<p class="MsoNormal" style="margin-left: .5in; text-indent: -.25in; line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="line-height: 150%;"><b style="mso-bidi-font-weight: normal;"><span 
+	 lang="EN-US" xml:lang="EN-US">Pre-requisites</span></b></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">In the Logical 
+ Model or Physical Model, the query executor can be either of the following:</span></p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" 
+															 xml:lang="EN-US">Oracle 
+	 ERP</span></p></li>
+	<li><p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" 
+															 xml:lang="EN-US">Orbit 
+	 Content</span></p></li>
+	<li><p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" 
+															 xml:lang="EN-US">Oracle 
+	 (with prompt init)</span></p></li>
+</ul>
+<p class="MsoNormal" style="margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Here, 
+ the query executor has been taken as Oracle (with prompt init)</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US"><b>Exercise 1</b></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="mso-bidi-font-weight: normal;"><b><span lang="EN-US" 
+	 xml:lang="EN-US">Setting Pre-execute Block at Report Level</span></b></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight: normal;"><span lang="EN-US" 
+	 xml:lang="EN-US">To set the pre-execute block at Report Level</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">1. Open the required 
+ report.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">2. On the right-hand 
+ side, click </span><span style="line-height: 150%; mso-fareast-language: JA;"><img 
+	 src="image2954.gif" alt="" style="border: none;" border="0" /></span><span 
+	 style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US"><b 
+	 style="mso-bidi-font-weight: normal;">Options</b>, and then click 
+ <b style="mso-bidi-font-weight: normal;">Pre Execute Block</b>.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">3. <b style="mso-bidi-font-weight: normal;">Pre 
+ Execute</b> Block box appears.</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">4. 
+ In the <b style="mso-bidi-font-weight: normal;">Pre Execute Block</b> 
+ box, type the required information (select/create statements) as shown 
+ below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<ul style="list-style: disc;">
+	<li><p class="MsoNormal" style="line-height: 150%; mso-list: l0 level1 lfo2; 
+			 tab-stops: 1.0in; margin-left: 16px; text-indent: -16px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 line-height: 150%; font-family: 'Courier New'; mso-bidi-font-family: Arial;">Create 
+	 table AP_INVOICES_ALL1 as select * from AP_INVOICES_ALL</span></p></li>
+</ul>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><img 
+	 src="image2110.gif" alt="" style="border: none;" width="601" height="375" 
+	 border="0" /></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">5. To continue, 
+ click <b style="mso-bidi-font-weight: normal;">Ok.</b></span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">6. To execute 
+ the condition in <b style="mso-bidi-font-weight: normal;">Pre Execute 
+ Block</b>, click <b style="mso-bidi-font-weight: normal;">Run.</b></span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">7. The report 
+ appears as follows:</span></p>
+<p class="MsoNormal" style="margin-left: 40px;"><img src="image2111.gif" 
+													 alt="" style="border: none;" 
+													 border="0" /></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">8. A table with 
+ “</span><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+				 line-height: 200%; font-family: 'Courier New';">AP_INVOICES_ALL1</span><span 
+	 lang="EN-US" xml:lang="EN-US">” is created in the database with all 
+ the records of “</span><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; 
+								 mso-bidi-font-size: 10.0pt; line-height: 200%; 
+								 font-family: 'Courier New';">AP_INVOICES_ALL</span><span 
+	 lang="EN-US" xml:lang="EN-US">” table.</span></p>
+<p class="note"><span lang="EN-US" xml:lang="EN-US">The above procedure 
+ is same for Pre Execute block in Analysis.</span></p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">Exercise 2</span></b> 
+ <span lang="EN-US" xml:lang="EN-US">: Here, the query executor in the 
+ Logical Model has been taken as Orbit Content.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US"><b>Prerequisite: 
+ </b>For Orbit_content, the user should have apps intialization.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">1. Open the required 
+ report.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">2. On the right-hand 
+ side, click <img src="image2109.gif" alt="" style="border: none;" border="0" /></span><span 
+	 style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US"><b 
+	 style="mso-bidi-font-weight: normal;">Options</b>, and then click 
+ <b style="mso-bidi-font-weight: normal;">Pre Execute Block</b>.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">3. <b style="mso-bidi-font-weight: normal;">Pre 
+ Execute</b> Block box appears.</span></p>
+<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-US" xml:lang="EN-US">4. 
+ In the <b style="mso-bidi-font-weight: normal;">Pre Execute Block</b> 
+ box, type the required statements as shown below:</span></p>
+<p class="MsoNormal" style="line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 line-height: 150%; font-family: 'Courier New'; mso-bidi-font-family: Arial;">begin</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 line-height: 150%; font-family: 'Courier New'; mso-bidi-font-family: Arial;">insert 
+ into period_name(period_name)</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 line-height: 150%; font-family: 'Courier New'; mso-bidi-font-family: Arial;">select 
+ period_name from xxfo.RXAP_INVOICE_REGISTER;</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 line-height: 150%; font-family: 'Courier New'; mso-bidi-font-family: Arial;">commit;</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 line-height: 150%; font-family: 'Courier New'; mso-bidi-font-family: Arial;">end;</span></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;">&#160;</p>
+<p class="MsoNormal" style="margin-left: 6.0pt; line-height: 150%;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; mso-bidi-font-size: 10.0pt; 
+	 font-family: 'Courier New'; mso-bidi-font-family: Arial;">&#160;&#160;&#160;</span><img 
+	 src="image2112.gif" alt="" style="border: none;" width="633" height="389" 
+	 border="0" /></p>
+<p class="MsoNormal" style="margin-left: .5in; line-height: 150%;">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">5. To continue, 
+ click <b style="mso-bidi-font-weight: normal;">Ok.</b></span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">6. To execute 
+ the condition in <b style="mso-bidi-font-weight: normal;">Pre Execute 
+ Block</b>, click <b style="mso-bidi-font-weight: normal;">Run.</b></span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">7. The report 
+ appears as follows:</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><img 
+	 src="image2113.gif" alt="" style="border: none;" border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="note"><span lang="EN-US" xml:lang="EN-US">Once the report is 
+ run, periods from</span> <span lang="EN-US" xml:lang="EN-US" style="font-family: Corbel, sans-serif;">xxfo.RXAP_INVOICE_REGISTER</span> 
+ <span lang="EN-US" xml:lang="EN-US">will be inserted into period_name 
+ table.</span> <span lang="EN-US" xml:lang="EN-US" style="font-family: Corbel, sans-serif;">This 
+ is displayed in the figure below:</span><span lang="EN-US" xml:lang="EN-US">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="margin-left: 40px;"><img src="image2114.gif" 
+													 alt="" style="border: none;" 
+													 border="0" /></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><b><span lang="EN-US" xml:lang="EN-US">Exercise 3</span></b><span 
+	 lang="EN-US" xml:lang="EN-US">: Here, the query executor in the Logical 
+ Model has been taken as Oracle ERP. &#160;</span></p>
+</body>
+</html>

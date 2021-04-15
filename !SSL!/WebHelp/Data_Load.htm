@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2019" />
+<title>Data Load</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = decodeURI(document.location.href);
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Business Models\nFinance Cube \nData Load");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("ORBIT_Analytics_Help_index.htm", "", ">", "Home", "ORBIT_Help.htm");
+document.write("<a href=\"Business_Models.htm\">Business Models<\/a> > <a href=\"Finance_Cube.htm\">Finance Cube <\/a> > Data Load<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('ORBIT_Analytics_Help_index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Data Loads</h1>
+<p style="font-weight: bold;">Two ways to extract data</p>
+<ol>
+	<li><p>Creating Data Load manually</p></li>
+	<li><p>Automating Job Creation </p></li>
+	<ul style="list-style: disc;">
+		<li><p>Extract GL Setup Data (Fusion), </p></li>
+		<li><p>Extract GL Balance Data (Fusion)</p></li>
+		<li><p>Process Finance Cube Batch</p></li>
+		<li><p>Import User Roles (Fusion).</p></li>
+	</ul>
+</ol>
+<p>The procedure below describes the manual way of extracting data load.</p>
+<p style="font-weight: bold;">Prerequisite:</p>
+<ul>
+	<li><p>You must have a finance cube to which you need to associate 
+	 the data load.</p></li>
+	<li><p>You must have files on Ledgers, Periods, Segments, Segment Values, 
+	 Budgets, Budget Versions, Currencies, Journal Sources, journal categories, 
+	 encumbrances, segment rules, segment hierarchy, role ledger association, 
+	 code combination, and balances.</p></li>
+	<li><p>Supported file formats are .CSV, and .ZIP. For large size file, 
+	 we recommend zipping it and upload. Zipped file should contain only 
+	 one file in it.</p></li>
+</ul>
+<p>&#160;</p>
+<p style="font-weight: bold;">To Create a Data Load</p>
+<ol>
+	<li><p>On the left-hand side menu, point to <img src="image2341.gif" 
+													 alt="" border="0" /> 
+	 <span style="font-weight: bold;">Business Models</span>, and then 
+	 click <img src="image2340.gif" alt="" border="0" /> <span style="font-weight: bold;">Finance 
+	 Cube</span>. </p></li>
+	<li><p>Finance Cubes page appears with two sections— <span style="font-weight: bold;">Finance 
+	 Cubes</span> and <span style="font-weight: bold;">Data Loads</span>.</p></li>
+	<li><p>Under <span style="font-weight: bold;">Finance Cubes</span>, 
+	 select the required cube for which the data load must be associated, 
+	 and then click <img src="Plus_New_2.jpg" alt="" style="border: none;" width="30" height="29" border="0" /> <span style="font-weight: bold;">Add 
+	 new data load</span> in the <span style="font-weight: bold;">Data 
+	 Loads</span> section to create a new data load.</p></li>
+	<li><p><span style="font-weight: bold;">Cube Batch</span> dialog box 
+	 appears.</p>
+	<p><img src="image2345.gif" alt="" border="0" /></p></li>
+	<li><p>In the <span style="font-weight: bold;">Cube Batch</span> dialog 
+	 box, perform the following:</p></li>
+	<ol style="list-style: upper-alpha;">
+		<li><p>In the <span style="font-weight: bold;">Cube Name</span> 
+		 box, enter the required cube name.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Description</span> 
+		 box, enter the description.</p>
+		<p class="note">Description field is optional.</p></li>
+		<li><p>To upload ledgers in the <span style="font-weight: bold;">Ledgers</span> 
+		 box, click Upload.</p></li>
+		<li><p>To upload periods in the <span style="font-weight: bold;">Periods</span> 
+		 box, click Upload.</p></li>
+		<li><p>To upload segments in the <span style="font-weight: bold;">Segments</span> 
+		 box, click Upload.</p></li>
+		<li><p>To upload segment values in the <span style="font-weight: bold;">Segment 
+		 Values</span> box, click Upload.</p></li>
+		<li><p>To upload budget file in the <span style="font-weight: bold;">Budgets</span> 
+		 box, click Upload.</p></li>
+		<li><p>To upload budget versions file in the <span style="font-weight: bold;">Budget 
+		 Versions</span> box, click Upload.</p></li>
+		<li><p>To upload currencies file in the <span style="font-weight: bold;">Currencies</span> 
+		 box, click Upload.</p></li>
+		<li><p>To upload journal sources file in the <span style="font-weight: bold;">Journal</span> 
+		 Sources box, click Upload.</p></li>
+		<li><p>To upload journal categories file in the <span style="font-weight: bold;">Journal 
+		 Categories</span> box, click Upload.</p></li>
+		<li><p>To upload the encumbrances file in the <span style="font-weight: bold;">Encumbrances</span> 
+		 box, click Upload.</p></li>
+		<li><p>To upload the segment rules file in the <span style="font-weight: bold;">Segment 
+		 Rules</span> box, click Upload.</p></li>
+		<li><p>To upload the segment hierarchy file in the <span style="font-weight: bold;">Segment 
+		 Hierarch</span>y box, click Upload.</p></li>
+		<li><p>To upload role ledger association file in the <span style="font-weight: bold;">Role 
+		 Ledger Association</span> box, click Upload.</p></li>
+		<li><p>To upload the code combinations in the <span style="font-weight: bold;">Code 
+		 Combinations</span> box, click Upload.</p></li>
+		<li><p>To upload the balances in the <span style="font-weight: bold;">Balances</span> 
+		 box, click Upload.</p></li>
+		<li><p>To save the finance cube, click <span style="font-weight: bold;">Save</span>.</p></li>
+		<li><p>To cancel, click <span style="font-weight: bold;">Cancel</span>.</p></li>
+	</ol>
+	<li><p>The newly created data load appears as shown below:</p>
+	<p><img src="image2346.gif" alt="" border="0" /></p></li>
+</ol>
+<ul>
+	<li><p>This Process discusses about extracting data loads manually; 
+	 when the status of data load change to processed from unprocessed 
+	 state.</p></li>
+	<li><p>To automate extracting data loads, you must create jobs.</p></li>
+	<li><p>When GL Setup data job is run the following fields are uploaded 
+	 automatically with their corresponding files: cube name, description, 
+	 ledgers, periods, segments, segment values, currencies, journal sources, 
+	 journal categories, encumbrances, segment Hierarchy, role ledger association.</p></li>
+	<li><p>When GL Balance Data Job is run, the following fields are uploaded 
+	 automatically with their corresponding files:</p></li>
+	<ul style="list-style: circle;">
+		<li><p>Code Combinations</p></li>
+		<li><p>Balances</p></li>
+	</ul>
+</ul>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

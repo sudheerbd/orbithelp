@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Tabular","url":"Table.htm"},{"type":"item","name":"Pivot/Matrix Charts ","url":"Bar_Basic.htm"},{"type":"book","name":"Cartesian Charts ","key":"toc67","url":"Cartesian_Charts.htm"},{"type":"book","name":"Polar Charts ","key":"toc68","url":"Polar_Charts.htm"},{"type":"book","name":"Tree Maps, Sun Burst and Heat Maps","key":"toc69","url":"Tree_Maps,_Sun_Burst_and_Heat_Maps.htm"},{"type":"item","name":"Gauge Charts","url":"Gauge_Charts.htm"},{"type":"item","name":"Maps ","url":"Maps.htm"},{"type":"item","name":"Card ","url":"Card.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();
